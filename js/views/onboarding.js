@@ -55,6 +55,7 @@ const STEPS = [
       <span class="eyebrow eyebrow--rule">${esc(t('onboarding.welcome.eyebrow'))}</span>
       <h1 class="display-72" id="step-title" tabindex="-1">${esc(t('onboarding.welcome.title'))} <span class="key">${esc(t('onboarding.welcome.key'))}</span></h1>
       <p>${esc(t('onboarding.welcome.body'))}</p>
+      <div class="notice" data-disclaimer>${icon('info')}<div>${esc(t('onboarding.welcome.disclaimer'))}</div></div>
       <fieldset class="segmented"><legend>${esc(t('onboarding.welcome.language'))}</legend>
         ${['id', 'en'].map(l => `<label><input type="radio" name="lang" value="${l}" ${getLang() === l ? 'checked' : ''}>${l === 'id' ? 'Bahasa Indonesia' : 'English'}</label>`).join('')}
       </fieldset>`,

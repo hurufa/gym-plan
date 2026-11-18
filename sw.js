@@ -6,7 +6,7 @@
 // hash of all listed files, so any change installs a fresh cache and removes the old one.
 
 /* precache:start */
-const VERSION = '8a36852581aa';
+const VERSION = '81581a347b08';
 const ASSETS = [
   './',
   './css/animations.css',

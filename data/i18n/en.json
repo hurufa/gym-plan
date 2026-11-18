@@ -119,7 +119,8 @@
       "key": "fits.",
       "body": "Answer a few questions. You get a weekly training plan, a meal plan and a log, all stored on this device. No account needed.",
       "start": "Start",
-      "language": "Language"
+      "language": "Language",
+      "disclaimer": "Personal project, made for the owner's own use. The training plans, exercise instructions and nutrition values have not been reviewed by a qualified coach, dietitian or doctor. Use at your own risk."
     },
     "goal": {
       "eyebrow": "Goal",
@@ -311,6 +312,15 @@
       "notes": "Notes",
       "swaps": "Exercise swaps",
       "deloads": "Deloads"
+    },
+    "about": {
+      "title": "About this app",
+      "personal": "Personal project, made for the owner's own use. It is not a medical, coaching or nutrition service.",
+      "reviewed": "The training plans, exercise instructions, glossary and nutrition values have not been reviewed by a qualified coach, dietitian or doctor. They follow general guidelines and are estimates; they do not replace advice from a professional who knows your health.",
+      "data": "Food values come from Tabel Komposisi Pangan Indonesia (TKPI) where available; the rest are estimates, and prices are rough guesses.",
+      "risk": "Use at your own risk. Stop any exercise that causes sharp pain, and see a doctor before starting if you have a health condition.",
+      "storage": "Your data stays on this device. There is no account and no server.",
+      "nutritionLink": "Read the nutrition disclaimer"
     }
   },
   "plan": {

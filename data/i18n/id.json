@@ -119,7 +119,8 @@
       "key": "pas.",
       "body": "Jawab beberapa pertanyaan. Kamu dapat rencana latihan mingguan, rencana makan, dan catatan latihan, semua tersimpan di perangkat ini. Tanpa akun.",
       "start": "Mulai",
-      "language": "Bahasa"
+      "language": "Bahasa",
+      "disclaimer": "Proyek pribadi, dibuat untuk dipakai sendiri oleh pemiliknya. Rencana latihan, petunjuk gerakan, dan nilai gizi belum ditinjau oleh pelatih, ahli gizi, atau dokter yang berkualifikasi. Gunakan dengan risiko sendiri."
     },
     "goal": {
       "eyebrow": "Tujuan",
@@ -311,6 +312,15 @@
       "notes": "Catatan",
       "swaps": "Pergantian latihan",
       "deloads": "Deload"
+    },
+    "about": {
+      "title": "Tentang aplikasi ini",
+      "personal": "Proyek pribadi, dibuat untuk dipakai sendiri oleh pemiliknya. Ini bukan layanan medis, pelatihan, atau gizi.",
+      "reviewed": "Rencana latihan, petunjuk gerakan, glosarium, dan nilai gizi belum ditinjau oleh pelatih, ahli gizi, atau dokter yang berkualifikasi. Semuanya mengikuti panduan umum dan berupa perkiraan; tidak menggantikan saran tenaga profesional yang mengetahui kondisi kesehatanmu.",
+      "data": "Nilai gizi diambil dari Tabel Komposisi Pangan Indonesia (TKPI) bila tersedia; sisanya perkiraan, dan harga hanya taksiran kasar.",
+      "risk": "Gunakan dengan risiko sendiri. Hentikan gerakan yang menimbulkan nyeri tajam, dan periksa ke dokter sebelum mulai bila kamu punya kondisi kesehatan tertentu.",
+      "storage": "Datamu tersimpan di perangkat ini saja. Tanpa akun dan tanpa server.",
+      "nutritionLink": "Baca disclaimer nutrisi"
     }
   },
   "plan": {

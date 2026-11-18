@@ -1,6 +1,7 @@
 // views/settings.js
 // Settings: profile (edit via onboarding in edit mode), language, theme, rest-timer sound and
-// vibration, and data: export to gym-data-YYYY-MM-DD.json, import (validate, preview, Replace all
+// vibration, an "About this app" disclaimer (personal project, not professionally reviewed),
+// and data: export to gym-data-YYYY-MM-DD.json, import (validate, preview, Replace all
 // or Merge) and clear all data. downloadExport() is also used by the Home backup reminder.
 
 import { getState, update, exportData, exportFileName, validateImport, previewImport, applyImport, clearAll } from '../state.js';
@@ -61,6 +62,12 @@ export function render(root, ctx) {
           <button class="btn btn--danger" data-clear>${icon('trash')}${esc(t('settings.clear'))}</button>
         </div>
         <div data-import-error></div>
+      </section>
+
+      <section class="card stack-sm" aria-labelledby="about-title" data-about>
+        <h2 id="about-title">${esc(t('settings.about.title'))}</h2>
+        ${['personal', 'reviewed', 'data', 'risk', 'storage'].map(k => `<p${k === 'personal' ? ' class="lead"' : ''}>${esc(t('settings.about.' + k))}</p>`).join('')}
+        <a class="btn btn--ghost" href="#/nutrition/about">${icon('info')}${esc(t('settings.about.nutritionLink'))}</a>
       </section>
     </div>`;
 

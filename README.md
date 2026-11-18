@@ -6,6 +6,11 @@ modules: no framework, no build step to run, no account, no server-side code. In
 
 All 11 phases are built; `BUILD-LOG.md` records each phase, the decisions taken and what is not verified.
 
+> **Personal project, made for the owner's own use.** The training plans, exercise instructions, glossary
+> and nutrition values have not been reviewed by a qualified coach, dietitian or doctor. They follow
+> general guidelines and are estimates, not medical, coaching or nutrition advice. Use at your own risk.
+> The app shows the same statement on its first screen and under Settings → About this app.
+
 ## Setup
 
 Requires Node.js 18 or newer (only for the development tools; the app itself needs none).

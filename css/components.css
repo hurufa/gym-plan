@@ -420,3 +420,5 @@
 .learn-feature { display: grid; color: var(--ink); text-decoration: none; }
 .learn-entry { max-width: 68ch; }
 .lead { font-size: var(--fs-20); font-weight: 500; }
+/* Personal-project notice on the first onboarding screen */
+.onb-step [data-disclaimer] { margin-block: var(--sp-16); }

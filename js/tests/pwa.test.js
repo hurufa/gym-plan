@@ -82,3 +82,20 @@ suite('PWA: service worker precache', () => {
     assert(/serviceWorker[\s\S]{0,200}getElementById\('data-enums'\)/.test(src), 'app.js guards registration');
   });
 });
+
+suite('Release notice: personal project, not professionally reviewed', () => {
+  test('the statement exists in both languages and says it is unreviewed and for personal use', async () => {
+    const errors = [];
+    for (const [lang, words] of [['en', /personal project[\s\S]*not been reviewed[\s\S]*own risk/i], ['id', /proyek pribadi[\s\S]*belum ditinjau[\s\S]*risiko sendiri/i]]) {
+      const s = await fetch(`./data/i18n/${lang}.json`).then(r => r.json());
+      if (!words.test(s.onboarding.welcome.disclaimer)) errors.push(`${lang}: onboarding statement`);
+      if (!words.test(Object.values(s.settings.about).join(' '))) errors.push(`${lang}: Settings → About`);
+    }
+    noErrors(errors);
+  });
+  test('the first onboarding screen and Settings show it', async () => {
+    const [onb, set] = await Promise.all(['onboarding', 'settings'].map(f => fetch(`./js/views/${f}.js`).then(r => r.text())));
+    assert(onb.includes("t('onboarding.welcome.disclaimer')"), 'onboarding welcome');
+    assert(set.includes("'settings.about.title'") && set.includes("['personal', 'reviewed', 'data', 'risk', 'storage']"), 'settings about');
+  });
+});

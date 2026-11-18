@@ -789,3 +789,36 @@ You reported that on the "About you" step the Male / Female options could not be
   - A headless Chrome audit of all 12 onboarding states (including the health-check warning) and 21 app pages, in light and dark: **0 failures**, no console messages.
   - A screenshot of "About you" shows both options readable.
 - `sw.js` was refreshed and `dist/gym-app.html` rebuilt.
+
+## Publishing and the personal-project notice (18 November 2026)
+
+Published:
+- Repository **hurufa/gym-plan** (public), website **https://hurufa.github.io/gym-plan/** (GitHub Pages, `main` branch, root).
+- Commits use the account's private noreply email.
+- **Not published** (`.gitignore`): CLAUDE.md (the private build specification), `references/` (other companies' screenshots), `.claude/`, `node_modules/`, `dist/`.
+- **Checked live:** all 57 precached URLs return 200, the service worker activates and caches them, no console errors, and CLAUDE.md and `references/` return 404.
+
+Personal-project notice, added at your request: the app is a personal project for the owner's own use, and its content has not been reviewed by a qualified coach, dietitian or doctor.
+- **First onboarding screen:** a notice under the intro: "Personal project, made for the owner's own use. The training plans, exercise instructions and nutrition values have not been reviewed by a qualified coach, dietitian or doctor. Use at your own risk."
+- **Settings → About this app:** the same points in more detail:
+  - Not a medical, coaching or nutrition service.
+  - Not reviewed by professionals; based on general guidelines and estimates.
+  - Food values from TKPI where available, the rest estimates; prices are rough guesses.
+  - Use at your own risk; stop on sharp pain; see a doctor first if you have a health condition.
+  - Data stays on the device.
+  - A link to the nutrition disclaimer.
+- **README:** the statement at the top.
+- **Languages:** both English and Indonesian, as `onboarding.welcome.disclaimer` and `settings.about.*`.
+- **Wording:** "made for the owner's own use" rather than "private use only", because the published site cannot stop others from opening it.
+
+Files changed:
+- `data/i18n/en.json`, `data/i18n/id.json`.
+- `js/views/onboarding.js`, `js/views/settings.js`.
+- `css/components.css`: spacing around the onboarding notice.
+- `js/tests/pwa.test.js`: 2 tests.
+- `README.md`, `sw.js` (refreshed), `dist/gym-app.html` (rebuilt).
+
+Checks:
+- tests.html: **230 passed, 0 failed**.
+- On the real screens, in English and Indonesian and in light and dark: the notice and the About section render, and the rendered-contrast audit finds 0 failures.
+- Screenshots of both screens: the first one showed the notice touching the language switch, and a 16 px gap was added.
