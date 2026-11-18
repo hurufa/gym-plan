@@ -1,0 +1,4763 @@
+[
+  {
+    "id": "barbell-back-squat",
+    "name": {
+      "en": "Barbell Back Squat",
+      "id": "Barbell Back Squat"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors",
+      "spinal-erectors",
+      "core"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "squat",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee",
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "goblet-squat",
+    "harder": null,
+    "builds": {
+      "en": "Trains the quads and glutes through a deep knee and hip bend under load, the main driver of bigger, stronger thighs. Over weeks you will notice stairs and standing up from low seats feel easier, and the bar weight you can move for 8 reps climbs.",
+      "id": "Melatih paha depan dan bokong lewat tekukan lutut dan pinggul yang dalam dengan beban, pendorong utama paha yang lebih besar dan kuat. Seiring minggu berjalan, naik tangga dan bangkit dari kursi rendah terasa lebih ringan, dan beban barbel untuk 8 repetisi terus naik."
+    },
+    "role": {
+      "en": "Main lift on lower-body days. It loads both legs with more weight than any other squat in the plan, so it sets the pace for leg strength; the accessories after it fill in what it misses.",
+      "id": "Gerakan utama di hari kaki. Membebani kedua kaki dengan beban terberat dibanding squat lain di rencana, jadi menentukan laju kekuatan kaki; latihan pelengkap sesudahnya mengisi bagian yang kurang terlatih."
+    },
+    "steps": {
+      "en": [
+        "Set the bar in the rack at mid-chest height and step under it so it rests on your upper back, not your neck.",
+        "Grip the bar just outside your shoulders, stand up to lift it off the hooks and take two steps back.",
+        "Stand with feet about shoulder width, toes turned out slightly. Breathe in and brace your stomach.",
+        "Bend knees and hips together and sit down between your heels until your thighs are at least parallel to the floor.",
+        "Push the floor away and stand up, keeping the bar over the middle of your feet. Breathe out at the top."
+      ],
+      "id": [
+        "Pasang barbel di rak setinggi dada tengah, lalu masuk ke bawahnya sehingga barbel bertumpu di punggung atas, bukan di leher.",
+        "Genggam barbel sedikit di luar bahu, berdiri untuk mengangkatnya dari kait, lalu mundur dua langkah.",
+        "Berdiri dengan kaki selebar bahu, ujung kaki sedikit menghadap keluar. Tarik napas dan kencangkan perut.",
+        "Tekuk lutut dan pinggul bersamaan, turun di antara tumit sampai paha minimal sejajar lantai.",
+        "Dorong lantai dan berdiri, jaga barbel tetap di atas tengah telapak kaki. Buang napas di atas."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Knees travel in the same direction as your toes.",
+        "Keep your whole foot on the floor, heel down.",
+        "Chest up, bar over mid-foot."
+      ],
+      "id": [
+        "Lutut bergerak searah ujung kaki.",
+        "Seluruh telapak tetap menempel, tumit tidak terangkat.",
+        "Dada tegak, barbel di atas tengah telapak kaki."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Knees collapsing inward on the way up.",
+        "Stopping high above parallel and calling it a full rep.",
+        "Letting the hips shoot up first so the squat turns into a good-morning."
+      ],
+      "id": [
+        "Lutut jatuh ke dalam saat naik.",
+        "Berhenti jauh di atas posisi sejajar dan menganggapnya satu repetisi penuh.",
+        "Pinggul naik duluan sehingga squat berubah jadi gerakan membungkuk."
+      ]
+    },
+    "alternatives": [
+      "goblet-squat",
+      "leg-press",
+      "dumbbell-bulgarian-split-squat"
+    ]
+  },
+  {
+    "id": "barbell-deadlift",
+    "name": {
+      "en": "Barbell Deadlift",
+      "id": "Barbell Deadlift"
+    },
+    "primary": [
+      "glutes",
+      "hamstrings",
+      "spinal-erectors"
+    ],
+    "secondary": [
+      "quads",
+      "traps",
+      "forearms",
+      "core"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "hinge",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "standing"
+    },
+    "level": "intermediate",
+    "stress": [
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "romanian-deadlift",
+    "harder": null,
+    "builds": {
+      "en": "Lifts the heaviest load in the plan from the floor using the hips, hamstrings and the muscles along the spine. It builds the pulling strength you use to pick up heavy boxes, children or luggage with a straight back, and your grip gets noticeably stronger.",
+      "id": "Mengangkat beban terberat di rencana dari lantai dengan pinggul, paha belakang, dan otot di sepanjang tulang belakang. Membangun kekuatan menarik yang dipakai saat mengangkat kardus berat, anak, atau koper dengan punggung lurus, dan genggaman tangan jadi jauh lebih kuat."
+    },
+    "role": {
+      "en": "Main lift for the back of the body on strength-focused days. It trains the whole chain from grip to heels in one movement, which no machine in the plan does.",
+      "id": "Gerakan utama untuk sisi belakang tubuh di hari fokus kekuatan. Melatih seluruh rantai dari genggaman sampai tumit dalam satu gerakan, sesuatu yang tidak dilakukan mesin mana pun di rencana."
+    },
+    "steps": {
+      "en": [
+        "Stand with the bar over the middle of your feet, feet about hip width.",
+        "Hinge at the hips and bend your knees until you can grip the bar just outside your legs.",
+        "Pull your shoulders down and back, brace your stomach, and take the slack out of the bar.",
+        "Push the floor away and stand up, keeping the bar against your legs the whole way.",
+        "At the top stand tall without leaning back, then lower the bar by pushing the hips back first."
+      ],
+      "id": [
+        "Berdiri dengan barbel di atas tengah telapak kaki, kaki selebar pinggul.",
+        "Dorong pinggul ke belakang dan tekuk lutut sampai bisa menggenggam barbel tepat di luar kaki.",
+        "Tarik bahu ke bawah dan belakang, kencangkan perut, lalu tarik barbel sampai terasa tegang.",
+        "Dorong lantai dan berdiri, jaga barbel menempel di kaki sepanjang gerakan.",
+        "Di atas, berdiri tegak tanpa mencondongkan badan ke belakang, lalu turunkan barbel dengan mendorong pinggul ke belakang lebih dulu."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Bar stays in contact with your legs.",
+        "Back flat from neck to hips.",
+        "Push the floor away, don't yank the bar."
+      ],
+      "id": [
+        "Barbel tetap menempel di kaki.",
+        "Punggung rata dari leher sampai pinggul.",
+        "Dorong lantai, jangan menyentak barbel."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Rounding the lower back as the bar leaves the floor.",
+        "Letting the bar drift forward away from the shins.",
+        "Leaning far back at the top."
+      ],
+      "id": [
+        "Punggung bawah membulat saat barbel lepas dari lantai.",
+        "Barbel menjauh ke depan dari tulang kering.",
+        "Mencondongkan badan jauh ke belakang di posisi atas."
+      ]
+    },
+    "alternatives": [
+      "romanian-deadlift",
+      "dumbbell-romanian-deadlift",
+      "barbell-hip-thrust"
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": {
+      "en": "Romanian Deadlift",
+      "id": "Romanian Deadlift"
+    },
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [
+      "spinal-erectors",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "hinge",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "dumbbell-romanian-deadlift",
+    "harder": "barbell-deadlift",
+    "builds": {
+      "en": "Stretches the hamstrings under load as you lower the bar along your thighs, which is where this exercise grows the back of the thigh most. Expect to feel a strong pull behind the knees and, over time, to reach lower with a flat back and hold heavier weights.",
+      "id": "Meregangkan paha belakang dengan beban saat barbel diturunkan menyusuri paha, bagian di mana latihan ini paling menumbuhkan paha belakang. Kamu akan merasakan tarikan kuat di belakang lutut dan, seiring waktu, bisa turun lebih rendah dengan punggung rata dan memegang beban lebih berat."
+    },
+    "role": {
+      "en": "Hinge for hamstrings in most plans. Unlike the leg curl it trains the hamstrings at the hip, in a long stretched position, so the two complement each other.",
+      "id": "Gerakan hinge untuk paha belakang di sebagian besar rencana. Berbeda dari leg curl, gerakan ini melatih paha belakang lewat sendi pinggul dalam posisi teregang panjang, jadi keduanya saling melengkapi."
+    },
+    "steps": {
+      "en": [
+        "Hold the bar at hip height with an overhand grip, feet hip width, knees slightly bent.",
+        "Push your hips straight back and let the bar slide down the front of your thighs.",
+        "Keep the knee bend the same and your back flat; stop when you feel a strong hamstring stretch, usually around mid-shin.",
+        "Drive the hips forward to stand back up, squeezing the glutes at the top."
+      ],
+      "id": [
+        "Pegang barbel setinggi pinggul dengan genggaman dari atas, kaki selebar pinggul, lutut sedikit ditekuk.",
+        "Dorong pinggul lurus ke belakang dan biarkan barbel meluncur di depan paha.",
+        "Jaga tekukan lutut tetap sama dan punggung rata; berhenti saat paha belakang terasa teregang kuat, biasanya sekitar tengah tulang kering.",
+        "Dorong pinggul ke depan untuk berdiri lagi, kencangkan bokong di atas."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips back, not down.",
+        "Bar grazes your thighs.",
+        "Soft knees that stay soft."
+      ],
+      "id": [
+        "Pinggul ke belakang, bukan ke bawah.",
+        "Barbel menyentuh paha.",
+        "Lutut sedikit tertekuk dan tetap begitu."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bending the knees more as you go down, turning it into a squat.",
+        "Rounding the back to reach lower.",
+        "Letting the bar hang away from the legs."
+      ],
+      "id": [
+        "Lutut makin ditekuk saat turun sehingga berubah jadi squat.",
+        "Membulatkan punggung agar bisa turun lebih rendah.",
+        "Barbel menggantung jauh dari kaki."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-romanian-deadlift",
+      "lying-leg-curl",
+      "single-leg-rdl"
+    ]
+  },
+  {
+    "id": "leg-press",
+    "name": {
+      "en": "Leg Press",
+      "id": "Leg Press"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "squat",
+    "patternParams": {
+      "implement": "machine",
+      "position": "seated"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "barbell-back-squat",
+    "builds": {
+      "en": "Lets the quads and glutes push heavy loads with the back supported by the seat, so the legs tire before the lower back does. It is a direct way to add thigh size, and you will see the plate count climb faster than on free squats.",
+      "id": "Membuat paha depan dan bokong bisa mendorong beban berat dengan punggung disangga sandaran, sehingga kaki lelah lebih dulu sebelum punggung bawah. Cara langsung untuk menambah ukuran paha, dan jumlah piringan beban akan naik lebih cepat dibanding squat bebas."
+    },
+    "role": {
+      "en": "Second leg exercise after the squat, or the main quad lift when lower-back stress is filtered out. It adds leg volume without more load on the spine.",
+      "id": "Latihan kaki kedua setelah squat, atau gerakan utama paha depan saat beban di punggung bawah perlu dihindari. Menambah volume kaki tanpa menambah beban di tulang belakang."
+    },
+    "steps": {
+      "en": [
+        "Sit with your back and hips flat against the pad, feet shoulder width in the middle of the platform.",
+        "Push the platform up and release the safety handles.",
+        "Lower the platform by bending your knees toward your chest until your hips are about to lift off the seat.",
+        "Press the platform back up through your whole foot, stopping just before the knees lock."
+      ],
+      "id": [
+        "Duduk dengan punggung dan pinggul menempel di sandaran, kaki selebar bahu di tengah pijakan.",
+        "Dorong pijakan ke atas dan lepaskan pengaman.",
+        "Turunkan pijakan dengan menekuk lutut ke arah dada sampai pinggul hampir terangkat dari kursi.",
+        "Dorong pijakan kembali dengan seluruh telapak kaki, berhenti sedikit sebelum lutut terkunci."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay glued to the seat.",
+        "Knees in line with toes.",
+        "Don't lock the knees at the top."
+      ],
+      "id": [
+        "Pinggul tetap menempel di kursi.",
+        "Lutut segaris dengan ujung kaki.",
+        "Jangan kunci lutut di atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Going so deep the lower back rolls off the pad.",
+        "Pushing through the toes with heels lifting.",
+        "Very short reps with a heavy load."
+      ],
+      "id": [
+        "Turun terlalu dalam sampai punggung bawah terangkat dari sandaran.",
+        "Mendorong dengan ujung kaki sampai tumit terangkat.",
+        "Repetisi sangat pendek dengan beban berat."
+      ]
+    },
+    "alternatives": [
+      "barbell-back-squat",
+      "goblet-squat",
+      "leg-extension"
+    ]
+  },
+  {
+    "id": "leg-extension",
+    "name": {
+      "en": "Leg Extension",
+      "id": "Leg Extension"
+    },
+    "primary": [
+      "quads"
+    ],
+    "secondary": [],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "knee-extension",
+    "patternParams": {
+      "implement": "machine",
+      "position": "seated"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Works the quads alone by straightening the knee against the pad, including the part of the front thigh that squats reach least when the knee is nearly straight. You will feel the muscle just above the kneecap working hard on the last few reps.",
+      "id": "Melatih paha depan saja dengan meluruskan lutut melawan bantalan, termasuk bagian paha depan yang paling sedikit terlatih oleh squat saat lutut hampir lurus. Otot tepat di atas tempurung lutut akan terasa bekerja keras di beberapa repetisi terakhir."
+    },
+    "role": {
+      "en": "Accessory placed after the main leg lifts. It adds quad volume without tiring the glutes or back, so it can be pushed close to failure safely.",
+      "id": "Latihan pelengkap setelah gerakan kaki utama. Menambah volume paha depan tanpa membuat bokong atau punggung lelah, jadi aman dilakukan mendekati gagal."
+    },
+    "steps": {
+      "en": [
+        "Adjust the seat so your knees line up with the machine's pivot and the pad sits on your lower shins.",
+        "Hold the handles and sit tall against the back rest.",
+        "Straighten your knees until your legs are almost fully extended, pause for a moment.",
+        "Lower the pad slowly until your knees are bent to about 90 degrees."
+      ],
+      "id": [
+        "Atur kursi agar lutut sejajar dengan poros mesin dan bantalan berada di tulang kering bawah.",
+        "Pegang gagang dan duduk tegak bersandar.",
+        "Luruskan lutut sampai kaki hampir lurus penuh, tahan sebentar.",
+        "Turunkan bantalan perlahan sampai lutut tertekuk sekitar 90 derajat."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Knee lined up with the machine's pivot.",
+        "Pause at the top.",
+        "Lower in two seconds."
+      ],
+      "id": [
+        "Lutut sejajar dengan poros mesin.",
+        "Tahan sebentar di atas.",
+        "Turunkan dalam dua detik."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Swinging the weight up with momentum.",
+        "Lifting the hips off the seat.",
+        "Seat set so the knee is in front of or behind the pivot."
+      ],
+      "id": [
+        "Mengayun beban dengan momentum.",
+        "Pinggul terangkat dari kursi.",
+        "Posisi kursi membuat lutut di depan atau di belakang poros."
+      ]
+    },
+    "alternatives": [
+      "leg-press",
+      "goblet-squat"
+    ]
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": {
+      "en": "Lying Leg Curl",
+      "id": "Lying Leg Curl"
+    },
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "calves"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "knee-flexion",
+    "patternParams": {
+      "implement": "machine",
+      "position": "lying"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Trains the hamstrings by bending the knee against resistance, the job they do when you sprint or kick. It fills out the back of the thigh just above the knee, an area hinges like the Romanian deadlift train less.",
+      "id": "Melatih paha belakang dengan menekuk lutut melawan beban, tugas yang dilakukannya saat berlari cepat atau menendang. Mengisi bagian belakang paha tepat di atas lutut, area yang kurang terlatih oleh gerakan hinge seperti Romanian deadlift."
+    },
+    "role": {
+      "en": "Hamstring accessory paired with a hinge. Because it loads the knee joint instead of the hip, it trains the hamstrings without adding lower-back fatigue.",
+      "id": "Latihan pelengkap paha belakang yang dipasangkan dengan hinge. Karena membebani sendi lutut, bukan pinggul, gerakan ini melatih paha belakang tanpa menambah lelah di punggung bawah."
+    },
+    "steps": {
+      "en": [
+        "Lie face down with the pad just above your heels and your knees just off the bench edge.",
+        "Hold the handles and press your hips into the bench.",
+        "Curl your heels toward your glutes as far as you can.",
+        "Lower slowly until your legs are almost straight."
+      ],
+      "id": [
+        "Berbaring telungkup dengan bantalan tepat di atas tumit dan lutut sedikit di luar ujung bangku.",
+        "Pegang gagang dan tekan pinggul ke bangku.",
+        "Tekuk tumit ke arah bokong sejauh mungkin.",
+        "Turunkan perlahan sampai kaki hampir lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay pressed into the pad.",
+        "Full curl, then slow return.",
+        "Point the toes toward your shins."
+      ],
+      "id": [
+        "Pinggul tetap menekan bantalan.",
+        "Tekuk penuh, lalu kembali pelan.",
+        "Arahkan ujung kaki ke tulang kering."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Hips rising off the bench to finish the rep.",
+        "Dropping the weight on the way down.",
+        "Half reps that stop well short of the glutes."
+      ],
+      "id": [
+        "Pinggul terangkat dari bangku untuk menyelesaikan repetisi.",
+        "Menjatuhkan beban saat turun.",
+        "Repetisi setengah yang berhenti jauh dari bokong."
+      ]
+    },
+    "alternatives": [
+      "sliding-leg-curl",
+      "romanian-deadlift"
+    ]
+  },
+  {
+    "id": "barbell-hip-thrust",
+    "name": {
+      "en": "Barbell Hip Thrust",
+      "id": "Barbell Hip Thrust"
+    },
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings",
+      "adductors"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "hip-thrust",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "supported",
+      "prop": "bench"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "glute-bridge",
+    "harder": null,
+    "builds": {
+      "en": "Loads the glutes hardest when the hips are fully straight, the position where squats and deadlifts go easy on them. It builds rounder, stronger glutes and a more powerful hip drive for sprinting and jumping.",
+      "id": "Membebani bokong paling berat saat pinggul lurus penuh, posisi di mana squat dan deadlift justru ringan untuk bokong. Membangun bokong yang lebih bulat dan kuat serta dorongan pinggul yang lebih bertenaga untuk sprint dan lompat."
+    },
+    "role": {
+      "en": "Glute-focused lift on lower-body days. It adds heavy glute work with almost no knee bend and little spine load, so it fits after squats or when knee stress is filtered out.",
+      "id": "Gerakan fokus bokong di hari kaki. Menambah latihan bokong berat dengan hampir tanpa tekukan lutut dan sedikit beban di tulang belakang, cocok setelah squat atau saat beban lutut perlu dihindari."
+    },
+    "steps": {
+      "en": [
+        "Sit on the floor with your upper back against a bench and a padded bar over your hips.",
+        "Plant your feet flat, about hip width, so your shins are vertical at the top.",
+        "Tuck your chin, brace, and drive through your heels to lift your hips until your body is straight from knees to shoulders.",
+        "Squeeze your glutes for a second, then lower your hips until they almost touch the floor."
+      ],
+      "id": [
+        "Duduk di lantai dengan punggung atas bersandar di bangku dan barbel berbantalan di atas pinggul.",
+        "Letakkan telapak kaki rata, selebar pinggul, sehingga tulang kering tegak di posisi atas.",
+        "Tundukkan dagu, kencangkan perut, dorong lewat tumit untuk mengangkat pinggul sampai badan lurus dari lutut ke bahu.",
+        "Kencangkan bokong satu detik, lalu turunkan pinggul sampai hampir menyentuh lantai."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Chin tucked, ribs down.",
+        "Shins vertical at the top.",
+        "Finish with the glutes, not by arching the back."
+      ],
+      "id": [
+        "Dagu ditundukkan, rusuk ke bawah.",
+        "Tulang kering tegak di atas.",
+        "Selesaikan dengan bokong, bukan dengan melengkungkan punggung."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Arching the lower back to get the bar higher.",
+        "Feet too far out so the hamstrings take over.",
+        "Bench edge under the neck instead of the shoulder blades."
+      ],
+      "id": [
+        "Melengkungkan punggung bawah agar barbel lebih tinggi.",
+        "Kaki terlalu jauh sehingga paha belakang mengambil alih.",
+        "Tepi bangku di bawah leher, bukan di tulang belikat."
+      ]
+    },
+    "alternatives": [
+      "glute-bridge",
+      "romanian-deadlift",
+      "dumbbell-bulgarian-split-squat"
+    ]
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": {
+      "en": "Standing Calf Raise (machine)",
+      "id": "Standing Calf Raise (mesin)"
+    },
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "calf-raise",
+    "patternParams": {
+      "implement": "machine",
+      "position": "standing",
+      "prop": "step"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "single-leg-calf-raise",
+    "harder": null,
+    "builds": {
+      "en": "Works the calves through their full range with a straight knee, which targets the large gastrocnemius muscle that gives the calf its shape. Over time you will push off the ground harder when walking uphill or jumping.",
+      "id": "Melatih betis dengan rentang penuh dan lutut lurus, yang menyasar otot gastrocnemius besar pembentuk bentuk betis. Seiring waktu, tolakan kaki saat menanjak atau melompat jadi lebih kuat."
+    },
+    "role": {
+      "en": "Calf accessory at the end of lower-body sessions. The calves get little direct work from squats and deadlifts, so this is the plan's main source of calf volume.",
+      "id": "Latihan pelengkap betis di akhir sesi kaki. Betis hampir tidak terlatih langsung oleh squat dan deadlift, jadi ini sumber utama volume betis di rencana."
+    },
+    "steps": {
+      "en": [
+        "Stand with the balls of your feet on the step and the shoulder pads on your shoulders.",
+        "Lower your heels as far as you can with straight knees and pause for one second in the stretch.",
+        "Rise as high as possible onto your toes and hold the top for one second.",
+        "Repeat without bouncing at the bottom."
+      ],
+      "id": [
+        "Berdiri dengan bagian depan telapak di pijakan dan bantalan bahu di atas bahu.",
+        "Turunkan tumit serendah mungkin dengan lutut lurus dan tahan satu detik di posisi teregang.",
+        "Naik setinggi mungkin ke ujung kaki dan tahan satu detik di atas.",
+        "Ulangi tanpa memantul di bawah."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Pause in the deep stretch.",
+        "Push through the big toe.",
+        "Knees straight but not locked hard."
+      ],
+      "id": [
+        "Tahan di posisi teregang paling dalam.",
+        "Dorong lewat jempol kaki.",
+        "Lutut lurus tapi tidak dikunci keras."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bouncing out of the bottom.",
+        "Bending the knees to push the weight.",
+        "Tiny reps through half the range."
+      ],
+      "id": [
+        "Memantul dari posisi bawah.",
+        "Menekuk lutut untuk mendorong beban.",
+        "Repetisi kecil di separuh rentang gerak."
+      ]
+    },
+    "alternatives": [
+      "single-leg-calf-raise"
+    ]
+  },
+  {
+    "id": "goblet-squat",
+    "name": {
+      "en": "Goblet Squat",
+      "id": "Goblet Squat"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "squat",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": false,
+    "easier": "bodyweight-squat",
+    "harder": "barbell-back-squat",
+    "builds": {
+      "en": "Holding one dumbbell at your chest pulls your torso upright and lets you sit deep between your knees, so the quads do most of the work. Beginners learn squat depth here, and with dumbbells only it is the main way to load the front of the thighs.",
+      "id": "Memegang satu dumbel di dada membuat badan tetap tegak dan bisa turun dalam di antara lutut, sehingga paha depan bekerja paling banyak. Pemula belajar kedalaman squat di sini, dan dengan dumbel saja ini cara utama membebani paha depan."
+    },
+    "role": {
+      "en": "Main squat for dumbbell setups and a technique builder before the barbell squat. It loads the legs while keeping the spine upright, with less lower-back stress than a back squat.",
+      "id": "Squat utama untuk peralatan dumbel dan latihan teknik sebelum barbell squat. Membebani kaki sambil menjaga tulang belakang tegak, dengan beban punggung bawah lebih kecil dari back squat."
+    },
+    "steps": {
+      "en": [
+        "Hold one dumbbell vertically against your chest with both hands under the top end.",
+        "Stand with feet a little wider than shoulders, toes slightly out.",
+        "Sit straight down between your heels, elbows passing inside your knees, until your thighs are below parallel if you can keep your heels down.",
+        "Stand up by pushing the floor away, keeping your chest up."
+      ],
+      "id": [
+        "Pegang satu dumbel tegak di dada dengan kedua tangan di bawah ujung atasnya.",
+        "Berdiri dengan kaki sedikit lebih lebar dari bahu, ujung kaki sedikit keluar.",
+        "Turun lurus di antara tumit, siku melewati bagian dalam lutut, sampai paha di bawah sejajar jika tumit tetap menempel.",
+        "Berdiri dengan mendorong lantai, jaga dada tetap tegak."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Dumbbell stays touching your chest.",
+        "Elbows inside the knees at the bottom.",
+        "Heels down the whole time."
+      ],
+      "id": [
+        "Dumbel tetap menempel di dada.",
+        "Siku di dalam lutut saat di bawah.",
+        "Tumit menempel sepanjang gerakan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Letting the dumbbell drift away from the chest.",
+        "Rising onto the toes at the bottom.",
+        "Knees caving in as you stand."
+      ],
+      "id": [
+        "Dumbel menjauh dari dada.",
+        "Berjinjit di posisi bawah.",
+        "Lutut masuk ke dalam saat berdiri."
+      ]
+    },
+    "alternatives": [
+      "barbell-back-squat",
+      "leg-press",
+      "bodyweight-squat"
+    ]
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": {
+      "en": "Dumbbell Romanian Deadlift",
+      "id": "Dumbbell Romanian Deadlift"
+    },
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [
+      "spinal-erectors",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "hinge",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "single-leg-rdl",
+    "harder": "romanian-deadlift",
+    "builds": {
+      "en": "Two dumbbells hang beside the legs while you hinge, which gives the hamstrings a deep stretch and lets each side work on its own path. With a dumbbell setup this is the plan's heaviest hamstring and glute movement, and it trains you to bend from the hips with a flat back.",
+      "id": "Dua dumbel menggantung di samping kaki saat kamu melakukan hinge, memberi regangan dalam pada paha belakang dan membiarkan tiap sisi bergerak di jalurnya sendiri. Dengan peralatan dumbel, ini gerakan paha belakang dan bokong terberat di rencana, dan melatihmu membungkuk dari pinggul dengan punggung rata."
+    },
+    "role": {
+      "en": "Main hinge for dumbbell setups and a lighter hinge option in full-gym plans. It covers the hamstrings at the hip, which squats and lunges barely reach.",
+      "id": "Gerakan hinge utama untuk peralatan dumbel dan pilihan hinge yang lebih ringan di rencana gym lengkap. Melatih paha belakang lewat sendi pinggul, yang hampir tidak tersentuh squat dan lunge."
+    },
+    "steps": {
+      "en": [
+        "Stand holding a dumbbell in each hand in front of your thighs, knees slightly bent.",
+        "Push your hips back and slide the dumbbells down the front of your legs.",
+        "Stop when your hamstrings are fully stretched and your back is still flat.",
+        "Drive your hips forward to stand up tall."
+      ],
+      "id": [
+        "Berdiri memegang dumbel di tiap tangan di depan paha, lutut sedikit ditekuk.",
+        "Dorong pinggul ke belakang dan luncurkan dumbel di depan kaki.",
+        "Berhenti saat paha belakang teregang penuh dan punggung masih rata.",
+        "Dorong pinggul ke depan untuk berdiri tegak."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Dumbbells close to the legs.",
+        "Hips travel back like closing a car door with your hips.",
+        "Neck in line with your back."
+      ],
+      "id": [
+        "Dumbel dekat dengan kaki.",
+        "Pinggul bergerak ke belakang seperti menutup pintu mobil dengan pinggul.",
+        "Leher segaris dengan punggung."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Rounding the upper back to reach the floor.",
+        "Squatting down instead of hinging.",
+        "Looking up and straining the neck."
+      ],
+      "id": [
+        "Membulatkan punggung atas untuk mencapai lantai.",
+        "Jongkok alih-alih hinge.",
+        "Menengadah sehingga leher tegang."
+      ]
+    },
+    "alternatives": [
+      "romanian-deadlift",
+      "single-leg-rdl",
+      "sliding-leg-curl"
+    ]
+  },
+  {
+    "id": "dumbbell-bulgarian-split-squat",
+    "name": {
+      "en": "Dumbbell Bulgarian Split Squat",
+      "id": "Dumbbell Bulgarian Split Squat"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "lunge",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "split-stance",
+      "prop": "bench"
+    },
+    "level": "intermediate",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": false,
+    "easier": "bodyweight-bulgarian-split-squat",
+    "harder": null,
+    "builds": {
+      "en": "With the rear foot on a bench, almost all the load goes through the front leg, so each thigh and glute works hard with fairly light dumbbells. It evens out strength differences between legs and improves balance on one foot.",
+      "id": "Dengan kaki belakang di atas bangku, hampir seluruh beban bertumpu di kaki depan, jadi tiap paha dan bokong bekerja keras dengan dumbel yang cukup ringan. Menyeimbangkan perbedaan kekuatan antar kaki dan memperbaiki keseimbangan di satu kaki."
+    },
+    "role": {
+      "en": "Single-leg lift that gives dumbbell users squat-level leg work without a barbell. In full-gym plans it follows the main squat to add volume one leg at a time.",
+      "id": "Gerakan satu kaki yang memberi pengguna dumbel latihan setara squat tanpa barbel. Di rencana gym lengkap, dilakukan setelah squat utama untuk menambah volume satu kaki per satu waktu."
+    },
+    "steps": {
+      "en": [
+        "Stand about two steps in front of a bench, a dumbbell in each hand, and place the top of one foot on the bench behind you.",
+        "Lower straight down by bending the front knee until the back knee nearly touches the floor.",
+        "Keep most of your weight on the front heel and your torso slightly leaned forward.",
+        "Push through the front foot to stand back up. Finish all reps, then switch legs."
+      ],
+      "id": [
+        "Berdiri sekitar dua langkah di depan bangku, dumbel di tiap tangan, lalu letakkan punggung kaki di bangku di belakangmu.",
+        "Turun lurus dengan menekuk lutut depan sampai lutut belakang hampir menyentuh lantai.",
+        "Tumpukan sebagian besar berat di tumit depan dengan badan sedikit condong ke depan.",
+        "Dorong lewat kaki depan untuk berdiri lagi. Selesaikan semua repetisi, lalu ganti kaki."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Front heel stays down.",
+        "Drop the back knee straight down.",
+        "Front knee tracks over the toes."
+      ],
+      "id": [
+        "Tumit depan tetap menempel.",
+        "Turunkan lutut belakang lurus ke bawah.",
+        "Lutut depan searah ujung kaki."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Front foot too close to the bench so the heel lifts.",
+        "Pushing off the back foot.",
+        "Knee falling inward."
+      ],
+      "id": [
+        "Kaki depan terlalu dekat bangku sehingga tumit terangkat.",
+        "Mendorong dengan kaki belakang.",
+        "Lutut jatuh ke dalam."
+      ]
+    },
+    "alternatives": [
+      "goblet-squat",
+      "reverse-lunge",
+      "bodyweight-bulgarian-split-squat"
+    ]
+  },
+  {
+    "id": "barbell-bench-press",
+    "name": {
+      "en": "Barbell Bench Press",
+      "id": "Barbell Bench Press"
+    },
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "front-delts",
+      "triceps"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "lying"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": "dumbbell-bench-press",
+    "harder": null,
+    "builds": {
+      "en": "Presses the heaviest load the upper body handles in the plan, with the chest doing most of the work and the front shoulders and triceps helping. It builds a thicker chest and stronger pushing, which you notice when pushing a stuck car or a heavy door.",
+      "id": "Mendorong beban terberat yang bisa ditangani tubuh atas di rencana, dengan dada bekerja paling banyak dibantu bahu depan dan trisep. Membangun dada yang lebih tebal dan dorongan yang lebih kuat, terasa saat mendorong mobil mogok atau pintu berat."
+    },
+    "role": {
+      "en": "Main lift on push and upper days. It is the plan's measure of upper-body pushing strength; flyes and triceps work afterwards add volume it does not cover.",
+      "id": "Gerakan utama di hari push dan upper. Menjadi ukuran kekuatan dorong tubuh atas di rencana; fly dan latihan trisep sesudahnya menambah volume yang tidak tercakup."
+    },
+    "steps": {
+      "en": [
+        "Lie on the bench with your eyes under the bar and feet flat on the floor.",
+        "Grip the bar a little wider than shoulder width, pull your shoulder blades together and down.",
+        "Unrack the bar and hold it over your shoulders with straight arms.",
+        "Lower the bar to your lower chest with elbows about 45 degrees from your body.",
+        "Press the bar back up and slightly back toward your face until your arms are straight."
+      ],
+      "id": [
+        "Berbaring di bangku dengan mata tepat di bawah barbel dan kaki rata di lantai.",
+        "Genggam barbel sedikit lebih lebar dari bahu, tarik tulang belikat ke belakang dan bawah.",
+        "Angkat barbel dari rak dan tahan di atas bahu dengan lengan lurus.",
+        "Turunkan barbel ke dada bawah dengan siku sekitar 45 derajat dari badan.",
+        "Dorong barbel ke atas dan sedikit ke arah wajah sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Shoulder blades pinned to the bench.",
+        "Elbows tucked about 45 degrees.",
+        "Touch the chest, don't bounce."
+      ],
+      "id": [
+        "Tulang belikat menempel di bangku.",
+        "Siku sekitar 45 derajat dari badan.",
+        "Sentuh dada, jangan memantul."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Flaring the elbows straight out to the sides.",
+        "Bouncing the bar off the chest.",
+        "Lifting the hips off the bench."
+      ],
+      "id": [
+        "Siku terbuka lurus ke samping.",
+        "Memantulkan barbel dari dada.",
+        "Pinggul terangkat dari bangku."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-bench-press",
+      "push-up",
+      "incline-dumbbell-press"
+    ]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": {
+      "en": "Incline Dumbbell Press",
+      "id": "Incline Dumbbell Press"
+    },
+    "primary": [
+      "upper-chest",
+      "front-delts"
+    ],
+    "secondary": [
+      "triceps",
+      "chest"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "incline",
+      "prop": "bench"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": "dumbbell-bench-press",
+    "harder": null,
+    "builds": {
+      "en": "On a 30-degree bench the press shifts toward the upper chest and front shoulders, the part of the chest just under the collarbone. Training it fills out the top of the chest so it looks fuller in a T-shirt.",
+      "id": "Di bangku miring 30 derajat, dorongan bergeser ke dada atas dan bahu depan, bagian dada tepat di bawah tulang selangka. Melatihnya mengisi bagian atas dada sehingga terlihat lebih penuh saat memakai kaos."
+    },
+    "role": {
+      "en": "Second press on push and upper days. It covers the upper chest, which the flat bench press reaches less, and the dumbbells let each arm move on its own path.",
+      "id": "Dorongan kedua di hari push dan upper. Melatih dada atas yang kurang terjangkau bench press datar, dan dumbel membiarkan tiap lengan bergerak di jalurnya sendiri."
+    },
+    "steps": {
+      "en": [
+        "Set an adjustable bench to about 30 degrees and sit back with a dumbbell on each thigh.",
+        "Kick the dumbbells up one at a time as you lie back and hold them over your shoulders.",
+        "Lower the dumbbells to the sides of your upper chest, elbows slightly tucked.",
+        "Press them back up until your arms are straight, bringing them close together at the top."
+      ],
+      "id": [
+        "Atur bangku sekitar 30 derajat dan duduk bersandar dengan dumbel di atas tiap paha.",
+        "Dorong dumbel ke atas satu per satu dengan bantuan paha sambil bersandar, tahan di atas bahu.",
+        "Turunkan dumbel ke samping dada atas, siku sedikit merapat.",
+        "Dorong kembali sampai lengan lurus, dekatkan kedua dumbel di atas."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Bench at about 30 degrees, not steeper.",
+        "Wrists stacked over elbows.",
+        "Control the lowering."
+      ],
+      "id": [
+        "Bangku sekitar 30 derajat, jangan lebih curam.",
+        "Pergelangan tangan tepat di atas siku.",
+        "Kendalikan saat menurunkan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bench set too steep so it becomes a shoulder press.",
+        "Dumbbells drifting toward the face.",
+        "Short reps that stop well above the chest."
+      ],
+      "id": [
+        "Bangku terlalu curam sehingga berubah jadi shoulder press.",
+        "Dumbel bergeser ke arah wajah.",
+        "Repetisi pendek yang berhenti jauh di atas dada."
+      ]
+    },
+    "alternatives": [
+      "barbell-bench-press",
+      "dumbbell-bench-press",
+      "decline-push-up"
+    ]
+  },
+  {
+    "id": "overhead-press",
+    "name": {
+      "en": "Standing Barbell Overhead Press",
+      "id": "Standing Barbell Overhead Press"
+    },
+    "primary": [
+      "front-delts",
+      "side-delts"
+    ],
+    "secondary": [
+      "triceps",
+      "upper-chest",
+      "core"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "vertical-push",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder",
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "dumbbell-shoulder-press",
+    "harder": null,
+    "builds": {
+      "en": "Pressing a barbell from the shoulders to overhead while standing builds the shoulders and triceps and teaches the whole body to stay rigid under load. It is the lift behind putting heavy luggage into an overhead bin.",
+      "id": "Mendorong barbel dari bahu ke atas kepala sambil berdiri membangun bahu dan trisep serta melatih seluruh badan tetap kaku di bawah beban. Inilah gerakan di balik menaikkan koper berat ke kabin atas pesawat."
+    },
+    "role": {
+      "en": "Main vertical press for full-gym plans. It trains the shoulders as prime movers, while the bench press uses them as helpers.",
+      "id": "Dorongan vertikal utama di rencana gym lengkap. Melatih bahu sebagai penggerak utama, sementara bench press memakainya sebagai pembantu."
+    },
+    "steps": {
+      "en": [
+        "Take the bar from the rack at collarbone height, hands just outside shoulder width.",
+        "Stand with feet hip width, squeeze your glutes and brace your stomach.",
+        "Press the bar straight up, moving your head back slightly so the bar passes your chin.",
+        "Once the bar passes your forehead, push your head through so the bar ends over your mid-foot.",
+        "Lower the bar under control back to your collarbone."
+      ],
+      "id": [
+        "Ambil barbel dari rak setinggi tulang selangka, tangan sedikit di luar lebar bahu.",
+        "Berdiri dengan kaki selebar pinggul, kencangkan bokong dan perut.",
+        "Dorong barbel lurus ke atas, gerakkan kepala sedikit ke belakang agar barbel melewati dagu.",
+        "Setelah barbel melewati dahi, majukan kepala sehingga barbel berakhir di atas tengah telapak kaki.",
+        "Turunkan barbel terkendali kembali ke tulang selangka."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Glutes tight, ribs down.",
+        "Bar travels in a straight line.",
+        "Head through at the top."
+      ],
+      "id": [
+        "Bokong kencang, rusuk ke bawah.",
+        "Barbel bergerak dalam garis lurus.",
+        "Kepala maju di posisi atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Leaning far back so it turns into an incline press.",
+        "Pressing the bar forward around the face.",
+        "Using the legs to bounce the bar up."
+      ],
+      "id": [
+        "Mencondongkan badan jauh ke belakang sehingga jadi incline press.",
+        "Mendorong barbel memutar ke depan wajah.",
+        "Memakai kaki untuk melontarkan barbel."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-shoulder-press",
+      "pike-push-up"
+    ]
+  },
+  {
+    "id": "lat-pulldown",
+    "name": {
+      "en": "Lat Pulldown",
+      "id": "Lat Pulldown"
+    },
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "upper-back",
+      "rear-delts"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "vertical-pull",
+    "patternParams": {
+      "implement": "cable",
+      "position": "seated",
+      "grip": "overhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "pull-up",
+    "builds": {
+      "en": "Pulls a bar from overhead down to the upper chest, training the lats that make the back look wide from the front. Because the load is adjustable it builds pull-up strength before you can lift your own body weight.",
+      "id": "Menarik palang dari atas kepala ke dada atas, melatih otot lats yang membuat punggung terlihat lebar dari depan. Karena beban bisa diatur, gerakan ini membangun kekuatan pull-up sebelum kamu mampu mengangkat berat badan sendiri."
+    },
+    "role": {
+      "en": "Vertical pull on pull and upper days. It balances the presses and is the main lats builder for anyone who cannot yet do several pull-ups.",
+      "id": "Tarikan vertikal di hari pull dan upper. Menyeimbangkan gerakan dorong dan menjadi pembangun lats utama bagi yang belum bisa melakukan beberapa pull-up."
+    },
+    "steps": {
+      "en": [
+        "Set the thigh pad so your legs are locked under it, and grip the bar a little wider than your shoulders.",
+        "Sit tall with arms straight overhead and lean back slightly.",
+        "Pull the bar to your upper chest by driving your elbows down toward your hips.",
+        "Let the bar rise under control until your arms are straight and you feel the lats stretch."
+      ],
+      "id": [
+        "Atur bantalan paha sehingga kaki terkunci di bawahnya, lalu genggam palang sedikit lebih lebar dari bahu.",
+        "Duduk tegak dengan lengan lurus di atas dan badan sedikit condong ke belakang.",
+        "Tarik palang ke dada atas dengan mendorong siku ke bawah ke arah pinggul.",
+        "Biarkan palang naik terkendali sampai lengan lurus dan lats terasa teregang."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows down to your back pockets.",
+        "Chest up to meet the bar.",
+        "Full stretch at the top."
+      ],
+      "id": [
+        "Siku turun ke arah saku belakang.",
+        "Dada naik menyambut palang.",
+        "Regangan penuh di atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Leaning far back and rowing the weight down.",
+        "Pulling the bar behind the neck.",
+        "Shrugging the shoulders up to the ears."
+      ],
+      "id": [
+        "Bersandar jauh ke belakang dan menarik seperti row.",
+        "Menarik palang ke belakang leher.",
+        "Mengangkat bahu ke arah telinga."
+      ]
+    },
+    "alternatives": [
+      "pull-up",
+      "chin-up",
+      "band-lat-pulldown"
+    ]
+  },
+  {
+    "id": "seated-cable-row",
+    "name": {
+      "en": "Seated Cable Row",
+      "id": "Seated Cable Row"
+    },
+    "primary": [
+      "upper-back",
+      "lats"
+    ],
+    "secondary": [
+      "rear-delts",
+      "biceps"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "horizontal-pull",
+    "patternParams": {
+      "implement": "cable",
+      "position": "seated",
+      "grip": "neutral"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "barbell-row",
+    "builds": {
+      "en": "Rows a handle to the stomach while seated, training the muscles between the shoulder blades and the lats with no load on the lower back. It thickens the middle of the back and helps you sit and stand without slumping.",
+      "id": "Menarik gagang ke perut sambil duduk, melatih otot di antara tulang belikat dan lats tanpa beban di punggung bawah. Menebalkan bagian tengah punggung dan membantu duduk serta berdiri tanpa membungkuk."
+    },
+    "role": {
+      "en": "Horizontal pull on pull and upper days. It balances the bench press by pulling in the opposite direction, and the chest-supported seat makes it safe to push close to failure.",
+      "id": "Tarikan horizontal di hari pull dan upper. Menyeimbangkan bench press dengan menarik ke arah sebaliknya, dan posisi duduk membuatnya aman dilakukan mendekati gagal."
+    },
+    "steps": {
+      "en": [
+        "Sit with feet on the platform, knees slightly bent, and hold the handle with arms straight.",
+        "Sit tall with your chest up.",
+        "Pull the handle to your stomach, squeezing your shoulder blades together.",
+        "Let the handle go forward until your arms are straight and your shoulder blades spread apart."
+      ],
+      "id": [
+        "Duduk dengan kaki di pijakan, lutut sedikit ditekuk, dan pegang gagang dengan lengan lurus.",
+        "Duduk tegak dengan dada terangkat.",
+        "Tarik gagang ke perut sambil merapatkan tulang belikat.",
+        "Biarkan gagang kembali ke depan sampai lengan lurus dan tulang belikat terbuka."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Torso stays still.",
+        "Squeeze the shoulder blades together.",
+        "Elbows brush your sides."
+      ],
+      "id": [
+        "Badan tetap diam.",
+        "Rapatkan tulang belikat.",
+        "Siku menyentuh sisi badan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Rocking the torso back and forth to move the weight.",
+        "Shrugging at the end of the pull.",
+        "Rounding the back at the front of the rep."
+      ],
+      "id": [
+        "Mengayun badan maju mundur untuk memindahkan beban.",
+        "Mengangkat bahu di akhir tarikan.",
+        "Punggung membulat di posisi depan."
+      ]
+    },
+    "alternatives": [
+      "one-arm-dumbbell-row",
+      "barbell-row",
+      "band-row"
+    ]
+  },
+  {
+    "id": "barbell-row",
+    "name": {
+      "en": "Barbell Bent-Over Row",
+      "id": "Barbell Bent-Over Row"
+    },
+    "primary": [
+      "upper-back",
+      "lats"
+    ],
+    "secondary": [
+      "rear-delts",
+      "biceps",
+      "spinal-erectors"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "horizontal-pull",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "bent-over",
+      "grip": "overhand"
+    },
+    "level": "intermediate",
+    "stress": [
+      "lower-back"
+    ],
+    "bodyweight": false,
+    "easier": "seated-cable-row",
+    "harder": null,
+    "builds": {
+      "en": "Rows a barbell to the lower ribs while you hold a bent-over position, so the upper back pulls heavy loads and the lower back works to stay still. It builds a thick, strong back and the stamina to hold a hinge, useful for gardening or lifting from low shelves.",
+      "id": "Menarik barbel ke rusuk bawah sambil menahan posisi membungkuk, sehingga punggung atas menarik beban berat dan punggung bawah bekerja agar tetap diam. Membangun punggung yang tebal dan kuat serta daya tahan menahan posisi membungkuk, berguna saat berkebun atau mengangkat dari rak rendah."
+    },
+    "role": {
+      "en": "Heavy horizontal pull for intermediate and advanced lifters. It allows more load than the cable row but costs lower-back effort, so it is left out when that area is filtered.",
+      "id": "Tarikan horizontal berat untuk tingkat menengah dan lanjutan. Memungkinkan beban lebih besar dari cable row tapi menuntut kerja punggung bawah, jadi tidak dipakai jika area itu dihindari."
+    },
+    "steps": {
+      "en": [
+        "Hold the bar with an overhand grip just outside your knees.",
+        "Hinge forward until your torso is about 45 degrees to the floor, back flat, knees soft.",
+        "Pull the bar to your lower ribs, leading with the elbows.",
+        "Lower the bar until your arms are straight, keeping the torso angle fixed."
+      ],
+      "id": [
+        "Pegang barbel dengan genggaman dari atas tepat di luar lutut.",
+        "Bungkukkan badan dari pinggul sampai sekitar 45 derajat dari lantai, punggung rata, lutut sedikit ditekuk.",
+        "Tarik barbel ke rusuk bawah dengan siku memimpin.",
+        "Turunkan barbel sampai lengan lurus, jaga sudut badan tetap."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Torso angle stays fixed.",
+        "Pull to the lower ribs.",
+        "Back flat the whole set."
+      ],
+      "id": [
+        "Sudut badan tidak berubah.",
+        "Tarik ke rusuk bawah.",
+        "Punggung rata sepanjang set."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Standing up more with each rep.",
+        "Jerking the bar with the hips.",
+        "Rounding the lower back."
+      ],
+      "id": [
+        "Badan makin tegak di setiap repetisi.",
+        "Menyentak barbel dengan pinggul.",
+        "Punggung bawah membulat."
+      ]
+    },
+    "alternatives": [
+      "seated-cable-row",
+      "one-arm-dumbbell-row"
+    ]
+  },
+  {
+    "id": "cable-fly",
+    "name": {
+      "en": "Standing Cable Fly",
+      "id": "Standing Cable Fly"
+    },
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "front-delts"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "chest-fly",
+    "patternParams": {
+      "implement": "cable",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Brings the arms together in a wide arc against cable tension, so the chest works without the triceps helping. The cables keep the chest loaded even where the hands meet, which presses do not.",
+      "id": "Merapatkan lengan dalam busur lebar melawan tegangan kabel, sehingga dada bekerja tanpa bantuan trisep. Kabel menjaga dada tetap terbebani bahkan saat kedua tangan bertemu, sesuatu yang tidak terjadi pada gerakan press."
+    },
+    "role": {
+      "en": "Chest accessory after the presses. It adds chest volume when the triceps are already tired and is the plan's lowest-stress chest exercise for the shoulder joint.",
+      "id": "Latihan pelengkap dada setelah gerakan press. Menambah volume dada saat trisep sudah lelah dan menjadi latihan dada dengan beban paling ringan untuk sendi bahu di rencana."
+    },
+    "steps": {
+      "en": [
+        "Set both pulleys at shoulder height and hold a handle in each hand.",
+        "Step forward into a split stance with a slight bend in the elbows.",
+        "Bring your hands together in front of your chest in a wide hugging arc.",
+        "Open the arms back out under control until you feel a stretch across the chest."
+      ],
+      "id": [
+        "Atur kedua katrol setinggi bahu dan pegang gagang di tiap tangan.",
+        "Melangkah ke depan dengan posisi kaki depan-belakang dan siku sedikit ditekuk.",
+        "Satukan tangan di depan dada dalam busur lebar seperti memeluk.",
+        "Buka lengan kembali secara terkendali sampai dada terasa teregang."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbow bend stays the same.",
+        "Hug a wide tree.",
+        "Slow on the way back."
+      ],
+      "id": [
+        "Tekukan siku tetap sama.",
+        "Seperti memeluk pohon besar.",
+        "Pelan saat kembali."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bending and straightening the elbows so it becomes a press.",
+        "Letting the arms fly back past the shoulders.",
+        "Leaning far forward to use body weight."
+      ],
+      "id": [
+        "Menekuk dan meluruskan siku sehingga jadi gerakan press.",
+        "Lengan terlempar ke belakang melewati bahu.",
+        "Condong jauh ke depan memakai berat badan."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-bench-press",
+      "push-up"
+    ]
+  },
+  {
+    "id": "triceps-pushdown",
+    "name": {
+      "en": "Cable Triceps Pushdown",
+      "id": "Cable Triceps Pushdown"
+    },
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "triceps-extension",
+    "patternParams": {
+      "implement": "cable",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Straightens the elbows against a cable with the upper arms pinned to your sides, isolating the triceps, which make up about two thirds of the upper arm. Stronger triceps also lift your bench and overhead press numbers.",
+      "id": "Meluruskan siku melawan kabel dengan lengan atas menempel di sisi badan, mengisolasi trisep yang membentuk sekitar dua pertiga lengan atas. Trisep yang lebih kuat juga menaikkan beban bench press dan overhead press."
+    },
+    "role": {
+      "en": "Triceps accessory at the end of push and upper days. It adds direct arm work after the presses have used the triceps as helpers.",
+      "id": "Latihan pelengkap trisep di akhir hari push dan upper. Menambah latihan lengan langsung setelah gerakan press memakai trisep sebagai pembantu."
+    },
+    "steps": {
+      "en": [
+        "Attach a rope or bar to a high pulley and grip it with elbows bent at your sides.",
+        "Stand tall with a slight forward lean.",
+        "Push the handle down until your arms are straight, spreading the rope ends at the bottom.",
+        "Let the handle rise until your forearms are just above parallel, elbows still at your sides."
+      ],
+      "id": [
+        "Pasang tali atau palang di katrol atas dan genggam dengan siku tertekuk di sisi badan.",
+        "Berdiri tegak dengan badan sedikit condong ke depan.",
+        "Dorong gagang ke bawah sampai lengan lurus, buka ujung tali di bawah.",
+        "Biarkan gagang naik sampai lengan bawah sedikit di atas sejajar, siku tetap di sisi badan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows pinned to your sides.",
+        "Full lockout at the bottom.",
+        "Only the forearms move."
+      ],
+      "id": [
+        "Siku menempel di sisi badan.",
+        "Lurus penuh di bawah.",
+        "Hanya lengan bawah yang bergerak."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Elbows drifting forward so the shoulders help.",
+        "Leaning over the handle and pushing with body weight.",
+        "Letting the handle fly up."
+      ],
+      "id": [
+        "Siku maju sehingga bahu ikut membantu.",
+        "Membungkuk di atas gagang dan mendorong dengan berat badan.",
+        "Membiarkan gagang terlempar ke atas."
+      ]
+    },
+    "alternatives": [
+      "overhead-dumbbell-triceps-extension",
+      "diamond-push-up",
+      "bodyweight-triceps-extension"
+    ]
+  },
+  {
+    "id": "barbell-curl",
+    "name": {
+      "en": "Barbell Curl",
+      "id": "Barbell Curl"
+    },
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "curl",
+    "patternParams": {
+      "implement": "barbell",
+      "position": "standing",
+      "grip": "underhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "dumbbell-curl",
+    "harder": null,
+    "builds": {
+      "en": "Curls a straight bar with palms up so both arms share one load, which lets the biceps handle more weight than with dumbbells. It builds the front of the upper arm and the strength to carry things held in front of you.",
+      "id": "Menekuk barbel lurus dengan telapak menghadap atas sehingga kedua lengan berbagi satu beban, membuat bisep bisa menangani beban lebih berat dibanding dumbel. Membangun bagian depan lengan atas dan kekuatan membawa barang di depan badan."
+    },
+    "role": {
+      "en": "Biceps accessory on pull and upper days. It adds direct biceps work after rows and pulldowns have used the biceps as helpers.",
+      "id": "Latihan pelengkap bisep di hari pull dan upper. Menambah latihan bisep langsung setelah row dan pulldown memakai bisep sebagai pembantu."
+    },
+    "steps": {
+      "en": [
+        "Stand holding the bar with an underhand grip at shoulder width, arms straight.",
+        "Keep your elbows at your sides and curl the bar up toward your shoulders.",
+        "Squeeze at the top without letting the elbows move forward.",
+        "Lower the bar slowly until your arms are fully straight."
+      ],
+      "id": [
+        "Berdiri memegang barbel dengan genggaman dari bawah selebar bahu, lengan lurus.",
+        "Jaga siku di sisi badan dan tekuk barbel ke arah bahu.",
+        "Kencangkan di atas tanpa membiarkan siku maju.",
+        "Turunkan barbel perlahan sampai lengan lurus penuh."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows stay by your ribs.",
+        "No hip swing.",
+        "Straighten fully at the bottom."
+      ],
+      "id": [
+        "Siku tetap di samping rusuk.",
+        "Tanpa ayunan pinggul.",
+        "Luruskan penuh di bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Swinging the bar up with the hips.",
+        "Stopping halfway down.",
+        "Elbows drifting forward at the top."
+      ],
+      "id": [
+        "Mengayun barbel dengan pinggul.",
+        "Berhenti di tengah saat turun.",
+        "Siku maju di posisi atas."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-curl",
+      "hammer-curl",
+      "chin-up"
+    ]
+  },
+  {
+    "id": "parallel-bar-dip",
+    "name": {
+      "en": "Parallel Bar Dip",
+      "id": "Parallel Bar Dip"
+    },
+    "primary": [
+      "triceps",
+      "chest"
+    ],
+    "secondary": [
+      "front-delts"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "dip",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "supported",
+      "prop": "bars"
+    },
+    "level": "intermediate",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": "bench-dip",
+    "harder": null,
+    "builds": {
+      "en": "Lowers and presses your whole body weight between two bars, loading the triceps and lower chest heavily. Being able to do sets of 10 shows real pressing strength relative to your body weight.",
+      "id": "Menurunkan dan mendorong seluruh berat badan di antara dua palang, membebani trisep dan dada bawah dengan berat. Mampu melakukan set berisi 10 repetisi menunjukkan kekuatan dorong yang nyata dibanding berat badanmu."
+    },
+    "role": {
+      "en": "Compound push for intermediate lifters on push days. It trains triceps and chest together and needs no plates; it is removed when the shoulder filter is on.",
+      "id": "Gerakan dorong majemuk untuk tingkat menengah di hari push. Melatih trisep dan dada bersamaan tanpa piringan beban; tidak dipakai jika filter bahu aktif."
+    },
+    "steps": {
+      "en": [
+        "Grip the bars and jump up to support yourself with straight arms.",
+        "Lean slightly forward and bend the elbows to lower your body.",
+        "Stop when your upper arms are about parallel to the floor.",
+        "Press back up until your arms are straight."
+      ],
+      "id": [
+        "Genggam palang dan lompat untuk menopang badan dengan lengan lurus.",
+        "Condongkan badan sedikit ke depan dan tekuk siku untuk menurunkan badan.",
+        "Berhenti saat lengan atas kira-kira sejajar lantai.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Shoulders down, away from the ears.",
+        "Elbows point back, not out.",
+        "Stop at parallel."
+      ],
+      "id": [
+        "Bahu turun, menjauh dari telinga.",
+        "Siku mengarah ke belakang, bukan ke samping.",
+        "Berhenti di posisi sejajar."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Dropping far below parallel.",
+        "Shrugging the shoulders up at the bottom.",
+        "Kicking the legs to get up."
+      ],
+      "id": [
+        "Turun jauh di bawah sejajar.",
+        "Bahu naik ke telinga di posisi bawah.",
+        "Menendang kaki untuk naik."
+      ]
+    },
+    "alternatives": [
+      "bench-dip",
+      "diamond-push-up",
+      "triceps-pushdown"
+    ]
+  },
+  {
+    "id": "dumbbell-bench-press",
+    "name": {
+      "en": "Dumbbell Bench Press",
+      "id": "Dumbbell Bench Press"
+    },
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "front-delts",
+      "triceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "lying"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": "push-up",
+    "harder": "barbell-bench-press",
+    "builds": {
+      "en": "Pressing two dumbbells on a flat bench lets the hands travel deeper than a barbell allows, giving the chest a longer stretch at the bottom. It builds chest size and evens out a weaker side, since each arm has to press its own weight.",
+      "id": "Mendorong dua dumbel di bangku datar membuat tangan turun lebih dalam dibanding barbel, memberi dada regangan lebih panjang di bawah. Membangun ukuran dada dan menyeimbangkan sisi yang lebih lemah, karena tiap lengan harus mendorong bebannya sendiri."
+    },
+    "role": {
+      "en": "Main chest press for dumbbell setups and a second press in full-gym plans. It covers the same job as the bench press with free arm paths.",
+      "id": "Dorongan dada utama untuk peralatan dumbel dan dorongan kedua di rencana gym lengkap. Melakukan tugas yang sama dengan bench press dengan jalur lengan yang bebas."
+    },
+    "steps": {
+      "en": [
+        "Sit on a flat bench with a dumbbell on each thigh, then lie back and bring them over your chest.",
+        "Hold the dumbbells with palms facing your feet and arms straight.",
+        "Lower them to the sides of your chest, elbows about 45 degrees from your body.",
+        "Press them back up until your arms are straight."
+      ],
+      "id": [
+        "Duduk di bangku datar dengan dumbel di tiap paha, lalu berbaring dan bawa dumbel ke atas dada.",
+        "Pegang dumbel dengan telapak menghadap ke arah kaki dan lengan lurus.",
+        "Turunkan ke samping dada dengan siku sekitar 45 derajat dari badan.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Shoulder blades squeezed back.",
+        "Forearms vertical at the bottom.",
+        "Lower in two seconds."
+      ],
+      "id": [
+        "Tulang belikat dirapatkan ke belakang.",
+        "Lengan bawah tegak di posisi bawah.",
+        "Turunkan dalam dua detik."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Dropping the dumbbells too fast at the bottom.",
+        "Banging the dumbbells together at the top.",
+        "Elbows flared straight out."
+      ],
+      "id": [
+        "Menjatuhkan dumbel terlalu cepat di bawah.",
+        "Membenturkan dumbel di atas.",
+        "Siku terbuka lurus ke samping."
+      ]
+    },
+    "alternatives": [
+      "barbell-bench-press",
+      "push-up",
+      "incline-dumbbell-press"
+    ]
+  },
+  {
+    "id": "dumbbell-shoulder-press",
+    "name": {
+      "en": "Seated Dumbbell Shoulder Press",
+      "id": "Seated Dumbbell Shoulder Press"
+    },
+    "primary": [
+      "front-delts",
+      "side-delts"
+    ],
+    "secondary": [
+      "triceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "vertical-push",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "seated"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": "pike-push-up",
+    "harder": "overhead-press",
+    "builds": {
+      "en": "Presses two dumbbells overhead from a seated position, so the shoulders and triceps do the work without the legs or lower back helping. It builds rounder shoulders and makes reaching and lifting overhead feel steadier.",
+      "id": "Mendorong dua dumbel ke atas kepala sambil duduk, sehingga bahu dan trisep bekerja tanpa bantuan kaki atau punggung bawah. Membangun bahu yang lebih bulat dan membuat gerakan meraih serta mengangkat ke atas terasa lebih stabil."
+    },
+    "role": {
+      "en": "Main vertical press for dumbbell setups, and the overhead press option when lower-back stress is filtered out. The seat removes the balance demand so the shoulders can be pushed harder.",
+      "id": "Dorongan vertikal utama untuk peralatan dumbel, dan pilihan overhead press saat beban punggung bawah perlu dihindari. Duduk menghilangkan tuntutan keseimbangan sehingga bahu bisa didorong lebih keras."
+    },
+    "steps": {
+      "en": [
+        "Sit on a bench with back support upright and hold the dumbbells at shoulder height, palms forward.",
+        "Brace your stomach and press your back against the pad.",
+        "Press the dumbbells up until your arms are straight above your shoulders.",
+        "Lower them back to shoulder height under control."
+      ],
+      "id": [
+        "Duduk di bangku dengan sandaran tegak dan pegang dumbel setinggi bahu, telapak menghadap depan.",
+        "Kencangkan perut dan tekan punggung ke sandaran.",
+        "Dorong dumbel ke atas sampai lengan lurus di atas bahu.",
+        "Turunkan kembali setinggi bahu secara terkendali."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Wrists over elbows.",
+        "Ribs down, back on the pad.",
+        "Lower to ear height or below."
+      ],
+      "id": [
+        "Pergelangan di atas siku.",
+        "Rusuk ke bawah, punggung menempel sandaran.",
+        "Turunkan sampai setinggi telinga atau lebih rendah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Arching the lower back off the pad.",
+        "Stopping the dumbbells high above the shoulders.",
+        "Pressing the dumbbells forward instead of up."
+      ],
+      "id": [
+        "Punggung bawah melengkung lepas dari sandaran.",
+        "Menghentikan dumbel jauh di atas bahu.",
+        "Mendorong dumbel ke depan, bukan ke atas."
+      ]
+    },
+    "alternatives": [
+      "overhead-press",
+      "pike-push-up",
+      "dumbbell-lateral-raise"
+    ]
+  },
+  {
+    "id": "one-arm-dumbbell-row",
+    "name": {
+      "en": "One-Arm Dumbbell Row",
+      "id": "One-Arm Dumbbell Row"
+    },
+    "primary": [
+      "lats",
+      "upper-back"
+    ],
+    "secondary": [
+      "rear-delts",
+      "biceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "horizontal-pull",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "supported",
+      "grip": "neutral",
+      "prop": "bench"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "doorway-row",
+    "harder": null,
+    "builds": {
+      "en": "With one hand and knee on a bench, you row a dumbbell toward your hip, which trains the lats and upper back of one side through a long range. The bench supports your spine, so you can row heavy without straining the lower back.",
+      "id": "Dengan satu tangan dan lutut di bangku, kamu menarik dumbel ke arah pinggul, melatih lats dan punggung atas satu sisi dengan rentang panjang. Bangku menopang tulang belakang sehingga bisa menarik berat tanpa membebani punggung bawah."
+    },
+    "role": {
+      "en": "Main back exercise for dumbbell setups and a supported row in full-gym plans. It is the heaviest pull available without a cable machine or bar.",
+      "id": "Latihan punggung utama untuk peralatan dumbel dan row bertumpu di rencana gym lengkap. Tarikan terberat yang bisa dilakukan tanpa mesin kabel atau palang."
+    },
+    "steps": {
+      "en": [
+        "Place your left knee and left hand on a flat bench, back flat and parallel to the floor.",
+        "Hold a dumbbell in your right hand with the arm hanging straight.",
+        "Pull the dumbbell up toward your right hip, elbow close to your body.",
+        "Lower it until your arm is straight and the shoulder stretches forward. Finish the set, then switch sides."
+      ],
+      "id": [
+        "Letakkan lutut kiri dan tangan kiri di bangku datar, punggung rata dan sejajar lantai.",
+        "Pegang dumbel di tangan kanan dengan lengan menggantung lurus.",
+        "Tarik dumbel ke arah pinggul kanan, siku dekat badan.",
+        "Turunkan sampai lengan lurus dan bahu teregang ke depan. Selesaikan set, lalu ganti sisi."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Pull toward the hip, not the chest.",
+        "Shoulders stay level.",
+        "Let the shoulder stretch at the bottom."
+      ],
+      "id": [
+        "Tarik ke arah pinggul, bukan dada.",
+        "Bahu tetap sejajar.",
+        "Biarkan bahu teregang di bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Twisting the torso to swing the dumbbell up.",
+        "Shrugging the dumbbell toward the ear.",
+        "Cutting the stretch short at the bottom."
+      ],
+      "id": [
+        "Memutar badan untuk mengayun dumbel.",
+        "Mengangkat dumbel ke arah telinga.",
+        "Memotong regangan di bawah."
+      ]
+    },
+    "alternatives": [
+      "seated-cable-row",
+      "band-row",
+      "doorway-row"
+    ]
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": {
+      "en": "Dumbbell Lateral Raise",
+      "id": "Dumbbell Lateral Raise"
+    },
+    "primary": [
+      "side-delts"
+    ],
+    "secondary": [
+      "traps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "lateral-raise",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Raises light dumbbells out to the sides to shoulder height, isolating the side shoulders that presses barely reach. This is the exercise that makes the shoulders look wider from the front.",
+      "id": "Mengangkat dumbel ringan ke samping sampai setinggi bahu, mengisolasi bahu samping yang hampir tidak terjangkau gerakan press. Inilah latihan yang membuat bahu terlihat lebih lebar dari depan."
+    },
+    "role": {
+      "en": "Shoulder accessory on push and upper days. It is the plan's main side-shoulder exercise and works well with light weights and higher reps.",
+      "id": "Latihan pelengkap bahu di hari push dan upper. Latihan utama bahu samping di rencana dan efektif dengan beban ringan dan repetisi lebih tinggi."
+    },
+    "steps": {
+      "en": [
+        "Stand holding light dumbbells at your sides, elbows slightly bent.",
+        "Lean forward a little from the hips.",
+        "Raise the dumbbells out to the sides until your arms are level with your shoulders.",
+        "Lower them slowly back to your sides."
+      ],
+      "id": [
+        "Berdiri memegang dumbel ringan di samping badan, siku sedikit ditekuk.",
+        "Condongkan badan sedikit ke depan dari pinggul.",
+        "Angkat dumbel ke samping sampai lengan sejajar bahu.",
+        "Turunkan perlahan kembali ke samping badan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Lead with the elbows.",
+        "Stop at shoulder height.",
+        "Lower in two seconds."
+      ],
+      "id": [
+        "Siku memimpin gerakan.",
+        "Berhenti setinggi bahu.",
+        "Turunkan dalam dua detik."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Swinging heavy dumbbells with the body.",
+        "Shrugging the shoulders up to the ears.",
+        "Raising the hands above the elbows."
+      ],
+      "id": [
+        "Mengayun dumbel berat dengan badan.",
+        "Mengangkat bahu ke telinga.",
+        "Mengangkat tangan lebih tinggi dari siku."
+      ]
+    },
+    "alternatives": [
+      "band-lateral-raise",
+      "dumbbell-shoulder-press"
+    ]
+  },
+  {
+    "id": "dumbbell-curl",
+    "name": {
+      "en": "Dumbbell Curl",
+      "id": "Dumbbell Curl"
+    },
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "curl",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "standing",
+      "grip": "underhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "band-curl",
+    "harder": "barbell-curl",
+    "builds": {
+      "en": "Curls a dumbbell in each hand while turning the palm up as it rises, which uses both jobs of the biceps: bending the elbow and rotating the forearm. Each arm works alone, so a weaker arm cannot hide behind the stronger one.",
+      "id": "Menekuk dumbel di tiap tangan sambil memutar telapak ke atas saat naik, memakai kedua tugas bisep: menekuk siku dan memutar lengan bawah. Tiap lengan bekerja sendiri, jadi lengan yang lebih lemah tidak bisa bersembunyi di balik yang lebih kuat."
+    },
+    "role": {
+      "en": "Biceps accessory on pull and upper days, and the main biceps exercise for dumbbell setups.",
+      "id": "Latihan pelengkap bisep di hari pull dan upper, dan latihan bisep utama untuk peralatan dumbel."
+    },
+    "steps": {
+      "en": [
+        "Stand with a dumbbell in each hand, arms straight, palms facing your thighs.",
+        "Curl the dumbbells up, turning your palms to face up as they pass your hips.",
+        "Squeeze at shoulder height with elbows still at your sides.",
+        "Lower slowly, turning the palms back in at the bottom."
+      ],
+      "id": [
+        "Berdiri dengan dumbel di tiap tangan, lengan lurus, telapak menghadap paha.",
+        "Tekuk dumbel ke atas, putar telapak menghadap atas saat melewati pinggul.",
+        "Kencangkan setinggi bahu dengan siku tetap di sisi badan.",
+        "Turunkan perlahan, putar telapak kembali ke dalam di bawah."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Turn the pinkie up at the top.",
+        "Elbows fixed at your sides.",
+        "Slow lowering."
+      ],
+      "id": [
+        "Putar kelingking ke atas di posisi atas.",
+        "Siku diam di sisi badan.",
+        "Turunkan pelan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Leaning back to swing the weight.",
+        "Moving the elbows forward.",
+        "Not straightening the arm at the bottom."
+      ],
+      "id": [
+        "Bersandar ke belakang untuk mengayun beban.",
+        "Siku bergerak ke depan.",
+        "Tidak meluruskan lengan di bawah."
+      ]
+    },
+    "alternatives": [
+      "barbell-curl",
+      "hammer-curl",
+      "band-curl"
+    ]
+  },
+  {
+    "id": "hammer-curl",
+    "name": {
+      "en": "Hammer Curl",
+      "id": "Hammer Curl"
+    },
+    "primary": [
+      "brachialis",
+      "forearms"
+    ],
+    "secondary": [
+      "biceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "curl",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "standing",
+      "grip": "neutral"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Curling with the thumbs up shifts the work to the brachialis under the biceps and to the forearm muscle on the thumb side. It thickens the arm from the side and builds the grip you use to carry shopping bags or a toolbox.",
+      "id": "Menekuk dengan ibu jari menghadap atas memindahkan kerja ke otot brachialis di bawah bisep dan otot lengan bawah di sisi ibu jari. Menebalkan lengan dari samping dan membangun genggaman untuk membawa tas belanja atau kotak perkakas."
+    },
+    "role": {
+      "en": "Second arm-flexor exercise for plans with room for more arm work. It covers the brachialis and forearms that palms-up curls train less.",
+      "id": "Latihan penekuk lengan kedua untuk rencana yang punya ruang latihan lengan tambahan. Melatih brachialis dan lengan bawah yang kurang terlatih oleh curl dengan telapak menghadap atas."
+    },
+    "steps": {
+      "en": [
+        "Stand holding dumbbells at your sides with palms facing each other.",
+        "Curl the dumbbells up without turning your wrists, thumbs pointing up.",
+        "Stop when the dumbbells reach shoulder height.",
+        "Lower slowly to straight arms."
+      ],
+      "id": [
+        "Berdiri memegang dumbel di samping badan dengan telapak saling berhadapan.",
+        "Tekuk dumbel ke atas tanpa memutar pergelangan, ibu jari menghadap atas.",
+        "Berhenti saat dumbel mencapai setinggi bahu.",
+        "Turunkan perlahan sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Thumbs up the whole time.",
+        "Elbows stay at your sides.",
+        "Grip the handle hard."
+      ],
+      "id": [
+        "Ibu jari menghadap atas sepanjang gerakan.",
+        "Siku tetap di sisi badan.",
+        "Genggam gagang dengan kuat."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Swinging the dumbbells across the body.",
+        "Half reps that skip the bottom.",
+        "Letting the wrists bend back."
+      ],
+      "id": [
+        "Mengayun dumbel menyilang badan.",
+        "Repetisi setengah tanpa posisi bawah.",
+        "Pergelangan tangan menekuk ke belakang."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-curl",
+      "doorframe-curl"
+    ]
+  },
+  {
+    "id": "overhead-dumbbell-triceps-extension",
+    "name": {
+      "en": "Overhead Dumbbell Triceps Extension",
+      "id": "Overhead Dumbbell Triceps Extension"
+    },
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [],
+    "equipment": [
+      "full-gym",
+      "dumbbells"
+    ],
+    "pattern": "triceps-extension",
+    "patternParams": {
+      "implement": "dumbbell",
+      "position": "seated"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": "bodyweight-triceps-extension",
+    "harder": null,
+    "builds": {
+      "en": "Lowering one dumbbell behind your head with both hands stretches the long head of the triceps, the largest part, which only fully works with the arm raised. It adds size to the back of the upper arm that pushdowns alone leave behind.",
+      "id": "Menurunkan satu dumbel di belakang kepala dengan kedua tangan meregangkan kepala panjang trisep, bagian terbesarnya, yang hanya bekerja penuh saat lengan terangkat. Menambah ukuran bagian belakang lengan atas yang tidak tercapai oleh pushdown saja."
+    },
+    "role": {
+      "en": "Triceps accessory for dumbbell setups and a second triceps exercise in full-gym plans. It trains the triceps in the stretched position other triceps work misses.",
+      "id": "Latihan pelengkap trisep untuk peralatan dumbel dan latihan trisep kedua di rencana gym lengkap. Melatih trisep dalam posisi teregang yang terlewat oleh latihan trisep lain."
+    },
+    "steps": {
+      "en": [
+        "Sit on a bench with back support and hold one dumbbell overhead with both hands under the top plate.",
+        "Keep your upper arms close to your head.",
+        "Bend the elbows to lower the dumbbell behind your head until your forearms pass parallel.",
+        "Straighten your arms to press the dumbbell back overhead."
+      ],
+      "id": [
+        "Duduk di bangku bersandaran dan pegang satu dumbel di atas kepala dengan kedua tangan di bawah piringan atas.",
+        "Jaga lengan atas dekat dengan kepala.",
+        "Tekuk siku untuk menurunkan dumbel di belakang kepala sampai lengan bawah melewati posisi sejajar.",
+        "Luruskan lengan untuk mendorong dumbel kembali ke atas kepala."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows point forward, not out.",
+        "Upper arms stay still.",
+        "Deep stretch at the bottom."
+      ],
+      "id": [
+        "Siku mengarah ke depan, bukan ke samping.",
+        "Lengan atas tetap diam.",
+        "Regangan dalam di bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Elbows flaring wide to the sides.",
+        "Arching the lower back.",
+        "Moving the upper arms so it becomes a press."
+      ],
+      "id": [
+        "Siku terbuka lebar ke samping.",
+        "Punggung bawah melengkung.",
+        "Lengan atas bergerak sehingga jadi gerakan press."
+      ]
+    },
+    "alternatives": [
+      "triceps-pushdown",
+      "bodyweight-triceps-extension",
+      "diamond-push-up"
+    ]
+  },
+  {
+    "id": "push-up",
+    "name": {
+      "en": "Push-Up",
+      "id": "Push-Up"
+    },
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "front-delts",
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "plank"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "incline-push-up",
+    "harder": "decline-push-up",
+    "builds": {
+      "en": "Presses about two thirds of your body weight from the floor, training the chest, front shoulders and triceps while the stomach holds the body straight like a plank. Getting from a few reps to sets of 15 to 20 is a clear sign your pushing strength has grown.",
+      "id": "Mendorong sekitar dua pertiga berat badan dari lantai, melatih dada, bahu depan, dan trisep sementara perut menahan badan lurus seperti plank. Naik dari beberapa repetisi ke set berisi 15 sampai 20 adalah tanda jelas kekuatan dorongmu bertambah."
+    },
+    "role": {
+      "en": "Main chest exercise for bodyweight setups and a high-rep finisher in other plans. The shoulder blades move freely, which is easier on the shoulders than a bench press.",
+      "id": "Latihan dada utama untuk peralatan berat badan dan penutup repetisi tinggi di rencana lain. Tulang belikat bergerak bebas, lebih ramah untuk bahu dibanding bench press."
+    },
+    "steps": {
+      "en": [
+        "Place your hands on the floor a little wider than your shoulders, legs straight behind you on your toes.",
+        "Tighten your stomach and glutes so your body forms one straight line.",
+        "Bend the elbows to lower your chest until it is a fist's height from the floor.",
+        "Push the floor away until your arms are straight."
+      ],
+      "id": [
+        "Letakkan tangan di lantai sedikit lebih lebar dari bahu, kaki lurus di belakang bertumpu di ujung jari kaki.",
+        "Kencangkan perut dan bokong agar badan membentuk satu garis lurus.",
+        "Tekuk siku untuk menurunkan dada sampai setinggi kepalan tangan dari lantai.",
+        "Dorong lantai sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Body moves as one plank.",
+        "Elbows about 45 degrees from the body.",
+        "Chest to a fist from the floor."
+      ],
+      "id": [
+        "Badan bergerak sebagai satu papan.",
+        "Siku sekitar 45 derajat dari badan.",
+        "Dada sampai sekepalan tangan dari lantai."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Hips sagging toward the floor.",
+        "Only lowering halfway.",
+        "Head dropping forward to reach the floor."
+      ],
+      "id": [
+        "Pinggul turun ke arah lantai.",
+        "Hanya turun setengah jalan.",
+        "Kepala menunduk untuk mencapai lantai."
+      ]
+    },
+    "alternatives": [
+      "incline-push-up",
+      "dumbbell-bench-press",
+      "decline-push-up"
+    ]
+  },
+  {
+    "id": "incline-push-up",
+    "name": {
+      "en": "Incline Push-Up",
+      "id": "Incline Push-Up"
+    },
+    "primary": [
+      "chest"
+    ],
+    "secondary": [
+      "front-delts",
+      "triceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "incline",
+      "prop": "counter"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "push-up",
+    "builds": {
+      "en": "With your hands on a table, bench or kitchen counter, you lift less of your body weight, so you can practise the full push-up motion with good form. Lowering the surface over time is a simple way to work up to floor push-ups.",
+      "id": "Dengan tangan di meja, bangku, atau meja dapur, berat badan yang diangkat lebih sedikit, jadi kamu bisa melatih gerakan push-up penuh dengan teknik yang benar. Menurunkan tinggi tumpuan dari waktu ke waktu adalah cara sederhana menuju push-up di lantai."
+    },
+    "role": {
+      "en": "Starting chest exercise for anyone who cannot yet do 8 clean push-ups. It trains the same muscles as the push-up at a lighter load.",
+      "id": "Latihan dada awal bagi yang belum bisa melakukan 8 push-up dengan rapi. Melatih otot yang sama dengan push-up dengan beban lebih ringan."
+    },
+    "steps": {
+      "en": [
+        "Place your hands on a sturdy table or counter edge, slightly wider than your shoulders.",
+        "Walk your feet back until your body is straight from head to heels.",
+        "Lower your chest to the edge by bending your elbows.",
+        "Push back until your arms are straight."
+      ],
+      "id": [
+        "Letakkan tangan di tepi meja atau meja dapur yang kokoh, sedikit lebih lebar dari bahu.",
+        "Mundurkan kaki sampai badan lurus dari kepala ke tumit.",
+        "Turunkan dada ke tepi meja dengan menekuk siku.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Straight line from head to heels.",
+        "Touch the edge with your chest.",
+        "Lower surface = harder."
+      ],
+      "id": [
+        "Garis lurus dari kepala ke tumit.",
+        "Sentuhkan dada ke tepi meja.",
+        "Tumpuan lebih rendah = lebih berat."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Using a chair or table that can slide.",
+        "Bending at the hips instead of keeping a plank.",
+        "Stopping short of the edge."
+      ],
+      "id": [
+        "Memakai kursi atau meja yang bisa bergeser.",
+        "Menekuk pinggul alih-alih menjaga posisi papan.",
+        "Berhenti sebelum mencapai tepi meja."
+      ]
+    },
+    "alternatives": [
+      "push-up",
+      "dumbbell-bench-press"
+    ]
+  },
+  {
+    "id": "decline-push-up",
+    "name": {
+      "en": "Decline Push-Up",
+      "id": "Decline Push-Up"
+    },
+    "primary": [
+      "upper-chest",
+      "front-delts"
+    ],
+    "secondary": [
+      "triceps",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "decline",
+      "prop": "bench"
+    },
+    "level": "intermediate",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": "push-up",
+    "harder": null,
+    "builds": {
+      "en": "Raising your feet on a chair or bench puts more body weight on your hands and angles the press toward the upper chest and front shoulders. It is the next step once regular push-ups reach 20 reps, and it builds the upper chest without any weights.",
+      "id": "Menaikkan kaki di kursi atau bangku menambah berat badan di tangan dan mengarahkan dorongan ke dada atas dan bahu depan. Ini langkah berikutnya setelah push-up biasa mencapai 20 repetisi, dan membangun dada atas tanpa beban apa pun."
+    },
+    "role": {
+      "en": "Harder push-up for bodyweight plans, used once the floor push-up becomes too easy for the rep range. It also stands in for the incline press at home.",
+      "id": "Push-up yang lebih berat untuk rencana berat badan, dipakai saat push-up lantai sudah terlalu mudah untuk rentang repetisinya. Juga menggantikan incline press di rumah."
+    },
+    "steps": {
+      "en": [
+        "Put your feet on a sturdy chair or bench and your hands on the floor, slightly wider than your shoulders.",
+        "Tighten your stomach so your body is straight from head to heels.",
+        "Lower your chest toward the floor by bending your elbows.",
+        "Push back up until your arms are straight."
+      ],
+      "id": [
+        "Letakkan kaki di kursi atau bangku kokoh dan tangan di lantai, sedikit lebih lebar dari bahu.",
+        "Kencangkan perut agar badan lurus dari kepala ke tumit.",
+        "Turunkan dada ke arah lantai dengan menekuk siku.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips in line, not piked up.",
+        "Hands under or slightly in front of the shoulders.",
+        "Control the way down."
+      ],
+      "id": [
+        "Pinggul segaris, tidak menungging.",
+        "Tangan di bawah atau sedikit di depan bahu.",
+        "Kendalikan saat turun."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Piking the hips up to make it easier.",
+        "Feet on something that slides.",
+        "Neck craning down toward the floor."
+      ],
+      "id": [
+        "Menunggingkan pinggul agar lebih mudah.",
+        "Kaki di atas benda yang bisa bergeser.",
+        "Leher menjulur ke arah lantai."
+      ]
+    },
+    "alternatives": [
+      "push-up",
+      "incline-dumbbell-press",
+      "pike-push-up"
+    ]
+  },
+  {
+    "id": "diamond-push-up",
+    "name": {
+      "en": "Close-Grip (Diamond) Push-Up",
+      "id": "Close-Grip (Diamond) Push-Up"
+    },
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "chest",
+      "front-delts"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "horizontal-push",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "plank"
+    },
+    "level": "intermediate",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "bodyweight-triceps-extension",
+    "harder": null,
+    "builds": {
+      "en": "Bringing the hands together under the chest bends the elbows more and shifts the push-up onto the triceps. It builds the back of the arms and lockout strength using only body weight.",
+      "id": "Merapatkan tangan di bawah dada membuat siku lebih tertekuk dan memindahkan push-up ke trisep. Membangun bagian belakang lengan dan kekuatan meluruskan siku hanya dengan berat badan."
+    },
+    "role": {
+      "en": "Main triceps exercise in bodyweight plans and a high-rep triceps finisher elsewhere.",
+      "id": "Latihan trisep utama di rencana berat badan dan penutup trisep repetisi tinggi di rencana lain."
+    },
+    "steps": {
+      "en": [
+        "Get into a push-up position with your hands close together under your chest, thumbs and index fingers almost touching.",
+        "Tighten your stomach and keep the body straight.",
+        "Lower your chest toward your hands, keeping elbows close to your sides.",
+        "Push up until your arms are straight."
+      ],
+      "id": [
+        "Ambil posisi push-up dengan tangan rapat di bawah dada, ibu jari dan telunjuk hampir bersentuhan.",
+        "Kencangkan perut dan jaga badan lurus.",
+        "Turunkan dada ke arah tangan dengan siku dekat sisi badan.",
+        "Dorong ke atas sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows brush your ribs.",
+        "Body stays straight.",
+        "Full lockout at the top."
+      ],
+      "id": [
+        "Siku menyentuh rusuk.",
+        "Badan tetap lurus.",
+        "Lurus penuh di atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Elbows flaring out to the sides.",
+        "Hips sagging.",
+        "Wrists hurting from hands placed too far forward."
+      ],
+      "id": [
+        "Siku terbuka ke samping.",
+        "Pinggul turun.",
+        "Pergelangan sakit karena tangan terlalu jauh di depan."
+      ]
+    },
+    "alternatives": [
+      "bench-dip",
+      "bodyweight-triceps-extension",
+      "triceps-pushdown"
+    ]
+  },
+  {
+    "id": "pike-push-up",
+    "name": {
+      "en": "Pike Push-Up",
+      "id": "Pike Push-Up"
+    },
+    "primary": [
+      "front-delts",
+      "side-delts"
+    ],
+    "secondary": [
+      "triceps",
+      "upper-chest"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "vertical-push",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "plank"
+    },
+    "level": "intermediate",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": "push-up",
+    "harder": null,
+    "builds": {
+      "en": "With your hips high in an upside-down V, pressing your head toward the floor turns the push-up into an overhead press for the shoulders. Without weights this is the main way to load the shoulders as the prime movers.",
+      "id": "Dengan pinggul tinggi membentuk huruf V terbalik, mendorong kepala ke arah lantai mengubah push-up menjadi overhead press untuk bahu. Tanpa beban, ini cara utama membebani bahu sebagai penggerak utama."
+    },
+    "role": {
+      "en": "Vertical press for bodyweight plans. It covers the shoulder pressing that ordinary push-ups leave to the chest.",
+      "id": "Dorongan vertikal untuk rencana berat badan. Melatih dorongan bahu yang pada push-up biasa diambil alih oleh dada."
+    },
+    "steps": {
+      "en": [
+        "Start in a push-up position, then walk your feet in and lift your hips until your body forms an upside-down V.",
+        "Place your hands shoulder width apart, head between your arms.",
+        "Bend your elbows to lower the top of your head toward the floor in front of your hands.",
+        "Press back up until your arms are straight."
+      ],
+      "id": [
+        "Mulai dari posisi push-up, lalu majukan kaki dan angkat pinggul sampai badan membentuk huruf V terbalik.",
+        "Letakkan tangan selebar bahu, kepala di antara lengan.",
+        "Tekuk siku untuk menurunkan puncak kepala ke lantai di depan tangan.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay high.",
+        "Head goes forward of the hands, making a triangle.",
+        "Elbows point back, not out."
+      ],
+      "id": [
+        "Pinggul tetap tinggi.",
+        "Kepala turun di depan tangan, membentuk segitiga.",
+        "Siku mengarah ke belakang, bukan ke samping."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Hips dropping so it turns into a normal push-up.",
+        "Lowering the face straight between the hands.",
+        "Rushing the descent."
+      ],
+      "id": [
+        "Pinggul turun sehingga jadi push-up biasa.",
+        "Menurunkan wajah lurus di antara tangan.",
+        "Turun terlalu cepat."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-shoulder-press",
+      "overhead-press",
+      "band-lateral-raise"
+    ]
+  },
+  {
+    "id": "bench-dip",
+    "name": {
+      "en": "Bench Dip",
+      "id": "Bench Dip"
+    },
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "front-delts",
+      "chest"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "dip",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "supported",
+      "prop": "bench"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "parallel-bar-dip",
+    "builds": {
+      "en": "With your hands on the edge of a bench or sturdy chair and your feet on the floor, you lower and press part of your body weight with the triceps. Bending the knees makes it lighter and straightening the legs makes it heavier, so the load is easy to adjust at home.",
+      "id": "Dengan tangan di tepi bangku atau kursi kokoh dan kaki di lantai, kamu menurunkan dan mendorong sebagian berat badan dengan trisep. Menekuk lutut membuatnya lebih ringan dan meluruskan kaki membuatnya lebih berat, jadi beban mudah diatur di rumah."
+    },
+    "role": {
+      "en": "Triceps exercise for bodyweight and dumbbell plans, and a lighter step toward parallel bar dips.",
+      "id": "Latihan trisep untuk rencana berat badan dan dumbel, serta langkah lebih ringan menuju dip di palang sejajar."
+    },
+    "steps": {
+      "en": [
+        "Sit on the edge of a bench or sturdy chair with your hands next to your hips, fingers forward.",
+        "Slide your hips off the edge with your feet on the floor, knees bent.",
+        "Bend the elbows to lower your hips until your upper arms are about parallel to the floor.",
+        "Press back up until your arms are straight."
+      ],
+      "id": [
+        "Duduk di tepi bangku atau kursi kokoh dengan tangan di samping pinggul, jari menghadap depan.",
+        "Geser pinggul keluar dari tepi dengan kaki di lantai, lutut ditekuk.",
+        "Tekuk siku untuk menurunkan pinggul sampai lengan atas kira-kira sejajar lantai.",
+        "Dorong kembali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips close to the bench.",
+        "Elbows point straight back.",
+        "Stop at parallel."
+      ],
+      "id": [
+        "Pinggul dekat dengan bangku.",
+        "Siku mengarah lurus ke belakang.",
+        "Berhenti di posisi sejajar."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Sinking too deep and straining the front of the shoulder.",
+        "Pushing with the legs.",
+        "Using a chair that can tip or slide."
+      ],
+      "id": [
+        "Turun terlalu dalam sehingga bahu depan tertarik.",
+        "Mendorong dengan kaki.",
+        "Memakai kursi yang bisa terguling atau bergeser."
+      ]
+    },
+    "alternatives": [
+      "diamond-push-up",
+      "bodyweight-triceps-extension",
+      "parallel-bar-dip"
+    ]
+  },
+  {
+    "id": "bodyweight-squat",
+    "name": {
+      "en": "Bodyweight Squat",
+      "id": "Bodyweight Squat"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "squat",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "reverse-lunge",
+    "builds": {
+      "en": "Sitting down between your heels and standing up again with no weight teaches the squat pattern and builds basic leg endurance. It is where beginners learn to keep the heels down and the knees in line before any load is added.",
+      "id": "Duduk di antara tumit lalu berdiri lagi tanpa beban mengajarkan pola squat dan membangun daya tahan dasar kaki. Di sinilah pemula belajar menjaga tumit menempel dan lutut segaris sebelum beban ditambahkan."
+    },
+    "role": {
+      "en": "First leg exercise for beginners at home and part of the warm-up before loaded squats. It moves on to lunges once 20 clean reps are easy.",
+      "id": "Latihan kaki pertama untuk pemula di rumah dan bagian pemanasan sebelum squat berbeban. Berlanjut ke lunge setelah 20 repetisi rapi terasa mudah."
+    },
+    "steps": {
+      "en": [
+        "Stand with feet shoulder width, toes slightly out, arms in front for balance.",
+        "Bend knees and hips to sit down between your heels.",
+        "Go as low as you can with heels down and back flat, ideally thighs below parallel.",
+        "Stand up by pushing through the whole foot."
+      ],
+      "id": [
+        "Berdiri dengan kaki selebar bahu, ujung kaki sedikit keluar, lengan ke depan untuk keseimbangan.",
+        "Tekuk lutut dan pinggul untuk duduk di antara tumit.",
+        "Turun serendah mungkin dengan tumit menempel dan punggung rata, idealnya paha di bawah sejajar.",
+        "Berdiri dengan mendorong lewat seluruh telapak kaki."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Knees follow the toes.",
+        "Heels heavy.",
+        "Chest proud."
+      ],
+      "id": [
+        "Lutut mengikuti ujung kaki.",
+        "Tumit berat menempel.",
+        "Dada tegak."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Heels lifting at the bottom.",
+        "Knees caving inward.",
+        "Rushing reps without reaching depth."
+      ],
+      "id": [
+        "Tumit terangkat di bawah.",
+        "Lutut masuk ke dalam.",
+        "Repetisi terburu-buru tanpa mencapai kedalaman."
+      ]
+    },
+    "alternatives": [
+      "goblet-squat",
+      "reverse-lunge"
+    ]
+  },
+  {
+    "id": "reverse-lunge",
+    "name": {
+      "en": "Reverse Lunge",
+      "id": "Reverse Lunge"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors",
+      "hamstrings"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "lunge",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "split-stance",
+      "prop": "floor"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": true,
+    "easier": "bodyweight-squat",
+    "harder": "bodyweight-bulgarian-split-squat",
+    "builds": {
+      "en": "Stepping backward into a lunge loads one leg at a time while the front shin stays fairly upright, which is gentler on the knee than a forward lunge. It builds single-leg strength and balance for stairs, hiking and getting up from kneeling.",
+      "id": "Melangkah mundur ke posisi lunge membebani satu kaki per satu waktu sementara tulang kering depan relatif tegak, lebih ramah untuk lutut dibanding lunge maju. Membangun kekuatan dan keseimbangan satu kaki untuk naik tangga, mendaki, dan bangkit dari posisi berlutut."
+    },
+    "role": {
+      "en": "Main single-leg exercise for bodyweight plans and the step after bodyweight squats. It can be loaded with dumbbells held at the sides once body weight is too easy.",
+      "id": "Latihan satu kaki utama untuk rencana berat badan dan langkah setelah bodyweight squat. Bisa ditambah dumbel di samping badan saat berat badan sudah terlalu ringan."
+    },
+    "steps": {
+      "en": [
+        "Stand tall with feet hip width.",
+        "Step one foot back about two feet lengths and lower your back knee toward the floor.",
+        "Stop just before the back knee touches, with the front thigh about parallel to the floor.",
+        "Push through the front heel to return to standing. Alternate legs or finish one side first."
+      ],
+      "id": [
+        "Berdiri tegak dengan kaki selebar pinggul.",
+        "Langkahkan satu kaki ke belakang sekitar dua panjang telapak dan turunkan lutut belakang ke arah lantai.",
+        "Berhenti tepat sebelum lutut belakang menyentuh lantai, dengan paha depan kira-kira sejajar lantai.",
+        "Dorong lewat tumit depan untuk kembali berdiri. Bergantian kaki atau selesaikan satu sisi dulu."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Weight on the front heel.",
+        "Torso tall.",
+        "Back knee straight down."
+      ],
+      "id": [
+        "Berat badan di tumit depan.",
+        "Badan tegak.",
+        "Lutut belakang turun lurus ke bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Stepping back too short so the front knee shoots forward.",
+        "Pushing off the back foot to stand.",
+        "Feet on one line like a tightrope, losing balance."
+      ],
+      "id": [
+        "Langkah mundur terlalu pendek sehingga lutut depan maju jauh.",
+        "Mendorong dengan kaki belakang untuk berdiri.",
+        "Kaki di satu garis seperti meniti tali sehingga kehilangan keseimbangan."
+      ]
+    },
+    "alternatives": [
+      "bodyweight-squat",
+      "dumbbell-bulgarian-split-squat",
+      "bodyweight-bulgarian-split-squat"
+    ]
+  },
+  {
+    "id": "bodyweight-bulgarian-split-squat",
+    "name": {
+      "en": "Bodyweight Bulgarian Split Squat",
+      "id": "Bodyweight Bulgarian Split Squat"
+    },
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "adductors"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "lunge",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "split-stance",
+      "prop": "chair"
+    },
+    "level": "intermediate",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": true,
+    "easier": "reverse-lunge",
+    "harder": "dumbbell-bulgarian-split-squat",
+    "builds": {
+      "en": "Resting the back foot on a chair or sofa puts most of your body weight on the front leg, making this one of the hardest leg exercises possible without weights. It builds thigh and glute strength one side at a time and shows clearly if one leg lags.",
+      "id": "Meletakkan kaki belakang di kursi atau sofa membuat sebagian besar berat badan bertumpu di kaki depan, menjadikannya salah satu latihan kaki terberat tanpa beban. Membangun kekuatan paha dan bokong satu sisi per satu waktu dan memperlihatkan jelas jika satu kaki tertinggal."
+    },
+    "role": {
+      "en": "Hardest leg exercise in bodyweight plans, used once reverse lunges reach the top of the rep range.",
+      "id": "Latihan kaki terberat di rencana berat badan, dipakai setelah reverse lunge mencapai batas atas rentang repetisi."
+    },
+    "steps": {
+      "en": [
+        "Stand about two steps in front of a chair and rest the top of one foot on the seat behind you.",
+        "Lower straight down by bending the front knee until the back knee nearly touches the floor.",
+        "Keep your weight over the front heel.",
+        "Stand back up through the front foot. Finish all reps, then switch legs."
+      ],
+      "id": [
+        "Berdiri sekitar dua langkah di depan kursi dan letakkan punggung kaki di dudukan kursi di belakangmu.",
+        "Turun lurus dengan menekuk lutut depan sampai lutut belakang hampir menyentuh lantai.",
+        "Jaga berat badan di atas tumit depan.",
+        "Berdiri lagi lewat kaki depan. Selesaikan semua repetisi, lalu ganti kaki."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Front heel stays planted.",
+        "Drop the back knee straight down.",
+        "Hold onto a wall for balance if needed."
+      ],
+      "id": [
+        "Tumit depan tetap menempel.",
+        "Turunkan lutut belakang lurus ke bawah.",
+        "Pegang dinding untuk keseimbangan jika perlu."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Chair that slides or tips.",
+        "Front foot too close so the heel lifts.",
+        "Bouncing off the back knee."
+      ],
+      "id": [
+        "Kursi yang bergeser atau terguling.",
+        "Kaki depan terlalu dekat sehingga tumit terangkat.",
+        "Memantul dari lutut belakang."
+      ]
+    },
+    "alternatives": [
+      "reverse-lunge",
+      "dumbbell-bulgarian-split-squat"
+    ]
+  },
+  {
+    "id": "single-leg-rdl",
+    "name": {
+      "en": "Single-Leg Romanian Deadlift",
+      "id": "Single-Leg Romanian Deadlift"
+    },
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [
+      "spinal-erectors",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "hinge",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "single-leg"
+    },
+    "level": "beginner",
+    "stress": [
+      "lower-back"
+    ],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "dumbbell-romanian-deadlift",
+    "builds": {
+      "en": "Tipping forward on one leg while the other leg reaches back stretches the standing hamstring and makes the glute work to keep the hip level. It builds hamstring strength and ankle and hip balance with no equipment at all.",
+      "id": "Mencondongkan badan ke depan di satu kaki sementara kaki lain terulur ke belakang meregangkan paha belakang kaki tumpuan dan membuat bokong bekerja menjaga pinggul tetap rata. Membangun kekuatan paha belakang serta keseimbangan pergelangan kaki dan pinggul tanpa alat apa pun."
+    },
+    "role": {
+      "en": "Hinge for bodyweight plans. It is the only home exercise that trains the hamstrings at the hip under a real stretch.",
+      "id": "Gerakan hinge untuk rencana berat badan. Satu-satunya latihan di rumah yang melatih paha belakang lewat sendi pinggul dengan regangan nyata."
+    },
+    "steps": {
+      "en": [
+        "Stand on one leg with a slight bend in the knee, arms hanging in front.",
+        "Hinge at the hip, tipping your torso forward while the free leg reaches straight back.",
+        "Lower until your torso and back leg are close to parallel with the floor, or until the hamstring is fully stretched.",
+        "Drive the standing hip forward to return to upright. Finish one side, then switch."
+      ],
+      "id": [
+        "Berdiri di satu kaki dengan lutut sedikit ditekuk, lengan menggantung di depan.",
+        "Bungkukkan dari pinggul, condongkan badan ke depan sementara kaki bebas terulur lurus ke belakang.",
+        "Turun sampai badan dan kaki belakang hampir sejajar lantai, atau sampai paha belakang teregang penuh.",
+        "Dorong pinggul kaki tumpuan ke depan untuk kembali tegak. Selesaikan satu sisi, lalu ganti."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay square to the floor.",
+        "Back leg and torso move as one.",
+        "Hold a wall lightly if you wobble."
+      ],
+      "id": [
+        "Pinggul tetap menghadap lantai.",
+        "Kaki belakang dan badan bergerak sebagai satu.",
+        "Pegang dinding ringan jika goyah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Opening the hip so the back leg turns out.",
+        "Rounding the back to reach lower.",
+        "Bending the standing knee into a squat."
+      ],
+      "id": [
+        "Pinggul terbuka sehingga kaki belakang berputar keluar.",
+        "Membulatkan punggung agar lebih rendah.",
+        "Menekuk lutut kaki tumpuan sampai jadi squat."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-romanian-deadlift",
+      "sliding-leg-curl",
+      "glute-bridge"
+    ]
+  },
+  {
+    "id": "glute-bridge",
+    "name": {
+      "en": "Glute Bridge",
+      "id": "Glute Bridge"
+    },
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "hip-thrust",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "lying"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "single-leg-glute-bridge",
+    "builds": {
+      "en": "Lying on your back and lifting your hips trains the glutes in their fully shortened position with no load on the knees or spine. It teaches you to feel the glutes working, which carries over to squats and deadlifts.",
+      "id": "Berbaring telentang dan mengangkat pinggul melatih bokong dalam posisi paling memendek tanpa beban di lutut atau tulang belakang. Mengajarkanmu merasakan bokong bekerja, yang terbawa ke squat dan deadlift."
+    },
+    "role": {
+      "en": "Glute exercise for beginners at home and a warm-up before heavy lower-body work. It progresses to the single-leg version.",
+      "id": "Latihan bokong untuk pemula di rumah dan pemanasan sebelum latihan kaki berat. Berlanjut ke versi satu kaki."
+    },
+    "steps": {
+      "en": [
+        "Lie on your back with knees bent and feet flat, hip width apart, heels close to your glutes.",
+        "Press your lower back gently into the floor.",
+        "Push through your heels to lift your hips until your body is straight from knees to shoulders.",
+        "Squeeze your glutes for two seconds, then lower slowly."
+      ],
+      "id": [
+        "Berbaring telentang dengan lutut ditekuk dan telapak kaki rata selebar pinggul, tumit dekat bokong.",
+        "Tekan punggung bawah perlahan ke lantai.",
+        "Dorong lewat tumit untuk mengangkat pinggul sampai badan lurus dari lutut ke bahu.",
+        "Kencangkan bokong dua detik, lalu turunkan perlahan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Push through the heels.",
+        "Ribs down, no arching.",
+        "Two-second squeeze at the top."
+      ],
+      "id": [
+        "Dorong lewat tumit.",
+        "Rusuk ke bawah, tanpa melengkung.",
+        "Tahan dua detik di atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Arching the lower back to lift higher.",
+        "Feet too far away so the hamstrings cramp.",
+        "Dropping the hips quickly."
+      ],
+      "id": [
+        "Melengkungkan punggung bawah agar lebih tinggi.",
+        "Kaki terlalu jauh sehingga paha belakang kram.",
+        "Menjatuhkan pinggul dengan cepat."
+      ]
+    },
+    "alternatives": [
+      "barbell-hip-thrust",
+      "single-leg-glute-bridge"
+    ]
+  },
+  {
+    "id": "single-leg-glute-bridge",
+    "name": {
+      "en": "Single-Leg Glute Bridge",
+      "id": "Single-Leg Glute Bridge"
+    },
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "hamstrings",
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "hip-thrust",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "single-leg"
+    },
+    "level": "intermediate",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "glute-bridge",
+    "harder": null,
+    "builds": {
+      "en": "Lifting your hips on one leg doubles the load on each glute and makes it fight to keep the pelvis level. It builds glute strength and side-to-side hip control, which helps when running or climbing stairs two at a time.",
+      "id": "Mengangkat pinggul dengan satu kaki menggandakan beban tiap sisi bokong dan memaksanya menjaga panggul tetap rata. Membangun kekuatan bokong dan kendali pinggul kiri-kanan, membantu saat berlari atau naik tangga dua anak sekaligus."
+    },
+    "role": {
+      "en": "Glute exercise for bodyweight plans once the two-leg bridge reaches 20 reps.",
+      "id": "Latihan bokong untuk rencana berat badan setelah bridge dua kaki mencapai 20 repetisi."
+    },
+    "steps": {
+      "en": [
+        "Lie on your back with one foot flat near your glutes and the other leg straight in the air.",
+        "Push through the planted heel to lift your hips until they are level and straight.",
+        "Hold for a second without letting the free side drop.",
+        "Lower slowly. Finish all reps, then switch legs."
+      ],
+      "id": [
+        "Berbaring telentang dengan satu telapak kaki rata dekat bokong dan kaki lain lurus ke atas.",
+        "Dorong lewat tumit yang menapak untuk mengangkat pinggul sampai rata dan lurus.",
+        "Tahan satu detik tanpa membiarkan sisi bebas turun.",
+        "Turunkan perlahan. Selesaikan semua repetisi, lalu ganti kaki."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay level.",
+        "Drive through the heel.",
+        "Pause at the top."
+      ],
+      "id": [
+        "Pinggul tetap rata.",
+        "Dorong lewat tumit.",
+        "Tahan sebentar di atas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "One hip dropping lower than the other.",
+        "Pushing off the raised leg's momentum.",
+        "Arching the lower back."
+      ],
+      "id": [
+        "Satu sisi pinggul lebih rendah dari yang lain.",
+        "Memakai ayunan kaki yang terangkat.",
+        "Melengkungkan punggung bawah."
+      ]
+    },
+    "alternatives": [
+      "glute-bridge",
+      "barbell-hip-thrust"
+    ]
+  },
+  {
+    "id": "sliding-leg-curl",
+    "name": {
+      "en": "Sliding Leg Curl",
+      "id": "Sliding Leg Curl"
+    },
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [
+      "glutes",
+      "calves"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "knee-flexion",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "lying",
+      "prop": "towel"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "glute-bridge",
+    "harder": null,
+    "builds": {
+      "en": "With your heels on a towel on a smooth floor and hips lifted, you pull the heels toward you, which works the hamstrings at the knee like a leg-curl machine. It is the strongest home exercise for the back of the thigh and often causes soreness the first few times.",
+      "id": "Dengan tumit di atas handuk di lantai licin dan pinggul terangkat, kamu menarik tumit ke arah badan, melatih paha belakang lewat lutut seperti mesin leg curl. Ini latihan paha belakang terkuat di rumah dan sering menimbulkan pegal di beberapa kali pertama."
+    },
+    "role": {
+      "en": "Leg-curl replacement for bodyweight and dumbbell plans. It covers the knee-bending job of the hamstrings that hinges miss.",
+      "id": "Pengganti leg curl untuk rencana berat badan dan dumbel. Melatih tugas paha belakang menekuk lutut yang terlewat oleh gerakan hinge."
+    },
+    "steps": {
+      "en": [
+        "Lie on your back on a smooth floor with your heels on a towel and legs straight.",
+        "Lift your hips off the floor into a bridge. If that is too hard at first, keep your hips on the floor and only slide the heels.",
+        "Pull your heels toward your glutes while keeping your hips up.",
+        "Slide your heels back out slowly until your legs are almost straight, hips still lifted."
+      ],
+      "id": [
+        "Berbaring telentang di lantai licin dengan tumit di atas handuk dan kaki lurus.",
+        "Angkat pinggul dari lantai ke posisi bridge. Jika masih terlalu berat, biarkan pinggul di lantai dan hanya luncurkan tumit.",
+        "Tarik tumit ke arah bokong sambil menjaga pinggul tetap terangkat.",
+        "Luncurkan tumit kembali perlahan sampai kaki hampir lurus, pinggul tetap terangkat."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay up the whole set.",
+        "Slow on the way out.",
+        "Push the heels into the towel."
+      ],
+      "id": [
+        "Pinggul tetap terangkat sepanjang set.",
+        "Pelan saat meluncur keluar.",
+        "Tekan tumit ke handuk."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Dropping the hips as the legs straighten.",
+        "Doing it on carpet where the towel sticks.",
+        "Sliding out too fast and losing control."
+      ],
+      "id": [
+        "Pinggul turun saat kaki lurus.",
+        "Melakukannya di karpet sehingga handuk tersangkut.",
+        "Meluncur keluar terlalu cepat dan kehilangan kendali."
+      ]
+    },
+    "alternatives": [
+      "lying-leg-curl",
+      "single-leg-rdl"
+    ]
+  },
+  {
+    "id": "single-leg-calf-raise",
+    "name": {
+      "en": "Single-Leg Calf Raise",
+      "id": "Single-Leg Calf Raise"
+    },
+    "primary": [
+      "calves"
+    ],
+    "secondary": [],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "calf-raise",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "single-leg",
+      "prop": "step"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "standing-calf-raise",
+    "builds": {
+      "en": "Standing on one foot on a stair edge puts your full body weight on one calf and lets the heel drop below the step for a deep stretch. It strengthens the push-off you use in walking and running, and helps steady the ankle.",
+      "id": "Berdiri dengan satu kaki di tepi anak tangga membebani satu betis dengan seluruh berat badan dan membiarkan tumit turun di bawah anak tangga untuk regangan dalam. Menguatkan tolakan saat berjalan dan berlari, serta membantu menstabilkan pergelangan kaki."
+    },
+    "role": {
+      "en": "Calf exercise for every setup without a calf machine. One leg at a time gives enough load to train the calves without weights.",
+      "id": "Latihan betis untuk semua peralatan tanpa mesin betis. Satu kaki per satu waktu memberi beban cukup untuk melatih betis tanpa alat."
+    },
+    "steps": {
+      "en": [
+        "Stand on one foot with the ball of the foot on a stair edge, holding a wall or rail lightly.",
+        "Lower your heel as far below the step as you can and pause for one second.",
+        "Rise as high as possible onto your toes and hold for one second.",
+        "Finish all reps, then switch feet."
+      ],
+      "id": [
+        "Berdiri di satu kaki dengan bagian depan telapak di tepi anak tangga, pegang dinding atau pegangan dengan ringan.",
+        "Turunkan tumit serendah mungkin di bawah anak tangga dan tahan satu detik.",
+        "Naik setinggi mungkin ke ujung kaki dan tahan satu detik.",
+        "Selesaikan semua repetisi, lalu ganti kaki."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Full stretch at the bottom.",
+        "Pause at the top.",
+        "Hand on the wall only for balance."
+      ],
+      "id": [
+        "Regangan penuh di bawah.",
+        "Tahan sebentar di atas.",
+        "Tangan di dinding hanya untuk keseimbangan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bouncing quickly through short reps.",
+        "Pulling yourself up with the hand.",
+        "Rolling onto the outside of the foot."
+      ],
+      "id": [
+        "Memantul cepat dengan repetisi pendek.",
+        "Menarik badan ke atas dengan tangan.",
+        "Bertumpu di sisi luar telapak kaki."
+      ]
+    },
+    "alternatives": [
+      "standing-calf-raise"
+    ]
+  },
+  {
+    "id": "doorway-row",
+    "name": {
+      "en": "Doorway Row",
+      "id": "Doorway Row"
+    },
+    "primary": [
+      "upper-back",
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "rear-delts",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "horizontal-pull",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "leaning",
+      "prop": "door-frame"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Gripping both sides of a door frame and leaning back, you pull your chest toward the frame, which trains the upper back and lats with no equipment. Walking your feet closer to the frame makes each rep heavier, so it keeps working as you get stronger.",
+      "id": "Menggenggam kedua sisi kusen pintu dan bersandar ke belakang, kamu menarik dada ke arah kusen, melatih punggung atas dan lats tanpa alat. Memajukan kaki lebih dekat ke kusen membuat tiap repetisi lebih berat, jadi tetap efektif saat kamu makin kuat."
+    },
+    "role": {
+      "en": "Main back exercise for bodyweight plans without a pull-up bar. It balances the push-ups by pulling in the opposite direction.",
+      "id": "Latihan punggung utama untuk rencana berat badan tanpa pull-up bar. Menyeimbangkan push-up dengan menarik ke arah sebaliknya."
+    },
+    "steps": {
+      "en": [
+        "Stand in an open doorway and grip both sides of the frame at chest height.",
+        "Walk your feet forward toward the threshold and lean back until your arms are straight and your body is in a straight line.",
+        "Pull your chest toward the frame by squeezing your shoulder blades together and bending your elbows.",
+        "Lower yourself back under control until your arms are straight."
+      ],
+      "id": [
+        "Berdiri di ambang pintu yang terbuka dan genggam kedua sisi kusen setinggi dada.",
+        "Majukan kaki ke arah ambang dan bersandar ke belakang sampai lengan lurus dan badan membentuk garis lurus.",
+        "Tarik dada ke arah kusen dengan merapatkan tulang belikat dan menekuk siku.",
+        "Turunkan badan kembali secara terkendali sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Body straight like a plank.",
+        "Squeeze the shoulder blades first.",
+        "Feet closer to the frame = harder."
+      ],
+      "id": [
+        "Badan lurus seperti papan.",
+        "Rapatkan tulang belikat lebih dulu.",
+        "Kaki lebih dekat ke kusen = lebih berat."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Bending at the hips instead of staying straight.",
+        "Gripping a frame that is not solid.",
+        "Pulling only with the arms and shrugging."
+      ],
+      "id": [
+        "Menekuk pinggul alih-alih tetap lurus.",
+        "Menggenggam kusen yang tidak kokoh.",
+        "Hanya menarik dengan lengan sambil mengangkat bahu."
+      ]
+    },
+    "alternatives": [
+      "one-arm-dumbbell-row",
+      "band-row",
+      "seated-cable-row"
+    ]
+  },
+  {
+    "id": "doorframe-curl",
+    "name": {
+      "en": "Doorframe Biceps Curl",
+      "id": "Doorframe Biceps Curl"
+    },
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "curl",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "leaning",
+      "grip": "underhand",
+      "prop": "door-frame"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Holding a door frame with one hand, palm up, and leaning back, you bend the elbow to pull your body in, which loads the biceps with part of your body weight. Moving your feet closer to the frame adds load, so the biceps can be trained at home without dumbbells.",
+      "id": "Memegang kusen pintu dengan satu tangan, telapak menghadap atas, dan bersandar ke belakang, kamu menekuk siku untuk menarik badan masuk, membebani bisep dengan sebagian berat badan. Memajukan kaki ke kusen menambah beban, jadi bisep bisa dilatih di rumah tanpa dumbel."
+    },
+    "role": {
+      "en": "Biceps exercise for bodyweight plans without bands or a pull-up bar.",
+      "id": "Latihan bisep untuk rencana berat badan tanpa band atau pull-up bar."
+    },
+    "steps": {
+      "en": [
+        "Stand side-on in a doorway and grip the frame at waist height with one hand, palm facing up.",
+        "Step your feet toward the frame and lean back until your arm is straight.",
+        "Bend your elbow to pull your body toward the frame, keeping the elbow pointing forward.",
+        "Straighten the arm slowly. Finish the set, then switch arms."
+      ],
+      "id": [
+        "Berdiri menyamping di ambang pintu dan genggam kusen setinggi pinggang dengan satu tangan, telapak menghadap atas.",
+        "Majukan kaki ke arah kusen dan bersandar ke belakang sampai lengan lurus.",
+        "Tekuk siku untuk menarik badan ke arah kusen, siku tetap mengarah ke depan.",
+        "Luruskan lengan perlahan. Selesaikan set, lalu ganti lengan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Only the elbow bends.",
+        "Body stays straight.",
+        "Slow return."
+      ],
+      "id": [
+        "Hanya siku yang menekuk.",
+        "Badan tetap lurus.",
+        "Kembali pelan."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Twisting the body to pull with the back.",
+        "Leaning back so little the load is trivial.",
+        "Gripping a frame with a sharp edge or loose trim."
+      ],
+      "id": [
+        "Memutar badan untuk menarik dengan punggung.",
+        "Bersandar terlalu sedikit sehingga bebannya tidak berarti.",
+        "Menggenggam kusen bersudut tajam atau listnya longgar."
+      ]
+    },
+    "alternatives": [
+      "band-curl",
+      "dumbbell-curl",
+      "chin-up"
+    ]
+  },
+  {
+    "id": "bodyweight-triceps-extension",
+    "name": {
+      "en": "Bodyweight Triceps Extension",
+      "id": "Bodyweight Triceps Extension"
+    },
+    "primary": [
+      "triceps"
+    ],
+    "secondary": [
+      "core"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "triceps-extension",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "leaning",
+      "prop": "counter"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "diamond-push-up",
+    "builds": {
+      "en": "With your hands on a counter edge and your body leaning in, you bend only the elbows to lower your forehead below your hands, then straighten them. It isolates the triceps like a skull crusher without weights, and stepping your feet back makes it harder.",
+      "id": "Dengan tangan di tepi meja dapur dan badan condong, kamu hanya menekuk siku untuk menurunkan dahi ke bawah tangan, lalu meluruskannya. Mengisolasi trisep seperti skull crusher tanpa beban, dan memundurkan kaki membuatnya lebih berat."
+    },
+    "role": {
+      "en": "Triceps isolation for bodyweight plans and a lighter step before diamond push-ups.",
+      "id": "Isolasi trisep untuk rencana berat badan dan langkah lebih ringan sebelum diamond push-up."
+    },
+    "steps": {
+      "en": [
+        "Place your hands shoulder width on a sturdy counter or table edge.",
+        "Walk your feet back so your body leans in a straight line.",
+        "Bend only your elbows to lower your forehead toward and just below the edge.",
+        "Straighten your elbows to push back to the start."
+      ],
+      "id": [
+        "Letakkan tangan selebar bahu di tepi meja dapur atau meja yang kokoh.",
+        "Mundurkan kaki sehingga badan condong dalam satu garis lurus.",
+        "Tekuk siku saja untuk menurunkan dahi ke arah dan sedikit di bawah tepi meja.",
+        "Luruskan siku untuk mendorong kembali ke posisi awal."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows point down, not out.",
+        "Body stays straight.",
+        "Feet further back = harder."
+      ],
+      "id": [
+        "Siku mengarah ke bawah, bukan ke samping.",
+        "Badan tetap lurus.",
+        "Kaki lebih ke belakang = lebih berat."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Turning it into a push-up by moving the shoulders.",
+        "Hips sagging.",
+        "Using a table that can tip."
+      ],
+      "id": [
+        "Mengubahnya jadi push-up dengan menggerakkan bahu.",
+        "Pinggul turun.",
+        "Memakai meja yang bisa terguling."
+      ]
+    },
+    "alternatives": [
+      "diamond-push-up",
+      "bench-dip",
+      "overhead-dumbbell-triceps-extension"
+    ]
+  },
+  {
+    "id": "wall-sit",
+    "name": {
+      "en": "Wall Sit",
+      "id": "Wall Sit"
+    },
+    "primary": [
+      "quads"
+    ],
+    "secondary": [
+      "glutes",
+      "adductors"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "squat",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "supported",
+      "tempo": "isometric",
+      "prop": "wall"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "bodyweight-squat",
+    "builds": {
+      "en": "Holding a seated position with your back against a wall keeps the quads working without the knee moving, and you choose a depth that feels comfortable. Static holds like this are often tolerated by sore knees, so the front of the thigh keeps getting trained when squats and lunges are off the table.",
+      "id": "Menahan posisi duduk dengan punggung menempel dinding membuat paha depan terus bekerja tanpa lutut bergerak, dan kamu memilih kedalaman yang terasa nyaman. Tahanan statis seperti ini sering bisa ditoleransi lutut yang sedang sakit, jadi paha depan tetap terlatih saat squat dan lunge tidak bisa dilakukan."
+    },
+    "role": {
+      "en": "Quad exercise for plans with the knee filter on, where every moving squat and lunge is removed. Progress by holding longer or sitting a little lower.",
+      "id": "Latihan paha depan untuk rencana dengan filter lutut aktif, saat semua squat dan lunge yang bergerak dihilangkan. Naikkan tingkat kesulitan dengan menahan lebih lama atau duduk sedikit lebih rendah."
+    },
+    "steps": {
+      "en": [
+        "Stand with your back flat against a wall and your feet about two foot lengths in front of it, hip width apart.",
+        "Slide down the wall until your knees are bent to a depth that feels comfortable, at most thighs parallel to the floor.",
+        "Keep your knees over your ankles and your weight in your heels.",
+        "Hold for the target time, breathing steadily, then slide back up."
+      ],
+      "id": [
+        "Berdiri dengan punggung rata menempel dinding dan kaki sekitar dua panjang telapak di depannya, selebar pinggul.",
+        "Geser badan turun di dinding sampai lutut tertekuk di kedalaman yang nyaman, paling dalam paha sejajar lantai.",
+        "Jaga lutut di atas pergelangan kaki dan berat badan di tumit.",
+        "Tahan selama waktu target sambil bernapas teratur, lalu geser kembali naik."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Knees above the ankles.",
+        "Pick a pain-free depth.",
+        "Keep breathing."
+      ],
+      "id": [
+        "Lutut di atas pergelangan kaki.",
+        "Pilih kedalaman tanpa nyeri.",
+        "Tetap bernapas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Feet too close to the wall so the knees push past the toes.",
+        "Pressing the hands on the thighs to take the load off.",
+        "Going deeper than is comfortable for the knee."
+      ],
+      "id": [
+        "Kaki terlalu dekat dinding sehingga lutut melewati ujung kaki.",
+        "Menekan paha dengan tangan untuk mengurangi beban.",
+        "Turun lebih dalam dari yang nyaman untuk lutut."
+      ]
+    },
+    "alternatives": [
+      "bodyweight-squat",
+      "leg-extension",
+      "goblet-squat"
+    ]
+  },
+  {
+    "id": "crunch",
+    "name": {
+      "en": "Crunch",
+      "id": "Crunch"
+    },
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "trunk-flexion",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "lying"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "cable-crunch",
+    "builds": {
+      "en": "Curling the ribcage toward the hips while lying down shortens the six-pack muscle through its main job, bending the spine forward. It strengthens the abs for sitting up from bed and adds visible definition once body fat is low enough.",
+      "id": "Menggulung rusuk ke arah pinggul sambil berbaring memendekkan otot perut lewat tugas utamanya, menekuk tulang belakang ke depan. Menguatkan perut untuk bangun dari tempat tidur dan menambah bentuk yang terlihat saat lemak tubuh cukup rendah."
+    },
+    "role": {
+      "en": "Abs exercise at the end of sessions in every setup. It trains spinal flexion, which planks do not, so the two cover different jobs of the core.",
+      "id": "Latihan perut di akhir sesi untuk semua peralatan. Melatih tekukan tulang belakang yang tidak dilakukan plank, jadi keduanya mencakup tugas otot inti yang berbeda."
+    },
+    "steps": {
+      "en": [
+        "Lie on your back with knees bent, feet flat, fingertips lightly behind your ears.",
+        "Breathe out and curl your head, shoulders and upper back off the floor, bringing ribs toward hips.",
+        "Pause for one second at the top, lower back still on the floor.",
+        "Lower slowly to the start."
+      ],
+      "id": [
+        "Berbaring telentang dengan lutut ditekuk, telapak kaki rata, ujung jari ringan di belakang telinga.",
+        "Buang napas dan gulung kepala, bahu, dan punggung atas dari lantai, dekatkan rusuk ke pinggul.",
+        "Tahan satu detik di atas, punggung bawah tetap di lantai.",
+        "Turunkan perlahan ke posisi awal."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Ribs to hips, not elbows to knees.",
+        "Breathe out on the way up.",
+        "Hands do not pull the head."
+      ],
+      "id": [
+        "Rusuk ke pinggul, bukan siku ke lutut.",
+        "Buang napas saat naik.",
+        "Tangan tidak menarik kepala."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Yanking the neck with the hands.",
+        "Sitting all the way up using the hip flexors.",
+        "Fast bouncing reps."
+      ],
+      "id": [
+        "Menarik leher dengan tangan.",
+        "Bangun sampai duduk penuh memakai otot pinggul.",
+        "Repetisi cepat memantul."
+      ]
+    },
+    "alternatives": [
+      "cable-crunch",
+      "plank"
+    ]
+  },
+  {
+    "id": "cable-crunch",
+    "name": {
+      "en": "Kneeling Cable Crunch",
+      "id": "Kneeling Cable Crunch"
+    },
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "equipment": [
+      "full-gym"
+    ],
+    "pattern": "trunk-flexion",
+    "patternParams": {
+      "implement": "cable",
+      "position": "kneeling"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": "crunch",
+    "harder": null,
+    "builds": {
+      "en": "Kneeling under a high pulley and curling the trunk down against the cable lets you add weight to the abs in small steps, like any other muscle. It builds thicker, stronger abs than floor crunches once those become easy.",
+      "id": "Berlutut di bawah katrol atas dan menggulung badan ke bawah melawan kabel membuat beban perut bisa ditambah sedikit demi sedikit, seperti otot lain. Membangun otot perut yang lebih tebal dan kuat dibanding crunch di lantai setelah crunch terasa mudah."
+    },
+    "role": {
+      "en": "Loaded abs exercise for full-gym plans. It allows double progression with weight, which floor crunches cannot.",
+      "id": "Latihan perut berbeban untuk rencana gym lengkap. Memungkinkan progresi ganda dengan beban, yang tidak bisa dilakukan crunch di lantai."
+    },
+    "steps": {
+      "en": [
+        "Attach a rope to a high pulley and kneel facing it, holding the rope ends beside your head.",
+        "Keep your hips still and above your knees.",
+        "Curl your trunk down, bringing your elbows toward your thighs.",
+        "Uncurl slowly until your back is straight again."
+      ],
+      "id": [
+        "Pasang tali di katrol atas dan berlutut menghadapnya, pegang ujung tali di samping kepala.",
+        "Jaga pinggul diam di atas lutut.",
+        "Gulung badan ke bawah, dekatkan siku ke paha.",
+        "Kembalikan perlahan sampai punggung lurus lagi."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Hips stay over the knees.",
+        "Round the spine, don't bow at the hips.",
+        "Hands stay by the head."
+      ],
+      "id": [
+        "Pinggul tetap di atas lutut.",
+        "Bulatkan tulang belakang, jangan membungkuk dari pinggul.",
+        "Tangan tetap di samping kepala."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Sitting back on the heels to pull with body weight.",
+        "Pulling the rope with the arms.",
+        "Using a load so heavy the spine barely moves."
+      ],
+      "id": [
+        "Duduk ke tumit untuk menarik dengan berat badan.",
+        "Menarik tali dengan lengan.",
+        "Beban terlalu berat sehingga tulang belakang hampir tidak bergerak."
+      ]
+    },
+    "alternatives": [
+      "crunch",
+      "plank"
+    ]
+  },
+  {
+    "id": "plank",
+    "name": {
+      "en": "Front Plank",
+      "id": "Front Plank"
+    },
+    "primary": [
+      "core",
+      "abs"
+    ],
+    "secondary": [
+      "front-delts",
+      "glutes"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "core-hold",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "plank"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "side-plank",
+    "builds": {
+      "en": "Holding a straight line on your forearms and toes trains the deep core to stop the lower back from sagging, the same bracing you use under a heavy squat or when carrying a box. Progress shows as longer holds with the body still perfectly straight.",
+      "id": "Menahan garis lurus dengan bertumpu di lengan bawah dan ujung kaki melatih otot inti dalam agar punggung bawah tidak melorot, bracing yang sama saat squat berat atau membawa kardus. Kemajuan terlihat dari tahanan yang lebih lama dengan badan tetap lurus sempurna."
+    },
+    "role": {
+      "en": "Core stability exercise in every plan. It trains the core to resist movement, which complements the crunch that trains it to create movement.",
+      "id": "Latihan stabilitas otot inti di setiap rencana. Melatih otot inti menahan gerakan, melengkapi crunch yang melatihnya menghasilkan gerakan."
+    },
+    "steps": {
+      "en": [
+        "Rest on your forearms with elbows under your shoulders and legs straight behind you on your toes.",
+        "Squeeze your glutes and tighten your stomach as if bracing for a light punch.",
+        "Hold a straight line from head to heels while breathing steadily.",
+        "Stop the set when your hips start to sag or rise."
+      ],
+      "id": [
+        "Bertumpu di lengan bawah dengan siku di bawah bahu dan kaki lurus di belakang bertumpu di ujung jari kaki.",
+        "Kencangkan bokong dan perut seperti bersiap menerima pukulan ringan.",
+        "Tahan garis lurus dari kepala ke tumit sambil bernapas teratur.",
+        "Hentikan set saat pinggul mulai turun atau naik."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Glutes squeezed.",
+        "Ribs pulled toward hips.",
+        "Keep breathing."
+      ],
+      "id": [
+        "Bokong dikencangkan.",
+        "Rusuk ditarik ke arah pinggul.",
+        "Tetap bernapas."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Hips sagging into an arched back.",
+        "Hips piked high to make it easier.",
+        "Holding the breath."
+      ],
+      "id": [
+        "Pinggul turun sehingga punggung melengkung.",
+        "Pinggul diangkat tinggi agar lebih mudah.",
+        "Menahan napas."
+      ]
+    },
+    "alternatives": [
+      "side-plank",
+      "crunch"
+    ]
+  },
+  {
+    "id": "side-plank",
+    "name": {
+      "en": "Side Plank",
+      "id": "Side Plank"
+    },
+    "primary": [
+      "obliques",
+      "core"
+    ],
+    "secondary": [
+      "glutes",
+      "side-delts"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "core-hold",
+    "patternParams": {
+      "implement": "bodyweight",
+      "position": "side-plank"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "plank",
+    "harder": null,
+    "builds": {
+      "en": "Balancing on one forearm and the side of one foot makes the obliques and hip muscles on the lower side hold your body up against gravity. It builds the side-to-side trunk stability you need when carrying a heavy bag in one hand.",
+      "id": "Bertumpu di satu lengan bawah dan sisi satu kaki membuat otot perut samping dan otot pinggul di sisi bawah menahan badan melawan gravitasi. Membangun kestabilan badan kiri-kanan yang dibutuhkan saat membawa tas berat di satu tangan."
+    },
+    "role": {
+      "en": "Second core hold, covering the sides of the trunk that the front plank trains less.",
+      "id": "Tahanan otot inti kedua, melatih sisi badan yang kurang terlatih oleh front plank."
+    },
+    "steps": {
+      "en": [
+        "Lie on your side with your elbow under your shoulder and legs stacked.",
+        "Lift your hips until your body forms a straight line from head to feet.",
+        "Hold, keeping the hips pushed forward and up.",
+        "Lower, then repeat on the other side."
+      ],
+      "id": [
+        "Berbaring menyamping dengan siku di bawah bahu dan kaki ditumpuk.",
+        "Angkat pinggul sampai badan membentuk garis lurus dari kepala ke kaki.",
+        "Tahan, jaga pinggul terdorong ke depan dan atas.",
+        "Turunkan, lalu ulangi di sisi lain."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbow under the shoulder.",
+        "Hips high and forward.",
+        "Head in line with the spine."
+      ],
+      "id": [
+        "Siku di bawah bahu.",
+        "Pinggul tinggi dan ke depan.",
+        "Kepala segaris dengan tulang belakang."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Hips sagging toward the floor.",
+        "Rolling the chest toward the floor.",
+        "Shoulder shrugged up to the ear."
+      ],
+      "id": [
+        "Pinggul turun ke arah lantai.",
+        "Dada berputar menghadap lantai.",
+        "Bahu terangkat ke telinga."
+      ]
+    },
+    "alternatives": [
+      "plank",
+      "crunch"
+    ]
+  },
+  {
+    "id": "negative-chin-up",
+    "name": {
+      "en": "Negative Chin-Up",
+      "id": "Negative Chin-Up"
+    },
+    "primary": [
+      "lats",
+      "biceps"
+    ],
+    "secondary": [
+      "upper-back",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "pattern": "vertical-pull",
+    "patternParams": {
+      "implement": "pull-up-bar",
+      "position": "hanging",
+      "grip": "underhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": "doorway-row",
+    "harder": "chin-up",
+    "builds": {
+      "en": "You jump or step up to the top of a chin-up and lower yourself as slowly as you can, because muscles can lower more weight than they can lift. It builds the lat and biceps strength for your first full chin-up.",
+      "id": "Kamu melompat atau naik ke posisi atas chin-up lalu menurunkan badan selambat mungkin, karena otot mampu menurunkan beban lebih berat daripada mengangkatnya. Membangun kekuatan lats dan bisep untuk chin-up penuh pertamamu."
+    },
+    "role": {
+      "en": "Vertical pull for anyone with a bar who cannot yet do 8 chin-ups. It is the bridge from rows to full chin-ups.",
+      "id": "Tarikan vertikal untuk yang punya palang tapi belum bisa 8 chin-up. Jembatan dari row ke chin-up penuh."
+    },
+    "steps": {
+      "en": [
+        "Place a sturdy chair under the bar and grip it with palms facing you, shoulder width.",
+        "Step or jump up so your chin is above the bar.",
+        "Lower yourself as slowly as you can, aiming for 3 to 5 seconds, until your arms are straight.",
+        "Step back onto the chair and repeat."
+      ],
+      "id": [
+        "Letakkan kursi kokoh di bawah palang dan genggam dengan telapak menghadap badan, selebar bahu.",
+        "Naik atau lompat sehingga dagu di atas palang.",
+        "Turunkan badan selambat mungkin, targetkan 3 sampai 5 detik, sampai lengan lurus.",
+        "Naik kembali ke kursi dan ulangi."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Count 3 to 5 seconds down.",
+        "Shoulders down, chest up.",
+        "Control the very bottom too."
+      ],
+      "id": [
+        "Hitung 3 sampai 5 detik saat turun.",
+        "Bahu turun, dada terangkat.",
+        "Kendalikan sampai posisi paling bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Dropping quickly through the bottom half.",
+        "Jumping off a chair that can tip.",
+        "Letting the shoulders shrug up at the bottom."
+      ],
+      "id": [
+        "Jatuh cepat di separuh bawah.",
+        "Melompat dari kursi yang bisa terguling.",
+        "Bahu terangkat di posisi bawah."
+      ]
+    },
+    "alternatives": [
+      "chin-up",
+      "lat-pulldown",
+      "band-lat-pulldown"
+    ]
+  },
+  {
+    "id": "chin-up",
+    "name": {
+      "en": "Chin-Up",
+      "id": "Chin-Up"
+    },
+    "primary": [
+      "lats",
+      "biceps"
+    ],
+    "secondary": [
+      "upper-back",
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "pattern": "vertical-pull",
+    "patternParams": {
+      "implement": "pull-up-bar",
+      "position": "hanging",
+      "grip": "underhand"
+    },
+    "level": "intermediate",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": "negative-chin-up",
+    "harder": "pull-up",
+    "builds": {
+      "en": "Pulling your whole body up with palms facing you trains the lats and gives the biceps more work than any curl in the plan. Sets of 8 or more show strong pulling relative to your body weight.",
+      "id": "Menarik seluruh badan ke atas dengan telapak menghadap badan melatih lats dan memberi bisep kerja lebih banyak dibanding curl mana pun di rencana. Set berisi 8 repetisi atau lebih menunjukkan tarikan yang kuat dibanding berat badanmu."
+    },
+    "role": {
+      "en": "Main vertical pull for anyone with a bar, and the first full bodyweight pull after negatives.",
+      "id": "Tarikan vertikal utama bagi yang punya palang, dan tarikan berat badan penuh pertama setelah negative."
+    },
+    "steps": {
+      "en": [
+        "Hang from the bar with palms facing you, hands shoulder width, arms straight.",
+        "Pull your shoulders down, then pull your chest toward the bar.",
+        "Continue until your chin is above the bar.",
+        "Lower under control until your arms are straight again."
+      ],
+      "id": [
+        "Bergantung di palang dengan telapak menghadap badan, tangan selebar bahu, lengan lurus.",
+        "Tarik bahu ke bawah, lalu tarik dada ke arah palang.",
+        "Lanjutkan sampai dagu di atas palang.",
+        "Turunkan terkendali sampai lengan lurus lagi."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Start by pulling the shoulders down.",
+        "Chest to the bar.",
+        "Full hang between reps."
+      ],
+      "id": [
+        "Mulai dengan menarik bahu ke bawah.",
+        "Dada ke arah palang.",
+        "Gantung penuh di antara repetisi."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Kicking the legs to swing up.",
+        "Half reps that never reach straight arms.",
+        "Craning the neck to get the chin over."
+      ],
+      "id": [
+        "Menendang kaki untuk mengayun naik.",
+        "Repetisi setengah tanpa lengan lurus.",
+        "Menjulurkan leher agar dagu melewati palang."
+      ]
+    },
+    "alternatives": [
+      "pull-up",
+      "lat-pulldown",
+      "negative-chin-up"
+    ]
+  },
+  {
+    "id": "pull-up",
+    "name": {
+      "en": "Pull-Up",
+      "id": "Pull-Up"
+    },
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "upper-back",
+      "biceps",
+      "rear-delts",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "pattern": "vertical-pull",
+    "patternParams": {
+      "implement": "pull-up-bar",
+      "position": "hanging",
+      "grip": "overhand"
+    },
+    "level": "intermediate",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": true,
+    "easier": "chin-up",
+    "harder": null,
+    "builds": {
+      "en": "Pulling up with palms facing away puts the lats and upper back in charge with less help from the biceps than a chin-up. It widens the back and is a direct test of upper-body strength relative to body weight.",
+      "id": "Menarik badan dengan telapak menghadap ke depan membuat lats dan punggung atas bekerja utama dengan bantuan bisep lebih sedikit dibanding chin-up. Melebarkan punggung dan menjadi ujian langsung kekuatan tubuh atas dibanding berat badan."
+    },
+    "role": {
+      "en": "Hardest vertical pull in the plan. Once you can do 20, the 3-second lowering rule keeps it challenging.",
+      "id": "Tarikan vertikal terberat di rencana. Setelah mampu 20 repetisi, aturan turun 3 detik membuatnya tetap menantang."
+    },
+    "steps": {
+      "en": [
+        "Hang from the bar with palms facing away, hands a little wider than your shoulders.",
+        "Pull your shoulders down and back.",
+        "Pull your elbows down toward your ribs until your chin passes the bar.",
+        "Lower under control to a full hang."
+      ],
+      "id": [
+        "Bergantung di palang dengan telapak menghadap ke depan, tangan sedikit lebih lebar dari bahu.",
+        "Tarik bahu ke bawah dan belakang.",
+        "Tarik siku ke bawah ke arah rusuk sampai dagu melewati palang.",
+        "Turunkan terkendali sampai bergantung penuh."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows down to the ribs.",
+        "No swinging.",
+        "Full hang at the bottom."
+      ],
+      "id": [
+        "Siku turun ke rusuk.",
+        "Tanpa mengayun.",
+        "Gantung penuh di bawah."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Swinging or kipping to get up.",
+        "Stopping with the chin below the bar.",
+        "Dropping fast into the bottom."
+      ],
+      "id": [
+        "Mengayun atau menyentak untuk naik.",
+        "Berhenti dengan dagu di bawah palang.",
+        "Jatuh cepat ke posisi bawah."
+      ]
+    },
+    "alternatives": [
+      "chin-up",
+      "lat-pulldown",
+      "band-lat-pulldown"
+    ]
+  },
+  {
+    "id": "band-row",
+    "name": {
+      "en": "Seated Band Row",
+      "id": "Seated Band Row"
+    },
+    "primary": [
+      "upper-back",
+      "lats"
+    ],
+    "secondary": [
+      "rear-delts",
+      "biceps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "bands"
+    ],
+    "pattern": "horizontal-pull",
+    "patternParams": {
+      "implement": "band",
+      "position": "seated",
+      "grip": "neutral"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": null,
+    "builds": {
+      "en": "Sitting on the floor with a band looped around your feet, you row the ends to your stomach, training the upper back like a cable row machine. The band gets harder as it stretches, so the shoulder blades work hardest at the end of the pull.",
+      "id": "Duduk di lantai dengan band melingkari telapak kaki, kamu menarik ujung band ke perut, melatih punggung atas seperti mesin cable row. Band makin berat saat teregang, jadi tulang belikat bekerja paling keras di akhir tarikan."
+    },
+    "role": {
+      "en": "Horizontal pull for home plans with bands. It gives a second back exercise next to the doorway row with adjustable tension.",
+      "id": "Tarikan horizontal untuk rencana di rumah dengan band. Memberi latihan punggung kedua selain doorway row dengan tegangan yang bisa diatur."
+    },
+    "steps": {
+      "en": [
+        "Sit with legs straight and loop the middle of the band around the soles of your feet.",
+        "Hold the ends with arms straight, sitting tall.",
+        "Pull the ends to your stomach, squeezing your shoulder blades together.",
+        "Let your arms go forward slowly until they are straight."
+      ],
+      "id": [
+        "Duduk dengan kaki lurus dan lingkarkan bagian tengah band di telapak kaki.",
+        "Pegang ujung band dengan lengan lurus, duduk tegak.",
+        "Tarik ujung band ke perut sambil merapatkan tulang belikat.",
+        "Biarkan lengan kembali ke depan perlahan sampai lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Sit tall, don't lean back.",
+        "Squeeze at the end.",
+        "Shorter grip = more tension."
+      ],
+      "id": [
+        "Duduk tegak, jangan bersandar ke belakang.",
+        "Kencangkan di akhir tarikan.",
+        "Genggaman lebih pendek = tegangan lebih besar."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Leaning back to stretch the band instead of rowing.",
+        "Shrugging at the end.",
+        "Letting the band snap back."
+      ],
+      "id": [
+        "Bersandar ke belakang untuk menarik band alih-alih menarik dengan lengan.",
+        "Mengangkat bahu di akhir.",
+        "Membiarkan band terlepas cepat."
+      ]
+    },
+    "alternatives": [
+      "doorway-row",
+      "seated-cable-row",
+      "one-arm-dumbbell-row"
+    ]
+  },
+  {
+    "id": "band-lat-pulldown",
+    "name": {
+      "en": "Kneeling Band Lat Pulldown",
+      "id": "Kneeling Band Lat Pulldown"
+    },
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "upper-back"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "bands"
+    ],
+    "pattern": "vertical-pull",
+    "patternParams": {
+      "implement": "band",
+      "position": "kneeling",
+      "grip": "overhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "negative-chin-up",
+    "builds": {
+      "en": "Anchoring a band high on a door and kneeling below it, you pull the band down to your chest, training the lats in the same path as a pulldown machine. It gives home trainers without a bar a way to work the vertical pull.",
+      "id": "Mengaitkan band tinggi di pintu dan berlutut di bawahnya, kamu menarik band ke dada, melatih lats di jalur yang sama dengan mesin pulldown. Memberi cara melatih tarikan vertikal bagi yang berlatih di rumah tanpa palang."
+    },
+    "role": {
+      "en": "Vertical pull for home plans with bands and no pull-up bar. It covers the lats from overhead, which the band row and doorway row do not reach.",
+      "id": "Tarikan vertikal untuk rencana di rumah dengan band tanpa pull-up bar. Melatih lats dari atas kepala, arah yang tidak terjangkau band row dan doorway row."
+    },
+    "steps": {
+      "en": [
+        "Secure the band at the top of a closed door with a door anchor.",
+        "Kneel facing the door and hold the band with arms straight overhead.",
+        "Pull your elbows down toward your ribs until your hands reach shoulder height.",
+        "Let your arms rise slowly back overhead."
+      ],
+      "id": [
+        "Kaitkan band di bagian atas pintu yang tertutup dengan pengait pintu.",
+        "Berlutut menghadap pintu dan pegang band dengan lengan lurus di atas kepala.",
+        "Tarik siku ke bawah ke arah rusuk sampai tangan setinggi bahu.",
+        "Biarkan lengan naik perlahan kembali ke atas kepala."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows down and in.",
+        "Chest up.",
+        "Check the anchor before every set."
+      ],
+      "id": [
+        "Siku ke bawah dan ke dalam.",
+        "Dada terangkat.",
+        "Periksa pengait sebelum setiap set."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Anchoring on a door that opens toward you.",
+        "Leaning far back to pull with body weight.",
+        "Shrugging the shoulders."
+      ],
+      "id": [
+        "Mengaitkan di pintu yang terbuka ke arahmu.",
+        "Bersandar jauh ke belakang untuk menarik dengan berat badan.",
+        "Mengangkat bahu."
+      ]
+    },
+    "alternatives": [
+      "lat-pulldown",
+      "negative-chin-up",
+      "chin-up"
+    ]
+  },
+  {
+    "id": "band-curl",
+    "name": {
+      "en": "Band Biceps Curl",
+      "id": "Band Biceps Curl"
+    },
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "brachialis",
+      "forearms"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "bands"
+    ],
+    "pattern": "curl",
+    "patternParams": {
+      "implement": "band",
+      "position": "standing",
+      "grip": "underhand"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "dumbbell-curl",
+    "builds": {
+      "en": "Standing on a band and curling the ends up trains the biceps with tension that rises toward the top, where the muscle is most shortened. It gives steady biceps work at home and is easy on the elbows.",
+      "id": "Berdiri di atas band dan menekuk ujungnya ke atas melatih bisep dengan tegangan yang naik menjelang posisi atas, saat otot paling memendek. Memberi latihan bisep yang stabil di rumah dan ramah untuk siku."
+    },
+    "role": {
+      "en": "Biceps exercise for home plans with bands. Unlike the doorframe curl, both arms work at once and the load is set by the band, not body angle.",
+      "id": "Latihan bisep untuk rencana di rumah dengan band. Berbeda dari doorframe curl, kedua lengan bekerja bersamaan dan beban diatur lewat band, bukan sudut badan."
+    },
+    "steps": {
+      "en": [
+        "Stand on the middle of the band with feet hip width and hold the ends, palms forward.",
+        "Keep your elbows at your sides.",
+        "Curl your hands up toward your shoulders.",
+        "Lower slowly until your arms are straight."
+      ],
+      "id": [
+        "Berdiri di tengah band dengan kaki selebar pinggul dan pegang ujungnya, telapak menghadap depan.",
+        "Jaga siku di sisi badan.",
+        "Tekuk tangan ke atas ke arah bahu.",
+        "Turunkan perlahan sampai lengan lurus."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows pinned.",
+        "Wider stance = more tension.",
+        "Slow on the way down."
+      ],
+      "id": [
+        "Siku diam di tempat.",
+        "Kaki lebih lebar = tegangan lebih besar.",
+        "Pelan saat turun."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Elbows drifting forward.",
+        "Letting the band snap the hands down.",
+        "Leaning back."
+      ],
+      "id": [
+        "Siku bergeser ke depan.",
+        "Membiarkan band menarik tangan turun dengan cepat.",
+        "Bersandar ke belakang."
+      ]
+    },
+    "alternatives": [
+      "doorframe-curl",
+      "dumbbell-curl"
+    ]
+  },
+  {
+    "id": "band-lateral-raise",
+    "name": {
+      "en": "Band Lateral Raise",
+      "id": "Band Lateral Raise"
+    },
+    "primary": [
+      "side-delts"
+    ],
+    "secondary": [
+      "traps"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight",
+      "bands"
+    ],
+    "pattern": "lateral-raise",
+    "patternParams": {
+      "implement": "band",
+      "position": "standing"
+    },
+    "level": "beginner",
+    "stress": [
+      "shoulder"
+    ],
+    "bodyweight": false,
+    "easier": null,
+    "harder": "dumbbell-lateral-raise",
+    "builds": {
+      "en": "Standing on a band and raising the ends out to the sides isolates the side shoulders, with the most tension at shoulder height. It is the only way in a home plan to give the side shoulders direct work.",
+      "id": "Berdiri di atas band dan mengangkat ujungnya ke samping mengisolasi bahu samping, dengan tegangan terbesar setinggi bahu. Ini satu-satunya cara di rencana rumah untuk melatih bahu samping secara langsung."
+    },
+    "role": {
+      "en": "Side-shoulder exercise for home plans with bands, filling the gap that pike push-ups leave.",
+      "id": "Latihan bahu samping untuk rencana di rumah dengan band, mengisi celah yang ditinggalkan pike push-up."
+    },
+    "steps": {
+      "en": [
+        "Stand on the middle of the band and hold one end in each hand at your sides.",
+        "Lean slightly forward with a small bend in the elbows.",
+        "Raise your arms out to the sides until they reach shoulder height.",
+        "Lower slowly to your sides."
+      ],
+      "id": [
+        "Berdiri di tengah band dan pegang satu ujung di tiap tangan di samping badan.",
+        "Condongkan badan sedikit ke depan dengan siku sedikit ditekuk.",
+        "Angkat lengan ke samping sampai setinggi bahu.",
+        "Turunkan perlahan ke samping badan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Elbows lead.",
+        "Stop at shoulder height.",
+        "Shoulders stay away from the ears."
+      ],
+      "id": [
+        "Siku memimpin.",
+        "Berhenti setinggi bahu.",
+        "Bahu tetap jauh dari telinga."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Shrugging as the band gets tight.",
+        "Swinging the body.",
+        "Band too strong to reach shoulder height."
+      ],
+      "id": [
+        "Mengangkat bahu saat band makin kencang.",
+        "Mengayun badan.",
+        "Band terlalu kuat sehingga tidak bisa mencapai setinggi bahu."
+      ]
+    },
+    "alternatives": [
+      "dumbbell-lateral-raise",
+      "pike-push-up"
+    ]
+  },
+  {
+    "id": "jogging",
+    "name": {
+      "en": "Jogging",
+      "id": "Jogging"
+    },
+    "primary": [
+      "heart-lungs"
+    ],
+    "secondary": [
+      "quads",
+      "calves",
+      "hamstrings"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "cardio",
+    "patternParams": {
+      "implement": "bodyweight",
+      "gait": "jog"
+    },
+    "level": "beginner",
+    "stress": [
+      "knee"
+    ],
+    "bodyweight": true,
+    "easier": "brisk-walk",
+    "harder": null,
+    "builds": {
+      "en": "Running at a pace where you can still speak in short sentences trains the heart and lungs to deliver oxygen more efficiently. You will notice a lower heart rate at the same pace and less breathlessness on stairs or when catching a bus.",
+      "id": "Berlari dengan kecepatan yang masih memungkinkan bicara dalam kalimat pendek melatih jantung dan paru-paru mengalirkan oksigen lebih efisien. Detak jantung akan lebih rendah di kecepatan yang sama dan napas tidak cepat habis saat naik tangga atau mengejar bus."
+    },
+    "role": {
+      "en": "Cardio for lose-fat and general-fitness plans, done on non-lifting days or after lifting. It is removed when the knee filter is on and replaced by brisk walking.",
+      "id": "Kardio untuk rencana menurunkan lemak dan kebugaran umum, dilakukan di hari tanpa angkat beban atau setelah latihan beban. Tidak dipakai saat filter lutut aktif dan diganti jalan cepat."
+    },
+    "steps": {
+      "en": [
+        "Walk for 5 minutes to warm up.",
+        "Jog at an easy pace where you can talk in short sentences.",
+        "Keep your steps short and land with your foot under your body.",
+        "Walk for 3 to 5 minutes at the end to cool down."
+      ],
+      "id": [
+        "Jalan kaki 5 menit untuk pemanasan.",
+        "Jogging dengan kecepatan santai yang masih memungkinkan bicara dalam kalimat pendek.",
+        "Jaga langkah pendek dan mendarat dengan kaki di bawah badan.",
+        "Jalan kaki 3 sampai 5 menit di akhir untuk pendinginan."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Talk-test pace.",
+        "Short, quick steps.",
+        "Relaxed shoulders and hands."
+      ],
+      "id": [
+        "Kecepatan yang masih bisa untuk bicara.",
+        "Langkah pendek dan cepat.",
+        "Bahu dan tangan rileks."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Starting too fast and stopping after a few minutes.",
+        "Long strides that land hard on the heel far ahead of the body.",
+        "Adding distance too quickly from week to week."
+      ],
+      "id": [
+        "Mulai terlalu cepat lalu berhenti setelah beberapa menit.",
+        "Langkah panjang yang mendarat keras di tumit jauh di depan badan.",
+        "Menambah jarak terlalu cepat dari minggu ke minggu."
+      ]
+    },
+    "alternatives": [
+      "brisk-walk"
+    ]
+  },
+  {
+    "id": "brisk-walk",
+    "name": {
+      "en": "Brisk Walk",
+      "id": "Jalan Cepat"
+    },
+    "primary": [
+      "heart-lungs"
+    ],
+    "secondary": [
+      "calves",
+      "glutes"
+    ],
+    "equipment": [
+      "full-gym",
+      "dumbbells",
+      "bodyweight"
+    ],
+    "pattern": "cardio",
+    "patternParams": {
+      "implement": "bodyweight",
+      "gait": "walk"
+    },
+    "level": "beginner",
+    "stress": [],
+    "bodyweight": true,
+    "easier": null,
+    "harder": "jogging",
+    "builds": {
+      "en": "Walking fast enough that breathing is quicker but talking is still easy raises your heart rate with almost no impact on the joints. It adds daily calorie burn without tiring the legs for the next lifting session, and it counts toward your steps target.",
+      "id": "Berjalan cukup cepat sampai napas lebih cepat tapi masih mudah bicara menaikkan detak jantung dengan hampir tanpa benturan pada sendi. Menambah kalori terbakar harian tanpa membuat kaki lelah untuk sesi latihan beban berikutnya, dan dihitung untuk target langkahmu."
+    },
+    "role": {
+      "en": "Default cardio for beginners and for anyone with the knee filter on. It can be done every day without affecting recovery.",
+      "id": "Kardio bawaan untuk pemula dan siapa pun yang mengaktifkan filter lutut. Bisa dilakukan setiap hari tanpa mengganggu pemulihan."
+    },
+    "steps": {
+      "en": [
+        "Start at a normal pace for 3 minutes.",
+        "Speed up until your breathing is noticeably faster but you can still hold a conversation.",
+        "Swing your arms and push off with the back foot.",
+        "Slow down for the last 3 minutes."
+      ],
+      "id": [
+        "Mulai dengan kecepatan biasa selama 3 menit.",
+        "Percepat sampai napas terasa lebih cepat tapi masih bisa mengobrol.",
+        "Ayunkan lengan dan dorong dengan kaki belakang.",
+        "Perlambat di 3 menit terakhir."
+      ]
+    },
+    "cues": {
+      "en": [
+        "Faster breathing, easy talking.",
+        "Arms swing from the shoulders.",
+        "Push off through the toes."
+      ],
+      "id": [
+        "Napas lebih cepat, bicara masih mudah.",
+        "Lengan berayun dari bahu.",
+        "Dorong lewat ujung jari kaki."
+      ]
+    },
+    "mistakes": {
+      "en": [
+        "Strolling so slowly the heart rate barely rises.",
+        "Looking down at the phone the whole time.",
+        "Wearing shoes that rub or slip."
+      ],
+      "id": [
+        "Berjalan terlalu santai sehingga detak jantung hampir tidak naik.",
+        "Terus menunduk melihat ponsel.",
+        "Memakai sepatu yang lecet atau licin."
+      ]
+    },
+    "alternatives": [
+      "jogging"
+    ]
+  }
+]

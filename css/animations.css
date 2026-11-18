@@ -1,0 +1,23 @@
+/* animations.css
+   CSS-only UI motion (set-completed check, toast and sheet entry). Longer sequences
+   (page transitions, onboarding slides, exercise figures) run through GSAP in js/animations.js.
+   Reduced motion: base.css shortens every animation to 1 ms. */
+
+@keyframes check-pop {
+  0% { transform: scale(.6); opacity: 0; }
+  60% { transform: scale(1.12); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes rise-in {
+  from { transform: translateY(var(--sp-16)); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+@keyframes sheet-in {
+  from { transform: translateY(100%); }
+  to { transform: none; }
+}
+
+.anim-check { animation: check-pop var(--dur-slow) var(--ease) both; }
+.toast { animation: rise-in var(--dur-base) var(--ease) both; }
+.sheet[open] { animation: sheet-in var(--dur-base) var(--ease) both; }
+.popover { animation: rise-in var(--dur-fast) var(--ease) both; }

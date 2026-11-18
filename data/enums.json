@@ -1,0 +1,883 @@
+{
+  "_about": "The only valid ids for muscles, muscle groups, movement patterns, equipment, levels, stress areas, pattern parameters, goals, food states, food tags, meal slots and meal types. Every other data file and module uses these ids. Each muscle maps to one of the ten groups used for weekly set targets.",
+  "groups": [
+    {
+      "id": "chest",
+      "major": true,
+      "name": {
+        "en": "Chest",
+        "id": "Dada"
+      }
+    },
+    {
+      "id": "back",
+      "major": true,
+      "name": {
+        "en": "Back",
+        "id": "Punggung"
+      }
+    },
+    {
+      "id": "shoulders",
+      "major": true,
+      "name": {
+        "en": "Shoulders",
+        "id": "Bahu"
+      }
+    },
+    {
+      "id": "biceps",
+      "major": false,
+      "name": {
+        "en": "Biceps",
+        "id": "Bisep"
+      }
+    },
+    {
+      "id": "triceps",
+      "major": false,
+      "name": {
+        "en": "Triceps",
+        "id": "Trisep"
+      }
+    },
+    {
+      "id": "quads",
+      "major": true,
+      "name": {
+        "en": "Quads",
+        "id": "Paha depan"
+      }
+    },
+    {
+      "id": "hamstrings",
+      "major": true,
+      "name": {
+        "en": "Hamstrings",
+        "id": "Paha belakang"
+      }
+    },
+    {
+      "id": "glutes",
+      "major": true,
+      "name": {
+        "en": "Glutes",
+        "id": "Bokong"
+      }
+    },
+    {
+      "id": "calves",
+      "major": false,
+      "name": {
+        "en": "Calves",
+        "id": "Betis"
+      }
+    },
+    {
+      "id": "core",
+      "major": false,
+      "name": {
+        "en": "Core",
+        "id": "Otot inti"
+      }
+    }
+  ],
+  "muscles": [
+    {
+      "id": "chest",
+      "group": "chest",
+      "view": "front",
+      "name": {
+        "en": "Chest (pectoralis major)",
+        "id": "Dada (pectoralis major)"
+      },
+      "daily": {
+        "en": "Pushes your arms forward and across the body, as when you push a door open or get up off the floor.",
+        "id": "Mendorong lengan ke depan dan menyilang badan, seperti saat mendorong pintu atau bangkit dari lantai."
+      }
+    },
+    {
+      "id": "upper-chest",
+      "group": "chest",
+      "view": "front",
+      "name": {
+        "en": "Upper chest",
+        "id": "Dada atas"
+      },
+      "daily": {
+        "en": "Lifts the arms forward and up, as when you put a bag on a high shelf.",
+        "id": "Mengangkat lengan ke depan dan atas, seperti saat menaruh tas di rak tinggi."
+      }
+    },
+    {
+      "id": "lats",
+      "group": "back",
+      "view": "back",
+      "name": {
+        "en": "Lats (latissimus dorsi)",
+        "id": "Lats (latissimus dorsi)"
+      },
+      "daily": {
+        "en": "Pulls your arms down and back, as when you pull yourself up or drag something toward you.",
+        "id": "Menarik lengan ke bawah dan belakang, seperti saat menarik badan ke atas atau menyeret barang ke arahmu."
+      }
+    },
+    {
+      "id": "upper-back",
+      "group": "back",
+      "view": "back",
+      "name": {
+        "en": "Upper back (rhomboids, mid traps)",
+        "id": "Punggung atas (rhomboid, trapezius tengah)"
+      },
+      "daily": {
+        "en": "Pulls the shoulder blades together and keeps you from slumping at a desk.",
+        "id": "Menarik tulang belikat ke belakang dan menjaga badan tidak membungkuk saat duduk lama."
+      }
+    },
+    {
+      "id": "traps",
+      "group": "back",
+      "view": "back",
+      "name": {
+        "en": "Upper traps",
+        "id": "Trapezius atas"
+      },
+      "daily": {
+        "en": "Lifts the shoulders and holds them up when you carry heavy shopping bags.",
+        "id": "Mengangkat bahu dan menahannya saat membawa belanjaan berat."
+      }
+    },
+    {
+      "id": "spinal-erectors",
+      "group": "back",
+      "view": "back",
+      "name": {
+        "en": "Spinal erectors",
+        "id": "Otot penegak tulang belakang"
+      },
+      "daily": {
+        "en": "Hold your spine straight when you bend over to pick something up.",
+        "id": "Menjaga tulang belakang tetap lurus saat membungkuk mengambil barang."
+      }
+    },
+    {
+      "id": "front-delts",
+      "group": "shoulders",
+      "view": "front",
+      "name": {
+        "en": "Front shoulders",
+        "id": "Bahu depan"
+      },
+      "daily": {
+        "en": "Raise the arm in front of you, as when you lift a box onto a shelf.",
+        "id": "Mengangkat lengan ke depan, seperti saat menaruh kotak ke rak."
+      }
+    },
+    {
+      "id": "side-delts",
+      "group": "shoulders",
+      "view": "front",
+      "name": {
+        "en": "Side shoulders",
+        "id": "Bahu samping"
+      },
+      "daily": {
+        "en": "Raise the arm out to the side and give the shoulders their width.",
+        "id": "Mengangkat lengan ke samping dan membuat bahu terlihat lebar."
+      }
+    },
+    {
+      "id": "rear-delts",
+      "group": "shoulders",
+      "view": "back",
+      "name": {
+        "en": "Rear shoulders",
+        "id": "Bahu belakang"
+      },
+      "daily": {
+        "en": "Pull the arm backward and help keep the shoulders from rolling forward.",
+        "id": "Menarik lengan ke belakang dan membantu bahu tidak jatuh ke depan."
+      }
+    },
+    {
+      "id": "biceps",
+      "group": "biceps",
+      "view": "front",
+      "name": {
+        "en": "Biceps",
+        "id": "Bisep"
+      },
+      "daily": {
+        "en": "Bends the elbow and turns the palm up, as when you carry a crate or turn a key.",
+        "id": "Menekuk siku dan memutar telapak ke atas, seperti saat mengangkat peti atau memutar kunci."
+      }
+    },
+    {
+      "id": "brachialis",
+      "group": "biceps",
+      "view": "front",
+      "name": {
+        "en": "Brachialis",
+        "id": "Brachialis"
+      },
+      "daily": {
+        "en": "Bends the elbow in any grip; it does most of the work when you lift with palms down.",
+        "id": "Menekuk siku dalam posisi genggaman apa pun; bekerja paling banyak saat mengangkat dengan telapak menghadap bawah."
+      }
+    },
+    {
+      "id": "forearms",
+      "group": "biceps",
+      "view": "front",
+      "name": {
+        "en": "Forearms",
+        "id": "Lengan bawah"
+      },
+      "daily": {
+        "en": "Close the hand and hold on, as when you carry a full bucket or open a tight jar.",
+        "id": "Menggenggam dan menahan, seperti saat membawa ember penuh atau membuka toples yang keras."
+      }
+    },
+    {
+      "id": "triceps",
+      "group": "triceps",
+      "view": "back",
+      "name": {
+        "en": "Triceps",
+        "id": "Trisep"
+      },
+      "daily": {
+        "en": "Straightens the elbow, as when you push yourself up from a chair or close a heavy door.",
+        "id": "Meluruskan siku, seperti saat bertumpu bangkit dari kursi atau menutup pintu berat."
+      }
+    },
+    {
+      "id": "quads",
+      "group": "quads",
+      "view": "front",
+      "name": {
+        "en": "Quads (front thigh)",
+        "id": "Paha depan (quadriceps)"
+      },
+      "daily": {
+        "en": "Straighten the knee: standing up, climbing stairs, getting off the floor.",
+        "id": "Meluruskan lutut: berdiri dari duduk, naik tangga, bangkit dari lantai."
+      }
+    },
+    {
+      "id": "hamstrings",
+      "group": "hamstrings",
+      "view": "back",
+      "name": {
+        "en": "Hamstrings (back thigh)",
+        "id": "Paha belakang (hamstring)"
+      },
+      "daily": {
+        "en": "Bend the knee and pull the hips straight when you lean forward and stand back up; key for sprinting.",
+        "id": "Menekuk lutut dan meluruskan pinggul saat membungkuk lalu berdiri lagi; penting untuk berlari cepat."
+      }
+    },
+    {
+      "id": "glutes",
+      "group": "glutes",
+      "view": "back",
+      "name": {
+        "en": "Glutes",
+        "id": "Bokong (gluteus)"
+      },
+      "daily": {
+        "en": "Drive the hips forward: climbing stairs, standing up from low seats, steadying the pelvis when walking.",
+        "id": "Mendorong pinggul ke depan: naik tangga, bangkit dari kursi rendah, menstabilkan panggul saat berjalan."
+      }
+    },
+    {
+      "id": "adductors",
+      "group": "glutes",
+      "view": "front",
+      "name": {
+        "en": "Inner thigh (adductors)",
+        "id": "Paha dalam (adduktor)"
+      },
+      "daily": {
+        "en": "Pull the legs together and steady the hips in deep squats and lunges.",
+        "id": "Merapatkan kaki dan menstabilkan pinggul saat jongkok dalam dan melangkah lebar."
+      }
+    },
+    {
+      "id": "calves",
+      "group": "calves",
+      "view": "back",
+      "name": {
+        "en": "Calves",
+        "id": "Betis"
+      },
+      "daily": {
+        "en": "Push you up onto your toes with every step, jump and climb.",
+        "id": "Mendorong badan ke ujung kaki di setiap langkah, lompatan, dan saat menanjak."
+      }
+    },
+    {
+      "id": "abs",
+      "group": "core",
+      "view": "front",
+      "name": {
+        "en": "Abs (rectus abdominis)",
+        "id": "Perut (rectus abdominis)"
+      },
+      "daily": {
+        "en": "Curl the trunk forward, as when you sit up from lying in bed.",
+        "id": "Menekuk badan ke depan, seperti saat bangun dari posisi berbaring."
+      }
+    },
+    {
+      "id": "obliques",
+      "group": "core",
+      "view": "front",
+      "name": {
+        "en": "Obliques (side waist)",
+        "id": "Otot perut samping (oblique)"
+      },
+      "daily": {
+        "en": "Twist and side-bend the trunk, and stop you tipping over when you carry a bag in one hand.",
+        "id": "Memutar dan menekuk badan ke samping, dan menahan badan tidak miring saat membawa tas di satu tangan."
+      }
+    },
+    {
+      "id": "core",
+      "group": "core",
+      "view": "front",
+      "name": {
+        "en": "Deep core (bracing)",
+        "id": "Otot inti dalam (bracing)"
+      },
+      "daily": {
+        "en": "Stiffens the trunk so force passes from legs to arms, as when you lift a heavy box from the floor.",
+        "id": "Mengencangkan badan agar tenaga dari kaki tersalur ke lengan, seperti saat mengangkat kotak berat dari lantai."
+      }
+    },
+    {
+      "id": "heart-lungs",
+      "group": null,
+      "view": null,
+      "name": {
+        "en": "Heart and lungs",
+        "id": "Jantung dan paru-paru"
+      },
+      "daily": {
+        "en": "Deliver oxygen to working muscles; a fitter system means less breathlessness on stairs.",
+        "id": "Mengalirkan oksigen ke otot yang bekerja; sistem yang lebih bugar membuat tidak cepat ngos-ngosan saat naik tangga."
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "id": "squat",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Squat",
+        "id": "Squat"
+      }
+    },
+    {
+      "id": "hinge",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Hip hinge",
+        "id": "Hip hinge"
+      }
+    },
+    {
+      "id": "lunge",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Lunge",
+        "id": "Lunge"
+      }
+    },
+    {
+      "id": "calf-raise",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Calf raise",
+        "id": "Calf raise"
+      }
+    },
+    {
+      "id": "horizontal-push",
+      "view": "side",
+      "contact": "hands-or-back",
+      "name": {
+        "en": "Horizontal push",
+        "id": "Dorong horizontal"
+      }
+    },
+    {
+      "id": "vertical-push",
+      "view": "side",
+      "contact": "feet-or-seat",
+      "name": {
+        "en": "Vertical push",
+        "id": "Dorong vertikal"
+      }
+    },
+    {
+      "id": "horizontal-pull",
+      "view": "side",
+      "contact": "feet-or-seat",
+      "name": {
+        "en": "Horizontal pull",
+        "id": "Tarik horizontal"
+      }
+    },
+    {
+      "id": "vertical-pull",
+      "view": "side",
+      "contact": "hands-or-seat",
+      "name": {
+        "en": "Vertical pull",
+        "id": "Tarik vertikal"
+      }
+    },
+    {
+      "id": "curl",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Curl (elbow flexion)",
+        "id": "Curl (tekuk siku)"
+      }
+    },
+    {
+      "id": "triceps-extension",
+      "view": "side",
+      "contact": "feet",
+      "name": {
+        "en": "Triceps extension",
+        "id": "Ekstensi trisep"
+      }
+    },
+    {
+      "id": "lateral-raise",
+      "view": "front",
+      "contact": "feet",
+      "name": {
+        "en": "Lateral raise",
+        "id": "Angkat samping"
+      }
+    },
+    {
+      "id": "chest-fly",
+      "view": "front",
+      "contact": "feet-or-back",
+      "name": {
+        "en": "Chest fly",
+        "id": "Chest fly"
+      }
+    },
+    {
+      "id": "knee-extension",
+      "view": "side",
+      "contact": "seat",
+      "name": {
+        "en": "Knee extension",
+        "id": "Ekstensi lutut"
+      }
+    },
+    {
+      "id": "knee-flexion",
+      "view": "side",
+      "contact": "hips",
+      "name": {
+        "en": "Knee flexion",
+        "id": "Tekuk lutut"
+      }
+    },
+    {
+      "id": "dip",
+      "view": "side",
+      "contact": "hands",
+      "name": {
+        "en": "Dip",
+        "id": "Dip"
+      }
+    },
+    {
+      "id": "trunk-flexion",
+      "view": "side",
+      "contact": "hips",
+      "name": {
+        "en": "Trunk flexion",
+        "id": "Tekuk badan"
+      }
+    },
+    {
+      "id": "core-hold",
+      "view": "side",
+      "contact": "hands-and-feet",
+      "name": {
+        "en": "Core hold",
+        "id": "Tahan otot inti"
+      }
+    },
+    {
+      "id": "hip-thrust",
+      "view": "side",
+      "contact": "feet-and-back",
+      "name": {
+        "en": "Hip thrust",
+        "id": "Hip thrust"
+      }
+    },
+    {
+      "id": "cardio",
+      "view": "side",
+      "contact": "none",
+      "name": {
+        "en": "Cardio (gait cycle)",
+        "id": "Kardio (siklus langkah)"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "id": "full-gym",
+      "kind": "setup",
+      "name": {
+        "en": "Full gym",
+        "id": "Gym lengkap"
+      }
+    },
+    {
+      "id": "dumbbells",
+      "kind": "setup",
+      "name": {
+        "en": "Dumbbells and a bench",
+        "id": "Dumbel dan bangku"
+      }
+    },
+    {
+      "id": "bodyweight",
+      "kind": "setup",
+      "name": {
+        "en": "Bodyweight at home",
+        "id": "Berat badan di rumah"
+      }
+    },
+    {
+      "id": "pull-up-bar",
+      "kind": "extra",
+      "name": {
+        "en": "Pull-up bar",
+        "id": "Pull-up bar"
+      }
+    },
+    {
+      "id": "bands",
+      "kind": "extra",
+      "name": {
+        "en": "Resistance bands",
+        "id": "Resistance band"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "id": "beginner",
+      "name": {
+        "en": "Beginner",
+        "id": "Pemula"
+      }
+    },
+    {
+      "id": "intermediate",
+      "name": {
+        "en": "Intermediate",
+        "id": "Menengah"
+      }
+    },
+    {
+      "id": "advanced",
+      "name": {
+        "en": "Advanced",
+        "id": "Lanjutan"
+      }
+    }
+  ],
+  "stress": [
+    {
+      "id": "knee",
+      "name": {
+        "en": "Knee",
+        "id": "Lutut"
+      }
+    },
+    {
+      "id": "lower-back",
+      "name": {
+        "en": "Lower back",
+        "id": "Punggung bawah"
+      }
+    },
+    {
+      "id": "shoulder",
+      "name": {
+        "en": "Shoulder",
+        "id": "Bahu"
+      }
+    }
+  ],
+  "patternParams": {
+    "implement": [
+      "barbell",
+      "dumbbell",
+      "kettlebell",
+      "machine",
+      "cable",
+      "band",
+      "bodyweight",
+      "pull-up-bar"
+    ],
+    "position": [
+      "standing",
+      "seated",
+      "lying",
+      "incline",
+      "decline",
+      "bent-over",
+      "kneeling",
+      "hanging",
+      "plank",
+      "side-plank",
+      "split-stance",
+      "single-leg",
+      "supported",
+      "leaning"
+    ],
+    "grip": [
+      "overhand",
+      "underhand",
+      "neutral"
+    ],
+    "gait": [
+      "walk",
+      "jog"
+    ],
+    "tempo": [
+      "dynamic",
+      "isometric"
+    ],
+    "prop": [
+      "floor",
+      "bench",
+      "chair",
+      "step",
+      "wall",
+      "door-frame",
+      "counter",
+      "bars",
+      "towel"
+    ]
+  },
+  "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+  ],
+  "foodStates": [
+    {
+      "id": "raw",
+      "name": {
+        "en": "Raw",
+        "id": "Mentah"
+      }
+    },
+    {
+      "id": "cooked",
+      "name": {
+        "en": "Cooked",
+        "id": "Dimasak"
+      }
+    },
+    {
+      "id": "boiled",
+      "name": {
+        "en": "Boiled",
+        "id": "Rebus"
+      }
+    },
+    {
+      "id": "steamed",
+      "name": {
+        "en": "Steamed",
+        "id": "Kukus"
+      }
+    },
+    {
+      "id": "fried",
+      "name": {
+        "en": "Fried",
+        "id": "Goreng"
+      }
+    },
+    {
+      "id": "stir-fried",
+      "name": {
+        "en": "Stir-fried",
+        "id": "Tumis"
+      }
+    },
+    {
+      "id": "grilled",
+      "name": {
+        "en": "Grilled",
+        "id": "Bakar"
+      }
+    },
+    {
+      "id": "dry",
+      "name": {
+        "en": "Dry, weighed before cooking",
+        "id": "Kering, ditimbang sebelum dimasak"
+      }
+    }
+  ],
+  "foodTags": [
+    {
+      "id": "vegetarian",
+      "name": {
+        "en": "Vegetarian (eggs and dairy allowed)",
+        "id": "Vegetarian (telur dan susu boleh)"
+      }
+    },
+    {
+      "id": "dairy",
+      "name": {
+        "en": "Dairy",
+        "id": "Susu dan olahannya"
+      }
+    },
+    {
+      "id": "beef",
+      "name": {
+        "en": "Beef",
+        "id": "Daging sapi"
+      }
+    },
+    {
+      "id": "seafood",
+      "name": {
+        "en": "Fish and seafood",
+        "id": "Ikan dan hasil laut"
+      }
+    },
+    {
+      "id": "egg",
+      "name": {
+        "en": "Egg",
+        "id": "Telur"
+      }
+    },
+    {
+      "id": "soy",
+      "name": {
+        "en": "Soy",
+        "id": "Kedelai"
+      }
+    },
+    {
+      "id": "nuts",
+      "name": {
+        "en": "Nuts and peanuts",
+        "id": "Kacang-kacangan"
+      }
+    },
+    {
+      "id": "gluten",
+      "name": {
+        "en": "Gluten",
+        "id": "Gluten"
+      }
+    }
+  ],
+  "foodSlots": [
+    {
+      "id": "protein",
+      "name": {
+        "en": "Protein",
+        "id": "Protein"
+      }
+    },
+    {
+      "id": "carb",
+      "name": {
+        "en": "Carbohydrate",
+        "id": "Karbohidrat"
+      }
+    },
+    {
+      "id": "vegetable",
+      "name": {
+        "en": "Vegetables",
+        "id": "Sayur"
+      }
+    },
+    {
+      "id": "fat",
+      "name": {
+        "en": "Fat",
+        "id": "Lemak"
+      }
+    },
+    {
+      "id": "fruit",
+      "name": {
+        "en": "Fruit",
+        "id": "Buah"
+      }
+    }
+  ],
+  "mealTypes": [
+    {
+      "id": "breakfast",
+      "name": {
+        "en": "Breakfast",
+        "id": "Sarapan"
+      }
+    },
+    {
+      "id": "lunch",
+      "name": {
+        "en": "Lunch",
+        "id": "Makan siang"
+      }
+    },
+    {
+      "id": "afternoon",
+      "name": {
+        "en": "Afternoon meal",
+        "id": "Makan sore"
+      }
+    },
+    {
+      "id": "dinner",
+      "name": {
+        "en": "Dinner",
+        "id": "Makan malam"
+      }
+    },
+    {
+      "id": "snack",
+      "name": {
+        "en": "Snack",
+        "id": "Camilan"
+      }
+    }
+  ]
+}

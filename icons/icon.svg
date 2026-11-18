@@ -1,0 +1,22 @@
+<!-- icons/icon.svg
+     App icon source: dark brand panel, orange barbell, hazard stripe along the bottom (the Utility
+     header-block motif). scripts/make-icons.js renders the PNGs (192, 512, 512 maskable, 180 apple-touch)
+     from this file; the barbell sits inside the central 80% so the maskable crop keeps it whole. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <pattern id="hazard" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="48" height="48" fill="#121212"/><rect width="24" height="48" fill="#FF6A2B"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="#141414"/>
+  <rect y="436" width="512" height="76" fill="url(#hazard)"/>
+  <g fill="#FF6A2B">
+    <rect x="96" y="238" width="320" height="36" rx="4"/>
+    <rect x="116" y="166" width="44" height="180" rx="6"/>
+    <rect x="352" y="166" width="44" height="180" rx="6"/>
+    <rect x="166" y="196" width="28" height="120" rx="5"/>
+    <rect x="318" y="196" width="28" height="120" rx="5"/>
+    <rect x="72" y="232" width="24" height="48" rx="4"/>
+    <rect x="416" y="232" width="24" height="48" rx="4"/>
+  </g>
+</svg>

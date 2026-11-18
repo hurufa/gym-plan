@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- tests.html
+     Automated checks. Open from a local server (npx serve) and read the summary at the top:
+     every test prints PASS or FAIL with the reason. Suites live in js/tests/*.test.js.
+     Tests never touch the app's real localStorage key (state tests use an in-memory storage). -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <title>Tests · Gym Plan</title>
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <script src="./js/file-notice.js"></script>
+  <script src="./vendor/gsap.min.js"></script>
+  <style>
+    li { font-family: ui-monospace, monospace; font-size: var(--fs-14); }
+    li.pass { color: var(--success); }
+    li.fail { color: var(--danger); font-weight: 600; }
+    pre { white-space: pre-wrap; color: var(--ink); font-weight: 400; margin: var(--sp-4) 0 0; }
+  </style>
+</head>
+<body>
+  <header class="brand page-head"><div class="stack">
+    <span class="eyebrow eyebrow--rule">Gym Plan</span>
+    <h1 class="display-48">Automated <span class="key">checks</span></h1>
+    <p id="summary" role="status">Running…</p>
+  </div></header>
+  <main class="page stack-lg" id="results"></main>
+  <script type="module">
+    import { run } from './js/tests/harness.js';
+    import './js/tests/core.test.js';
+    import './js/tests/contrast.test.js';
+    import './js/tests/data.test.js';
+    import './js/tests/planner.test.js';
+    import './js/tests/animation.test.js';
+    import './js/tests/session.test.js';
+    import './js/tests/food.test.js';
+    import './js/tests/nutrition.test.js';
+    import './js/tests/progress.test.js';
+    import './js/tests/glossary.test.js';
+    import './js/tests/pwa.test.js';
+    const r = await run(document.getElementById('results'));
+    const summary = `${r.failed ? 'FAIL' : 'PASS'}: ${r.passed} passed, ${r.failed} failed`;
+    document.getElementById('summary').textContent = summary;
+    document.title = `${r.failed ? 'FAIL' : 'PASS'} · Tests`;
+  </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* tokens.css
+   Every design value of the app: color (light + dark), type, spacing, radius, shadow, motion.
+   Loaded first by every page. No other file hard-codes a color, size or duration.
+   Visual direction "Utility": warm light grey, black and safety orange; heavy condensed headlines,
+   monospace labels and numbers, outlined panels, a thin hazard stripe under header blocks.
+   Theme: light by default; dark via prefers-color-scheme unless data-theme="light" is set on <html>,
+   or forced with data-theme="dark". Any element can carry data-theme to scope a theme (styleguide). */
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  /* Header blocks (onboarding, page heads, session complete) */
+  --brand: #141414;
+  --on-brand: #F2F2EE;
+  --key: #FF6A2B;           /* key word and stripe on header blocks */
+  --on-key: #121212;        /* text on a key-coloured button */
+
+  --bg: #ECECE8;
+  --surface: #F8F8F5;
+  --surface-2: #DFDFDA;
+  --ink: #121212;
+  --ink-muted: #4F4F4B;
+  --line: #121212;          /* panel outlines and dividers */
+  --primary: #F0601F;       /* main buttons: orange fill, black text, black outline */
+  --on-primary: #121212;
+  --btn-border: #121212;
+  --accent: #B13F0E;        /* text-safe orange: timer, PRs, active nav, highlights */
+  --on-accent: #FFFFFF;
+  --figure-base: #E8E8E3;   /* body map silhouette */
+  --muscle-primary: #93340B;
+  --muscle-secondary: #F5B48F;
+  --muscle-idle: #ABABA4;
+  --success: #276B31;
+  --warning: #7A5A00;
+  --danger: #A3261C;
+  --on-danger: #FFFFFF;
+
+  --chart-1: #121212;
+  --chart-2: #B13F0E;
+  --chart-3: #4D6B80;
+  --chart-4: #7E7A55;
+
+  --scrim: rgba(18, 18, 18, .55);
+  --shadow: none;           /* outlined, flat panels */
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --brand: #232321;
+  --on-brand: #EDEDE8;
+  --key: #FF7438;
+  --on-key: #121212;
+  --bg: #111111;
+  --surface: #1B1B1A;
+  --surface-2: #262624;
+  --ink: #EDEDE8;
+  --ink-muted: #A3A39C;
+  --line: #5A5A55;
+  --primary: #FF6A2B;
+  --on-primary: #121212;
+  --btn-border: #FF6A2B;
+  --accent: #FF7A40;
+  --on-accent: #121212;
+  --figure-base: #252523;
+  --muscle-primary: #FF7A40;
+  --muscle-secondary: #6E3519;
+  --muscle-idle: #4F4F4B;
+  --success: #7BD389;
+  --warning: #F2CC4B;
+  --danger: #FF7B72;
+  --on-danger: #121212;
+  --chart-1: #EDEDE8;
+  --chart-2: #FF7A40;
+  --chart-3: #8FB3C9;
+  --chart-4: #C9C09A;
+  --shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --brand: #232321;
+    --on-brand: #EDEDE8;
+    --key: #FF7438;
+    --on-key: #121212;
+    --bg: #111111;
+    --surface: #1B1B1A;
+    --surface-2: #262624;
+    --ink: #EDEDE8;
+    --ink-muted: #A3A39C;
+    --line: #5A5A55;
+    --primary: #FF6A2B;
+    --on-primary: #121212;
+    --btn-border: #FF6A2B;
+    --accent: #FF7A40;
+    --on-accent: #121212;
+    --figure-base: #252523;
+    --muscle-primary: #FF7A40;
+    --muscle-secondary: #6E3519;
+    --muscle-idle: #4F4F4B;
+    --success: #7BD389;
+    --warning: #F2CC4B;
+    --danger: #FF7B72;
+    --on-danger: #121212;
+    --chart-1: #EDEDE8;
+    --chart-2: #FF7A40;
+    --chart-3: #8FB3C9;
+    --chart-4: #C9C09A;
+    --shadow: none;
+  }
+}
+
+:root {
+  /* Type. Anton has no tabular figures, so it is for headlines only; numbers use JetBrains Mono. */
+  --font-display: "Anton", "Barlow", system-ui, sans-serif;
+  --font-label: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-num: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display-weight: 400;
+  --label-weight: 500;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-48: 48px;
+  --fs-72: 72px;
+  --lh-body: 1.5;
+  --lh-display: .92;
+  --tracking-display: 0;
+  --tracking-label: 0.08em;
+
+  /* Spacing */
+  --sp-4: 4px;
+  --sp-8: 8px;
+  --sp-12: 12px;
+  --sp-16: 16px;
+  --sp-24: 24px;
+  --sp-32: 32px;
+  --sp-48: 48px;
+
+  /* Shape */
+  --radius: 2px;
+  --radius-pill: 999px;
+  --border: 1px;
+  --card-border-w: 2px;
+  --tap: 44px;
+  --icon: 24px;
+  --indicator: 3px;
+  --focus-w: 2px;
+  --rule-w: 16px;
+  --rule-h: 2px;
+  --stripe-h: 10px;         /* hazard stripe under header blocks */
+  --stripe-w: 8px;
+  --content-max: 960px;
+  --sidebar-w: 220px;
+  --nav-h: 64px;
+
+  /* Motion */
+  --dur-fast: 150ms;
+  --dur-base: 250ms;
+  --dur-slow: 400ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+# Reference screenshots of other sites: inspiration only, not ours to republish
+references/
+# Local Claude Code preview config
+.claude/
+# Build instructions: kept private
+CLAUDE.md

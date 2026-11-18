@@ -1,0 +1,249 @@
+<!doctype html>
+<!-- styleguide.html
+     Renders every design token and component in the light and the dark theme side by side,
+     plus a live WCAG contrast table for every token pair in use and the tabular-numbers check.
+     Open from a local server (npx serve) next to index.html. -->
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <title>Styleguide · Gym App</title>
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <script src="./js/file-notice.js"></script>
+  <style>
+    .sg-cols { display: grid; grid-template-columns: 1fr; }
+    @media (min-width: 1100px) { .sg-cols { grid-template-columns: 1fr 1fr; } }
+    .sg-theme { background: var(--bg); color: var(--ink); padding: var(--sp-24) var(--sp-16); min-width: 0; }
+    .sg-theme > section + section { margin-top: var(--sp-48); }
+    .sg-swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--sp-8); }
+    .sg-sw { border: var(--border) solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); font-size: var(--fs-12); }
+    .sg-sw div { height: var(--sp-48); border-bottom: var(--border) solid var(--line); }
+    .sg-sw p { padding: var(--sp-4) var(--sp-8); }
+    .sg-space { display: flex; align-items: flex-end; gap: var(--sp-8); }
+    .sg-space span { display: block; background: var(--ink); }
+    .sg-table-wrap { overflow-x: auto; }
+    .pass { color: var(--success); font-weight: 600; }
+    .fail { color: var(--danger); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header class="brand page-head">
+    <div class="stack">
+      <span class="eyebrow eyebrow--rule">Design system</span>
+      <h1 class="display-48">Styleguide<br><span class="key">tokens</span> &amp; parts</h1>
+      <p id="summary" role="status">Running contrast checks…</p>
+    </div>
+  </header>
+  <main class="sg-cols" id="cols"></main>
+
+  <template id="sg-template">
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Color</span>
+      <div class="sg-swatches" data-swatches></div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Contrast (WCAG 2.2 AA)</span>
+      <div class="sg-table-wrap"><table class="table" data-contrast>
+        <thead><tr><th>Foreground / background</th><th class="num">Ratio</th><th class="num">Min</th><th>Result</th><th>Use</th></tr></thead><tbody></tbody>
+      </table></div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Typography</span>
+      <p class="display display-72">72 Headline</p>
+      <p class="display display-48">48 Display</p>
+      <h2>32 Heading</h2>
+      <p style="font-size:var(--fs-24);font-weight:600">24 Subheading</p>
+      <h3>20 Title Barlow 600</h3>
+      <p>16 Body Barlow 400. Short sentences, specific words. Progressive overload means adding load or reps over time.</p>
+      <p class="small muted">14 Secondary text in ink-muted</p>
+      <span class="eyebrow eyebrow--rule">12 Label JetBrains Mono</span>
+      <p class="big-num display-48">142.5<span class="stat-unit"> kg</span></p>
+      <table class="table" aria-label="Tabular numbers sample"><tbody>
+        <tr><td>Set 1</td><td class="num">111.1 kg</td></tr><tr><td>Set 2</td><td class="num">888.8 kg</td></tr>
+      </tbody></table>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Spacing · radius · shadow · motion</span>
+      <div class="sg-space" aria-label="Spacing scale 4 to 48">
+        <span style="width:var(--sp-4);height:var(--sp-4)"></span><span style="width:var(--sp-8);height:var(--sp-8)"></span>
+        <span style="width:var(--sp-12);height:var(--sp-12)"></span><span style="width:var(--sp-16);height:var(--sp-16)"></span>
+        <span style="width:var(--sp-24);height:var(--sp-24)"></span><span style="width:var(--sp-32);height:var(--sp-32)"></span>
+        <span style="width:var(--sp-48);height:var(--sp-48)"></span>
+      </div>
+      <p class="small muted">4 · 8 · 12 · 16 · 24 · 32 · 48 px. Radius 4 px (cards, inputs, chips), 999 px (ring, toggles). Shadow: one level, none in dark.</p>
+      <div class="card">Raised card (shadow in light theme, lighter surface in dark)</div>
+      <p class="small muted" data-motion></p>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Buttons</span>
+      <div class="row">
+        <button class="btn btn--primary">Start session</button>
+        <button class="btn btn--secondary">Swap</button>
+        <button class="btn btn--ghost">Skip</button>
+        <button class="btn btn--danger" data-icon="trash">Delete</button>
+        <button class="btn btn--primary" disabled>Disabled</button>
+      </div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Chips / filter</span>
+      <div class="chip-group" role="group" aria-label="Muscle filter">
+        <button class="chip" aria-pressed="true">Chest</button>
+        <button class="chip" aria-pressed="false">Back</button>
+        <button class="chip" aria-pressed="false">Quads</button>
+      </div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Card · stat tile · badge</span>
+      <div class="card card--accent stack-sm"><h3>Upper A</h3><p class="muted small">Chest, front shoulders, triceps · 58 min</p>
+        <p><span class="badge" data-icon="trophy">PR</span> <span class="badge badge--neutral">Deload</span></p></div>
+      <div class="stat-grid">
+        <div class="stat"><span class="eyebrow">Streak</span><span class="big-num stat-value">4 <span class="stat-unit">weeks</span></span></div>
+        <div class="stat"><span class="eyebrow">Weight</span><span class="big-num stat-value">72.4 <span class="stat-unit">kg</span></span></div>
+      </div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Inputs</span>
+      <div class="field"><label for="w-THEME">Body weight</label>
+        <div class="input-wrap"><input id="w-THEME" type="number" inputmode="decimal" value="72.4"><span class="suffix">kg</span></div>
+        <span class="hint">Weigh in the morning, before breakfast.</span></div>
+      <div class="field" data-invalid><label for="h-THEME">Height</label>
+        <div class="input-wrap"><input id="h-THEME" type="number" value="12" aria-describedby="he-THEME" aria-invalid="true"><span class="suffix">cm</span></div>
+        <span class="error" id="he-THEME" data-icon-error>Enter a height between 120 and 230 cm.</span></div>
+      <div class="field"><span class="label" id="reps-THEME">Reps</span>
+        <div class="stepper" data-step="1" data-min="0" role="group" aria-labelledby="reps-THEME">
+          <button type="button" data-dec aria-label="Fewer reps">−</button><input type="number" value="8" aria-labelledby="reps-THEME"><button type="button" data-inc aria-label="More reps">+</button></div></div>
+      <div class="field"><span class="label" id="load-THEME">Load</span>
+        <div class="stepper" data-step="2.5" data-min="0" role="group" aria-labelledby="load-THEME">
+          <button type="button" data-dec aria-label="Less load">−</button><input type="number" value="60" aria-labelledby="load-THEME"><span class="suffix">kg</span><button type="button" data-inc aria-label="More load">+</button></div></div>
+      <fieldset class="segmented"><legend>Theme</legend>
+        <label><input type="radio" name="seg-THEME" checked>System</label><label><input type="radio" name="seg-THEME">Light</label><label><input type="radio" name="seg-THEME">Dark</label></fieldset>
+      <div class="field"><label for="sl-THEME">Calorie adjustment</label>
+        <input class="slider" id="sl-THEME" type="range" min="-25" max="-15" value="-20">
+        <div class="slider-row"><span>−25%</span><span>−15%</span></div></div>
+      <label class="toggle"><span>Sound when rest ends</span><input type="checkbox" checked></label>
+      <label class="check"><input type="checkbox"><span>I have read this and want to continue.</span></label>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Notices</span>
+      <div class="notice notice--warning" data-icon="warning"><div><strong>5 days is a lot for a beginner</strong>A 4-day plan recovers better.</div></div>
+      <div class="notice notice--danger" data-icon="error"><div><strong>Import failed</strong>The file is not a gym-app export.</div></div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Sheet · toast · popover</span>
+      <div class="row">
+        <button class="btn btn--secondary" data-open-sheet>Open bottom sheet</button>
+        <button class="btn btn--secondary" data-open-toast>Show toast</button>
+        <p>Train at <button class="term" data-pop>RIR</button> 2.</p>
+      </div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Progress ring (rest timer)</span>
+      <div data-ring></div>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Body map fill states</span>
+      <p class="row"><span class="swatch" style="background:var(--muscle-primary)"></span> Primary (solid)</p>
+      <p class="row"><span class="swatch swatch--hatch"></span> Secondary (hatch)</p>
+      <p class="row"><span class="swatch" style="background:var(--muscle-idle)"></span> Idle (outline)</p>
+      <p class="small muted">Coverage view: under target = hatch, in range = solid ink, over = solid accent, each with a text label.</p>
+      <p class="row"><span class="swatch" style="background:var(--ink)"></span> In range <span class="swatch" style="background:var(--accent)"></span> Over</p>
+    </section>
+
+    <section class="stack">
+      <span class="eyebrow eyebrow--rule">Chart series</span>
+      <svg viewBox="0 0 300 80" role="img" aria-label="Four chart series with distinct dash patterns">
+        <path d="M0 60 L100 40 L200 45 L300 20" stroke="var(--chart-1)" stroke-width="2" fill="none"/>
+        <path d="M0 70 L100 55 L200 30 L300 35" stroke="var(--chart-2)" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+        <path d="M0 50 L100 60 L200 50 L300 55" stroke="var(--chart-3)" stroke-width="2" fill="none" stroke-dasharray="2 4"/>
+        <path d="M0 20 L100 25 L200 15 L300 10" stroke="var(--chart-4)" stroke-width="2" fill="none" stroke-dasharray="10 3 2 3"/>
+      </svg>
+    </section>
+
+    <section class="stack brand" style="padding:var(--sp-24)">
+      <span class="eyebrow eyebrow--rule">Brand surface</span>
+      <p class="display display-48">Session<br><span class="key">done</span></p>
+      <p>Light text on the dark block, the key word in orange, a hazard stripe along the bottom edge. Main button: orange with dark text.</p>
+      <div class="row"><button class="btn btn--primary">Continue</button><button class="btn btn--secondary">Back</button></div>
+    </section>
+  </template>
+
+  <script type="module">
+    import { checkPairs, tokenValue } from './js/contrast.js';
+    import { icon, toast, openSheet, popover, ringMarkup, setRing } from './js/ui.js';
+
+    const TOKENS = ['--brand','--on-brand','--key','--on-key','--bg','--surface','--surface-2','--ink','--ink-muted','--line',
+      '--primary','--on-primary','--btn-border','--accent','--on-accent','--muscle-primary','--muscle-secondary','--muscle-idle','--success','--warning',
+      '--danger','--on-danger','--chart-1','--chart-2','--chart-3','--chart-4'];
+    const cols = document.getElementById('cols');
+    const tpl = document.getElementById('sg-template').innerHTML;
+    let failures = 0, total = 0;
+
+    for (const theme of ['light', 'dark']) {
+      const col = document.createElement('div');
+      col.className = 'sg-theme';
+      col.dataset.theme = theme;
+      col.innerHTML = `<h2>${theme === 'light' ? 'Light' : 'Dark'} theme</h2>` + tpl.replaceAll('THEME', theme);
+      cols.append(col);
+
+      col.querySelector('[data-swatches]').innerHTML = TOKENS.map(t =>
+        `<div class="sg-sw"><div style="background:var(${t})"></div><p><code>${t}</code><br>${tokenValue(col, t)}</p></div>`).join('');
+
+      const rows = checkPairs(col);
+      total += rows.length;
+      failures += rows.filter(r => !r.pass).length;
+      col.querySelector('[data-contrast] tbody').innerHTML = rows.map(r =>
+        `<tr><td><code>${r.fg}</code> on <code>${r.bg}</code></td><td class="num">${r.ratio.toFixed(2)}</td><td class="num">${r.min}</td>
+         <td class="${r.pass ? 'pass' : 'fail'}">${icon(r.pass ? 'check' : 'error')} ${r.pass ? 'Pass' : 'Fail'}</td><td>${r.use}</td></tr>`).join('');
+
+      col.querySelector('[data-motion]').textContent =
+        `Motion: fast ${tokenValue(col, '--dur-fast')}, base ${tokenValue(col, '--dur-base')}, slow ${tokenValue(col, '--dur-slow')}, ease ${tokenValue(col, '--ease')}`;
+      col.querySelectorAll('[data-icon]').forEach(el => el.insertAdjacentHTML('afterbegin', icon(el.dataset.icon)));
+      col.querySelectorAll('[data-icon-error]').forEach(el => el.insertAdjacentHTML('afterbegin', icon('error')));
+      col.querySelectorAll('.chip[aria-pressed]').forEach(c => c.addEventListener('click', () => c.setAttribute('aria-pressed', String(c.getAttribute('aria-pressed') !== 'true'))));
+      col.querySelector('[data-open-toast]').addEventListener('click', () => toast('Set logged: 8 reps at 60 kg'));
+      col.querySelector('[data-open-sheet]').addEventListener('click', () => openSheet({
+        title: 'Swap exercise', body: '<p>Pick a replacement that trains the same muscles.</p>',
+        actions: [{ label: 'Cancel', value: 'no' }, { label: 'Swap', value: 'yes', variant: 'primary' }] }));
+      col.querySelector('[data-pop]').addEventListener('click', e => popover(e.currentTarget,
+        '<span class="eyebrow">RIR</span>Reps in reserve: how many more reps you could have done. RIR 2 = stop 2 reps before failure.'));
+      const ringHost = col.querySelector('[data-ring]');
+      ringHost.innerHTML = ringMarkup('1:30');
+      setRing(ringHost.firstElementChild, 0.62);
+    }
+
+    // tabular-nums check: if the font honours tnum, "111.1" and "888.8" render at equal width.
+    // Fonts load lazily: load each one so the probe measures the real font, not a fallback.
+    await Promise.all(['400 40px Anton', '500 40px "JetBrains Mono"', '700 40px "JetBrains Mono"', '400 40px Barlow'].map(f => document.fonts.load(f)));
+    await document.fonts.ready;
+    const probe = font => {
+      const s = document.createElement('span');
+      s.style.cssText = `font-family:${font};font-variant-numeric:tabular-nums;font-size:40px;position:absolute;visibility:hidden;white-space:nowrap`;
+      document.body.append(s);
+      s.textContent = '1111'; const a = s.getBoundingClientRect().width;
+      s.textContent = '8888'; const b = s.getBoundingClientRect().width;
+      s.remove();
+      return Math.abs(a - b) < 0.5;
+    };
+    const tnum = { anton: probe('Anton'), jetbrains: probe('"JetBrains Mono"'), barlow: probe('Barlow') };
+    window.__styleguide = { total, failures, tnum };
+    document.getElementById('summary').textContent =
+      `Contrast: ${total - failures}/${total} pairs pass across both themes. ` +
+      `Tabular figures: JetBrains Mono (numbers) ${tnum.jetbrains ? 'yes' : 'no'}, Barlow (body) ${tnum.barlow ? 'yes' : 'no'}, Anton (headlines only) ${tnum.anton ? 'yes' : 'no'}.`;
+  </script>
+</body>
+</html>

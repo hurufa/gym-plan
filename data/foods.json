@@ -1,0 +1,2401 @@
+[
+ {
+  "id": "nasi-putih",
+  "name": {
+   "en": "White rice, cooked",
+   "id": "Nasi putih"
+  },
+  "state": "cooked",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 180,
+  "protein": 3,
+  "carbs": 39,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 rice scoop",
+    "id": "1 centong"
+   },
+   "unit": false
+  },
+  "price_idr": 700,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI AP0001"
+ },
+ {
+  "id": "nasi-merah",
+  "name": {
+   "en": "Brown rice, cooked",
+   "id": "Nasi merah"
+  },
+  "state": "cooked",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 149,
+  "protein": 2,
+  "carbs": 32,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 rice scoop",
+    "id": "1 centong"
+   },
+   "unit": false
+  },
+  "price_idr": 1200,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI AP0005"
+ },
+ {
+  "id": "kentang-kukus",
+  "name": {
+   "en": "Potato, steamed",
+   "id": "Kentang kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 62,
+  "protein": 2,
+  "carbs": 13,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 medium potato",
+    "id": "1 kentang sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 1900,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI BP0112"
+ },
+ {
+  "id": "ubi-jalar-kukus",
+  "name": {
+   "en": "Sweet potato, steamed",
+   "id": "Ubi jalar kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 116,
+  "protein": 1,
+  "carbs": 27,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small sweet potato",
+    "id": "1 ubi kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1300,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI BP0201"
+ },
+ {
+  "id": "ubi-ungu-kukus",
+  "name": {
+   "en": "Purple sweet potato, steamed",
+   "id": "Ubi ungu kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 151,
+  "protein": 1,
+  "carbs": 35,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small sweet potato",
+    "id": "1 ubi kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1600,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI BP0205"
+ },
+ {
+  "id": "singkong-rebus",
+  "name": {
+   "en": "Cassava, boiled",
+   "id": "Singkong rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 140,
+  "protein": 0,
+  "carbs": 33,
+  "fat": 0,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 piece",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 900,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI BP0231"
+ },
+ {
+  "id": "jagung-rebus",
+  "name": {
+   "en": "Sweet corn, boiled",
+   "id": "Jagung manis rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "carb",
+   "vegetable"
+  ],
+  "kcal": 103,
+  "protein": 3.4,
+  "carbs": 19,
+  "fat": 1.5,
+  "fiber": 2.4,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "kernels of 1 cob",
+    "id": "pipilan 1 tongkol"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI AP0228 lists 89 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "roti-gandum",
+  "name": {
+   "en": "Wholemeal bread",
+   "id": "Roti gandum"
+  },
+  "state": "cooked",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 310,
+  "protein": 8,
+  "carbs": 51,
+  "fat": 7,
+  "fiber": 0,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "1 slice",
+    "id": "1 lembar"
+   },
+   "unit": true
+  },
+  "price_idr": 5000,
+  "tags": [
+   "vegetarian",
+   "gluten"
+  ],
+  "source": "TKPI AP0346"
+ },
+ {
+  "id": "roti-tawar",
+  "name": {
+   "en": "White bread",
+   "id": "Roti tawar"
+  },
+  "state": "cooked",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 312,
+  "protein": 10,
+  "carbs": 51,
+  "fat": 7,
+  "fiber": 0,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "1 slice",
+    "id": "1 lembar"
+   },
+   "unit": true
+  },
+  "price_idr": 3800,
+  "tags": [
+   "vegetarian",
+   "gluten"
+  ],
+  "source": "TKPI AP0345"
+ },
+ {
+  "id": "oatmeal",
+  "name": {
+   "en": "Rolled oats, dry (cook with water)",
+   "id": "Oatmeal, kering (masak dengan air)"
+  },
+  "state": "dry",
+  "slots": [
+   "carb"
+  ],
+  "kcal": 398,
+  "protein": 11,
+  "carbs": 67,
+  "fat": 9,
+  "fiber": 13,
+  "portion": {
+   "g": 40,
+   "label": {
+    "en": "4 tablespoons dry",
+    "id": "4 sdm kering"
+   },
+   "unit": false
+  },
+  "price_idr": 5600,
+  "tags": [
+   "vegetarian",
+   "gluten"
+  ],
+  "source": "TKPI AP0350",
+  "note": "Weighed dry. Oats are tagged gluten because most brands are processed with wheat."
+ },
+ {
+  "id": "dada-ayam-rebus",
+  "name": {
+   "en": "Chicken breast, boiled",
+   "id": "Dada ayam rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 193,
+  "protein": 28,
+  "carbs": 0,
+  "fat": 8,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 palm-size piece",
+    "id": "1 potong seukuran telapak tangan"
+   },
+   "unit": false
+  },
+  "price_idr": 8000,
+  "tags": [],
+  "source": "TKPI FP0122"
+ },
+ {
+  "id": "dada-ayam-bakar",
+  "name": {
+   "en": "Chicken breast, grilled",
+   "id": "Dada ayam bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 234,
+  "protein": 23,
+  "carbs": 6,
+  "fat": 13,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 palm-size piece",
+    "id": "1 potong seukuran telapak tangan"
+   },
+   "unit": false
+  },
+  "price_idr": 8000,
+  "tags": [],
+  "source": "TKPI FP0120"
+ },
+ {
+  "id": "dada-ayam-goreng",
+  "name": {
+   "en": "Chicken breast, fried",
+   "id": "Dada ayam goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 224,
+  "protein": 18,
+  "carbs": 5,
+  "fat": 14,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 palm-size piece",
+    "id": "1 potong seukuran telapak tangan"
+   },
+   "unit": false
+  },
+  "price_idr": 8500,
+  "tags": [],
+  "source": "TKPI FP0121"
+ },
+ {
+  "id": "paha-ayam-rebus",
+  "name": {
+   "en": "Chicken thigh, boiled",
+   "id": "Paha ayam rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 242,
+  "protein": 21,
+  "carbs": 2,
+  "fat": 16,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 thigh, meat only",
+    "id": "1 paha, dagingnya saja"
+   },
+   "unit": false
+  },
+  "price_idr": 6000,
+  "tags": [],
+  "source": "TKPI FP0126"
+ },
+ {
+  "id": "paha-ayam-goreng",
+  "name": {
+   "en": "Chicken thigh, fried",
+   "id": "Paha ayam goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 245,
+  "protein": 33,
+  "carbs": 0,
+  "fat": 11,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 thigh, meat only",
+    "id": "1 paha, dagingnya saja"
+   },
+   "unit": false
+  },
+  "price_idr": 6500,
+  "tags": [],
+  "source": "TKPI FP0125"
+ },
+ {
+  "id": "daging-sapi-rebus",
+  "name": {
+   "en": "Lean beef, boiled",
+   "id": "Daging sapi rendah lemak, rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 209,
+  "protein": 41,
+  "carbs": 0,
+  "fat": 4,
+  "fiber": 0,
+  "portion": {
+   "g": 80,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 21500,
+  "tags": [
+   "beef"
+  ],
+  "source": "TKPI FP0402"
+ },
+ {
+  "id": "sapi-giling-rebus",
+  "name": {
+   "en": "Minced beef, boiled",
+   "id": "Daging sapi giling, rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 272,
+  "protein": 17,
+  "carbs": 0,
+  "fat": 21,
+  "fiber": 0,
+  "portion": {
+   "g": 80,
+   "label": {
+    "en": "4 tablespoons",
+    "id": "4 sdm"
+   },
+   "unit": false
+  },
+  "price_idr": 19000,
+  "tags": [
+   "beef"
+  ],
+  "source": "TKPI FP0225"
+ },
+ {
+  "id": "hati-sapi-rebus",
+  "name": {
+   "en": "Beef liver, boiled",
+   "id": "Hati sapi rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 178,
+  "protein": 30,
+  "carbs": 0,
+  "fat": 6,
+  "fiber": 0,
+  "portion": {
+   "g": 60,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 9000,
+  "tags": [
+   "beef"
+  ],
+  "source": "TKPI FP0272"
+ },
+ {
+  "id": "telur-rebus",
+  "name": {
+   "en": "Egg, boiled",
+   "id": "Telur rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 138,
+  "protein": 13,
+  "carbs": 2,
+  "fat": 8,
+  "fiber": 0,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 egg",
+    "id": "1 butir"
+   },
+   "unit": true
+  },
+  "price_idr": 3000,
+  "tags": [
+   "vegetarian",
+   "egg"
+  ],
+  "source": "TKPI HP0022"
+ },
+ {
+  "id": "telur-goreng",
+  "name": {
+   "en": "Egg, fried",
+   "id": "Telur ceplok"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 233,
+  "protein": 12,
+  "carbs": 0,
+  "fat": 19,
+  "fiber": 0,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 egg",
+    "id": "1 butir"
+   },
+   "unit": true
+  },
+  "price_idr": 3300,
+  "tags": [
+   "vegetarian",
+   "egg"
+  ],
+  "source": "TKPI HP0021"
+ },
+ {
+  "id": "telur-orak-arik",
+  "name": {
+   "en": "Scrambled egg",
+   "id": "Telur orak-arik"
+  },
+  "state": "stir-fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 214,
+  "protein": 12,
+  "carbs": 0,
+  "fat": 17,
+  "fiber": 0,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 egg",
+    "id": "1 butir"
+   },
+   "unit": true
+  },
+  "price_idr": 3300,
+  "tags": [
+   "vegetarian",
+   "egg"
+  ],
+  "source": "TKPI HP0023"
+ },
+ {
+  "id": "putih-telur-rebus",
+  "name": {
+   "en": "Egg white, boiled",
+   "id": "Putih telur rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 48,
+  "protein": 10.9,
+  "carbs": 0.7,
+  "fat": 0.2,
+  "fiber": 0,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "white of 1 egg",
+    "id": "putih 1 butir"
+   },
+   "unit": true
+  },
+  "price_idr": 5000,
+  "tags": [
+   "vegetarian",
+   "egg"
+  ],
+  "source": "estimate",
+  "note": "TKPI HP0019 lists 50 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "tongkol-bakar",
+  "name": {
+   "en": "Mackerel tuna (tongkol), grilled",
+   "id": "Ikan tongkol bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 138,
+  "protein": 14,
+  "carbs": 12,
+  "fat": 3,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium piece",
+    "id": "1 potong sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 7500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1406"
+ },
+ {
+  "id": "tongkol-pepes",
+  "name": {
+   "en": "Mackerel tuna (tongkol), steamed in banana leaf",
+   "id": "Pepes ikan tongkol"
+  },
+  "state": "steamed",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 116,
+  "protein": 12,
+  "carbs": 10,
+  "fat": 2,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 parcel",
+    "id": "1 bungkus"
+   },
+   "unit": false
+  },
+  "price_idr": 7500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1408"
+ },
+ {
+  "id": "lele-goreng",
+  "name": {
+   "en": "Catfish (lele), fried",
+   "id": "Ikan lele goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 181,
+  "protein": 18.5,
+  "carbs": 2,
+  "fat": 11,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small catfish, meat only",
+    "id": "1 ekor kecil, dagingnya saja"
+   },
+   "unit": false
+  },
+  "price_idr": 6000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "estimate",
+  "note": "TKPI has raw catfish (GR0312) and smoked catfish only, no plain fried entry."
+ },
+ {
+  "id": "nila-pindang",
+  "name": {
+   "en": "Tilapia, braised in spiced broth (pindang)",
+   "id": "Ikan nila pindang"
+  },
+  "state": "cooked",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 113,
+  "protein": 24,
+  "carbs": 0,
+  "fat": 1,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium piece",
+    "id": "1 potong sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 7000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GR0212"
+ },
+ {
+  "id": "bandeng-bakar",
+  "name": {
+   "en": "Milkfish (bandeng), grilled",
+   "id": "Ikan bandeng bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 149,
+  "protein": 19,
+  "carbs": 4,
+  "fat": 5,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium piece",
+    "id": "1 potong sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 7500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP0111"
+ },
+ {
+  "id": "bandeng-goreng",
+  "name": {
+   "en": "Milkfish (bandeng), fried",
+   "id": "Ikan bandeng goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 278,
+  "protein": 26,
+  "carbs": 1,
+  "fat": 18,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium piece",
+    "id": "1 potong sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 8000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP0112"
+ },
+ {
+  "id": "kembung-bakar",
+  "name": {
+   "en": "Short mackerel (kembung), grilled",
+   "id": "Ikan kembung bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 161,
+  "protein": 21,
+  "carbs": 6,
+  "fat": 5,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 fish, meat only",
+    "id": "1 ekor, dagingnya saja"
+   },
+   "unit": false
+  },
+  "price_idr": 8000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1221"
+ },
+ {
+  "id": "kembung-goreng",
+  "name": {
+   "en": "Short mackerel (kembung), fried",
+   "id": "Ikan kembung goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 236,
+  "protein": 28,
+  "carbs": 0,
+  "fat": 13,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 fish, meat only",
+    "id": "1 ekor, dagingnya saja"
+   },
+   "unit": false
+  },
+  "price_idr": 8500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1222"
+ },
+ {
+  "id": "patin-bakar",
+  "name": {
+   "en": "Pangasius (patin), grilled",
+   "id": "Ikan patin bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 144,
+  "protein": 16,
+  "carbs": 4,
+  "fat": 6,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium piece",
+    "id": "1 potong sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 6500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP0024"
+ },
+ {
+  "id": "tuna-bakar",
+  "name": {
+   "en": "Tuna, grilled",
+   "id": "Ikan tuna bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 146,
+  "protein": 23,
+  "carbs": 4,
+  "fat": 3,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 steak",
+    "id": "1 potong steak"
+   },
+   "unit": false
+  },
+  "price_idr": 13000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1167"
+ },
+ {
+  "id": "salmon-bakar",
+  "name": {
+   "en": "Salmon, grilled",
+   "id": "Ikan salmon bakar"
+  },
+  "state": "grilled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 259,
+  "protein": 20,
+  "carbs": 4,
+  "fat": 17,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 fillet",
+    "id": "1 fillet"
+   },
+   "unit": false
+  },
+  "price_idr": 40000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1027"
+ },
+ {
+  "id": "ikan-mas-pepes",
+  "name": {
+   "en": "Carp, steamed in banana leaf",
+   "id": "Pepes ikan mas"
+  },
+  "state": "steamed",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 209,
+  "protein": 15,
+  "carbs": 11,
+  "fat": 11,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 parcel",
+    "id": "1 bungkus"
+   },
+   "unit": false
+  },
+  "price_idr": 7500,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP0019"
+ },
+ {
+  "id": "teri-goreng",
+  "name": {
+   "en": "Anchovies (teri), fried",
+   "id": "Ikan teri goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 213,
+  "protein": 13,
+  "carbs": 7,
+  "fat": 14,
+  "fiber": 0,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "2 tablespoons",
+    "id": "2 sdm"
+   },
+   "unit": false
+  },
+  "price_idr": 10000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "TKPI GP1067"
+ },
+ {
+  "id": "udang-rebus",
+  "name": {
+   "en": "Shrimp, boiled",
+   "id": "Udang rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 94,
+  "protein": 20.9,
+  "carbs": 0.2,
+  "fat": 1.1,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "about 8 medium shrimp",
+    "id": "sekitar 8 udang sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 16000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "estimate",
+  "note": "TKPI GP1416 lists 91 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "cumi-rebus",
+  "name": {
+   "en": "Squid, boiled",
+   "id": "Cumi-cumi rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 97,
+  "protein": 18,
+  "carbs": 3.1,
+  "fat": 1.4,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium squid",
+    "id": "1 cumi sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 12000,
+  "tags": [
+   "seafood"
+  ],
+  "source": "estimate",
+  "note": "TKPI GP0165 lists 75 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "tempe-goreng",
+  "name": {
+   "en": "Tempeh, fried",
+   "id": "Tempe goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 350,
+  "protein": 24,
+  "carbs": 10,
+  "fat": 26,
+  "fiber": 4,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": true
+  },
+  "price_idr": 2000,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "TKPI CP0076"
+ },
+ {
+  "id": "tempe-kukus",
+  "name": {
+   "en": "Tempeh, steamed",
+   "id": "Tempe kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 201,
+  "protein": 20,
+  "carbs": 13,
+  "fat": 8,
+  "fiber": 1,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": true
+  },
+  "price_idr": 1600,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "TKPI CP0077",
+  "note": "TKPI values for unfried tempeh (CP0077, listed as raw); steaming changes the values little."
+ },
+ {
+  "id": "tahu-goreng",
+  "name": {
+   "en": "Tofu, fried",
+   "id": "Tahu goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 115,
+  "protein": 9,
+  "carbs": 2,
+  "fat": 8,
+  "fiber": 0,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "1 piece",
+    "id": "1 potong"
+   },
+   "unit": true
+  },
+  "price_idr": 2000,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "TKPI CP0062"
+ },
+ {
+  "id": "tahu-kukus",
+  "name": {
+   "en": "Tofu, steamed",
+   "id": "Tahu kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 83,
+  "protein": 8.1,
+  "carbs": 1.9,
+  "fat": 4.8,
+  "fiber": 0.3,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 large piece",
+    "id": "1 potong besar"
+   },
+   "unit": true
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "estimate",
+  "note": "TKPI CP0061 lists 89 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "kedelai-rebus",
+  "name": {
+   "en": "Soybeans, boiled",
+   "id": "Kacang kedelai rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 189,
+  "protein": 20,
+  "carbs": 12,
+  "fat": 8,
+  "fiber": 1,
+  "portion": {
+   "g": 50,
+   "label": {
+    "en": "3 tablespoons",
+    "id": "3 sdm"
+   },
+   "unit": false
+  },
+  "price_idr": 800,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "TKPI CP0007"
+ },
+ {
+  "id": "susu-kedelai",
+  "name": {
+   "en": "Soy milk, lightly sweetened",
+   "id": "Susu kedelai"
+  },
+  "state": "cooked",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 52,
+  "protein": 3,
+  "carbs": 6,
+  "fat": 1.8,
+  "fiber": 0.6,
+  "portion": {
+   "g": 250,
+   "label": {
+    "en": "1 glass",
+    "id": "1 gelas"
+   },
+   "unit": false
+  },
+  "price_idr": 1000,
+  "tags": [
+   "vegetarian",
+   "soy"
+  ],
+  "source": "estimate",
+  "note": "TKPI CP0060 lists 56 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "kacang-hijau-rebus",
+  "name": {
+   "en": "Mung beans, boiled",
+   "id": "Kacang hijau rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein",
+   "carb"
+  ],
+  "kcal": 109,
+  "protein": 8,
+  "carbs": 18,
+  "fat": 0,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI CP0005"
+ },
+ {
+  "id": "kacang-merah-rebus",
+  "name": {
+   "en": "Red kidney beans, boiled",
+   "id": "Kacang merah rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "protein",
+   "carb"
+  ],
+  "kcal": 158,
+  "protein": 10,
+  "carbs": 28,
+  "fat": 0,
+  "fiber": 2,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI CP0008"
+ },
+ {
+  "id": "susu-uht",
+  "name": {
+   "en": "Milk, full cream (UHT)",
+   "id": "Susu UHT full cream"
+  },
+  "state": "cooked",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 60,
+  "protein": 3,
+  "carbs": 4,
+  "fat": 3,
+  "fiber": 0,
+  "portion": {
+   "g": 250,
+   "label": {
+    "en": "1 glass",
+    "id": "1 gelas"
+   },
+   "unit": false
+  },
+  "price_idr": 2000,
+  "tags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "source": "TKPI JP0056"
+ },
+ {
+  "id": "susu-skim",
+  "name": {
+   "en": "Skim milk",
+   "id": "Susu skim"
+  },
+  "state": "cooked",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 35,
+  "protein": 3.4,
+  "carbs": 5,
+  "fat": 0.2,
+  "fiber": 0,
+  "portion": {
+   "g": 250,
+   "label": {
+    "en": "1 glass",
+    "id": "1 gelas"
+   },
+   "unit": false
+  },
+  "price_idr": 2500,
+  "tags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "source": "estimate",
+  "note": "TKPI JP0010 lists 36 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "yoghurt-plain",
+  "name": {
+   "en": "Plain yoghurt",
+   "id": "Yoghurt tawar"
+  },
+  "state": "raw",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 62,
+  "protein": 3.5,
+  "carbs": 4.7,
+  "fat": 3.3,
+  "fiber": 0,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 small cup",
+    "id": "1 cup kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 6000,
+  "tags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "source": "estimate",
+  "note": "TKPI JP0011 lists 52 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "keju",
+  "name": {
+   "en": "Cheddar-style processed cheese",
+   "id": "Keju"
+  },
+  "state": "raw",
+  "slots": [
+   "fat",
+   "protein"
+  ],
+  "kcal": 326,
+  "protein": 22,
+  "carbs": 13,
+  "fat": 20,
+  "fiber": 0,
+  "portion": {
+   "g": 20,
+   "label": {
+    "en": "1 slice",
+    "id": "1 lembar"
+   },
+   "unit": true
+  },
+  "price_idr": 17600,
+  "tags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "source": "TKPI JP0003"
+ },
+ {
+  "id": "whey-protein",
+  "name": {
+   "en": "Whey protein powder",
+   "id": "Whey protein"
+  },
+  "state": "dry",
+  "slots": [
+   "protein"
+  ],
+  "kcal": 398,
+  "protein": 78,
+  "carbs": 8,
+  "fat": 6,
+  "fiber": 0,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "1 scoop",
+    "id": "1 scoop"
+   },
+   "unit": true
+  },
+  "price_idr": 60000,
+  "tags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "source": "estimate",
+  "note": "Not in TKPI. Typical whey concentrate label; check the label of the brand you buy."
+ },
+ {
+  "id": "kacang-tanah-rebus",
+  "name": {
+   "en": "Peanuts, boiled",
+   "id": "Kacang tanah rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 220,
+  "protein": 10,
+  "carbs": 8,
+  "fat": 18,
+  "fiber": 1,
+  "portion": {
+   "g": 30,
+   "label": {
+    "en": "1 small handful, shelled",
+    "id": "1 genggam kecil, dikupas"
+   },
+   "unit": false
+  },
+  "price_idr": 3000,
+  "tags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "source": "TKPI CP0013",
+  "note": "Peanuts are a legume but are tagged nuts so the no-nuts filter removes them."
+ },
+ {
+  "id": "kacang-tanah-goreng",
+  "name": {
+   "en": "Peanuts, fried",
+   "id": "Kacang tanah goreng"
+  },
+  "state": "fried",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 564,
+  "protein": 25,
+  "carbs": 25,
+  "fat": 44,
+  "fiber": 2,
+  "portion": {
+   "g": 20,
+   "label": {
+    "en": "1 tablespoon",
+    "id": "1 sdm"
+   },
+   "unit": false
+  },
+  "price_idr": 4000,
+  "tags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "source": "TKPI CP0012",
+  "note": "Peanuts are a legume but are tagged nuts so the no-nuts filter removes them."
+ },
+ {
+  "id": "almond",
+  "name": {
+   "en": "Almonds",
+   "id": "Kacang almond"
+  },
+  "state": "raw",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 587,
+  "protein": 19,
+  "carbs": 20,
+  "fat": 51,
+  "fiber": 10,
+  "portion": {
+   "g": 20,
+   "label": {
+    "en": "about 15 almonds",
+    "id": "sekitar 15 butir"
+   },
+   "unit": false
+  },
+  "price_idr": 25000,
+  "tags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "source": "TKPI CR0058"
+ },
+ {
+  "id": "kacang-mete",
+  "name": {
+   "en": "Cashews, roasted",
+   "id": "Kacang mete panggang"
+  },
+  "state": "grilled",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 609,
+  "protein": 15,
+  "carbs": 32,
+  "fat": 46,
+  "fiber": 3,
+  "portion": {
+   "g": 20,
+   "label": {
+    "en": "about 12 cashews",
+    "id": "sekitar 12 butir"
+   },
+   "unit": false
+  },
+  "price_idr": 20000,
+  "tags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "source": "TKPI CP0129"
+ },
+ {
+  "id": "selai-kacang",
+  "name": {
+   "en": "Peanut butter, no added sugar",
+   "id": "Selai kacang tanpa gula"
+  },
+  "state": "cooked",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 630,
+  "protein": 25,
+  "carbs": 20,
+  "fat": 50,
+  "fiber": 6,
+  "portion": {
+   "g": 15,
+   "label": {
+    "en": "1 tablespoon",
+    "id": "1 sdm"
+   },
+   "unit": false
+  },
+  "price_idr": 11800,
+  "tags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "source": "estimate",
+  "note": "Not in TKPI. Typical unsweetened peanut butter label."
+ },
+ {
+  "id": "alpukat",
+  "name": {
+   "en": "Avocado",
+   "id": "Alpukat"
+  },
+  "state": "raw",
+  "slots": [
+   "fat",
+   "fruit"
+  ],
+  "kcal": 85,
+  "protein": 0,
+  "carbs": 7,
+  "fat": 6,
+  "fiber": 0,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "half an avocado",
+    "id": "setengah buah"
+   },
+   "unit": false
+  },
+  "price_idr": 4500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0001"
+ },
+ {
+  "id": "minyak-sawit",
+  "name": {
+   "en": "Cooking oil (palm)",
+   "id": "Minyak goreng (sawit)"
+  },
+  "state": "raw",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 884,
+  "protein": 0,
+  "carbs": 0,
+  "fat": 100,
+  "fiber": 0,
+  "portion": {
+   "g": 5,
+   "label": {
+    "en": "1 teaspoon",
+    "id": "1 sdt"
+   },
+   "unit": false
+  },
+  "price_idr": 2000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI KR0012"
+ },
+ {
+  "id": "minyak-zaitun",
+  "name": {
+   "en": "Olive oil",
+   "id": "Minyak zaitun"
+  },
+  "state": "raw",
+  "slots": [
+   "fat"
+  ],
+  "kcal": 884,
+  "protein": 0,
+  "carbs": 0,
+  "fat": 100,
+  "fiber": 0,
+  "portion": {
+   "g": 5,
+   "label": {
+    "en": "1 teaspoon",
+    "id": "1 sdt"
+   },
+   "unit": false
+  },
+  "price_idr": 13000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI KR0014"
+ },
+ {
+  "id": "bayam-rebus",
+  "name": {
+   "en": "Spinach (bayam), boiled",
+   "id": "Bayam rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 30,
+  "protein": 3,
+  "carbs": 3.8,
+  "fat": 0.3,
+  "fiber": 2.4,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1600,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0002 lists 23 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "kangkung-rebus",
+  "name": {
+   "en": "Water spinach (kangkung), boiled",
+   "id": "Kangkung rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 23,
+  "protein": 2.1,
+  "carbs": 3.1,
+  "fat": 0.2,
+  "fiber": 1.9,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0014 lists 27 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "brokoli-rebus",
+  "name": {
+   "en": "Broccoli, boiled",
+   "id": "Brokoli rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 42,
+  "protein": 2.4,
+  "carbs": 7.2,
+  "fat": 0.4,
+  "fiber": 3.3,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 4000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0089 lists 25 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "wortel-rebus",
+  "name": {
+   "en": "Carrot, boiled",
+   "id": "Wortel rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 38,
+  "protein": 0.8,
+  "carbs": 8.2,
+  "fat": 0.2,
+  "fiber": 3,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium carrot",
+    "id": "1 wortel sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0020 lists 32 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "kacang-panjang-rebus",
+  "name": {
+   "en": "Yardlong beans, boiled",
+   "id": "Kacang panjang rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 48,
+  "protein": 2.5,
+  "carbs": 9.2,
+  "fat": 0.1,
+  "fiber": 2,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0012 lists 47 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "buncis-rebus",
+  "name": {
+   "en": "Green beans, boiled",
+   "id": "Buncis rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 42,
+  "protein": 1.9,
+  "carbs": 7.9,
+  "fat": 0.3,
+  "fiber": 3.2,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 2000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0003 lists 36 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "sawi-putih-rebus",
+  "name": {
+   "en": "Chinese cabbage (sawi putih), boiled",
+   "id": "Sawi putih rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 17,
+  "protein": 1.5,
+  "carbs": 2.4,
+  "fat": 0.2,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1200,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0565 lists 11 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "kubis-rebus",
+  "name": {
+   "en": "Cabbage, boiled",
+   "id": "Kubis rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 51,
+  "protein": 2,
+  "carbs": 8,
+  "fat": 1,
+  "fiber": 3,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI DP0235"
+ },
+ {
+  "id": "tomat",
+  "name": {
+   "en": "Tomato",
+   "id": "Tomat"
+  },
+  "state": "raw",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 21,
+  "protein": 0.9,
+  "carbs": 3.9,
+  "fat": 0.2,
+  "fiber": 1.2,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium tomato",
+    "id": "1 tomat sedang"
+   },
+   "unit": false
+  },
+  "price_idr": 1500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DR0161 lists 28 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "ketimun",
+  "name": {
+   "en": "Cucumber",
+   "id": "Ketimun"
+  },
+  "state": "raw",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 18,
+  "protein": 0.7,
+  "carbs": 3.6,
+  "fat": 0.1,
+  "fiber": 0.5,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "half a cucumber",
+    "id": "setengah buah"
+   },
+   "unit": false
+  },
+  "price_idr": 1000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DR0109 lists 8 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "labu-siam-rebus",
+  "name": {
+   "en": "Chayote (labu siam), boiled",
+   "id": "Labu siam rebus"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 25,
+  "protein": 0.6,
+  "carbs": 4.5,
+  "fat": 0.5,
+  "fiber": 2.8,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 800,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0493 lists 30 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "taoge-seduh",
+  "name": {
+   "en": "Mung bean sprouts, blanched",
+   "id": "Taoge seduh"
+  },
+  "state": "boiled",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 26,
+  "protein": 2,
+  "carbs": 4.2,
+  "fat": 0.1,
+  "fiber": 0.8,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1200,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0018 lists 35 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "terung-kukus",
+  "name": {
+   "en": "Eggplant, steamed",
+   "id": "Terung kukus"
+  },
+  "state": "steamed",
+  "slots": [
+   "vegetable"
+  ],
+  "kcal": 40,
+  "protein": 0.8,
+  "carbs": 8.7,
+  "fat": 0.2,
+  "fiber": 2.5,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 small bowl",
+    "id": "1 mangkuk kecil"
+   },
+   "unit": false
+  },
+  "price_idr": 1200,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI DP0019 lists 27 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "pisang",
+  "name": {
+   "en": "Banana (pisang ambon)",
+   "id": "Pisang ambon"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 108,
+  "protein": 1,
+  "carbs": 24,
+  "fat": 0,
+  "fiber": 5,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "1 medium banana, peeled",
+    "id": "1 pisang sedang, dikupas"
+   },
+   "unit": true
+  },
+  "price_idr": 2800,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0074"
+ },
+ {
+  "id": "pepaya",
+  "name": {
+   "en": "Papaya",
+   "id": "Pepaya"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 51,
+  "protein": 0,
+  "carbs": 12,
+  "fat": 0,
+  "fiber": 2,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 1700,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0073"
+ },
+ {
+  "id": "apel",
+  "name": {
+   "en": "Apple",
+   "id": "Apel"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 58,
+  "protein": 0,
+  "carbs": 14,
+  "fat": 0,
+  "fiber": 2,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 medium apple",
+    "id": "1 apel sedang"
+   },
+   "unit": true
+  },
+  "price_idr": 4500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0004"
+ },
+ {
+  "id": "mangga",
+  "name": {
+   "en": "Mango",
+   "id": "Mangga"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 52,
+  "protein": 0,
+  "carbs": 12,
+  "fat": 0,
+  "fiber": 1,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "half a mango",
+    "id": "setengah buah"
+   },
+   "unit": false
+  },
+  "price_idr": 3500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0054"
+ },
+ {
+  "id": "salak",
+  "name": {
+   "en": "Snake fruit (salak)",
+   "id": "Salak"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 86,
+  "protein": 0,
+  "carbs": 20,
+  "fat": 0,
+  "fiber": 1,
+  "portion": {
+   "g": 100,
+   "label": {
+    "en": "2 fruits, peeled",
+    "id": "2 buah, dikupas"
+   },
+   "unit": false
+  },
+  "price_idr": 2700,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "TKPI ER0101"
+ },
+ {
+  "id": "jeruk",
+  "name": {
+   "en": "Orange",
+   "id": "Jeruk manis"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 52,
+  "protein": 0.9,
+  "carbs": 11.8,
+  "fat": 0.1,
+  "fiber": 2.4,
+  "portion": {
+   "g": 130,
+   "label": {
+    "en": "1 medium orange, peeled",
+    "id": "1 jeruk sedang, dikupas"
+   },
+   "unit": true
+  },
+  "price_idr": 3500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI ER0039 lists 50 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "semangka",
+  "name": {
+   "en": "Watermelon",
+   "id": "Semangka"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 35,
+  "protein": 0.6,
+  "carbs": 7.6,
+  "fat": 0.2,
+  "fiber": 0.4,
+  "portion": {
+   "g": 200,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 1700,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI ER0105 lists 31 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "jambu-biji",
+  "name": {
+   "en": "Guava (jambu biji merah)",
+   "id": "Jambu biji merah"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 77,
+  "protein": 2.6,
+  "carbs": 14.3,
+  "fat": 1,
+  "fiber": 5.4,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 medium guava",
+    "id": "1 jambu sedang"
+   },
+   "unit": true
+  },
+  "price_idr": 1700,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI ER0031 lists 55 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "melon",
+  "name": {
+   "en": "Melon",
+   "id": "Melon"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 38,
+  "protein": 0.8,
+  "carbs": 8.2,
+  "fat": 0.2,
+  "fiber": 0.9,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 2500,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI ER0067 lists 37 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ },
+ {
+  "id": "nanas",
+  "name": {
+   "en": "Pineapple",
+   "id": "Nanas"
+  },
+  "state": "raw",
+  "slots": [
+   "fruit"
+  ],
+  "kcal": 55,
+  "protein": 0.5,
+  "carbs": 13.1,
+  "fat": 0.1,
+  "fiber": 1.4,
+  "portion": {
+   "g": 150,
+   "label": {
+    "en": "1 slice",
+    "id": "1 potong"
+   },
+   "unit": false
+  },
+  "price_idr": 3000,
+  "tags": [
+   "vegetarian"
+  ],
+  "source": "estimate",
+  "note": "TKPI ER0070 lists 44 kcal, but its macros are rounded to whole grams and fail the kcal check."
+ }
+]

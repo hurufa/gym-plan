@@ -1,0 +1,64 @@
+<!doctype html>
+<!-- figures.html
+     Contact sheet for human review of the exercise figure: every movement-pattern variant used by
+     the exercise library, at its start (p = 0), midpoint (p = 0.5) and end (p = 1) pose, in light and
+     dark. Rows list the exercises that use each variant and the result of the automated checks
+     (js/tests/figure-checks.js). Open via the local server. -->
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <title>Figures · Gym Plan</title>
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <script src="./js/file-notice.js"></script>
+  <style>
+    .fig-row { display: grid; gap: var(--sp-12); padding: var(--sp-16) 0; border-top: var(--card-border-w) solid var(--line); }
+    .fig-themes { display: grid; grid-template-columns: 1fr; gap: var(--sp-8); }
+    @media (min-width: 900px) { .fig-themes { grid-template-columns: 1fr 1fr; } }
+    .fig-theme { background: var(--bg); color: var(--ink); padding: var(--sp-8); border: var(--border) solid var(--ink-muted); border-radius: var(--radius); }
+    .fig-poses { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-4); }
+    .fig-poses figure { margin: 0; background: var(--surface); border: var(--border) solid var(--line); }
+    .fig-poses figcaption { text-align: center; color: var(--ink-muted); padding-bottom: var(--sp-4); }
+    .ok { color: var(--success); font-weight: 600; }
+    .bad { color: var(--danger); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header class="brand page-head"><div class="stack">
+    <span class="eyebrow eyebrow--rule">Gym Plan</span>
+    <h1 class="display-48">Figure <span class="key">contact sheet</span></h1>
+    <p id="summary" role="status">Rendering…</p>
+  </div></header>
+  <main class="page stack" id="rows"></main>
+  <script type="module">
+    import { loadData } from './js/data.js';
+    import { figureSvg } from './js/animations.js';
+    import { variantKey, specFor } from './js/figure-patterns.js';
+    import { checkFigure } from './js/tests/figure-checks.js';
+    const exercises = await loadData('exercises');
+    const groups = new Map();
+    for (const e of exercises) { const k = variantKey(e); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); }
+    const rows = document.getElementById('rows');
+    let problems = 0;
+    for (const [key, list] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {
+      const ex = list[0];
+      const spec = specFor(ex);
+      const errs = list.flatMap(checkFigure);
+      problems += errs.length;
+      const poses = spec.hold ? [['Hold', 1]] : spec.cycle ? [['Cycle 0%', 0], ['Cycle 25%', 0.25], ['Cycle 50%', 0.5]] : [['Start', 0], ['Midpoint', 0.5], ['End', 1]];
+      const theme = t => `<div class="fig-theme" data-theme="${t}"><span class="eyebrow">${t}</span><div class="fig-poses">${poses.map(([label, p]) =>
+        `<figure>${figureSvg(ex, p, `${ex.name.en}, ${label}`)}<figcaption class="eyebrow">${label}</figcaption></figure>`).join('')}</div></div>`;
+      rows.insertAdjacentHTML('beforeend', `<section class="fig-row" id="${key.replace(/\//g, '-')}">
+        <div><h2 class="display-32">${ex.pattern}</h2><p class="small"><code>${key}</code> · view: ${spec.view}${spec.hold ? ' · isometric hold' : ''}${spec.cycle ? ' · gait cycle' : ''}</p>
+        <p class="small">Used by: ${list.map(e => e.name.en).join(', ')}</p>
+        <p class="small ${errs.length ? 'bad' : 'ok'}">${errs.length ? `${errs.length} check failures: ${errs.slice(0, 3).join('; ')}` : 'All checks pass (20 samples per exercise)'}</p></div>
+        <div class="fig-themes">${theme('light')}${theme('dark')}</div></section>`);
+    }
+    document.getElementById('summary').textContent = `${groups.size} pattern variants for ${exercises.length} exercises · ${problems} check failures`;
+    window.__figures = { variants: groups.size, problems };
+  </script>
+</body>
+</html>

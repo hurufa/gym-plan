@@ -1,0 +1,1020 @@
+{
+  "app": {
+    "name": "Gym Plan",
+    "tagline": "Rencana latihan dan makan, disusun dari jawabanmu"
+  },
+  "nav": {
+    "label": "Utama",
+    "home": "Beranda",
+    "plan": "Rencana",
+    "exercises": "Latihan",
+    "nutrition": "Nutrisi",
+    "progress": "Progres",
+    "learn": "Belajar",
+    "settings": "Pengaturan"
+  },
+  "common": {
+    "back": "Kembali",
+    "next": "Lanjut",
+    "continue": "Lanjutkan",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "close": "Tutup",
+    "yes": "Ya",
+    "no": "Tidak",
+    "edit": "Ubah",
+    "optional": "opsional",
+    "kg": "kg",
+    "cm": "cm",
+    "min": "menit",
+    "stepOf": "Langkah {n} dari {total}",
+    "pickOne": "Pilih salah satu untuk melanjutkan.",
+    "skip": "Lewati ke konten",
+    "loadError": "Data aplikasi gagal dimuat. Muat ulang halaman untuk mencoba lagi."
+  },
+  "options": {
+    "goal": {
+      "build-muscle": {
+        "label": "Membangun otot",
+        "desc": "Otot lebih besar, berat naik perlahan"
+      },
+      "lose-fat": {
+        "label": "Menurunkan lemak",
+        "desc": "Lemak tubuh turun, otot tetap terjaga"
+      },
+      "recomposition": {
+        "label": "Rekomposisi",
+        "desc": "Lemak turun sambil menjaga atau menambah otot"
+      },
+      "get-stronger": {
+        "label": "Menjadi lebih kuat",
+        "desc": "Beban di gerakan utama terus naik"
+      },
+      "general-fitness": {
+        "label": "Kebugaran dan kesehatan umum",
+        "desc": "Jantung lebih bugar, badan lebih kuat, aktivitas harian lebih ringan"
+      }
+    },
+    "experience": {
+      "beginner": {
+        "label": "Pemula",
+        "desc": "Kurang dari 6 bulan latihan rutin"
+      },
+      "intermediate": {
+        "label": "Menengah",
+        "desc": "6 bulan sampai 2 tahun"
+      },
+      "advanced": {
+        "label": "Lanjutan",
+        "desc": "Lebih dari 2 tahun"
+      }
+    },
+    "equipment": {
+      "full-gym": {
+        "label": "Gym lengkap",
+        "desc": "Barbel, mesin, kabel, dumbel"
+      },
+      "dumbbells": {
+        "label": "Dumbel dan bangku",
+        "desc": "Latihan di rumah atau gym kecil"
+      },
+      "bodyweight": {
+        "label": "Berat badan di rumah",
+        "desc": "Tanpa beban"
+      }
+    },
+    "sex": {
+      "male": "Laki-laki",
+      "female": "Perempuan"
+    },
+    "dailyLife": {
+      "sitting": {
+        "label": "Lebih banyak duduk",
+        "desc": "Kerja di meja, jarang berjalan"
+      },
+      "some-walking": {
+        "label": "Cukup sering berjalan",
+        "desc": "Kerja duduk, tapi berjalan kaki atau naik transportasi umum"
+      },
+      "on-feet": {
+        "label": "Berdiri hampir seharian",
+        "desc": "Pramuniaga, guru, perawat"
+      },
+      "labour": {
+        "label": "Kerja fisik berat",
+        "desc": "Bangunan, pertanian, angkat barang"
+      }
+    },
+    "injury": {
+      "knee": "Lutut",
+      "lower-back": "Punggung bawah",
+      "shoulder": "Bahu"
+    }
+  },
+  "onboarding": {
+    "label": "Atur rencanamu",
+    "welcome": {
+      "eyebrow": "Gym Plan",
+      "title": "Latihan dengan rencana yang",
+      "key": "pas.",
+      "body": "Jawab beberapa pertanyaan. Kamu dapat rencana latihan mingguan, rencana makan, dan catatan latihan, semua tersimpan di perangkat ini. Tanpa akun.",
+      "start": "Mulai",
+      "language": "Bahasa"
+    },
+    "goal": {
+      "eyebrow": "Tujuan",
+      "title": "Apa tujuan",
+      "key": "utamamu?"
+    },
+    "days": {
+      "eyebrow": "Jadwal",
+      "title": "Berapa hari seminggu kamu bisa",
+      "key": "latihan?",
+      "hint": "Pilih angka yang bisa kamu jalani berbulan-bulan, bukan hanya minggu ini."
+    },
+    "experience": {
+      "eyebrow": "Pengalaman",
+      "title": "Sudah berapa lama kamu latihan",
+      "key": "rutin?"
+    },
+    "equipment": {
+      "eyebrow": "Peralatan",
+      "title": "Di mana kamu",
+      "key": "latihan?"
+    },
+    "pullupBar": {
+      "eyebrow": "Peralatan",
+      "title": "Apakah kamu punya",
+      "key": "pull-up bar?"
+    },
+    "bands": {
+      "eyebrow": "Peralatan",
+      "title": "Apakah kamu punya resistance",
+      "key": "band?"
+    },
+    "sessionLength": {
+      "eyebrow": "Waktu",
+      "title": "Berapa lama satu sesi",
+      "key": "latihan?",
+      "hint": "Termasuk pemanasan dan pendinginan."
+    },
+    "about": {
+      "eyebrow": "Data tubuh",
+      "title": "Tentang",
+      "key": "kamu",
+      "hint": "Dipakai untuk memperkirakan kebutuhan kalori harian. Hanya disimpan di perangkat ini.",
+      "sex": "Jenis kelamin",
+      "age": "Usia",
+      "ageUnit": "tahun",
+      "height": "Tinggi badan",
+      "weight": "Berat badan",
+      "errAge": "Masukkan usia antara 13 dan 90.",
+      "errHeight": "Masukkan tinggi antara 120 dan 230 cm.",
+      "errWeight": "Masukkan berat antara 30 dan 300 kg.",
+      "errSex": "Pilih salah satu."
+    },
+    "dailyLife": {
+      "eyebrow": "Keseharian",
+      "title": "Di luar latihan, harimu",
+      "key": "seperti apa?"
+    },
+    "steps": {
+      "eyebrow": "Langkah",
+      "title": "Berapa langkah",
+      "key": "sehari?",
+      "hint": "Rata-rata harianmu saat ini, dari ponsel atau jam tangan. Kosongkan jika tidak tahu. Dipakai untuk target langkah.",
+      "label": "Rata-rata langkah harian",
+      "unit": "langkah",
+      "err": "Masukkan angka 0 sampai 50.000, atau kosongkan."
+    },
+    "injuries": {
+      "eyebrow": "Opsional",
+      "title": "Ada bagian yang perlu",
+      "key": "dihindari?",
+      "hint": "Latihan yang membebani bagian yang kamu pilih tidak dimasukkan ke rencana. Jangan pilih apa pun jika tidak ada yang sakit.",
+      "disclaimer": "Filter ini bukan saran medis. Hentikan latihan apa pun yang menimbulkan nyeri tajam."
+    },
+    "health": {
+      "eyebrow": "Cek kesehatan",
+      "title": "Sebelum",
+      "key": "mulai",
+      "question": "Apakah kamu mengalami salah satu hal berikut?",
+      "items": {
+        "heart": "Penyakit jantung",
+        "chestPain": "Nyeri dada saat beraktivitas",
+        "dizziness": "Pusing atau pingsan",
+        "joint": "Masalah tulang atau sendi yang memburuk saat berolahraga",
+        "pregnant": "Sedang hamil"
+      },
+      "warnTitle": "Konsultasikan ke dokter sebelum mulai",
+      "warnBody": "Tunjukkan rencana ini ke doktermu dan tanyakan bagian mana yang aman untukmu.",
+      "ack": "Saya mengerti dan akan berkonsultasi ke dokter sebelum latihan.",
+      "ackRequired": "Centang kotak ini untuk melanjutkan.",
+      "finish": "Lihat rencanaku"
+    },
+    "edit": {
+      "title": "Simpan perubahan profil?",
+      "training": "Rencana latihanmu akan disusun ulang. Pergantian latihan yang kamu buat dan masih cocok dengan pengaturan baru tetap disimpan.",
+      "body": "Target kalori dan makronutrien akan dihitung ulang. Rencana latihan tidak berubah.",
+      "none": "Tidak ada yang berubah.",
+      "changed": "Berubah: {fields}",
+      "confirm": "Simpan perubahan",
+      "saved": "Profil tersimpan."
+    },
+    "fields": {
+      "goal": "tujuan",
+      "days": "hari per minggu",
+      "experience": "pengalaman",
+      "equipment": "peralatan",
+      "pullupBar": "pull-up bar",
+      "bands": "band",
+      "sessionLength": "durasi sesi",
+      "injuries": "bagian yang dihindari",
+      "sex": "jenis kelamin",
+      "age": "usia",
+      "heightCm": "tinggi badan",
+      "weightKg": "berat badan",
+      "dailyLife": "keseharian",
+      "dailySteps": "langkah harian",
+      "health": "cek kesehatan"
+    }
+  },
+  "home": {
+    "eyebrow": "Hari ini",
+    "streak": "Streak",
+    "weeks": "minggu",
+    "profile": "Pengaturanmu",
+    "profileLine": "{goal} · {days} hari seminggu · {length} menit · {equipment}",
+    "backupTitle": "Cadangkan datamu",
+    "backupBody": "Ekspor terakhirmu lebih dari 14 hari lalu. Data hanya tersimpan di browser ini.",
+    "backupNever": "Kamu belum pernah mengekspor data. Data hanya tersimpan di browser ini.",
+    "backupAction": "Ekspor sekarang",
+    "iosTitle": "Tambahkan aplikasi ini ke Layar Utama",
+    "iosBody": "Safari bisa menghapus data situs yang tidak dipasang. Ketuk Bagikan, lalu Tambah ke Layar Utama.",
+    "nextTitle": "Sesi",
+    "nextKey": "berikutnya",
+    "sessionLine": "{name} · sekitar {min} menit",
+    "viewSession": "Lihat sesi",
+    "viewPlan": "Buka rencanamu",
+    "queueNote": "Sesi berjalan berurutan. Jika kamu melewatkan satu hari, sesi berikutnya menunggumu.",
+    "startSession": "Mulai sesi",
+    "resumeSession": "Lanjutkan sesi",
+    "inProgress": "Sesi sedang berjalan: {name}"
+  },
+  "settings": {
+    "eyebrow": "Pengaturan",
+    "title": "Pengaturan",
+    "profile": "Profil",
+    "editProfile": "Ubah profil",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "themeSystem": "Sistem",
+    "themeLight": "Terang",
+    "themeDark": "Gelap",
+    "sound": "Bunyi saat istirahat selesai",
+    "vibration": "Getar saat istirahat selesai",
+    "data": "Datamu",
+    "dataHint": "Semua data hanya tersimpan di browser ini. Ekspor file cadangan secara rutin.",
+    "lastExport": "Ekspor terakhir: {date}",
+    "neverExported": "Belum pernah diekspor.",
+    "export": "Ekspor data",
+    "import": "Impor data",
+    "clear": "Hapus semua data",
+    "exported": "{file} tersimpan.",
+    "importTitle": "Impor {file}",
+    "importIntro": "Pilih cara impor. Ganti semua menimpa seluruh data di perangkat ini. Gabungkan menyimpan keduanya dan, untuk catatan yang ada di keduanya, memakai yang terakhir diubah.",
+    "replace": "Ganti semua",
+    "merge": "Gabungkan",
+    "colCollection": "Data",
+    "colAdded": "Baru",
+    "colUpdated": "Berubah",
+    "colUnchanged": "Sama",
+    "colRemoved": "Terhapus",
+    "profileWillChange": "Profilmu akan diganti dengan profil di file.",
+    "imported": "Impor selesai.",
+    "importErrors": {
+      "notJson": "File ini bukan JSON yang valid.",
+      "notExport": "File ini bukan hasil ekspor Gym Plan.",
+      "newerVersion": "File ini dari versi aplikasi yang lebih baru. Perbarui aplikasi dulu.",
+      "badRecord": "Beberapa catatan di file rusak (tanpa id atau tanggal)."
+    },
+    "importFailed": "Impor gagal",
+    "clearTitle": "Hapus semua data?",
+    "clearBody": "Ini menghapus profil, rencana, dan semua catatan di perangkat ini. Tidak bisa dibatalkan. Ekspor cadangan dulu jika ingin menyimpan sesuatu.",
+    "clearConfirm": "Hapus semuanya",
+    "cleared": "Semua data dihapus.",
+    "collections": {
+      "workouts": "Latihan",
+      "bodyweights": "Berat badan",
+      "measurements": "Ukuran tubuh",
+      "meals": "Catatan makan",
+      "notes": "Catatan",
+      "swaps": "Pergantian latihan",
+      "deloads": "Deload"
+    }
+  },
+  "plan": {
+    "eyebrow": "Rencanamu",
+    "meta": "{days} hari seminggu · {min} menit · {goal}",
+    "tabsLabel": "Bagian rencana",
+    "tabs": {
+      "week": "Minggu",
+      "coverage": "Cakupan otot",
+      "why": "Kenapa rencana ini"
+    },
+    "splits": {
+      "full-body-2": "Full Body A / B",
+      "full-body-3": "Full Body A / B / C",
+      "ppl-3": "Push / Pull / Legs",
+      "upper-lower": "Upper / Lower",
+      "ul-ppl": "Upper / Lower / Push / Pull / Legs",
+      "ppl-6": "Push / Pull / Legs, dua kali"
+    },
+    "splitChoice": {
+      "label": "Pembagian untuk 3 hari",
+      "fb": "Full body",
+      "ppl": "Push / Pull / Legs"
+    },
+    "sessions": {
+      "fb-a": {
+        "name": "Full Body A",
+        "builds": "Kekuatan seluruh tubuh dengan squat sebagai inti: kaki, dada, punggung, dan bahu."
+      },
+      "fb-b": {
+        "name": "Full Body B",
+        "builds": "Kekuatan seluruh tubuh dengan hip hinge sebagai inti: kaki belakang, bahu, punggung, dan dada."
+      },
+      "fb-c": {
+        "name": "Full Body C",
+        "builds": "Kekuatan seluruh tubuh dengan gerakan dorong sebagai inti: dada, kaki, punggung, dan bokong."
+      },
+      "upper-a": {
+        "name": "Upper A",
+        "builds": "Kekuatan dorong dan tarik tubuh atas: dada, punggung, bahu, dan lengan."
+      },
+      "upper-b": {
+        "name": "Upper B",
+        "builds": "Dorongan ke atas kepala dan tarikan: bahu, dada atas, punggung, dan lengan."
+      },
+      "lower-a": {
+        "name": "Lower A",
+        "builds": "Kekuatan kaki dengan squat sebagai inti: paha depan, paha belakang, betis, dan otot inti."
+      },
+      "lower-b": {
+        "name": "Lower B",
+        "builds": "Kekuatan kaki dengan hip hinge sebagai inti: paha belakang, bokong, paha depan, dan betis."
+      },
+      "push": {
+        "name": "Push",
+        "builds": "Kekuatan dorong tubuh atas: dada, bahu depan, trisep."
+      },
+      "pull": {
+        "name": "Pull",
+        "builds": "Kekuatan tarik tubuh atas: punggung, bahu belakang, bisep."
+      },
+      "legs": {
+        "name": "Legs",
+        "builds": "Kekuatan dan ukuran kaki: paha depan, paha belakang, bokong, betis."
+      },
+      "push-b": {
+        "name": "Push B",
+        "builds": "Dorongan ke atas dan miring: bahu, dada atas, trisep."
+      },
+      "pull-b": {
+        "name": "Pull B",
+        "builds": "Tarikan vertikal untuk punggung lebih lebar: lats, punggung atas, bisep."
+      },
+      "legs-b": {
+        "name": "Legs B",
+        "builds": "Kekuatan kaki bertumpu pada pinggul: paha belakang, bokong, paha depan, betis."
+      }
+    },
+    "slots": {
+      "main-squat": "Squat (gerakan utama)",
+      "main-hinge": "Hip hinge (gerakan utama)",
+      "main-hpush": "Dorong horizontal (gerakan utama)",
+      "main-vpush": "Dorong ke atas (gerakan utama)",
+      "main-pull": "Row (gerakan utama)",
+      "main-vpull": "Tarik vertikal (gerakan utama)",
+      "h-push": "Dorong horizontal",
+      "chest-2": "Dorong dada kedua",
+      "fly": "Chest fly",
+      "v-push": "Dorong ke atas",
+      "h-pull": "Row",
+      "h-pull-2": "Row kedua",
+      "v-pull": "Tarik vertikal",
+      "hinge": "Paha belakang",
+      "knee-flex": "Leg curl",
+      "quad-iso": "Isolasi paha depan",
+      "single-leg": "Latihan satu kaki",
+      "squat-2": "Squat kedua",
+      "glute": "Bokong",
+      "calves": "Betis",
+      "lateral": "Bahu samping",
+      "biceps": "Bisep",
+      "biceps-2": "Bisep kedua",
+      "triceps": "Trisep",
+      "triceps-2": "Trisep kedua",
+      "core": "Perut",
+      "core-2": "Tahan otot inti"
+    },
+    "sessionN": "Sesi {n}",
+    "todayBuilds": "Hari ini melatih",
+    "duration": "Sekitar {min} menit",
+    "warmup": "Pemanasan",
+    "cooldown": "Pendinginan",
+    "exercises": "Latihan",
+    "mainLift": "Gerakan utama",
+    "setsReps": "{sets} × {lo}–{hi} repetisi",
+    "setsSecs": "{sets} × tahan {lo}–{hi} detik",
+    "rir": "RIR {lo}–{hi}",
+    "rest": "istirahat {rest}",
+    "restSec": "{lo}–{hi} detik",
+    "restMin": "{lo}–{hi} menit",
+    "rampUps": "Ramp-up set dulu: {list}.",
+    "rampItem": "{reps} repetisi di {pct}%",
+    "rampNote": "Ramp-up set menaikkan beban bertahap ke beban kerja. Dihitung dalam durasi sesi, tidak dalam jumlah set mingguan.",
+    "empty": {
+      "injury": "{slot}: dikosongkan. Semua pilihan membebani bagian yang kamu minta dihindari.",
+      "equipment": "{slot}: dikosongkan. Tidak ada pilihan yang cocok dengan peralatanmu.",
+      "level": "{slot}: dikosongkan. Pilihannya di atas levelmu saat ini.",
+      "duplicate": "{slot}: dikosongkan. Pilihan yang ada sudah dipakai di sesi ini."
+    },
+    "dropped": {
+      "time": "Tidak dimasukkan agar muat {min} menit: {list}.",
+      "volume": "Tidak dimasukkan karena otot tersebut sudah mencapai batas atas set mingguanmu: {list}."
+    },
+    "swap": "Ganti",
+    "swapped": "Pilihanmu",
+    "swapTitle": "Ganti {name}",
+    "swapIntro": "Pilihan yang melatih otot yang sama dan cocok dengan peralatan, level, dan filtermu.",
+    "swapReset": "Kembali ke pilihan rencana",
+    "swapNone": "Tidak ada latihan lain yang cocok untuk slot ini.",
+    "swapDone": "Rencana diperbarui.",
+    "weekdays": {
+      "0": "Sen",
+      "1": "Sel",
+      "2": "Rab",
+      "3": "Kam",
+      "4": "Jum",
+      "5": "Sab",
+      "6": "Min"
+    },
+    "weekdaysLong": {
+      "0": "Senin",
+      "1": "Selasa",
+      "2": "Rabu",
+      "3": "Kamis",
+      "4": "Jumat",
+      "5": "Sabtu",
+      "6": "Minggu"
+    },
+    "week": {
+      "rest": "Istirahat",
+      "cardio": "{name}, {lo}–{hi} menit",
+      "after": "setelah angkat beban",
+      "optional": "opsional",
+      "steps": "Target langkah harian: {n} (rata-ratamu {base} ditambah 2.000, maksimal 10.000).",
+      "stepsUnknown": "Target langkah harian: rata-ratamu saat ini ditambah 2.000, maksimal 10.000. Isi rata-ratamu di Pengaturan untuk mendapat angkanya.",
+      "editDays": "Ubah hari",
+      "editTitle": "Hari latihan",
+      "editIntro": "Pilih hari untuk tiap sesi. Sesi berjalan berurutan, jadi hari yang terlewat tidak membuat sesi terlewat.",
+      "dayFor": "Hari untuk {name}",
+      "clash": "Dua sesi ada di hari yang sama. Pilih hari lain untuk salah satunya.",
+      "saved": "Hari tersimpan."
+    },
+    "coverage": {
+      "intro": "Set kerja mingguan per kelompok otot dibanding rentang tujuanmu {lo}–{hi}. Satu set dihitung 1 untuk otot utama dan 0,5 untuk otot pembantu. Set pemanasan dan ramp-up tidak dihitung.",
+      "mapLabel": "Peta tubuh set mingguan per kelompok otot. Rinciannya ada di tabel di bawah.",
+      "states": {
+        "under": "Di bawah target",
+        "underTime": "Di bawah target (batas waktu)",
+        "underEquipment": "Di bawah target (tidak ada latihan tersedia)",
+        "in": "Dalam rentang",
+        "over": "Di atas rentang",
+        "underOptions": "Di bawah target (terbatas oleh latihan yang tersedia)"
+      },
+      "legend": "Arsir: di bawah target. Gelap penuh: dalam rentang. Merah penuh: di atas rentang.",
+      "colGroup": "Kelompok otot",
+      "colSets": "Set",
+      "colState": "Status",
+      "colFrom": "Dari",
+      "helper": "pembantu",
+      "none": "Tidak ada latihan di rencana yang melatih kelompok ini."
+    },
+    "warn": {
+      "beginnerTitle": "{days} hari cukup banyak untuk pemula",
+      "beginnerBody": "Di bulan-bulan pertama, otot dan sendi butuh waktu di antara sesi untuk beradaptasi. Rencana 4 hari melatih tiap otot dua kali seminggu dengan istirahat lebih banyak.",
+      "switch4": "Ganti ke rencana 4 hari",
+      "bwStrength": "Kekuatan maksimal butuh beban dari luar. Dengan berat badan saja, rencana ini membangun daya tahan kekuatan dan keterampilan gerak.",
+      "rirBeginner": "RIR (reps in reserve: berapa repetisi lagi yang masih sanggup kamu lakukan) sulit diperkirakan di bulan-bulan pertama. Jika ragu, berhenti saat repetisi jelas melambat.",
+      "pplOnce": "Dengan Push / Pull / Legs di 3 hari, tiap otot dilatih sekali seminggu, bukan tiga kali.",
+      "swapDropped": "Salah satu pergantianmu tidak lagi cocok dengan pengaturanmu, jadi rencana memakai pilihan bawaannya."
+    },
+    "deload": {
+      "offerTitle": "Saatnya minggu yang lebih ringan?",
+      "offerEight": "Kamu sudah berlatih 8 minggu atau lebih tanpa deload. Minggu deload memakai latihan dan beban yang sama, setengah jumlah set, dan berhenti di RIR 4 atau lebih.",
+      "offerDrop": "Perkiraan 1RM-mu di {name} turun 2 sesi berturut-turut. Cek tidur dan makan dulu; jika keduanya baik, ambil minggu deload.",
+      "start": "Mulai minggu deload",
+      "active": "Minggu deload: setengah set, beban sama, berhenti di RIR 4 atau lebih. Berakhir {date}.",
+      "end": "Akhiri deload sekarang"
+    },
+    "why": {
+      "title": "Kenapa rencana ini",
+      "splitHead": "Pembagian latihan",
+      "repsHead": "Rentang repetisi",
+      "volumeHead": "Volume",
+      "timeHead": "Waktu",
+      "filtersHead": "Filter",
+      "cardioHead": "Kardio dan langkah",
+      "split": {
+        "full-body-2": "Dengan 2 hari, tiap sesi melatih semua kelompok otot utama, jadi tiap otot tetap terlatih dua kali seminggu.",
+        "full-body-3": "Dengan 3 hari, tiga sesi full body melatih tiap otot tiga kali seminggu dengan latihan berbeda. Latihan yang sering adalah cara tercepat menguasai gerakan.",
+        "ppl-3": "Kamu memilih Push / Pull / Legs: satu hari untuk otot dorong, satu untuk otot tarik, satu untuk kaki. Tiap otot dilatih sekali seminggu, dengan lebih banyak set di sesi itu.",
+        "upper-lower": "Dengan 4 hari, tubuh atas dan bawah bergantian. Tiap otot dilatih dua kali seminggu dan punya dua atau tiga hari untuk pulih di antaranya.",
+        "ul-ppl": "Dengan 5 hari, sepasang upper/lower diikuti push, pull, dan legs. Tiap otot dilatih dua kali seminggu.",
+        "ppl-6": "Dengan 6 hari, push, pull, dan legs berjalan dua kali. Tiap otot dilatih dua kali seminggu, dan tiap sesi fokus pada beberapa otot saja."
+      },
+      "reps": "Gerakan utama memakai {mlo}–{mhi} repetisi dan latihan pelengkap {alo}–{ahi} repetisi. {goalWhy}",
+      "bodyweightReps": "Latihan berat badan dan band memakai 8–20 repetisi; saat semua set mencapai 20, kamu pindah ke versi yang lebih berat.",
+      "goal": {
+        "build-muscle": "Repetisi sedang yang dilakukan mendekati gagal memberi pertumbuhan terbanyak per set.",
+        "lose-fat": "Mengangkat beban yang cukup berat saat makan lebih sedikit memberi sinyal ke tubuh untuk mempertahankan otot, jadi berat yang turun sebagian besar lemak.",
+        "recomposition": "Rentang repetisi yang sama dengan membangun otot menjaga sinyal latihan tetap tinggi saat kamu makan sedikit di bawah kebutuhan.",
+        "get-stronger": "Repetisi rendah dengan istirahat panjang memungkinkan mengangkat beban berat, dan itulah yang membangun kekuatan maksimal.",
+        "general-fitness": "Repetisi sedang dengan istirahat singkat melatih kekuatan dan stamina dalam satu sesi."
+      },
+      "beginnerStrength": "Sebagai pemula, gerakan utamamu memakai 5–8 repetisi selama kamu belajar tekniknya.",
+      "volume": "Targetmu {target} set kerja per kelompok otot per minggu, di dalam rentang {lo}–{hi} untuk tujuanmu. {levelWhy}",
+      "level": {
+        "beginner": "Pemula mulai di batas bawah rentang: set yang lebih sedikit sudah cukup untuk berkembang di awal.",
+        "intermediate": "Tingkat menengah berada di tengah rentang.",
+        "advanced": "Tingkat lanjutan butuh lebih banyak set agar terus berkembang, jadi targetnya dekat batas atas."
+      },
+      "rir": "Sebagian besar set berhenti {lo}–{hi} repetisi sebelum gagal (RIR {lo}–{hi}).",
+      "time": "Tiap sesi muat dalam {min} menit. Satu set kerja dihitung 40 detik ditambah istirahatnya, ditambah {wu} menit pemanasan, ramp-up set, dan {cd} menit pendinginan. Saat waktu kurang, latihan pelengkap dipotong lebih dulu; gerakan utama selalu tetap.",
+      "allInRange": "Semua kelompok otot mencapai rentang mingguanmu.",
+      "underTime": "Di bawah rentang karena batas waktu: {groups}.",
+      "closesBoth": "Satu hari latihan tambahan atau 15 menit lebih per sesi akan menutup kekurangannya.",
+      "closesDay": "Satu hari latihan tambahan akan menutup kekurangannya.",
+      "closesMinutes": "15 menit lebih per sesi akan menutup kekurangannya.",
+      "closesNeither": "Bahkan satu hari atau 15 menit tambahan belum cukup menutup kekurangan dengan peralatan dan filtermu.",
+      "underEquipment": "Tidak ada latihan yang tersedia untuk: {groups}. Menambah peralatan (misalnya resistance band) di profilmu akan membuat rencana bisa melatihnya.",
+      "floor": "Setiap kelompok otot utama mendapat minimal 4 set seminggu, meskipun waktu terbatas.",
+      "injuries": "Latihan yang membebani {areas} tidak dimasukkan. Slot tanpa pilihan yang cocok dikosongkan dan diberi tanda.",
+      "noInjuries": "Tidak ada bagian yang difilter.",
+      "cardio": {
+        "build-muscle": "Satu sesi kardio ringan opsional menjaga jantung tetap bugar tanpa mengganggu pemulihan.",
+        "lose-fat": "Tiga sesi kardio dan target langkah harian menambah kalori yang terbakar. Diletakkan di hari istirahat lebih dulu agar latihan beban tetap kuat.",
+        "recomposition": "Dua sesi kardio ringan menambah sedikit kalori terbakar tanpa memperlambat pemulihan.",
+        "get-stronger": "Satu sesi kardio ringan opsional membantu pemulihan di antara hari latihan berat.",
+        "general-fitness": "Tiga sesi kardio seminggu melatih jantung dan paru-paru di samping kekuatan."
+      },
+      "underOptions": "Di bawah rentang: hanya sedikit latihan yang cocok dengan peralatan dan filtermu, dan menambah set akan melewati batas set latihan itu atau membuat kelompok otot lain melewati batas atas rentangmu: {groups}. Mengganti dengan latihan lain atau menambah peralatan di profilmu akan membantu."
+    },
+    "front": "Depan",
+    "back": "Belakang",
+    "buildsFallback": {
+      "injury": "Hari ini berpusat pada {main}, karena gerakan utama yang biasa membebani bagian yang kamu minta dihindari. Melatih: {groups}.",
+      "options": "Hari ini berpusat pada {main}, gerakan utama terdekat untuk peralatan dan levelmu. Melatih: {groups}."
+    }
+  },
+  "library": {
+    "eyebrow": "Pustaka",
+    "title": "Pustaka",
+    "key": "latihan",
+    "search": "Cari",
+    "searchPlaceholder": "Nama latihan atau otot",
+    "muscle": "Kelompok otot",
+    "equipment": "Peralatan",
+    "pattern": "Gerakan",
+    "all": "Semua",
+    "fitsMe": "Hanya latihan yang bisa saya lakukan",
+    "fitsMeHint": "Memakai peralatan, level, dan bagian yang dihindari dari profilmu.",
+    "count": "{n} latihan",
+    "none": "Tidak ada latihan yang cocok dengan filter ini.",
+    "clear": "Hapus filter"
+  },
+  "exercise": {
+    "back": "Semua latihan",
+    "notFound": "Latihan ini tidak ada.",
+    "play": "Putar",
+    "pause": "Jeda",
+    "speed": "Kecepatan",
+    "figureLabel": "Figur animasi melakukan {name}",
+    "start": "Awal",
+    "end": "Akhir",
+    "tempo": "Tempo: 2 detik turun, 1 detik naik, jeda 0,5 detik.",
+    "holdNote": "Tahan posisi ini selama waktu di rencanamu.",
+    "cycleNote": "Satu siklus langkah, berulang.",
+    "reduced": "Animasi mati karena perangkatmu meminta gerakan dikurangi. Figur menunjukkan posisi awal dan akhir.",
+    "builds": "Apa yang dilatih",
+    "role": "Perannya dalam rencana",
+    "growth": "Bagaimana otot tumbuh",
+    "growthNote": "Otot tumbuh bila set berakhir dekat batas, beban atau repetisi naik dari waktu ke waktu, protein cukup, dan tidur cukup. Latihan tanpa keempatnya memberi perubahan yang kecil.",
+    "muscles": "Otot sasaran",
+    "primary": "Utama",
+    "secondary": "Pembantu",
+    "tapHint": "Ketuk otot di figur atau di daftar untuk melihat fungsinya dalam keseharian.",
+    "mapLabel": "Peta tubuh: otot utama penuh, otot pembantu diarsir",
+    "steps": "Cara melakukannya",
+    "cues": "Petunjuk teknik",
+    "mistakes": "Kesalahan umum",
+    "details": "Rincian",
+    "level": "Level",
+    "equipment": "Peralatan",
+    "pattern": "Gerakan",
+    "stress": "Membebani",
+    "stressNone": "Tidak ada bagian yang ditandai",
+    "alternatives": "Alternatif",
+    "swapIn": "Ganti di rencanaku",
+    "swapTitle": "Ganti {from} dengan {to}?",
+    "swapBody": "Rencanamu memakai {from} di: {sessions}. Slot itu akan memakai {to}. Kamu bisa mengembalikannya di halaman rencana.",
+    "swapConfirm": "Ganti",
+    "swapped": "Sudah diganti di rencanamu.",
+    "cannotDo": "Butuh peralatan lain, level lebih tinggi, atau membebani bagian yang kamu hindari.",
+    "inPlan": "Di rencanamu: {sessions}",
+    "history": "Riwayatmu",
+    "noHistory": "Belum ada set yang dicatat. Sesi yang dicatat muncul di sini setelah mode sesi dibangun (fase 6).",
+    "colDate": "Tanggal",
+    "colBest": "Set terbaik",
+    "colSets": "Set"
+  },
+  "session": {
+    "start": "Mulai sesi",
+    "resume": "Lanjutkan sesi",
+    "intro": "Sesi berjalan berurutan. Timer, set, dan istirahat tetap tersimpan meski halaman dimuat ulang atau ponsel terkunci.",
+    "noPlan": "Isi profilmu dulu untuk mendapat rencana.",
+    "exerciseOf": "Latihan {n} dari {total}",
+    "elapsed": "Berjalan",
+    "end": "Akhiri sesi",
+    "endTitle": "Akhiri sesi ini?",
+    "endBody": "Simpan menyimpan semua set yang sudah dicatat dan memindahkan antrean ke sesi berikutnya. Buang menghapus sesi ini; antreanmu tidak berubah.",
+    "save": "Simpan dan selesai",
+    "discard": "Buang",
+    "keepGoing": "Lanjutkan",
+    "target": "Target",
+    "firstTime": "Mulai ringan: pilih beban yang masih bisa kamu angkat sekitar 5 repetisi lebih banyak dari target, lalu sesuaikan di set berikutnya.",
+    "firstTimeBw": "Pertama kali: lakukan repetisi yang bisa kamu lakukan dengan teknik baik. Yang kamu catat menjadi patokan awal.",
+    "increase": "Terakhir kali semua set mencapai batas atas rentang. Beban naik menjadi {kg} kg.",
+    "extend": "Beban sama, kejar sampai {hi} repetisi dulu: kenaikan dumbel berikutnya lebih dari 10%.",
+    "addReps": "Beban sama seperti terakhir kali; tambah satu repetisi jika bisa.",
+    "harder": "Kamu sudah mencapai batas atas rentang. Saatnya pindah ke {name}.",
+    "useHarder": "Pakai {name} mulai sekarang",
+    "slow": "Kamu sudah mencapai batas atas rentang. Tambahkan fase turun 3 detik di setiap repetisi.",
+    "rampTitle": "Ramp-up set",
+    "rampItem": "{reps} repetisi di {pct}%",
+    "rampKg": "{reps} repetisi × {kg} kg ({pct}%)",
+    "rampNote": "Set pemanasan ringan. Tidak dihitung dalam set mingguan.",
+    "sets": "Set kerja",
+    "setN": "Set {n}",
+    "reps": "Repetisi",
+    "seconds": "Detik",
+    "load": "Beban",
+    "rir": "RIR",
+    "rirNone": "–",
+    "done": "Catat set",
+    "logged": "Tercatat",
+    "edit": "Ubah",
+    "addSet": "Tambah set",
+    "bodyweight": "Berat badan",
+    "labelReps": "Repetisi set {n}",
+    "labelSeconds": "Detik set {n}",
+    "labelKg": "Beban set {n} dalam kg",
+    "labelRir": "Reps in reserve set {n}",
+    "prev": "Sebelumnya",
+    "next": "Latihan berikutnya",
+    "skip": "Lewati latihan",
+    "unskip": "Batalkan lewati",
+    "skipped": "Dilewati",
+    "swap": "Ganti untuk hari ini",
+    "swappedFrom": "Diganti dari {name}",
+    "swapTitle": "Ganti {name} untuk hari ini",
+    "swapIntro": "Rencanamu tidak berubah. Pilih latihan yang melatih otot yang sama.",
+    "finish": "Selesaikan sesi",
+    "rest": "Istirahat",
+    "restOver": "Istirahat selesai. Lanjut set berikutnya saat siap.",
+    "plus30": "+30 dtk",
+    "skipRest": "Lewati istirahat",
+    "deload": "Minggu deload: setengah set, berhenti di RIR 4 atau lebih.",
+    "wakeLock": "Layar tetap menyala selama sesi."
+  },
+  "summary": {
+    "eyebrow": "Sesi selesai",
+    "title": "Sesi",
+    "key": "selesai",
+    "duration": "Durasi",
+    "volume": "Volume",
+    "sets": "Set",
+    "reps": "Repetisi",
+    "prs": "Rekor pribadi",
+    "noPrs": "Belum ada rekor baru hari ini. Set yang dicatat menjadi patokan untuk sesi berikutnya.",
+    "prHeaviest": "{name}: beban terberat, {kg} kg (sebelumnya {prev} kg)",
+    "prRepsAtLoad": "{name}: {reps} repetisi di {kg} kg (sebelumnya {prev})",
+    "prE1rm": "{name}: perkiraan 1RM terbaik, {kg} kg (sebelumnya {prev} kg)",
+    "prReps": "{name}: repetisi terbanyak, {reps} (sebelumnya {prev})",
+    "skippedList": "Dilewati: {list}",
+    "home": "Kembali ke beranda",
+    "next": "Berikutnya di antreanmu: {name}",
+    "notFound": "Sesi ini tidak ditemukan."
+  },
+  "nutrition": {
+    "eyebrow": "Nutrisi",
+    "title": "Makan untuk",
+    "titleKey": "hari ini",
+    "headTargets": "{kcal} kkal · protein {protein} g · karbohidrat {carbs} g · lemak {fat} g",
+    "tabsLabel": "Bagian nutrisi",
+    "tabs": {
+      "today": "Hari",
+      "week": "Minggu",
+      "targets": "Target",
+      "filters": "Filter"
+    },
+    "aboutLink": "Panduan umum, bukan saran medis. Untuk siapa ini tidak cocok",
+    "disclaimer": {
+      "title": "Sebelum",
+      "key": "mulai",
+      "body": "Saran kalori dan menu di sini adalah panduan umum, bukan saran medis. Panduan ini tidak ditujukan untuk:",
+      "under18": "Orang di bawah 18 tahun.",
+      "pregnant": "Orang yang sedang hamil atau menyusui.",
+      "eating": "Orang dengan gangguan makan, sekarang atau sebelumnya.",
+      "medical": "Orang dengan kondisi medis, termasuk diabetes yang diobati dengan obat, kecuali didampingi dokter atau ahli gizi.",
+      "estimates": "Semua angka adalah perkiraan. Kebutuhan energi orang dengan ukuran tubuh sama bisa berbeda sekitar 10%, dan nilai gizi makanan berbeda menurut merek dan cara masak. Tren berat badanmu selama 2 minggu lebih akurat daripada rumus mana pun.",
+      "tick": "Saya sudah membaca ini, dan tidak ada yang berlaku untuk saya atau saya didampingi tenaga profesional.",
+      "back": "Kembali ke nutrisi"
+    },
+    "guard": {
+      "title": "Batas aman diterapkan.",
+      "under18": "Usiamu di bawah 18 tahun, jadi aplikasi tidak memasang defisit kalori. Targetnya adalah kalori pemeliharaan. Bicarakan dengan dokter atau ahli gizi sebelum mencoba menurunkan berat badan.",
+      "lowBmi": "BMI-mu {bmi}, di bawah 18,5, jadi aplikasi tidak memasang defisit kalori. Targetnya adalah kalori pemeliharaan.",
+      "bmrFloor": "Target yang direncanakan ({wanted} kkal) di bawah BMR-mu ({bmr} kkal), yaitu energi yang dipakai tubuh saat istirahat. Target dinaikkan ke BMR, sehingga defisitnya lebih kecil: {pct}% dan bukan nilai yang direncanakan."
+    },
+    "macros": {
+      "fatLowered": "Karbohidrat akan di bawah 100 g, jadi lemak diturunkan dari {from} ke {to} g per kg.",
+      "proteinLowered": "Karbohidrat masih di bawah 100 g, jadi protein diturunkan dari {from} ke {to} g per kg.",
+      "carbsLow": "Karbohidrat {carbs} g, di bawah 100 g, walaupun lemak dan protein sudah di batas bawah. Target kalorinya sangat rendah untuk ukuran tubuhmu."
+    },
+    "trend": {
+      "fastLoss": "Rata-rata berat 7 harimu turun {a}% lalu {b}% dari berat badan dalam dua minggu terakhir. Turun lebih dari 1% per minggu membuat otot lebih sulit dipertahankan. Cek tidur dan makan dulu, lalu pertimbangkan makan sedikit lebih banyak.",
+      "raise": "Naikkan kalori {kcal} kkal (10%)",
+      "calibrate": "Dari {n} kali timbang dalam 14 hari, beratmu berubah sekitar {actual} kg per minggu; target memperkirakan {expected} kg per minggu. Kebutuhan energimu yang sebenarnya kemungkinan berbeda dari perkiraan.",
+      "apply": "Ubah target {change} kkal",
+      "keep": "Pertahankan target",
+      "profileWeight": "Timbangan terakhirmu ({kg} kg pada {date}) selisih 2 kg atau lebih dari berat di profil ({profile} kg). Target memakai berat di profil.",
+      "useWeight": "Pakai {kg} kg dan hitung ulang",
+      "applied": "Target kalori diubah.",
+      "weightUpdated": "Berat di profil diperbarui. Target dihitung ulang."
+    },
+    "reason": {
+      "swap": "Pilihanmu",
+      "filter": "Filter",
+      "budget": "Hemat",
+      "lean": "Lebih rendah lemak"
+    },
+    "dayOff": "Hari ini tidak bisa mencapai target dengan makanan yang diizinkan filtermu ({kcal} kkal, protein {protein} g). Coba hari lain, tukar makanan, atau longgarkan filter.",
+    "onTarget": "Dalam rentang",
+    "offTarget": "Di luar rentang",
+    "fallback": {
+      "cap": "Target proteinmu butuh lebih dari 300 g satu makanan protein dalam satu kali makan dengan makanan ini, jadi diturunkan dari {from} g ke {to} g (1,6 g per kg) untuk hari ini.",
+      "kcal": "Dengan makanan yang diizinkan filtermu, protein {from} g tidak muat dalam kalorimu, jadi protein diturunkan ke {to} g (1,6 g per kg) untuk hari ini."
+    },
+    "missing": "{n} item tidak punya pengganti yang diizinkan dan dihilangkan.",
+    "backToday": "Hari ini",
+    "kcal": "Kalori",
+    "protein": "Protein",
+    "carbs": "Karbohidrat",
+    "fat": "Lemak",
+    "dayFacts": "Sayur {veg} g · {fruit} porsi buah · serat {fiber} g · sekitar {price} (perkiraan)",
+    "weigh": {
+      "title": "Timbang badan",
+      "last": "Terakhir: {kg} kg pada {date}.",
+      "none": "Belum ada catatan berat.",
+      "label": "Berat hari ini",
+      "saved": "{kg} kg disimpan.",
+      "hint": "Timbang di pagi hari, setelah ke toilet, sebelum makan. Angka harian bisa naik turun 1 kg atau lebih; yang penting rata-rata 7 hari."
+    },
+    "mealType": {
+      "breakfast": "Sarapan",
+      "lunch": "Makan siang",
+      "afternoon": "Makan sore",
+      "dinner": "Makan malam",
+      "snack": "Camilan"
+    },
+    "prepChanged": "Ada makanan di menu ini yang diganti; masak dengan cara yang sama seperti aslinya atau seperti biasa.",
+    "col": {
+      "food": "Makanan",
+      "grams": "Jumlah",
+      "protein": "Protein (g)",
+      "swap": "Tukar",
+      "date": "Tanggal",
+      "menu": "Menu"
+    },
+    "swap": "Tukar",
+    "swapFood": "Tukar {food}",
+    "mealTotal": "Total",
+    "swapTitle": "Tukar makanan",
+    "swapIntro": "Makanan dengan makro mirip {food}. Porsi dihitung ulang agar tetap sesuai target.",
+    "per100": "per 100 g: {kcal} kkal · P {p} · K {c} · L {f} · {price}",
+    "noAlternatives": "Tidak ada makanan lain yang cocok dengan filtermu.",
+    "never": "Jangan tampilkan {food}",
+    "swapped": "Makanan ditukar. Porsi dihitung ulang.",
+    "hidden": "Makanan disembunyikan. Porsi dihitung ulang.",
+    "weekIntro": "Tujuanmu punya {n} menu harian. Menu bergiliran menurut tanggal, jadi dua hari berturut-turut tidak pernah sama. Ketuk satu hari untuk melihat menunya.",
+    "today": "Hari ini",
+    "weekTolerance": "Setiap hari menargetkan {kcal} kkal (selisih maks. 5%) dan protein {protein} g (selisih maks. 10 g). Ikon peringatan menandai hari di luar rentang itu.",
+    "calc": {
+      "calories": "Kalori",
+      "bmr": "BMR (Mifflin-St Jeor)",
+      "bmrFormula": "10 × {kg} kg + 6,25 × {cm} cm − 5 × {age} tahun {sexConst} = {bmr} kkal",
+      "activity": "Faktor aktivitas",
+      "activityFormula": "{life} ({lifeLabel}) + 0,025 × {days} hari latihan = {factor}",
+      "tdee": "TDEE (perkiraan total energi harian)",
+      "tdeeFormula": "{bmr} × {factor} = {tdee} kkal. Ini perkiraan, sekitar ±10%: {lo}–{hi} kkal.",
+      "target": "Target harian",
+      "targetFormula": "{tdee} kkal × ({pct}%){offset} = {kcal} kkal",
+      "slider": "Penyesuaian untuk {goal}",
+      "sliderDefault": "Bawaan untuk tujuanmu: {pct}%. Slider ini satu-satunya pengaturan manual.",
+      "sliderLocked": "Dikunci di kalori pemeliharaan oleh batas aman di atas.",
+      "sliderFixed": "Tujuanmu memakai kalori pemeliharaan.",
+      "offset": "Termasuk {kcal} kkal dari perubahan yang kamu terima setelah cek berat.",
+      "resetOffset": "Hapus perubahan itu",
+      "macros": "Makro",
+      "bmi25": "BMI-mu {bmi}, di atas 30, jadi protein dan lemak memakai berat pada BMI 25 untuk tinggimu: {w} kg.",
+      "proteinFormula": "{perKg} g × {w} kg = {g} g ({kcal} kkal). {why}",
+      "proteinDeficit": "2,2 g per kg saat defisit kalori, untuk membantu mempertahankan otot.",
+      "proteinDefault": "1,8 g per kg adalah bawaan.",
+      "fatFormula": "{perKg} g × {w} kg = {g} g ({kcal} kkal)",
+      "carbsFormula": "({kcal} − 4 × {p} − 9 × {f}) ÷ 4 = {g} g",
+      "ranges": "Rentang yang dipakai: protein 1,6–2,2 g per kg, lemak 0,6–1,0 g per kg (tidak pernah di bawah 0,5), karbohidrat minimal 100 g. 1 g protein atau karbohidrat = 4 kkal, 1 g lemak = 9 kkal."
+    },
+    "filters": {
+      "title": "Filter makanan",
+      "hint": "Makanan yang dihapus filter ditukar dengan makanan terdekat yang diizinkan, lalu porsi dihitung ulang.",
+      "vegetarian": "Vegetarian (telur dan susu boleh)",
+      "beef": "Tanpa daging sapi",
+      "dairy": "Tanpa susu dan olahannya",
+      "seafood": "Tanpa ikan dan hasil laut",
+      "egg": "Tanpa telur",
+      "nuts": "Tanpa kacang",
+      "budget": "Mode hemat (makanan murah dulu)",
+      "neverTitle": "Makanan disembunyikan",
+      "neverNone": "Belum ada. Pakai \"Jangan tampilkan\" saat menukar untuk menyembunyikan makanan.",
+      "show": "Tampilkan lagi",
+      "swapsTitle": "Tukaranmu",
+      "swapsCount": "{n} tukaran tersimpan.",
+      "clearSwaps": "Hapus semua tukaran",
+      "swapsCleared": "Tukaran dihapus."
+    },
+    "unitKcal": "kkal"
+  },
+  "progress": {
+    "eyebrow": "Progres",
+    "title": "Catatan",
+    "titleKey": "kamu",
+    "tabsLabel": "Bagian progres",
+    "tabs": {
+      "overview": "Ringkasan",
+      "body": "Tubuh",
+      "lifts": "Angkatan",
+      "log": "Catatan"
+    },
+    "thisWeek": "Minggu ini",
+    "workouts": "Latihan tercatat",
+    "empty": "Belum ada catatan. Selesaikan satu sesi atau catat secara manual, lalu hasilnya muncul di sini.",
+    "dayLetters": "Sen,Sel,Rab,Kam,Jum,Sab,Min",
+    "chart": {
+      "showTable": "Tampilkan tabel data",
+      "hideTable": "Sembunyikan tabel data"
+    },
+    "col": {
+      "week": "Minggu mulai",
+      "done": "Sesi",
+      "planned": "Rencana",
+      "date": "Tanggal",
+      "workouts": "Latihan",
+      "kg": "Berat (kg)",
+      "avg": "Rata-rata 7 hari (kg)",
+      "group": "Kelompok otot",
+      "logged": "Set tercatat"
+    },
+    "adherence": {
+      "title": "Sesi per minggu",
+      "desc": "Sesi tercatat di tiap 8 minggu terakhir dibanding {days} sesi yang direncanakan.",
+      "complete": "Semua sesi terencana",
+      "incomplete": "Kurang dari rencana (arsir)",
+      "planned": "Rencana: {days}",
+      "note": "* adalah minggu ini. Streak menghitung minggu berturut-turut dengan semua sesi terencana tercatat."
+    },
+    "heatmap": {
+      "title": "Hari latihan",
+      "desc": "16 minggu terakhir, satu kolom per minggu, Senin di atas. {n} hari latihan.",
+      "trained": "Latihan",
+      "rest": "Tidak latihan (kotak bergaris)"
+    },
+    "pr": {
+      "title": "Rekor pribadi",
+      "none": "Belum ada rekor. Catatan pertama sebuah latihan menjadi patokan; melampauinya nanti dihitung sebagai rekor.",
+      "heaviest": "Beban terberat: {kg} kg (sebelumnya: {previous} kg)",
+      "e1rm": "Perkiraan 1RM terbaik: {kg} kg (sebelumnya: {previous} kg)",
+      "repsAtLoad": "{reps} repetisi dengan {kg} kg (sebelumnya: {previous})",
+      "reps": "{reps} repetisi (sebelumnya: {previous})"
+    },
+    "weight": {
+      "title": "Berat badan",
+      "desc": "{n} kali timbang. Pertama {first} kg, terakhir {last} kg, rata-rata 7 hari sekarang {avg} kg.",
+      "daily": "Timbangan harian",
+      "avg": "Rata-rata 7 hari",
+      "label": "Berat",
+      "none": "Belum ada catatan berat. Catat di bawah; garis rata-rata 7 hari muncul sejak catatan pertama."
+    },
+    "meas": {
+      "title": "Ukuran tubuh",
+      "desc": "{n} catatan ukuran pinggang, dada dan lengan atas.",
+      "waistCm": "Pinggang",
+      "chestCm": "Dada",
+      "armCm": "Lengan atas",
+      "hint": "Pinggang setinggi pusar, dada setinggi puting, lengan di bagian terlebar, dalam keadaan rileks. Ukur tiap 2-4 minggu di jam yang sama.",
+      "none": "Belum ada catatan ukuran.",
+      "needOne": "Isi minimal satu ukuran."
+    },
+    "lifts": {
+      "title": "Perkiraan 1RM",
+      "pick": "Angkatan",
+      "chartTitle": "Perkiraan 1RM: {name}",
+      "desc": "{n} sesi. Perkiraan satu repetisi maksimum terbaik per sesi, pertama {first} kg, terakhir {last} kg.",
+      "legend": "Perkiraan 1RM (Epley)",
+      "note": "Dihitung dari set terbaikmu dengan 1-10 repetisi tiap sesi (Epley: beban × (1 + repetisi ÷ 30)). Ini menunjukkan tren, bukan beban untuk dicoba.",
+      "none": "Catat latihan berbeban untuk melihat tren perkiraan 1RM."
+    },
+    "sets": {
+      "title": "Set per minggu per kelompok otot",
+      "desc": "Set kerja tercatat minggu ini per kelompok otot dibanding set di rencanamu. Rentang tujuan: {lo}-{hi} set.",
+      "reached": "Sesuai rencana",
+      "below": "Di bawah rencana (arsir)",
+      "planned": "Set terencana",
+      "prev": "Minggu sebelumnya",
+      "next": "Minggu berikutnya",
+      "note": "Aturan hitung sama dengan rencana: 1 per set untuk otot utama, 0,5 untuk otot pembantu. Set pemanasan dan ramp-up tidak dihitung. Rentang tujuanmu {lo}-{hi} set per minggu."
+    },
+    "log": {
+      "workouts": "Latihan",
+      "addWorkout": "Catat latihan",
+      "noWorkouts": "Belum ada latihan.",
+      "manual": "Dicatat manual",
+      "sets": "{n} set"
+    },
+    "meals": {
+      "title": "Cek menu makan",
+      "question": "Apakah kamu mengikuti menu pada {date}?",
+      "followed": "Diikuti",
+      "partly": "Sebagian",
+      "not": "Tidak diikuti",
+      "adherence": "Diikuti pada {n} dari {total} hari terakhir yang kamu cek."
+    },
+    "notes": {
+      "title": "Catatan",
+      "label": "Catatan"
+    },
+    "edit": {
+      "titleNew": "Catat",
+      "titleEdit": "Ubah",
+      "key": "latihan",
+      "duration": "Durasi",
+      "exercise": "Gerakan {n}",
+      "choose": "Pilih gerakan",
+      "reps": "Repetisi",
+      "kg": "Beban",
+      "addSet": "Tambah set",
+      "removeSet": "Hapus set {n}",
+      "addExercise": "Tambah gerakan",
+      "removeExercise": "Hapus gerakan",
+      "errEmpty": "Tambahkan minimal satu gerakan dengan satu set berisi 1 repetisi atau lebih.",
+      "errDate": "Pilih tanggal hari ini atau sebelumnya."
+    },
+    "saved": "Tersimpan.",
+    "delete": "Hapus",
+    "deleted": "Dihapus.",
+    "deleteTitle": "Hapus catatan ini?",
+    "deleteBody": "Ini tidak bisa dibatalkan. Ekspor datamu dulu jika mungkin ingin mengembalikannya."
+  },
+  "learn": {
+    "eyebrow": "Belajar",
+    "title": "Cara",
+    "titleKey": "kerjanya",
+    "intro": "Penjelasan singkat istilah yang dipakai aplikasi, masing-masing dengan contoh. Ketuk istilah bergaris bawah di mana pun di aplikasi untuk melihat ringkasannya.",
+    "start": "Mulai di sini",
+    "search": "Cari istilah",
+    "found": "{n} istilah cocok",
+    "readMore": "Baca selengkapnya di Belajar",
+    "example": "Contoh",
+    "related": "Terkait",
+    "all": "Semua istilah",
+    "growthLink": "Cara otot tumbuh",
+    "groups": {
+      "training": "Latihan",
+      "plan": "Rencanamu",
+      "nutrition": "Nutrisi",
+      "recovery": "Pemulihan"
+    }
+  }
+}

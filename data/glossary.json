@@ -1,0 +1,859 @@
+[
+ {
+  "id": "growth-mechanism",
+  "group": "training",
+  "term": {
+   "en": "How muscles grow",
+   "id": "Cara otot tumbuh"
+  },
+  "aliases": {
+   "en": [
+    "how muscles grow"
+   ],
+   "id": [
+    "cara otot tumbuh"
+   ]
+  },
+  "short": {
+   "en": "Muscles grow when sets end close to failure, the load or reps rise over the weeks, you eat enough protein and you sleep enough. Missing any one of these gives little visible change.",
+   "id": "Otot tumbuh bila set berakhir dekat batas kemampuan, beban atau repetisi naik dari minggu ke minggu, protein cukup, dan tidur cukup. Kalau salah satunya kurang, perubahannya kecil."
+  },
+  "body": {
+   "en": [
+    "Hard sets are the signal. A set that ends 1 to 3 reps before you could not do another one tells the muscle it must adapt. Easy sets that stop far from failure send a weak signal, however many you do.",
+    "The signal has to grow. Your body adapts to a load within a few weeks, so the same 40 kg for 10 reps stops working. Adding reps first and then load (progressive overload) keeps the signal ahead of the adaptation.",
+    "Growth happens after the session, not during it. Building new muscle tissue needs protein (about 1.6 to 2.2 g per kg of body weight a day in this app) and sleep (7 to 9 hours for most adults). Train hard without them and you mostly get tired.",
+    "Training alone, without progression, protein and sleep, gives little visible change. With all four in place, beginners usually see measurable gains in strength within weeks and in size over months."
+   ],
+   "id": [
+    "Set yang berat adalah sinyalnya. Set yang berhenti 1 sampai 3 repetisi sebelum kamu tidak sanggup lagi memberi tahu otot bahwa ia harus beradaptasi. Set ringan yang berhenti jauh dari batas memberi sinyal lemah, berapa pun jumlahnya.",
+    "Sinyalnya harus meningkat. Tubuh menyesuaikan diri dengan beban dalam beberapa minggu, jadi 40 kg untuk 10 repetisi yang sama lama-lama tidak berpengaruh. Menambah repetisi dulu lalu beban (progressive overload) menjaga sinyal tetap di depan adaptasi.",
+    "Pertumbuhan terjadi setelah latihan, bukan saat latihan. Membangun jaringan otot butuh protein (sekitar 1,6 sampai 2,2 g per kg berat badan per hari di aplikasi ini) dan tidur (7 sampai 9 jam untuk kebanyakan orang dewasa). Latihan keras tanpa keduanya kebanyakan hanya membuat lelah.",
+    "Latihan saja, tanpa progresi, protein dan tidur, memberi perubahan yang kecil. Dengan keempatnya, pemula biasanya melihat kekuatan naik dalam hitungan minggu dan ukuran otot dalam hitungan bulan."
+   ]
+  },
+  "example": {
+   "en": "Week 1: dumbbell row 16 kg × 10, 10, 9 at RIR 2. Week 3: 16 kg × 12, 12, 12. Week 4: 18 kg × 9, 9, 8. Same exercise, rising demand, with protein and sleep covered.",
+   "id": "Minggu 1: dumbbell row 16 kg × 10, 10, 9 dengan RIR 2. Minggu 3: 16 kg × 12, 12, 12. Minggu 4: 18 kg × 9, 9, 8. Gerakan sama, tuntutan naik, protein dan tidur tercukupi."
+  },
+  "related": [
+   "progressive-overload",
+   "rir",
+   "sleep-recovery",
+   "macros"
+  ]
+ },
+ {
+  "id": "progressive-overload",
+  "group": "training",
+  "term": {
+   "en": "Progressive overload",
+   "id": "Progressive overload"
+  },
+  "aliases": {
+   "en": [
+    "progressive overload",
+    "double progression"
+   ],
+   "id": [
+    "progressive overload",
+    "double progression"
+   ]
+  },
+  "short": {
+   "en": "Making a lift slightly harder over time: more reps at the same load, then more load. This app uses double progression.",
+   "id": "Progressive overload (beban bertahap) berarti membuat latihan sedikit lebih berat dari waktu ke waktu: tambah repetisi dengan beban sama, lalu tambah beban. Aplikasi ini memakai double progression."
+  },
+  "body": {
+   "en": [
+    "Double progression has two steps. First, keep the load and add reps until every set reaches the top of the rep range at the target RIR. Then add load (2.5 kg on upper-body barbell lifts, 5 kg on lower-body lifts, 1 to 2 kg per dumbbell) and start again at the bottom of the range.",
+    "With dumbbells the jump to the next pair can be more than 10% of the load. In that case the app first extends the rep range by 3 so the jump is smaller relative to what you can do.",
+    "Bodyweight exercises progress by moving to a harder variation (incline push-up to push-up), or, when there is none, by lowering for 3 seconds on every rep."
+   ],
+   "id": [
+    "Double progression punya dua langkah. Pertama, pertahankan beban dan tambah repetisi sampai semua set mencapai batas atas rentang repetisi pada RIR target. Lalu tambah beban (2,5 kg untuk barbel tubuh atas, 5 kg untuk tubuh bawah, 1 sampai 2 kg per dumbel) dan mulai lagi dari batas bawah rentang.",
+    "Dengan dumbel, lompatan ke pasangan berikutnya bisa lebih dari 10% beban. Dalam kasus itu aplikasi memperpanjang rentang repetisi 3 dulu agar lompatannya lebih kecil dibanding kemampuanmu.",
+    "Latihan beban tubuh naik dengan pindah ke variasi yang lebih sulit (incline push-up ke push-up), atau bila tidak ada, dengan menurunkan badan selama 3 detik di setiap repetisi."
+   ]
+  },
+  "example": {
+   "en": "Bench press, range 6-10: 60 kg × 8, 8, 7 → 60 kg × 10, 9, 9 → 60 kg × 10, 10, 10 at RIR 2 → next session 62.5 kg × 6-7.",
+   "id": "Bench press, rentang 6-10: 60 kg × 8, 8, 7 → 60 kg × 10, 9, 9 → 60 kg × 10, 10, 10 pada RIR 2 → sesi berikutnya 62,5 kg × 6-7."
+  },
+  "related": [
+   "growth-mechanism",
+   "sets-reps",
+   "rir"
+  ]
+ },
+ {
+  "id": "sets-reps",
+  "group": "training",
+  "term": {
+   "en": "Sets and reps",
+   "id": "Set dan repetisi"
+  },
+  "aliases": {
+   "en": [
+    "sets and reps",
+    "reps",
+    "working sets",
+    "rep range"
+   ],
+   "id": [
+    "set dan repetisi",
+    "repetisi",
+    "set kerja",
+    "rentang repetisi"
+   ]
+  },
+  "short": {
+   "en": "A rep is one lift, down and up. A set is a group of reps done without a break. \"3 × 8\" means 3 sets of 8 reps.",
+   "id": "Repetisi (rep) adalah satu kali angkat, turun dan naik. Set adalah kumpulan repetisi tanpa jeda. \"3 × 8\" berarti 3 set masing-masing 8 repetisi."
+  },
+  "body": {
+   "en": [
+    "The plan gives a rep range, such as 6-10, instead of one number. Pick a load you can lift for the bottom of the range at the target RIR; as you get stronger the reps climb toward the top.",
+    "Working sets are the sets that count. Warm-up and ramp-up sets come first and prepare you; they are lighter and do not count toward weekly volume.",
+    "Lower ranges (3-6) build maximal strength most directly; middle and higher ranges (6-15) build muscle well as long as the sets end close to failure."
+   ],
+   "id": [
+    "Rencana memberi rentang repetisi, misalnya 6-10, bukan satu angka. Pilih beban yang bisa kamu angkat sebanyak batas bawah rentang pada RIR target; saat makin kuat, repetisinya naik ke batas atas.",
+    "Set kerja adalah set yang dihitung. Set pemanasan dan ramp-up dilakukan lebih dulu untuk persiapan; bebannya lebih ringan dan tidak dihitung dalam volume mingguan.",
+    "Rentang rendah (3-6) paling langsung membangun kekuatan maksimal; rentang menengah dan tinggi (6-15) membangun otot dengan baik selama set berakhir dekat batas."
+   ]
+  },
+  "example": {
+   "en": "Goblet squat 3 × 10-15: 3 working sets, each between 10 and 15 reps, after 2 ramp-up sets.",
+   "id": "Goblet squat 3 × 10-15: 3 set kerja, masing-masing 10 sampai 15 repetisi, setelah 2 set ramp-up."
+  },
+  "related": [
+   "rir",
+   "ramp-up-sets",
+   "training-volume"
+  ]
+ },
+ {
+  "id": "rir",
+  "group": "training",
+  "term": {
+   "en": "RIR (reps in reserve)",
+   "id": "RIR (reps in reserve)"
+  },
+  "aliases": {
+   "en": [
+    "RIR",
+    "reps in reserve"
+   ],
+   "id": [
+    "RIR",
+    "reps in reserve"
+   ]
+  },
+  "short": {
+   "en": "How many more reps you could have done when you stopped the set. RIR 2 means you stopped with 2 good reps left.",
+   "id": "RIR (reps in reserve, sisa repetisi) adalah berapa repetisi lagi yang sebenarnya masih bisa kamu lakukan saat berhenti. RIR 2 berarti kamu berhenti dengan sisa 2 repetisi yang masih rapi."
+  },
+  "body": {
+   "en": [
+    "RIR keeps sets hard enough to cause growth without grinding to failure every time. Most sets in this app use RIR 1-3.",
+    "Count only reps you could do with good form. If the bar would slow down a lot or your back would round, that rep is not in reserve.",
+    "Estimates are rough in the first months: beginners usually stop with 4 or 5 reps left while thinking it is 2. That is why beginners get RIR 2-3. Testing a last set to failure on a safe exercise (machine, push-up) now and then calibrates your sense."
+   ],
+   "id": [
+    "RIR menjaga set cukup berat untuk memicu pertumbuhan tanpa harus sampai gagal setiap kali. Kebanyakan set di aplikasi ini memakai RIR 1-3.",
+    "Hitung hanya repetisi yang masih bisa dilakukan dengan teknik baik. Kalau barbel akan melambat sekali atau punggung membungkuk, repetisi itu tidak dihitung sebagai sisa.",
+    "Perkiraannya kasar di bulan-bulan pertama: pemula biasanya berhenti dengan sisa 4 atau 5 repetisi sambil mengira sisa 2. Karena itu pemula diberi RIR 2-3. Sesekali menguji set terakhir sampai gagal pada gerakan yang aman (mesin, push-up) membantu melatih perkiraanmu."
+   ]
+  },
+  "example": {
+   "en": "Target 8-10 reps at RIR 2: you do 9 reps and feel you could have done 11 → RIR 2, the set is right.",
+   "id": "Target 8-10 repetisi pada RIR 2: kamu melakukan 9 repetisi dan merasa masih sanggup sampai 11 → RIR 2, set-nya tepat."
+  },
+  "related": [
+   "rpe",
+   "sets-reps",
+   "growth-mechanism"
+  ]
+ },
+ {
+  "id": "rpe",
+  "group": "training",
+  "term": {
+   "en": "RPE (rate of perceived exertion)",
+   "id": "RPE (rate of perceived exertion)"
+  },
+  "aliases": {
+   "en": [
+    "RPE"
+   ],
+   "id": [
+    "RPE"
+   ]
+  },
+  "short": {
+   "en": "A 1-10 score of how hard a set felt. In lifting, RPE 8 means about 2 reps in reserve (RPE = 10 − RIR).",
+   "id": "RPE (rate of perceived exertion, tingkat usaha yang dirasakan) adalah skor 1-10 seberat apa sebuah set terasa. Dalam angkat beban, RPE 8 berarti sisa sekitar 2 repetisi (RPE = 10 − RIR)."
+  },
+  "body": {
+   "en": [
+    "This app logs RIR because counting reps left is easier than scoring effort. If a coach or program gives you RPE, convert it: RPE 10 = RIR 0, RPE 9 = RIR 1, RPE 8 = RIR 2, RPE 7 = RIR 3.",
+    "For cardio, RPE is used on its own: 3-4 is an easy walk you could keep up while talking, 6-7 is a steady run where talking takes effort."
+   ],
+   "id": [
+    "Aplikasi ini mencatat RIR karena menghitung sisa repetisi lebih mudah daripada memberi skor usaha. Kalau pelatih atau program memberimu RPE, ubah saja: RPE 10 = RIR 0, RPE 9 = RIR 1, RPE 8 = RIR 2, RPE 7 = RIR 3.",
+    "Untuk kardio, RPE dipakai sendiri: 3-4 adalah jalan santai sambil bisa mengobrol, 6-7 adalah lari stabil yang membuat bicara terasa berat."
+   ]
+  },
+  "example": {
+   "en": "A program says \"squat 5 × 5 at RPE 8\". Log it here as RIR 2.",
+   "id": "Program menulis \"squat 5 × 5 pada RPE 8\". Catat di sini sebagai RIR 2."
+  },
+  "related": [
+   "rir"
+  ]
+ },
+ {
+  "id": "ramp-up-sets",
+  "group": "training",
+  "term": {
+   "en": "Ramp-up sets",
+   "id": "Set ramp-up"
+  },
+  "aliases": {
+   "en": [
+    "ramp-up sets",
+    "ramp-up"
+   ],
+   "id": [
+    "set ramp-up",
+    "ramp-up"
+   ]
+  },
+  "short": {
+   "en": "Lighter sets before the first working set of a main lift, at about 50%, 70% and 85% of the working load for 3-5 reps.",
+   "id": "Set ramp-up (set pemanasan bertahap) adalah set ringan sebelum set kerja pertama pada gerakan utama, sekitar 50%, 70% dan 85% dari beban kerja dengan 3-5 repetisi."
+  },
+  "body": {
+   "en": [
+    "They rehearse the movement and let joints and muscles get used to the load step by step, so the first working set is not a shock.",
+    "Keep them short: few reps, full rest is not needed. They count in the session time estimate but not in weekly volume, because they are far from failure."
+   ],
+   "id": [
+    "Set ini melatih ulang pola gerakan dan membiasakan sendi serta otot dengan beban secara bertahap, sehingga set kerja pertama tidak mengejutkan.",
+    "Buat singkat: sedikit repetisi, tidak perlu istirahat penuh. Set ini masuk hitungan durasi sesi tetapi tidak masuk volume mingguan, karena jauh dari batas."
+   ]
+  },
+  "example": {
+   "en": "Working sets at 80 kg: 40 kg × 5, 55 kg × 4, 70 kg × 3, then 80 kg × 6-10.",
+   "id": "Set kerja 80 kg: 40 kg × 5, 55 kg × 4, 70 kg × 3, lalu 80 kg × 6-10."
+  },
+  "related": [
+   "warm-up",
+   "sets-reps"
+  ]
+ },
+ {
+  "id": "rest-periods",
+  "group": "training",
+  "term": {
+   "en": "Rest periods",
+   "id": "Waktu istirahat"
+  },
+  "aliases": {
+   "en": [
+    "rest periods",
+    "rest timer"
+   ],
+   "id": [
+    "waktu istirahat",
+    "timer istirahat"
+   ]
+  },
+  "short": {
+   "en": "The time between sets. Main lifts get 2-5 minutes, smaller exercises 60-120 seconds, so the next set can again end close to failure.",
+   "id": "Waktu istirahat adalah jeda antarset. Gerakan utama mendapat 2-5 menit, gerakan kecil 60-120 detik, agar set berikutnya kembali bisa berakhir dekat batas."
+  },
+  "body": {
+   "en": [
+    "Short rests feel productive but cost reps: if a squat set drops from 8 reps to 5 because you rested 60 seconds, the session did less work.",
+    "The rest timer starts when you log a set and is computed from the clock, so it stays correct if your phone locks. Add 30 seconds if you are still breathing hard."
+   ],
+   "id": [
+    "Istirahat pendek terasa produktif tetapi mengurangi repetisi: kalau set squat turun dari 8 ke 5 repetisi karena istirahat 60 detik, kerja sesi itu berkurang.",
+    "Timer istirahat mulai saat kamu mencatat set dan dihitung dari jam, jadi tetap benar walau ponsel terkunci. Tambah 30 detik kalau napasmu masih terengah."
+   ]
+  },
+  "example": {
+   "en": "Barbell row (main lift): 2-3 minutes. Lateral raise: 60-90 seconds.",
+   "id": "Barbell row (gerakan utama): 2-3 menit. Lateral raise: 60-90 detik."
+  },
+  "related": [
+   "sets-reps"
+  ]
+ },
+ {
+  "id": "deload",
+  "group": "training",
+  "term": {
+   "en": "Deload",
+   "id": "Deload"
+  },
+  "aliases": {
+   "en": [
+    "deload"
+   ],
+   "id": [
+    "deload"
+   ]
+  },
+  "short": {
+   "en": "A lighter week: same exercises and loads, half the sets, every set stopped at RIR 4 or more. It lets fatigue drop so performance comes back.",
+   "id": "Deload adalah minggu yang lebih ringan: gerakan dan beban sama, jumlah set separuh, setiap set berhenti di RIR 4 atau lebih. Tujuannya menurunkan kelelahan agar performa kembali."
+  },
+  "body": {
+   "en": [
+    "The app suggests a deload when the same lift shows a lower estimated 1RM two sessions in a row. Check sleep and food first; a bad week of sleep often explains the drop.",
+    "Intermediate and advanced lifters are also offered one after 8 weeks without a deload. Beginners do not get scheduled deloads: they recover quickly and progress fastest by training normally."
+   ],
+   "id": [
+    "Aplikasi menyarankan deload saat gerakan yang sama menunjukkan perkiraan 1RM lebih rendah dua sesi berturut-turut. Cek tidur dan makan dulu; seminggu kurang tidur sering menjelaskan penurunan itu.",
+    "Tingkat menengah dan lanjut juga ditawari deload setelah 8 minggu tanpa deload. Pemula tidak mendapat deload terjadwal: mereka pulih cepat dan paling cepat berkembang dengan latihan biasa."
+   ]
+  },
+  "example": {
+   "en": "Normal: bench press 4 × 6-10 at RIR 1-2. Deload week: 2 sets at the same load, stopping at about 6 reps.",
+   "id": "Normal: bench press 4 × 6-10 pada RIR 1-2. Minggu deload: 2 set dengan beban sama, berhenti di sekitar 6 repetisi."
+  },
+  "related": [
+   "e1rm",
+   "sleep-recovery"
+  ]
+ },
+ {
+  "id": "compound-isolation",
+  "group": "training",
+  "term": {
+   "en": "Compound and isolation exercises",
+   "id": "Gerakan compound dan isolasi"
+  },
+  "aliases": {
+   "en": [
+    "compound",
+    "isolation"
+   ],
+   "id": [
+    "compound",
+    "isolasi"
+   ]
+  },
+  "short": {
+   "en": "Compound exercises move several joints and train several muscles at once (squat, row). Isolation exercises move one joint (curl, leg extension).",
+   "id": "Gerakan compound melibatkan beberapa sendi dan melatih beberapa otot sekaligus (squat, row). Gerakan isolasi hanya menggerakkan satu sendi (curl, leg extension)."
+  },
+  "body": {
+   "en": [
+    "Main lifts are compound: they allow the heaviest loads and give the most training per minute. They come first in a session, when you are fresh.",
+    "Isolation exercises fill gaps the compounds leave, such as side shoulders, calves or biceps, and are easier to push close to failure safely."
+   ],
+   "id": [
+    "Gerakan utama adalah compound: memungkinkan beban terberat dan memberi latihan terbanyak per menit. Gerakan ini dilakukan di awal sesi, saat tubuh masih segar.",
+    "Gerakan isolasi mengisi celah yang ditinggalkan compound, seperti bahu samping, betis atau biseps, dan lebih aman didorong dekat batas."
+   ]
+  },
+  "example": {
+   "en": "Upper A: bench press (compound) first, lateral raise (isolation) near the end.",
+   "id": "Upper A: bench press (compound) di awal, lateral raise (isolasi) menjelang akhir."
+  },
+  "related": [
+   "training-volume"
+  ]
+ },
+ {
+  "id": "training-volume",
+  "group": "training",
+  "term": {
+   "en": "Training volume and how sets are counted",
+   "id": "Volume latihan dan cara menghitung set"
+  },
+  "aliases": {
+   "en": [
+    "training volume",
+    "weekly sets"
+   ],
+   "id": [
+    "volume latihan",
+    "set per minggu"
+   ]
+  },
+  "short": {
+   "en": "Volume here is hard working sets per muscle group per week. A set counts 1 for each main muscle group it trains and 0.5 for each helper group.",
+   "id": "Volume di sini adalah jumlah set kerja per kelompok otot per minggu. Satu set dihitung 1 untuk setiap kelompok otot utama yang dilatih dan 0,5 untuk setiap kelompok pembantu."
+  },
+  "body": {
+   "en": [
+    "Example: one set of bench press counts 1 for chest and 0.5 each for shoulders and triceps. Warm-up and ramp-up sets do not count.",
+    "Each goal has a weekly range, for example 10-20 sets for Build muscle. Beginners start near the bottom: they grow well on less, and more sets only add fatigue.",
+    "When the session length does not fit the range, the plan keeps every major group at 4 or more sets, favours chest, back, legs and shoulders, and tells you which groups sit under the range."
+   ],
+   "id": [
+    "Contoh: satu set bench press dihitung 1 untuk dada dan 0,5 masing-masing untuk bahu dan triseps. Set pemanasan dan ramp-up tidak dihitung.",
+    "Setiap tujuan punya rentang mingguan, misalnya 10-20 set untuk Membangun otot. Pemula mulai dekat batas bawah: mereka tumbuh baik dengan lebih sedikit, dan set tambahan hanya menambah lelah.",
+    "Bila durasi sesi tidak cukup untuk rentang itu, rencana menjaga setiap kelompok utama minimal 4 set, mendahulukan dada, punggung, kaki dan bahu, dan memberi tahu kelompok mana yang di bawah rentang."
+   ]
+  },
+  "example": {
+   "en": "Week: bench press 3 sets + push-up 2 sets → chest 5, shoulders 2.5, triceps 2.5, core 1 (push-up also uses the core).",
+   "id": "Seminggu: bench press 3 set + push-up 2 set → dada 5, bahu 2,5, triseps 2,5, inti 1 (push-up juga memakai otot inti)."
+  },
+  "related": [
+   "sets-reps",
+   "compound-isolation",
+   "days-per-week"
+  ]
+ },
+ {
+  "id": "e1rm",
+  "group": "training",
+  "term": {
+   "en": "Estimated 1RM",
+   "id": "Perkiraan 1RM"
+  },
+  "aliases": {
+   "en": [
+    "estimated 1RM",
+    "e1RM",
+    "1RM"
+   ],
+   "id": [
+    "perkiraan 1RM",
+    "e1RM",
+    "1RM"
+   ]
+  },
+  "short": {
+   "en": "The heaviest single rep you could probably lift, estimated from a set of 1-10 reps with the Epley formula: load × (1 + reps ÷ 30).",
+   "id": "Perkiraan 1RM (one-rep max) adalah beban terberat yang kemungkinan bisa kamu angkat sekali, dihitung dari set 1-10 repetisi dengan rumus Epley: beban × (1 + repetisi ÷ 30)."
+  },
+  "body": {
+   "en": [
+    "It lets you compare sets with different loads and reps: 80 kg × 8 estimates 101 kg and 90 kg × 4 estimates 102 kg, so the second set was slightly stronger.",
+    "The app uses it to spot progress (personal records) and stalls (a lower estimate two sessions running suggests a deload). It is a trend line, not a weight to attempt."
+   ],
+   "id": [
+    "Angka ini membuat set dengan beban dan repetisi berbeda bisa dibandingkan: 80 kg × 8 memperkirakan 101 kg dan 90 kg × 4 memperkirakan 102 kg, jadi set kedua sedikit lebih kuat.",
+    "Aplikasi memakainya untuk melihat kemajuan (rekor pribadi) dan kemandekan (perkiraan lebih rendah dua sesi berturut-turut menyarankan deload). Ini garis tren, bukan beban untuk dicoba."
+   ]
+  },
+  "example": {
+   "en": "100 kg × 5 → 100 × (1 + 5 ÷ 30) = 116.7 kg estimated 1RM.",
+   "id": "100 kg × 5 → 100 × (1 + 5 ÷ 30) = 116,7 kg perkiraan 1RM."
+  },
+  "related": [
+   "deload",
+   "progressive-overload"
+  ]
+ },
+ {
+  "id": "warm-up",
+  "group": "training",
+  "term": {
+   "en": "Warm-up",
+   "id": "Pemanasan"
+  },
+  "aliases": {
+   "en": [
+    "warm-up"
+   ],
+   "id": [
+    "pemanasan"
+   ]
+  },
+  "short": {
+   "en": "5-8 minutes of easy movement and drills for the muscles you are about to train, before the ramp-up sets.",
+   "id": "Pemanasan (warm-up) adalah 5-8 menit gerakan ringan dan latihan persiapan untuk otot yang akan dilatih, sebelum set ramp-up."
+  },
+  "body": {
+   "en": [
+    "Each session in the plan gets a warm-up matched to that day: hip and ankle drills before legs, band pull-aparts and arm circles before pressing.",
+    "It raises body temperature and takes joints through the range they will use. Long static stretching before lifting is not needed; save it for the cool-down if you like it."
+   ],
+   "id": [
+    "Setiap sesi di rencana mendapat pemanasan sesuai hari itu: latihan pinggul dan pergelangan kaki sebelum kaki, band pull-apart dan putaran lengan sebelum gerakan dorong.",
+    "Pemanasan menaikkan suhu tubuh dan membawa sendi melewati rentang gerak yang akan dipakai. Peregangan statis lama sebelum angkat beban tidak perlu; simpan untuk pendinginan bila kamu suka."
+   ]
+  },
+  "example": {
+   "en": "Lower A: 3 minutes brisk walk, 10 bodyweight squats, 10 glute bridges, 8 leg swings each side.",
+   "id": "Lower A: 3 menit jalan cepat, 10 squat beban tubuh, 10 glute bridge, 8 ayunan kaki tiap sisi."
+  },
+  "related": [
+   "ramp-up-sets"
+  ]
+ },
+ {
+  "id": "splits",
+  "group": "plan",
+  "term": {
+   "en": "Training splits",
+   "id": "Pembagian latihan (split)"
+  },
+  "aliases": {
+   "en": [
+    "split",
+    "full body",
+    "upper/lower",
+    "push/pull/legs"
+   ],
+   "id": [
+    "split",
+    "full body",
+    "upper/lower",
+    "push/pull/legs"
+   ]
+  },
+  "short": {
+   "en": "How the week divides the muscles: full body (everything each session), upper/lower (upper body one day, legs the next), or push/pull/legs.",
+   "id": "Split adalah cara minggu latihan membagi otot: full body (semua otot tiap sesi), upper/lower (tubuh atas satu hari, kaki hari berikutnya), atau push/pull/legs (dorong/tarik/kaki)."
+  },
+  "body": {
+   "en": [
+    "Full body: every major group in each session. Best with 2-3 days, because each muscle still gets trained 2-3 times a week.",
+    "Upper/lower: 4 days, each half trained twice a week, with room for more exercises per muscle.",
+    "Push/pull/legs: chest, shoulders and triceps; back and biceps; legs. With 6 days each muscle gets trained twice; with 3 days only once, which is why the app offers it at 3 days only to intermediate and advanced lifters, with a note."
+   ],
+   "id": [
+    "Full body: semua kelompok utama di setiap sesi. Paling cocok untuk 2-3 hari, karena setiap otot tetap dilatih 2-3 kali seminggu.",
+    "Upper/lower: 4 hari, setiap bagian dilatih dua kali seminggu, dengan ruang untuk lebih banyak gerakan per otot.",
+    "Push/pull/legs: dada, bahu dan triseps; punggung dan biseps; kaki. Dengan 6 hari setiap otot dilatih dua kali; dengan 3 hari hanya sekali, karena itu aplikasi hanya menawarkannya di 3 hari untuk tingkat menengah dan lanjut, dengan catatan."
+   ]
+  },
+  "example": {
+   "en": "4 days: Upper A (Mon), Lower A (Tue), Upper B (Thu), Lower B (Fri).",
+   "id": "4 hari: Upper A (Sen), Lower A (Sel), Upper B (Kam), Lower B (Jum)."
+  },
+  "related": [
+   "days-per-week",
+   "training-volume"
+  ]
+ },
+ {
+  "id": "days-per-week",
+  "group": "plan",
+  "term": {
+   "en": "Why the plan changes with days per week",
+   "id": "Kenapa rencana berubah sesuai jumlah hari"
+  },
+  "aliases": {
+   "en": [
+    "days per week"
+   ],
+   "id": [
+    "hari per minggu"
+   ]
+  },
+  "short": {
+   "en": "The weekly sets for each muscle stay in the same range; more days spread them over more, shorter sessions, so each session can train fewer muscles harder.",
+   "id": "Set mingguan untuk tiap otot tetap di rentang yang sama; lebih banyak hari berarti set itu tersebar di lebih banyak sesi yang lebih pendek, sehingga tiap sesi bisa melatih lebih sedikit otot dengan lebih serius."
+  },
+  "body": {
+   "en": [
+    "With 2-3 days, every session trains everything (full body), with one main lift per pattern. With 4 days the body splits into upper and lower halves. With 5-6 days push/pull/legs gives each session a narrow focus.",
+    "Five or six days is a lot for a beginner: soreness and fatigue pile up before technique is solid. The app warns and suggests 4 days, but you can keep your choice.",
+    "Session length matters as much as days: if 45 minutes cannot hold the weekly sets, the plan tells you which muscles fall short and that one more day or 15 more minutes would close the gap."
+   ],
+   "id": [
+    "Dengan 2-3 hari, setiap sesi melatih semua (full body), dengan satu gerakan utama per pola. Dengan 4 hari tubuh dibagi atas dan bawah. Dengan 5-6 hari push/pull/legs memberi tiap sesi fokus yang sempit.",
+    "Lima atau enam hari itu banyak untuk pemula: pegal dan lelah menumpuk sebelum teknik matang. Aplikasi memberi peringatan dan menyarankan 4 hari, tetapi kamu boleh tetap pada pilihanmu.",
+    "Durasi sesi sama pentingnya dengan jumlah hari: bila 45 menit tidak cukup menampung set mingguan, rencana memberi tahu otot mana yang kurang dan bahwa satu hari tambahan atau 15 menit lagi akan menutup kekurangannya."
+   ]
+  },
+  "example": {
+   "en": "Chest at 12 sets a week: 3 days × 4 sets, or 4 days with 2 upper sessions × 6 sets.",
+   "id": "Dada 12 set per minggu: 3 hari × 4 set, atau 4 hari dengan 2 sesi tubuh atas × 6 set."
+  },
+  "related": [
+   "splits",
+   "training-volume"
+  ]
+ },
+ {
+  "id": "tdee",
+  "group": "nutrition",
+  "term": {
+   "en": "TDEE (total daily energy expenditure)",
+   "id": "TDEE (total daily energy expenditure)"
+  },
+  "aliases": {
+   "en": [
+    "TDEE",
+    "maintenance calories"
+   ],
+   "id": [
+    "TDEE",
+    "kalori pemeliharaan"
+   ]
+  },
+  "short": {
+   "en": "The calories you burn in a day, all included. Eating this amount keeps your weight about the same. Here: BMR × activity factor.",
+   "id": "TDEE (total daily energy expenditure, total energi yang dipakai sehari) adalah semua kalori yang terbakar dalam sehari. Makan sejumlah ini menjaga berat badan kurang lebih tetap. Di sini: BMR × faktor aktivitas."
+  },
+  "body": {
+   "en": [
+    "The activity factor is your daily life (1.2 mostly sitting up to 1.7 physical labour) plus 0.025 for each training day per week.",
+    "It is an estimate, off by about 10% for many people. Your weight trend over 2-3 weeks is the real test, which is why the app offers to adjust the target after 14 days of weigh-ins."
+   ],
+   "id": [
+    "Faktor aktivitas adalah keseharianmu (1,2 kebanyakan duduk sampai 1,7 kerja fisik berat) ditambah 0,025 untuk setiap hari latihan per minggu.",
+    "Angka ini perkiraan, meleset sekitar 10% untuk banyak orang. Tren berat badan selama 2-3 minggu adalah ujian sebenarnya, karena itu aplikasi menawarkan penyesuaian target setelah 14 hari menimbang."
+   ]
+  },
+  "example": {
+   "en": "BMR 1,500 kcal, some walking (1.35) + 4 training days (0.1) → 1,500 × 1.45 = 2,175 kcal.",
+   "id": "BMR 1.500 kkal, cukup sering berjalan (1,35) + 4 hari latihan (0,1) → 1.500 × 1,45 = 2.175 kkal."
+  },
+  "related": [
+   "bmr",
+   "deficit-surplus"
+  ]
+ },
+ {
+  "id": "bmr",
+  "group": "nutrition",
+  "term": {
+   "en": "BMR (basal metabolic rate)",
+   "id": "BMR (basal metabolic rate)"
+  },
+  "aliases": {
+   "en": [
+    "BMR"
+   ],
+   "id": [
+    "BMR"
+   ]
+  },
+  "short": {
+   "en": "The calories your body uses at complete rest just to stay alive. Estimated here with the Mifflin-St Jeor formula.",
+   "id": "BMR (basal metabolic rate, laju metabolisme basal) adalah kalori yang dipakai tubuh saat istirahat total hanya untuk tetap hidup. Di sini dihitung dengan rumus Mifflin-St Jeor."
+  },
+  "body": {
+   "en": [
+    "Formula: 10 × weight (kg) + 6.25 × height (cm) − 5 × age, then + 5 for men or − 161 for women.",
+    "The app never sets a calorie target below your BMR. If a deficit would go lower, the target stops at BMR and the page tells you the deficit is smaller than planned."
+   ],
+   "id": [
+    "Rumus: 10 × berat (kg) + 6,25 × tinggi (cm) − 5 × usia, lalu + 5 untuk pria atau − 161 untuk wanita.",
+    "Aplikasi tidak pernah memasang target kalori di bawah BMR. Kalau defisit akan lebih rendah, target berhenti di BMR dan halaman memberi tahu bahwa defisitnya lebih kecil dari rencana."
+   ]
+  },
+  "example": {
+   "en": "Woman, 30, 160 cm, 60 kg: 600 + 1,000 − 150 − 161 = 1,289 kcal.",
+   "id": "Wanita, 30 tahun, 160 cm, 60 kg: 600 + 1.000 − 150 − 161 = 1.289 kkal."
+  },
+  "related": [
+   "tdee"
+  ]
+ },
+ {
+  "id": "deficit-surplus",
+  "group": "nutrition",
+  "term": {
+   "en": "Calorie deficit and surplus",
+   "id": "Defisit dan surplus kalori"
+  },
+  "aliases": {
+   "en": [
+    "calorie deficit",
+    "deficit",
+    "surplus",
+    "maintenance"
+   ],
+   "id": [
+    "defisit kalori",
+    "defisit",
+    "surplus",
+    "pemeliharaan"
+   ]
+  },
+  "short": {
+   "en": "Eating less than your TDEE (deficit) makes you lose weight; eating more (surplus) makes you gain. About 7,700 kcal equals 1 kg of body weight.",
+   "id": "Makan lebih sedikit dari TDEE (defisit) membuat berat turun; makan lebih banyak (surplus) membuat berat naik. Sekitar 7.700 kkal setara 1 kg berat badan."
+  },
+  "body": {
+   "en": [
+    "Lose fat uses a 15-25% deficit, Recomposition 0-10%, Build muscle a 5-10% surplus. A bigger deficit is not better: losing more than 1% of body weight a week makes it harder to keep muscle, and the app suggests eating more if that happens two weeks running.",
+    "Under 18, or with a BMI under 18.5 on a fat-loss goal, the app does not set a deficit."
+   ],
+   "id": [
+    "Menurunkan lemak memakai defisit 15-25%, Rekomposisi 0-10%, Membangun otot surplus 5-10%. Defisit lebih besar tidak lebih baik: turun lebih dari 1% berat badan per minggu membuat otot lebih sulit dipertahankan, dan aplikasi menyarankan makan lebih banyak bila itu terjadi dua minggu berturut-turut.",
+    "Di bawah 18 tahun, atau dengan BMI di bawah 18,5 pada tujuan menurunkan lemak, aplikasi tidak memasang defisit."
+   ]
+  },
+  "example": {
+   "en": "TDEE 2,200 kcal, Lose fat at −20% → 1,760 kcal, about 440 kcal a day under → roughly 0.4 kg a week.",
+   "id": "TDEE 2.200 kkal, menurunkan lemak −20% → 1.760 kkal, sekitar 440 kkal per hari di bawah → kira-kira 0,4 kg per minggu."
+  },
+  "related": [
+   "tdee",
+   "macros"
+  ]
+ },
+ {
+  "id": "macros",
+  "group": "nutrition",
+  "term": {
+   "en": "Macros",
+   "id": "Makro"
+  },
+  "aliases": {
+   "en": [
+    "macros",
+    "macronutrients"
+   ],
+   "id": [
+    "makro",
+    "makronutrien"
+   ]
+  },
+  "short": {
+   "en": "Protein, carbohydrate and fat, the three nutrients that supply calories: 4 kcal per gram of protein or carbs, 9 per gram of fat.",
+   "id": "Makro (makronutrien) adalah protein, karbohidrat dan lemak, tiga zat gizi penyumbang kalori: 4 kkal per gram protein atau karbohidrat, 9 per gram lemak."
+  },
+  "body": {
+   "en": [
+    "Protein is set first: 1.6-2.2 g per kg (1.8 by default, 2.2 in a deficit to protect muscle). Fat next: 0.6-1.0 g per kg, never under 0.5, because hormones need it. Carbs fill the rest and fuel training.",
+    "If carbs would drop under 100 g, fat comes down first, then protein, and the Targets page lists what changed. With a BMI over 30, the grams use the weight at BMI 25 for your height."
+   ],
+   "id": [
+    "Protein ditentukan dulu: 1,6-2,2 g per kg (1,8 bawaan, 2,2 saat defisit untuk menjaga otot). Lalu lemak: 0,6-1,0 g per kg, tidak pernah di bawah 0,5, karena hormon membutuhkannya. Karbohidrat mengisi sisanya dan menjadi bahan bakar latihan.",
+    "Kalau karbohidrat akan turun di bawah 100 g, lemak diturunkan dulu, lalu protein, dan halaman Target menuliskan apa yang berubah. Dengan BMI di atas 30, gramnya memakai berat pada BMI 25 untuk tinggimu."
+   ]
+  },
+  "example": {
+   "en": "70 kg, 2,400 kcal: protein 126 g (504 kcal), fat 56 g (504 kcal), carbs (2,400 − 504 − 504) ÷ 4 = 348 g.",
+   "id": "70 kg, 2.400 kkal: protein 126 g (504 kkal), lemak 56 g (504 kkal), karbohidrat (2.400 − 504 − 504) ÷ 4 = 348 g."
+  },
+  "related": [
+   "protein-timing",
+   "deficit-surplus"
+  ]
+ },
+ {
+  "id": "protein-timing",
+  "group": "nutrition",
+  "term": {
+   "en": "Protein timing",
+   "id": "Waktu makan protein"
+  },
+  "aliases": {
+   "en": [
+    "protein timing"
+   ],
+   "id": [
+    "waktu makan protein"
+   ]
+  },
+  "short": {
+   "en": "Spreading protein over 3-5 meals of about 0.3-0.5 g per kg each works a little better than one large serving. The daily total matters most.",
+   "id": "Membagi protein ke 3-5 kali makan, masing-masing sekitar 0,3-0,5 g per kg, sedikit lebih baik daripada satu porsi besar. Total harian yang paling penting."
+  },
+  "body": {
+   "en": [
+    "There is no narrow window after training: a meal with protein within a few hours before or after the session is enough.",
+    "The meal plans put a protein food in every main meal for this reason. A protein snack before bed (yoghurt, milk, eggs) is a simple way to reach the total."
+   ],
+   "id": [
+    "Tidak ada jendela waktu sempit setelah latihan: makan dengan protein dalam beberapa jam sebelum atau sesudah sesi sudah cukup.",
+    "Karena itu menu makan menaruh makanan berprotein di setiap makan utama. Camilan protein sebelum tidur (yoghurt, susu, telur) adalah cara mudah mencapai totalnya."
+   ]
+  },
+  "example": {
+   "en": "70 kg, 126 g a day: breakfast 30 g, lunch 35 g, snack 20 g, dinner 40 g.",
+   "id": "70 kg, 126 g sehari: sarapan 30 g, makan siang 35 g, camilan 20 g, makan malam 40 g."
+  },
+  "related": [
+   "macros",
+   "growth-mechanism"
+  ]
+ },
+ {
+  "id": "sleep-recovery",
+  "group": "recovery",
+  "term": {
+   "en": "Sleep and recovery",
+   "id": "Tidur dan pemulihan"
+  },
+  "aliases": {
+   "en": [
+    "sleep",
+    "recovery"
+   ],
+   "id": [
+    "tidur",
+    "pemulihan"
+   ]
+  },
+  "short": {
+   "en": "Muscles repair and grow between sessions, mostly during sleep. Most adults need 7-9 hours; less than 6 hours a night measurably lowers strength and recovery.",
+   "id": "Otot memperbaiki diri dan tumbuh di antara sesi, terutama saat tidur. Kebanyakan orang dewasa butuh 7-9 jam; kurang dari 6 jam semalam terbukti menurunkan kekuatan dan pemulihan."
+  },
+  "body": {
+   "en": [
+    "Signs you are under-recovered: lifts stall or drop for two sessions, resting heart rate is higher than usual, soreness lasts more than 3 days, motivation is gone.",
+    "Fix sleep and food before changing the program. A deload week helps when fatigue has built up over many weeks."
+   ],
+   "id": [
+    "Tanda pemulihan kurang: angkatan mandek atau turun dua sesi, denyut jantung istirahat lebih tinggi dari biasa, pegal lebih dari 3 hari, motivasi hilang.",
+    "Perbaiki tidur dan makan sebelum mengubah program. Minggu deload membantu bila lelah sudah menumpuk berminggu-minggu."
+   ]
+  },
+  "example": {
+   "en": "Squat falls from 80 kg × 8 to × 6 after a week of 5-hour nights: sleep is the first suspect, not the program.",
+   "id": "Squat turun dari 80 kg × 8 menjadi × 6 setelah seminggu tidur 5 jam: tidur adalah tersangka pertama, bukan programnya."
+  },
+  "related": [
+   "deload",
+   "doms",
+   "growth-mechanism"
+  ]
+ },
+ {
+  "id": "doms",
+  "group": "recovery",
+  "term": {
+   "en": "DOMS (delayed onset muscle soreness)",
+   "id": "DOMS (delayed onset muscle soreness)"
+  },
+  "aliases": {
+   "en": [
+    "DOMS",
+    "soreness"
+   ],
+   "id": [
+    "DOMS",
+    "pegal otot"
+   ]
+  },
+  "short": {
+   "en": "Muscle soreness that starts 12-24 hours after training and peaks around 48 hours. It is normal after new exercises and fades as you repeat them.",
+   "id": "DOMS (delayed onset muscle soreness, pegal otot tertunda) adalah pegal yang muncul 12-24 jam setelah latihan dan paling terasa sekitar 48 jam. Ini normal setelah gerakan baru dan berkurang seiring diulang."
+  },
+  "body": {
+   "en": [
+    "Soreness is not a measure of a good session; progress in reps and load is. Light movement (walking, an easy repeat of the exercise) eases it faster than full rest.",
+    "Sharp pain, pain in a joint rather than a muscle, swelling or dark urine are not DOMS: stop and get it checked."
+   ],
+   "id": [
+    "Pegal bukan ukuran sesi yang bagus; kemajuan repetisi dan beban yang jadi ukurannya. Gerak ringan (jalan, mengulang gerakan dengan ringan) meredakannya lebih cepat daripada diam total.",
+    "Nyeri tajam, nyeri di sendi bukan di otot, bengkak, atau urine berwarna gelap bukan DOMS: hentikan dan periksakan."
+   ]
+  },
+  "example": {
+   "en": "First Romanian deadlift session on Monday, hamstrings stiff on Wednesday, much less after the second session.",
+   "id": "Sesi Romanian deadlift pertama hari Senin, paha belakang kaku hari Rabu, jauh berkurang setelah sesi kedua."
+  },
+  "related": [
+   "sleep-recovery"
+  ]
+ }
+]

@@ -1,0 +1,1020 @@
+{
+  "app": {
+    "name": "Gym Plan",
+    "tagline": "Training and food plan, built from your answers"
+  },
+  "nav": {
+    "label": "Main",
+    "home": "Home",
+    "plan": "Plan",
+    "exercises": "Exercises",
+    "nutrition": "Nutrition",
+    "progress": "Progress",
+    "learn": "Learn",
+    "settings": "Settings"
+  },
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "edit": "Edit",
+    "optional": "optional",
+    "kg": "kg",
+    "cm": "cm",
+    "min": "min",
+    "stepOf": "Step {n} of {total}",
+    "pickOne": "Pick one to continue.",
+    "skip": "Skip to content",
+    "loadError": "Could not load the app data. Reload the page to try again."
+  },
+  "options": {
+    "goal": {
+      "build-muscle": {
+        "label": "Build muscle",
+        "desc": "Bigger muscles, steady weight gain"
+      },
+      "lose-fat": {
+        "label": "Lose fat",
+        "desc": "Lower body fat, keep your muscle"
+      },
+      "recomposition": {
+        "label": "Recomposition",
+        "desc": "Lose fat while keeping or building muscle"
+      },
+      "get-stronger": {
+        "label": "Get stronger",
+        "desc": "Lift more weight on the main lifts"
+      },
+      "general-fitness": {
+        "label": "General fitness and health",
+        "desc": "Fitter heart, stronger body, easier daily tasks"
+      }
+    },
+    "experience": {
+      "beginner": {
+        "label": "Beginner",
+        "desc": "Less than 6 months of consistent training"
+      },
+      "intermediate": {
+        "label": "Intermediate",
+        "desc": "6 months to 2 years"
+      },
+      "advanced": {
+        "label": "Advanced",
+        "desc": "More than 2 years"
+      }
+    },
+    "equipment": {
+      "full-gym": {
+        "label": "Full gym",
+        "desc": "Barbells, machines, cables, dumbbells"
+      },
+      "dumbbells": {
+        "label": "Dumbbells and a bench",
+        "desc": "Training at home or a small gym"
+      },
+      "bodyweight": {
+        "label": "Bodyweight at home",
+        "desc": "No weights"
+      }
+    },
+    "sex": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "dailyLife": {
+      "sitting": {
+        "label": "Mostly sitting",
+        "desc": "Desk job, little walking"
+      },
+      "some-walking": {
+        "label": "Some walking",
+        "desc": "Sitting job, walk or commute on foot"
+      },
+      "on-feet": {
+        "label": "On your feet most of the day",
+        "desc": "Retail, teaching, nursing"
+      },
+      "labour": {
+        "label": "Physical labour",
+        "desc": "Construction, farming, carrying loads"
+      }
+    },
+    "injury": {
+      "knee": "Knee",
+      "lower-back": "Lower back",
+      "shoulder": "Shoulder"
+    }
+  },
+  "onboarding": {
+    "label": "Set up your plan",
+    "welcome": {
+      "eyebrow": "Gym Plan",
+      "title": "Train with a plan that",
+      "key": "fits.",
+      "body": "Answer a few questions. You get a weekly training plan, a meal plan and a log, all stored on this device. No account needed.",
+      "start": "Start",
+      "language": "Language"
+    },
+    "goal": {
+      "eyebrow": "Goal",
+      "title": "What is your main",
+      "key": "goal?"
+    },
+    "days": {
+      "eyebrow": "Schedule",
+      "title": "How many days a week can you",
+      "key": "train?",
+      "hint": "Pick a number you can keep for months, not just this week."
+    },
+    "experience": {
+      "eyebrow": "Experience",
+      "title": "How long have you trained",
+      "key": "consistently?"
+    },
+    "equipment": {
+      "eyebrow": "Equipment",
+      "title": "Where do you",
+      "key": "train?"
+    },
+    "pullupBar": {
+      "eyebrow": "Equipment",
+      "title": "Do you have a",
+      "key": "pull-up bar?"
+    },
+    "bands": {
+      "eyebrow": "Equipment",
+      "title": "Do you have resistance",
+      "key": "bands?"
+    },
+    "sessionLength": {
+      "eyebrow": "Time",
+      "title": "How long can one session",
+      "key": "last?",
+      "hint": "Includes warm-up and cool-down."
+    },
+    "about": {
+      "eyebrow": "Body data",
+      "title": "About",
+      "key": "you",
+      "hint": "Used to estimate your daily calories. Stored only on this device.",
+      "sex": "Sex",
+      "age": "Age",
+      "ageUnit": "years",
+      "height": "Height",
+      "weight": "Weight",
+      "errAge": "Enter an age between 13 and 90.",
+      "errHeight": "Enter a height between 120 and 230 cm.",
+      "errWeight": "Enter a weight between 30 and 300 kg.",
+      "errSex": "Pick one."
+    },
+    "dailyLife": {
+      "eyebrow": "Daily life",
+      "title": "Outside training, your day is",
+      "key": "mostly…"
+    },
+    "steps": {
+      "eyebrow": "Steps",
+      "title": "How many steps a",
+      "key": "day?",
+      "hint": "Your current daily average, from your phone or watch. Leave empty if you don't know. Used for your steps target.",
+      "label": "Average daily steps",
+      "unit": "steps",
+      "err": "Enter a number between 0 and 50,000, or leave it empty."
+    },
+    "injuries": {
+      "eyebrow": "Optional",
+      "title": "Any areas to",
+      "key": "avoid?",
+      "hint": "Exercises that load the area you pick are left out of your plan. Pick none if nothing hurts.",
+      "disclaimer": "This filter is not medical advice. Stop any exercise that causes sharp pain."
+    },
+    "health": {
+      "eyebrow": "Health check",
+      "title": "Before you",
+      "key": "start",
+      "question": "Do you have any of the following?",
+      "items": {
+        "heart": "A heart condition",
+        "chestPain": "Chest pain during activity",
+        "dizziness": "Dizziness or fainting",
+        "joint": "A bone or joint problem that exercise makes worse",
+        "pregnant": "Pregnancy"
+      },
+      "warnTitle": "Talk to a doctor before starting",
+      "warnBody": "Show this plan to your doctor and ask which parts are safe for you.",
+      "ack": "I understand and will check with a doctor before training.",
+      "ackRequired": "Tick the box to continue.",
+      "finish": "Show my plan"
+    },
+    "edit": {
+      "title": "Save profile changes?",
+      "training": "Your training plan will be regenerated. Exercise swaps you made that still fit your new settings are kept.",
+      "body": "Your calorie and macro targets will be recalculated. Your training plan stays the same.",
+      "none": "Nothing changed.",
+      "changed": "Changed: {fields}",
+      "confirm": "Save changes",
+      "saved": "Profile saved."
+    },
+    "fields": {
+      "goal": "goal",
+      "days": "days per week",
+      "experience": "experience",
+      "equipment": "equipment",
+      "pullupBar": "pull-up bar",
+      "bands": "bands",
+      "sessionLength": "session length",
+      "injuries": "areas to avoid",
+      "sex": "sex",
+      "age": "age",
+      "heightCm": "height",
+      "weightKg": "weight",
+      "dailyLife": "daily life",
+      "dailySteps": "daily steps",
+      "health": "health check"
+    }
+  },
+  "home": {
+    "eyebrow": "Today",
+    "streak": "Streak",
+    "weeks": "weeks",
+    "profile": "Your setup",
+    "profileLine": "{goal} · {days} days a week · {length} min · {equipment}",
+    "backupTitle": "Back up your data",
+    "backupBody": "Your last export was more than 14 days ago. Data lives only in this browser.",
+    "backupNever": "You have not exported your data yet. Data lives only in this browser.",
+    "backupAction": "Export now",
+    "iosTitle": "Add this app to your Home Screen",
+    "iosBody": "Safari can delete data of websites that are not installed. Tap Share, then Add to Home Screen.",
+    "nextTitle": "Next",
+    "nextKey": "session",
+    "sessionLine": "{name} · about {min} min",
+    "viewSession": "View session",
+    "viewPlan": "Open your plan",
+    "queueNote": "Sessions run in order. If you miss a day, the next session waits for you.",
+    "startSession": "Start session",
+    "resumeSession": "Resume session",
+    "inProgress": "Session in progress: {name}"
+  },
+  "settings": {
+    "eyebrow": "Settings",
+    "title": "Settings",
+    "profile": "Profile",
+    "editProfile": "Edit profile",
+    "language": "Language",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "sound": "Sound when rest ends",
+    "vibration": "Vibrate when rest ends",
+    "data": "Your data",
+    "dataHint": "Everything is stored in this browser only. Export a backup file regularly.",
+    "lastExport": "Last export: {date}",
+    "neverExported": "Not exported yet.",
+    "export": "Export data",
+    "import": "Import data",
+    "clear": "Clear all data",
+    "exported": "Saved {file}.",
+    "importTitle": "Import {file}",
+    "importIntro": "Choose how to import. Replace all overwrites everything on this device. Merge keeps both and, for records that exist in both, keeps the one edited most recently.",
+    "replace": "Replace all",
+    "merge": "Merge",
+    "colCollection": "Data",
+    "colAdded": "New",
+    "colUpdated": "Changed",
+    "colUnchanged": "Same",
+    "colRemoved": "Removed",
+    "profileWillChange": "Your profile will change to the one in the file.",
+    "imported": "Import complete.",
+    "importErrors": {
+      "notJson": "This file is not valid JSON.",
+      "notExport": "This file is not a Gym Plan export.",
+      "newerVersion": "This file comes from a newer version of the app. Update the app first.",
+      "badRecord": "Some records in the file are damaged (missing id or date)."
+    },
+    "importFailed": "Import failed",
+    "clearTitle": "Clear all data?",
+    "clearBody": "This deletes your profile, plan and every log on this device. It cannot be undone. Export a backup first if you want to keep anything.",
+    "clearConfirm": "Delete everything",
+    "cleared": "All data cleared.",
+    "collections": {
+      "workouts": "Workouts",
+      "bodyweights": "Body weight",
+      "measurements": "Measurements",
+      "meals": "Meal check-offs",
+      "notes": "Notes",
+      "swaps": "Exercise swaps",
+      "deloads": "Deloads"
+    }
+  },
+  "plan": {
+    "eyebrow": "Your plan",
+    "meta": "{days} days a week · {min} min · {goal}",
+    "tabsLabel": "Plan sections",
+    "tabs": {
+      "week": "Week",
+      "coverage": "Muscle coverage",
+      "why": "Why this plan"
+    },
+    "splits": {
+      "full-body-2": "Full Body A / B",
+      "full-body-3": "Full Body A / B / C",
+      "ppl-3": "Push / Pull / Legs",
+      "upper-lower": "Upper / Lower",
+      "ul-ppl": "Upper / Lower / Push / Pull / Legs",
+      "ppl-6": "Push / Pull / Legs, twice"
+    },
+    "splitChoice": {
+      "label": "Split for 3 days",
+      "fb": "Full body",
+      "ppl": "Push / Pull / Legs"
+    },
+    "sessions": {
+      "fb-a": {
+        "name": "Full Body A",
+        "builds": "Whole-body strength built around the squat: legs, chest, back and shoulders."
+      },
+      "fb-b": {
+        "name": "Full Body B",
+        "builds": "Whole-body strength built around the hip hinge: back of the legs, shoulders, back and chest."
+      },
+      "fb-c": {
+        "name": "Full Body C",
+        "builds": "Whole-body strength built around the press: chest, legs, back and glutes."
+      },
+      "upper-a": {
+        "name": "Upper A",
+        "builds": "Upper body pushing and pulling strength: chest, back, shoulders and arms."
+      },
+      "upper-b": {
+        "name": "Upper B",
+        "builds": "Overhead pressing and pulling: shoulders, upper chest, back and arms."
+      },
+      "lower-a": {
+        "name": "Lower A",
+        "builds": "Leg strength built around the squat: quads, hamstrings, calves and core."
+      },
+      "lower-b": {
+        "name": "Lower B",
+        "builds": "Leg strength built around the hip hinge: hamstrings, glutes, quads and calves."
+      },
+      "push": {
+        "name": "Push",
+        "builds": "Upper body pushing strength: chest, front shoulders, triceps."
+      },
+      "pull": {
+        "name": "Pull",
+        "builds": "Upper body pulling strength: back, rear shoulders, biceps."
+      },
+      "legs": {
+        "name": "Legs",
+        "builds": "Leg strength and size: quads, hamstrings, glutes, calves."
+      },
+      "push-b": {
+        "name": "Push B",
+        "builds": "Overhead and incline pressing: shoulders, upper chest, triceps."
+      },
+      "pull-b": {
+        "name": "Pull B",
+        "builds": "Vertical pulling for a wider back: lats, upper back, biceps."
+      },
+      "legs-b": {
+        "name": "Legs B",
+        "builds": "Hip-driven leg strength: hamstrings, glutes, quads, calves."
+      }
+    },
+    "slots": {
+      "main-squat": "Squat (main lift)",
+      "main-hinge": "Hip hinge (main lift)",
+      "main-hpush": "Horizontal press (main lift)",
+      "main-vpush": "Overhead press (main lift)",
+      "main-pull": "Row (main lift)",
+      "main-vpull": "Vertical pull (main lift)",
+      "h-push": "Horizontal press",
+      "chest-2": "Second chest press",
+      "fly": "Chest fly",
+      "v-push": "Overhead press",
+      "h-pull": "Row",
+      "h-pull-2": "Second row",
+      "v-pull": "Vertical pull",
+      "hinge": "Hamstrings",
+      "knee-flex": "Leg curl",
+      "quad-iso": "Quad isolation",
+      "single-leg": "Single-leg work",
+      "squat-2": "Second squat",
+      "glute": "Glutes",
+      "calves": "Calves",
+      "lateral": "Side shoulders",
+      "biceps": "Biceps",
+      "biceps-2": "Second biceps",
+      "triceps": "Triceps",
+      "triceps-2": "Second triceps",
+      "core": "Abs",
+      "core-2": "Core hold"
+    },
+    "sessionN": "Session {n}",
+    "todayBuilds": "Today builds",
+    "duration": "About {min} min",
+    "warmup": "Warm-up",
+    "cooldown": "Cool-down",
+    "exercises": "Exercises",
+    "mainLift": "Main lift",
+    "setsReps": "{sets} × {lo}–{hi} reps",
+    "setsSecs": "{sets} × {lo}–{hi} s hold",
+    "rir": "RIR {lo}–{hi}",
+    "rest": "rest {rest}",
+    "restSec": "{lo}–{hi} s",
+    "restMin": "{lo}–{hi} min",
+    "rampUps": "Ramp-up sets first: {list}.",
+    "rampItem": "{reps} reps at {pct}%",
+    "rampNote": "Ramp-up sets build up to the working weight. They count toward session time, not weekly sets.",
+    "empty": {
+      "injury": "{slot}: left empty. Every option loads an area you asked to avoid.",
+      "equipment": "{slot}: left empty. No option fits your equipment.",
+      "level": "{slot}: left empty. The options are above your current level.",
+      "duplicate": "{slot}: left empty. The only options are already in this session."
+    },
+    "dropped": {
+      "time": "Left out to fit {min} minutes: {list}.",
+      "volume": "Left out because those muscles already reach the top of your weekly range: {list}."
+    },
+    "swap": "Swap",
+    "swapped": "Your swap",
+    "swapTitle": "Swap {name}",
+    "swapIntro": "Options that train the same muscles and fit your equipment, level and filters.",
+    "swapReset": "Back to the plan's choice",
+    "swapNone": "No other exercise fits this slot.",
+    "swapDone": "Plan updated.",
+    "weekdays": {
+      "0": "Mon",
+      "1": "Tue",
+      "2": "Wed",
+      "3": "Thu",
+      "4": "Fri",
+      "5": "Sat",
+      "6": "Sun"
+    },
+    "weekdaysLong": {
+      "0": "Monday",
+      "1": "Tuesday",
+      "2": "Wednesday",
+      "3": "Thursday",
+      "4": "Friday",
+      "5": "Saturday",
+      "6": "Sunday"
+    },
+    "week": {
+      "rest": "Rest",
+      "cardio": "{name}, {lo}–{hi} min",
+      "after": "after lifting",
+      "optional": "optional",
+      "steps": "Daily steps target: {n} (your average {base} plus 2,000, at most 10,000).",
+      "stepsUnknown": "Daily steps target: your current average plus 2,000, up to 10,000. Add your average in Settings to get a number.",
+      "editDays": "Edit days",
+      "editTitle": "Training days",
+      "editIntro": "Pick a day for each session. Sessions run in order, so a missed day never skips a session.",
+      "dayFor": "Day for {name}",
+      "clash": "Two sessions are on the same day. Pick a different day for one of them.",
+      "saved": "Days saved."
+    },
+    "coverage": {
+      "intro": "Weekly working sets per muscle group against your goal range of {lo}–{hi}. A set counts 1 for the main muscles and 0.5 for helping muscles. Warm-up and ramp-up sets do not count.",
+      "mapLabel": "Body map of weekly sets per muscle group. Details are in the table below.",
+      "states": {
+        "under": "Under target",
+        "underTime": "Under target (time limit)",
+        "underEquipment": "Under target (no exercise available)",
+        "in": "In range",
+        "over": "Over range",
+        "underOptions": "Under target (limited by available exercises)"
+      },
+      "legend": "Hatched: under target. Solid dark: in range. Solid red: over range.",
+      "colGroup": "Muscle group",
+      "colSets": "Sets",
+      "colState": "Status",
+      "colFrom": "From",
+      "helper": "helper",
+      "none": "No exercise in the plan trains this group."
+    },
+    "warn": {
+      "beginnerTitle": "{days} days is a lot for a beginner",
+      "beginnerBody": "In the first months, muscles and joints need time between sessions to adapt. A 4-day plan trains each muscle twice a week with more rest.",
+      "switch4": "Switch to the 4-day plan",
+      "bwStrength": "Maximal strength needs external load. With bodyweight only, this plan builds strength-endurance and skill.",
+      "rirBeginner": "RIR (reps in reserve: how many more reps you could still do) is hard to judge in the first months. If unsure, stop when the reps slow down clearly.",
+      "pplOnce": "With Push / Pull / Legs on 3 days, each muscle is trained once a week instead of three times.",
+      "swapDropped": "One of your swaps no longer fits your settings, so the plan uses its default choice there."
+    },
+    "deload": {
+      "offerTitle": "Time for a lighter week?",
+      "offerEight": "You have trained 8 weeks or more without a deload. A deload week keeps the same exercises and loads, halves the sets and stops at RIR 4 or more.",
+      "offerDrop": "Your estimated 1RM on {name} dropped in 2 sessions in a row. Check sleep and food first; if both are fine, take a deload week.",
+      "start": "Start deload week",
+      "active": "Deload week: half the sets, same loads, stop at RIR 4 or more. Ends {date}.",
+      "end": "End deload now"
+    },
+    "why": {
+      "title": "Why this plan",
+      "splitHead": "Split",
+      "repsHead": "Rep ranges",
+      "volumeHead": "Volume",
+      "timeHead": "Time",
+      "filtersHead": "Filters",
+      "cardioHead": "Cardio and steps",
+      "split": {
+        "full-body-2": "With 2 days, each session trains every major muscle group, so each muscle still gets practice twice a week.",
+        "full-body-3": "With 3 days, three full-body sessions train each muscle three times a week with different exercises. Frequent practice is the fastest way to learn the lifts.",
+        "ppl-3": "You chose Push / Pull / Legs: one day for pushing muscles, one for pulling muscles, one for legs. Each muscle is trained once a week, with more sets in that session.",
+        "upper-lower": "With 4 days, upper and lower body alternate. Each muscle is trained twice a week and gets two or three days to recover in between.",
+        "ul-ppl": "With 5 days, an upper/lower pair is followed by push, pull and legs. Each muscle is trained twice a week.",
+        "ppl-6": "With 6 days, push, pull and legs run twice. Each muscle is trained twice a week, and each session stays focused on a few muscles."
+      },
+      "reps": "Main lifts use {mlo}–{mhi} reps and accessories {alo}–{ahi} reps. {goalWhy}",
+      "bodyweightReps": "Bodyweight and band exercises use 8–20 reps; when every set reaches 20, you move to a harder version.",
+      "goal": {
+        "build-muscle": "Moderate reps taken close to failure give the most growth per set.",
+        "lose-fat": "Lifting heavy enough while eating less tells your body to keep its muscle, so the weight you lose is mostly fat.",
+        "recomposition": "The same rep ranges as muscle building keep the training signal high while you eat slightly under maintenance.",
+        "get-stronger": "Low reps with long rests let you lift heavy loads, which is what builds maximal strength.",
+        "general-fitness": "Moderate reps with short rests train strength and stamina in the same session."
+      },
+      "beginnerStrength": "As a beginner, your main lifts use 5–8 reps while you learn the technique.",
+      "volume": "Your target is {target} working sets per muscle group per week, inside the {lo}–{hi} range for your goal. {levelWhy}",
+      "level": {
+        "beginner": "Beginners start at the bottom of the range: fewer sets are enough to grow at first.",
+        "intermediate": "Intermediate lifters sit in the middle of the range.",
+        "advanced": "Advanced lifters need more sets to keep progressing, so the target is near the top."
+      },
+      "rir": "Most sets stop {lo}–{hi} reps before failure (RIR {lo}–{hi}).",
+      "time": "Each session fits {min} minutes. A working set is counted as 40 s plus its rest, plus {wu} min warm-up, ramp-up sets and {cd} min cool-down. When time runs short, accessories are cut first; the main lift always stays.",
+      "allInRange": "Every muscle group reaches your weekly range.",
+      "underTime": "Under the range because of the time limit: {groups}.",
+      "closesBoth": "One more training day or 15 more minutes per session would close the gap.",
+      "closesDay": "One more training day would close the gap.",
+      "closesMinutes": "15 more minutes per session would close the gap.",
+      "closesNeither": "Even one more day or 15 more minutes would not fully close the gap with your equipment and filters.",
+      "underEquipment": "No exercise is available for: {groups}. Adding equipment (for example resistance bands) in your profile would let the plan train them.",
+      "floor": "Every major muscle group gets at least 4 sets a week, even when time is short.",
+      "injuries": "Exercises that load {areas} are left out. Slots with no suitable option are left empty and marked.",
+      "noInjuries": "No areas are filtered out.",
+      "cardio": {
+        "build-muscle": "One optional light cardio session keeps your heart fit without eating into recovery.",
+        "lose-fat": "Three cardio sessions and a daily steps target raise the calories you burn. They go on rest days first so lifting stays strong.",
+        "recomposition": "Two light cardio sessions add a little calorie burn without slowing recovery.",
+        "get-stronger": "One optional light cardio session supports recovery between heavy days.",
+        "general-fitness": "Three cardio sessions a week train the heart and lungs alongside strength."
+      },
+      "underOptions": "Under the range: few exercises fit your equipment and filters, and adding sets to them would pass their set limit or push another muscle group past the top of your range: {groups}. Swapping in another exercise or adding equipment in your profile would help."
+    },
+    "front": "Front",
+    "back": "Back",
+    "buildsFallback": {
+      "injury": "Built around {main} today, because the usual main lift loads an area you asked to avoid. Trains: {groups}.",
+      "options": "Built around {main} today, the closest main lift for your equipment and level. Trains: {groups}."
+    }
+  },
+  "library": {
+    "eyebrow": "Library",
+    "title": "Exercise",
+    "key": "library",
+    "search": "Search",
+    "searchPlaceholder": "Exercise or muscle",
+    "muscle": "Muscle group",
+    "equipment": "Equipment",
+    "pattern": "Movement",
+    "all": "All",
+    "fitsMe": "Only exercises I can do",
+    "fitsMeHint": "Uses your equipment, level and areas to avoid from your profile.",
+    "count": "{n} exercises",
+    "none": "No exercise matches these filters.",
+    "clear": "Clear filters"
+  },
+  "exercise": {
+    "back": "All exercises",
+    "notFound": "This exercise does not exist.",
+    "play": "Play",
+    "pause": "Pause",
+    "speed": "Speed",
+    "figureLabel": "Animated figure doing {name}",
+    "start": "Start",
+    "end": "End",
+    "tempo": "Tempo: 2 s down, 1 s up, 0.5 s pause.",
+    "holdNote": "Hold this position for the time in your plan.",
+    "cycleNote": "One stride cycle, repeating.",
+    "reduced": "Animation is off because your device asks for reduced motion. The figure shows the start and end positions.",
+    "builds": "What this builds",
+    "role": "Its place in a plan",
+    "growth": "How muscles grow",
+    "growthNote": "Muscles grow when sets end close to failure, the load or reps rise over time, you eat enough protein and you sleep enough. Training without all four gives little visible change.",
+    "muscles": "Target muscles",
+    "primary": "Main",
+    "secondary": "Helping",
+    "tapHint": "Tap a muscle on the figure or in the list to see what it does in daily life.",
+    "mapLabel": "Body map: main muscles solid, helping muscles hatched",
+    "steps": "How to do it",
+    "cues": "Form cues",
+    "mistakes": "Common mistakes",
+    "details": "Details",
+    "level": "Level",
+    "equipment": "Equipment",
+    "pattern": "Movement",
+    "stress": "Loads",
+    "stressNone": "No area flagged",
+    "alternatives": "Alternatives",
+    "swapIn": "Swap into my plan",
+    "swapTitle": "Swap {from} for {to}?",
+    "swapBody": "Your plan uses {from} in: {sessions}. Those slots will use {to} instead. You can switch back on the plan page.",
+    "swapConfirm": "Swap",
+    "swapped": "Swapped into your plan.",
+    "cannotDo": "Needs other equipment, a higher level, or loads an area you avoid.",
+    "inPlan": "In your plan: {sessions}",
+    "history": "Your history",
+    "noHistory": "No sets logged yet. Logged sessions appear here once session mode is built (phase 6).",
+    "colDate": "Date",
+    "colBest": "Best set",
+    "colSets": "Sets"
+  },
+  "session": {
+    "start": "Start session",
+    "resume": "Resume session",
+    "intro": "Sessions run in order. The timer, sets and rest survive a reload or a locked phone.",
+    "noPlan": "Set up your profile first to get a plan.",
+    "exerciseOf": "Exercise {n} of {total}",
+    "elapsed": "Elapsed",
+    "end": "End session",
+    "endTitle": "End this session?",
+    "endBody": "Save keeps every logged set and moves your queue to the next session. Discard deletes this session; your queue stays where it is.",
+    "save": "Save and finish",
+    "discard": "Discard",
+    "keepGoing": "Keep going",
+    "target": "Target",
+    "firstTime": "Start light: pick a weight you could lift for about 5 more reps than the target, then adjust on the next set.",
+    "firstTimeBw": "First time: do the reps you can with good form. What you log becomes your baseline.",
+    "increase": "Last time every set reached the top of the range. Load goes up to {kg} kg.",
+    "extend": "Same load, aim for up to {hi} reps first: the next dumbbell jump is more than 10%.",
+    "addReps": "Same load as last time; add a rep where you can.",
+    "harder": "You reached the top of the range. Time to move on to {name}.",
+    "useHarder": "Use {name} from now on",
+    "slow": "You reached the top of the range. Add a 3-second lowering phase to every rep.",
+    "rampTitle": "Ramp-up sets",
+    "rampItem": "{reps} reps at {pct}%",
+    "rampKg": "{reps} reps × {kg} kg ({pct}%)",
+    "rampNote": "Light build-up sets. They do not count toward your weekly sets.",
+    "sets": "Working sets",
+    "setN": "Set {n}",
+    "reps": "Reps",
+    "seconds": "Seconds",
+    "load": "Load",
+    "rir": "RIR",
+    "rirNone": "–",
+    "done": "Log set",
+    "logged": "Logged",
+    "edit": "Edit",
+    "addSet": "Add a set",
+    "bodyweight": "Bodyweight",
+    "labelReps": "Set {n} reps",
+    "labelSeconds": "Set {n} seconds",
+    "labelKg": "Set {n} load in kg",
+    "labelRir": "Set {n} reps in reserve",
+    "prev": "Previous",
+    "next": "Next exercise",
+    "skip": "Skip exercise",
+    "unskip": "Undo skip",
+    "skipped": "Skipped",
+    "swap": "Swap for today",
+    "swappedFrom": "Swapped from {name}",
+    "swapTitle": "Swap {name} for today",
+    "swapIntro": "Your plan does not change. Pick an exercise that trains the same muscles.",
+    "finish": "Finish session",
+    "rest": "Rest",
+    "restOver": "Rest over. Next set when you are ready.",
+    "plus30": "+30 s",
+    "skipRest": "Skip rest",
+    "deload": "Deload week: half the sets, stop at RIR 4 or more.",
+    "wakeLock": "Screen stays on during the session."
+  },
+  "summary": {
+    "eyebrow": "Session done",
+    "title": "Session",
+    "key": "done",
+    "duration": "Duration",
+    "volume": "Volume",
+    "sets": "Sets",
+    "reps": "Reps",
+    "prs": "Personal records",
+    "noPrs": "No new records today. Logged sets become the baseline for next time.",
+    "prHeaviest": "{name}: heaviest load, {kg} kg (was {prev} kg)",
+    "prRepsAtLoad": "{name}: {reps} reps at {kg} kg (was {prev})",
+    "prE1rm": "{name}: best estimated 1RM, {kg} kg (was {prev} kg)",
+    "prReps": "{name}: most reps, {reps} (was {prev})",
+    "skippedList": "Skipped: {list}",
+    "home": "Back to home",
+    "next": "Next in your queue: {name}",
+    "notFound": "This session was not found."
+  },
+  "nutrition": {
+    "eyebrow": "Nutrition",
+    "title": "Eat for",
+    "titleKey": "today",
+    "headTargets": "{kcal} kcal · {protein} g protein · {carbs} g carbs · {fat} g fat",
+    "tabsLabel": "Nutrition sections",
+    "tabs": {
+      "today": "Day",
+      "week": "Week",
+      "targets": "Targets",
+      "filters": "Filters"
+    },
+    "aboutLink": "General guidance, not medical advice. Who this is not for",
+    "disclaimer": {
+      "title": "Before you",
+      "key": "start",
+      "body": "The calorie and meal suggestions here are general guidance, not medical advice. They are not intended for:",
+      "under18": "People under 18.",
+      "pregnant": "People who are pregnant or breastfeeding.",
+      "eating": "People with a current or past eating disorder.",
+      "medical": "People with a medical condition, including diabetes treated with medication, unless a doctor or dietitian guides them.",
+      "estimates": "Every number is an estimate. Energy needs differ by about 10% between people of the same size, and food values differ by brand and cooking. Your weight trend over 2 weeks tells you more than any formula.",
+      "tick": "I have read this, and none of the above applies to me or I have professional guidance.",
+      "back": "Back to nutrition"
+    },
+    "guard": {
+      "title": "Safety limit applied.",
+      "under18": "You are under 18, so the app does not set a calorie deficit. The target is your maintenance calories. Talk to a doctor or dietitian before trying to lose weight.",
+      "lowBmi": "Your BMI is {bmi}, under 18.5, so the app does not set a calorie deficit. The target is your maintenance calories.",
+      "bmrFloor": "The planned target ({wanted} kcal) was below your BMR ({bmr} kcal), the energy your body uses at rest. The target is raised to your BMR, which makes the deficit smaller: {pct}% instead of the planned value."
+    },
+    "macros": {
+      "fatLowered": "Carbs would fall under 100 g, so fat was lowered from {from} to {to} g per kg.",
+      "proteinLowered": "Carbs would still fall under 100 g, so protein was lowered from {from} to {to} g per kg.",
+      "carbsLow": "Carbs are {carbs} g, under 100 g, even with fat and protein at their lowest. The calorie target is very low for your body size."
+    },
+    "trend": {
+      "fastLoss": "Your 7-day average weight fell {a}% and then {b}% of body weight in the last two weeks. Losing more than 1% a week makes it harder to keep muscle. Check sleep and food first, then consider eating a little more.",
+      "raise": "Raise calories by {kcal} kcal (10%)",
+      "calibrate": "After {n} weigh-ins in 14 days, your weight changes about {actual} kg a week; the target predicts {expected} kg a week. Your real energy needs are probably different from the estimate.",
+      "apply": "Change the target by {change} kcal",
+      "keep": "Keep the target",
+      "profileWeight": "Your last weigh-in ({kg} kg on {date}) is 2 kg or more away from your profile weight ({profile} kg). The targets use the profile weight.",
+      "useWeight": "Use {kg} kg and recalculate",
+      "applied": "Calorie target changed.",
+      "weightUpdated": "Profile weight updated. Targets recalculated."
+    },
+    "reason": {
+      "swap": "Your swap",
+      "filter": "Filter",
+      "budget": "Budget",
+      "lean": "Leaner"
+    },
+    "dayOff": "This day cannot reach your targets with the foods your filters allow ({kcal} kcal, {protein} g protein). Try another day, swap a food, or relax a filter.",
+    "onTarget": "Within range",
+    "offTarget": "Outside range",
+    "fallback": {
+      "cap": "Your protein target needs more than 300 g of a protein food in one meal with these foods, so it is lowered from {from} g to {to} g (1.6 g per kg) for this day.",
+      "kcal": "With the foods your filters allow, {from} g of protein does not fit in your calories, so protein is lowered to {to} g (1.6 g per kg) for this day."
+    },
+    "missing": "{n} item(s) have no allowed replacement and were left out.",
+    "backToday": "Today",
+    "kcal": "Calories",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "dayFacts": "{veg} g vegetables · {fruit} fruit portions · {fiber} g fiber · about {price} (estimate)",
+    "weigh": {
+      "title": "Weigh-in",
+      "last": "Last: {kg} kg on {date}.",
+      "none": "No weigh-ins yet.",
+      "label": "Weight today",
+      "saved": "Saved {kg} kg.",
+      "hint": "Weigh in the morning, after the toilet, before eating. Daily numbers jump by 1 kg or more; the 7-day average is what counts."
+    },
+    "mealType": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "afternoon": "Afternoon meal",
+      "dinner": "Dinner",
+      "snack": "Snack"
+    },
+    "prepChanged": "A food in this meal was replaced; cook it the same way as the original or as you usually do.",
+    "col": {
+      "food": "Food",
+      "grams": "Amount",
+      "protein": "Protein (g)",
+      "swap": "Swap",
+      "date": "Date",
+      "menu": "Menu"
+    },
+    "swap": "Swap",
+    "swapFood": "Swap {food}",
+    "mealTotal": "Meal total",
+    "swapTitle": "Swap food",
+    "swapIntro": "Foods with similar macros to {food}. The portions are recalculated to keep your targets.",
+    "per100": "per 100 g: {kcal} kcal · P {p} · C {c} · F {f} · {price}",
+    "noAlternatives": "No other food fits this slot with your filters.",
+    "never": "Never show {food}",
+    "swapped": "Food swapped. Portions recalculated.",
+    "hidden": "Food hidden. Portions recalculated.",
+    "weekIntro": "Your goal has {n} daily menus. They rotate by date, so two days in a row never repeat. Tap a day to see its meals.",
+    "today": "Today",
+    "weekTolerance": "Each day aims for {kcal} kcal (within 5%) and {protein} g protein (within 10 g). A warning icon marks a day outside that range.",
+    "calc": {
+      "calories": "Calories",
+      "bmr": "BMR (Mifflin-St Jeor)",
+      "bmrFormula": "10 × {kg} kg + 6.25 × {cm} cm − 5 × {age} years {sexConst} = {bmr} kcal",
+      "activity": "Activity factor",
+      "activityFormula": "{life} ({lifeLabel}) + 0.025 × {days} training days = {factor}",
+      "tdee": "TDEE (estimate)",
+      "tdeeFormula": "{bmr} × {factor} = {tdee} kcal. This is an estimate, about ±10%: {lo}–{hi} kcal.",
+      "target": "Daily target",
+      "targetFormula": "{tdee} kcal × ({pct}%){offset} = {kcal} kcal",
+      "slider": "Adjustment for {goal}",
+      "sliderDefault": "Default for your goal: {pct}%. This slider is the only manual control.",
+      "sliderLocked": "Locked at maintenance by the safety limit above.",
+      "sliderFixed": "Your goal uses maintenance calories.",
+      "offset": "Includes {kcal} kcal from a change you accepted after a weight check.",
+      "resetOffset": "Remove that change",
+      "macros": "Macros",
+      "bmi25": "Your BMI is {bmi}, over 30, so protein and fat use the weight at BMI 25 for your height: {w} kg.",
+      "proteinFormula": "{perKg} g × {w} kg = {g} g ({kcal} kcal). {why}",
+      "proteinDeficit": "2.2 g per kg in a calorie deficit, to help keep muscle.",
+      "proteinDefault": "1.8 g per kg is the default.",
+      "fatFormula": "{perKg} g × {w} kg = {g} g ({kcal} kcal)",
+      "carbsFormula": "({kcal} − 4 × {p} − 9 × {f}) ÷ 4 = {g} g",
+      "ranges": "Ranges used: protein 1.6–2.2 g per kg, fat 0.6–1.0 g per kg (never under 0.5), carbs at least 100 g. 1 g protein or carbs = 4 kcal, 1 g fat = 9 kcal."
+    },
+    "filters": {
+      "title": "Food filters",
+      "hint": "Meals swap a removed food for the closest allowed food, then recalculate portions.",
+      "vegetarian": "Vegetarian (eggs and dairy allowed)",
+      "beef": "No beef",
+      "dairy": "No dairy",
+      "seafood": "No fish or seafood",
+      "egg": "No egg",
+      "nuts": "No nuts or peanuts",
+      "budget": "Budget mode (cheaper foods first)",
+      "neverTitle": "Hidden foods",
+      "neverNone": "No hidden foods. Use \"Never show\" in a swap to hide one.",
+      "show": "Show again",
+      "swapsTitle": "Your swaps",
+      "swapsCount": "{n} swap(s) saved.",
+      "clearSwaps": "Clear all swaps",
+      "swapsCleared": "Swaps cleared."
+    },
+    "unitKcal": "kcal"
+  },
+  "progress": {
+    "eyebrow": "Progress",
+    "title": "Your",
+    "titleKey": "record",
+    "tabsLabel": "Progress sections",
+    "tabs": {
+      "overview": "Overview",
+      "body": "Body",
+      "lifts": "Lifts",
+      "log": "Log"
+    },
+    "thisWeek": "This week",
+    "workouts": "Workouts logged",
+    "empty": "Nothing logged yet. Finish a session or log one by hand and it shows here.",
+    "dayLetters": "Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+    "chart": {
+      "showTable": "Show data table",
+      "hideTable": "Hide data table"
+    },
+    "col": {
+      "week": "Week of",
+      "done": "Sessions",
+      "planned": "Planned",
+      "date": "Date",
+      "workouts": "Workouts",
+      "kg": "Weight (kg)",
+      "avg": "7-day average (kg)",
+      "group": "Muscle group",
+      "logged": "Logged sets"
+    },
+    "adherence": {
+      "title": "Sessions per week",
+      "desc": "Logged sessions in each of the last 8 weeks against the {days} planned.",
+      "complete": "All planned sessions",
+      "incomplete": "Fewer than planned (hatched)",
+      "planned": "Planned: {days}",
+      "note": "* is the current week. The streak counts weeks in a row with every planned session logged."
+    },
+    "heatmap": {
+      "title": "Training days",
+      "desc": "The last 16 weeks, one column per week, Monday at the top. {n} training days.",
+      "trained": "Trained",
+      "rest": "No workout (outlined square)"
+    },
+    "pr": {
+      "title": "Personal records",
+      "none": "No records yet. Your first log of an exercise sets the baseline; beating it later counts as a record.",
+      "heaviest": "Heaviest load: {kg} kg (before: {previous} kg)",
+      "e1rm": "Best estimated 1RM: {kg} kg (before: {previous} kg)",
+      "repsAtLoad": "{reps} reps at {kg} kg (before: {previous})",
+      "reps": "{reps} reps (before: {previous})"
+    },
+    "weight": {
+      "title": "Body weight",
+      "desc": "{n} weigh-ins. First {first} kg, latest {last} kg, current 7-day average {avg} kg.",
+      "daily": "Daily weigh-in",
+      "avg": "7-day average",
+      "label": "Weight",
+      "none": "No weigh-ins yet. Log one below; the 7-day average line appears from the first entry."
+    },
+    "meas": {
+      "title": "Measurements",
+      "desc": "{n} measurement entries for waist, chest and upper arm.",
+      "waistCm": "Waist",
+      "chestCm": "Chest",
+      "armCm": "Upper arm",
+      "hint": "Waist at the navel, chest at the nipples, arm at the widest point, relaxed. Measure every 2-4 weeks at the same time of day.",
+      "none": "No measurements yet.",
+      "needOne": "Enter at least one measurement."
+    },
+    "lifts": {
+      "title": "Estimated 1RM",
+      "pick": "Lift",
+      "chartTitle": "Estimated 1RM: {name}",
+      "desc": "{n} sessions. Best estimated one-rep max per session, first {first} kg, latest {last} kg.",
+      "legend": "Estimated 1RM (Epley)",
+      "note": "Estimated from your best set of 1-10 reps each session (Epley: load × (1 + reps ÷ 30)). It shows the trend; it is not a lift to attempt.",
+      "none": "Log a weighted exercise to see its estimated 1RM trend."
+    },
+    "sets": {
+      "title": "Weekly sets per muscle group",
+      "desc": "Working sets logged this week per muscle group against the sets in your plan. Goal range: {lo}-{hi} sets.",
+      "reached": "Reached the plan",
+      "below": "Below the plan (hatched)",
+      "planned": "Planned sets",
+      "prev": "Previous week",
+      "next": "Next week",
+      "note": "Same counting rule as the plan: 1 per set for the main muscles, 0.5 for helper muscles. Warm-up and ramp-up sets do not count. Your goal's range is {lo}-{hi} sets a week."
+    },
+    "log": {
+      "workouts": "Workouts",
+      "addWorkout": "Log a workout",
+      "noWorkouts": "No workouts yet.",
+      "manual": "Logged by hand",
+      "sets": "{n} sets"
+    },
+    "meals": {
+      "title": "Meal plan check-off",
+      "question": "Did you follow the meal plan on {date}?",
+      "followed": "Followed",
+      "partly": "Partly",
+      "not": "Not followed",
+      "adherence": "Followed on {n} of the last {total} days you checked."
+    },
+    "notes": {
+      "title": "Notes",
+      "label": "Note"
+    },
+    "edit": {
+      "titleNew": "Log a",
+      "titleEdit": "Edit",
+      "key": "workout",
+      "duration": "Duration",
+      "exercise": "Exercise {n}",
+      "choose": "Choose an exercise",
+      "reps": "Reps",
+      "kg": "Load",
+      "addSet": "Add a set",
+      "removeSet": "Remove set {n}",
+      "addExercise": "Add an exercise",
+      "removeExercise": "Remove exercise",
+      "errEmpty": "Add at least one exercise with a set of 1 or more reps.",
+      "errDate": "Pick a date that is today or earlier."
+    },
+    "saved": "Saved.",
+    "delete": "Delete",
+    "deleted": "Deleted.",
+    "deleteTitle": "Delete this entry?",
+    "deleteBody": "This cannot be undone. Export your data first if you may want it back."
+  },
+  "learn": {
+    "eyebrow": "Learn",
+    "title": "How it",
+    "titleKey": "works",
+    "intro": "Short explanations of the terms the app uses, each with a worked example. Tap an underlined term anywhere in the app to see its summary.",
+    "start": "Start here",
+    "search": "Search terms",
+    "found": "{n} matching terms",
+    "readMore": "Read more in Learn",
+    "example": "Example",
+    "related": "Related",
+    "all": "All terms",
+    "growthLink": "How muscles grow",
+    "groups": {
+      "training": "Training",
+      "plan": "Your plan",
+      "nutrition": "Nutrition",
+      "recovery": "Recovery"
+    }
+  }
+}

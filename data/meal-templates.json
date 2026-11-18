@@ -1,0 +1,1418 @@
+{
+ "_about": "Daily menus. Each meal lists slots (protein, carb, vegetable, fat, fruit) with a default food and grams. nutrition.js scales protein-slot portions to the protein target and carb-slot portions to the calorie target, and swaps foods that a filter removes for another food of the same slot.",
+ "menus": [
+  {
+   "id": "ayam-bakar-sayur-bening",
+   "name": {
+    "en": "Grilled chicken and clear spinach soup",
+    "id": "Ayam bakar dan sayur bening"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Oats cooked in milk with banana",
+      "id": "Oat masak susu dengan pisang"
+     },
+     "prep": {
+      "en": "Cook the oats in the milk for 3 minutes and slice the banana on top.",
+      "id": "Masak oat dengan susu selama 3 menit, iris pisang di atasnya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "oatmeal",
+       "g": 40
+      },
+      {
+       "slot": "protein",
+       "food": "susu-uht",
+       "g": 250
+      },
+      {
+       "slot": "fruit",
+       "food": "pisang",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice, grilled chicken, stir-fried kangkung",
+      "id": "Nasi, ayam bakar, tumis kangkung"
+     },
+     "prep": {
+      "en": "Grill the chicken with garlic and lime; stir-fry the kangkung in 1 teaspoon of oil.",
+      "id": "Bakar ayam dengan bawang putih dan jeruk nipis; tumis kangkung dengan 1 sdt minyak."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "dada-ayam-bakar",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "kangkung-rebus",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Yoghurt with papaya",
+      "id": "Yoghurt dengan pepaya"
+     },
+     "prep": {
+      "en": "Cut the papaya into cubes and eat it with the yoghurt.",
+      "id": "Potong pepaya dadu dan makan bersama yoghurt."
+     },
+     "items": [
+      {
+       "slot": "protein",
+       "food": "yoghurt-plain",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "pepaya",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Brown rice, steamed tempeh, sayur bening",
+      "id": "Nasi merah, tempe kukus, sayur bening"
+     },
+     "prep": {
+      "en": "Steam the tempeh with garlic and salt; simmer the spinach in water with shallots for a clear soup.",
+      "id": "Kukus tempe dengan bawang putih dan garam; rebus bayam dengan bawang merah untuk sayur bening."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-merah",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tempe-kukus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "bayam-rebus",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tongkol-tahu-tempe",
+   "name": {
+    "en": "Grilled tongkol, tofu and tempeh",
+    "id": "Tongkol bakar, tahu dan tempe"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Wholemeal toast with scrambled egg",
+      "id": "Roti gandum dengan telur orak-arik"
+     },
+     "prep": {
+      "en": "Scramble the eggs over low heat and serve on toast with sliced tomato.",
+      "id": "Orak-arik telur dengan api kecil, sajikan di atas roti dengan irisan tomat."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "roti-gandum",
+       "g": 60
+      },
+      {
+       "slot": "protein",
+       "food": "telur-orak-arik",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "tomat",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice, grilled tongkol, stir-fried long beans",
+      "id": "Nasi, tongkol bakar, tumis kacang panjang"
+     },
+     "prep": {
+      "en": "Brush the fish with turmeric and garlic before grilling; stir-fry the beans in 1 teaspoon of oil.",
+      "id": "Olesi ikan dengan kunyit dan bawang putih sebelum dibakar; tumis kacang panjang dengan 1 sdt minyak."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tongkol-bakar",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "kacang-panjang-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Apple and boiled peanuts",
+      "id": "Apel dan kacang rebus"
+     },
+     "prep": {
+      "en": "Boil the peanuts in their shells with salt for 20 minutes; weigh them shelled.",
+      "id": "Rebus kacang tanah dengan kulitnya dan garam selama 20 menit; timbang setelah dikupas."
+     },
+     "items": [
+      {
+       "slot": "fruit",
+       "food": "apel",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "kacang-tanah-rebus",
+       "g": 30
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Rice, fried tempeh, steamed tofu, green beans",
+      "id": "Nasi, tempe goreng, tahu kukus, buncis"
+     },
+     "prep": {
+      "en": "Steam the tofu with soy sauce and spring onion; boil the green beans for 4 minutes. Finish with an orange.",
+      "id": "Kukus tahu dengan kecap asin dan daun bawang; rebus buncis 4 menit. Tutup dengan jeruk."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tempe-goreng",
+       "g": 50
+      },
+      {
+       "slot": "protein",
+       "food": "tahu-kukus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "buncis-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "sawi-putih-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fruit",
+       "food": "jeruk",
+       "g": 130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lele-sayur-asem",
+   "name": {
+    "en": "Fried catfish and sayur asem",
+    "id": "Lele goreng dan sayur asem"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Rice with boiled eggs and cucumber",
+      "id": "Nasi dengan telur rebus dan ketimun"
+     },
+     "prep": {
+      "en": "Boil the eggs for 9 minutes; slice the cucumber and add a spoon of sambal if you like.",
+      "id": "Rebus telur 9 menit; iris ketimun dan tambah sambal bila suka."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "telur-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "ketimun",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Brown rice, fried catfish, sayur asem",
+      "id": "Nasi merah, lele goreng, sayur asem"
+     },
+     "prep": {
+      "en": "Simmer the chayote with tamarind, galangal and a little sugar for sayur asem; drain the catfish on paper.",
+      "id": "Rebus labu siam dengan asam jawa, lengkuas dan sedikit gula untuk sayur asem; tiriskan lele di atas tisu."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-merah",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "lele-goreng",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "labu-siam-rebus",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "semangka",
+       "g": 200
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Banana and soy milk",
+      "id": "Pisang dan susu kedelai"
+     },
+     "prep": {
+      "en": "Drink the soy milk cold; choose a brand with little added sugar.",
+      "id": "Minum susu kedelai dingin; pilih merek yang sedikit gula."
+     },
+     "items": [
+      {
+       "slot": "fruit",
+       "food": "pisang",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "susu-kedelai",
+       "g": 250
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Steamed potato, boiled chicken, broccoli",
+      "id": "Kentang kukus, ayam rebus, brokoli"
+     },
+     "prep": {
+      "en": "Shred the boiled chicken, toss the broccoli in 1 teaspoon of olive oil and black pepper.",
+      "id": "Suwir ayam rebus, aduk brokoli dengan 1 sdt minyak zaitun dan lada hitam."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "kentang-kukus",
+       "g": 200
+      },
+      {
+       "slot": "protein",
+       "food": "dada-ayam-rebus",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "brokoli-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-zaitun",
+       "g": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sapi-ubi-bandeng",
+   "name": {
+    "en": "Beef, sweet potato and milkfish",
+    "id": "Daging sapi, ubi dan bandeng"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Oats with whey and banana",
+      "id": "Oat dengan whey dan pisang"
+     },
+     "prep": {
+      "en": "Cook the oats in water, let them cool for a minute, then stir in the whey so it does not clump.",
+      "id": "Masak oat dengan air, diamkan semenit, lalu aduk whey agar tidak menggumpal."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "oatmeal",
+       "g": 50
+      },
+      {
+       "slot": "protein",
+       "food": "whey-protein",
+       "g": 30
+      },
+      {
+       "slot": "fruit",
+       "food": "pisang",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice, boiled beef, green beans and carrot",
+      "id": "Nasi, sapi rebus, buncis dan wortel"
+     },
+     "prep": {
+      "en": "Slice the beef thinly across the grain; stir-fry the beans and carrot in 1 teaspoon of oil.",
+      "id": "Iris daging tipis melawan serat; tumis buncis dan wortel dengan 1 sdt minyak."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "daging-sapi-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "buncis-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "wortel-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Toast with peanut butter and an apple",
+      "id": "Roti selai kacang dan apel"
+     },
+     "prep": {
+      "en": "Spread 1 tablespoon of peanut butter over two slices of toast.",
+      "id": "Oles 1 sdm selai kacang di atas dua lembar roti."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "roti-gandum",
+       "g": 60
+      },
+      {
+       "slot": "fat",
+       "food": "selai-kacang",
+       "g": 15
+      },
+      {
+       "slot": "fruit",
+       "food": "apel",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Steamed sweet potato, grilled milkfish, kangkung",
+      "id": "Ubi kukus, bandeng bakar, kangkung"
+     },
+     "prep": {
+      "en": "Grill the milkfish with sweet soy sauce brushed on in the last 2 minutes; blanch the kangkung.",
+      "id": "Bakar bandeng, oles kecap manis 2 menit terakhir; rebus sebentar kangkung."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "ubi-jalar-kukus",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "bandeng-bakar",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "kangkung-rebus",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pecel-tempe-tahu",
+   "name": {
+    "en": "Pecel with tempeh and tofu",
+    "id": "Pecel dengan tempe dan tahu"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Toast with a fried egg and papaya",
+      "id": "Roti dengan telur ceplok dan pepaya"
+     },
+     "prep": {
+      "en": "Fry the egg in a non-stick pan without extra oil.",
+      "id": "Goreng telur di wajan anti lengket tanpa tambahan minyak."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "roti-gandum",
+       "g": 60
+      },
+      {
+       "slot": "protein",
+       "food": "telur-goreng",
+       "g": 50
+      },
+      {
+       "slot": "fruit",
+       "food": "pepaya",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Brown rice pecel with fried tempeh and tofu",
+      "id": "Nasi merah pecel dengan tempe dan tahu goreng"
+     },
+     "prep": {
+      "en": "Blanch the sprouts and long beans; thin the peanut butter with lime juice, chili and warm water as a quick pecel sauce.",
+      "id": "Seduh taoge dan kacang panjang; encerkan selai kacang dengan air jeruk nipis, cabai dan air hangat sebagai bumbu pecel cepat."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-merah",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tempe-goreng",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "tahu-goreng",
+       "g": 50
+      },
+      {
+       "slot": "vegetable",
+       "food": "taoge-seduh",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "kacang-panjang-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "selai-kacang",
+       "g": 15
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Yoghurt with mango",
+      "id": "Yoghurt dengan mangga"
+     },
+     "prep": {
+      "en": "Cube the mango and stir it into the yoghurt.",
+      "id": "Potong mangga dadu dan campur dengan yoghurt."
+     },
+     "items": [
+      {
+       "slot": "protein",
+       "food": "yoghurt-plain",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "mangga",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Rice, steamed tofu, spinach soup",
+      "id": "Nasi, tahu kukus, sayur bayam"
+     },
+     "prep": {
+      "en": "Steam the tofu with garlic and spring onion; cook the spinach for 2 minutes only.",
+      "id": "Kukus tahu dengan bawang putih dan daun bawang; masak bayam 2 menit saja."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tahu-kukus",
+       "g": 150
+      },
+      {
+       "slot": "vegetable",
+       "food": "bayam-rebus",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "udang-kembung",
+   "name": {
+    "en": "Shrimp and grilled mackerel",
+    "id": "Udang dan kembung bakar"
+   },
+   "goals": [
+    "build-muscle",
+    "lose-fat",
+    "recomposition",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Oats in skim milk with apple",
+      "id": "Oat dengan susu skim dan apel"
+     },
+     "prep": {
+      "en": "Cook the oats in the milk and grate half the apple into the pot.",
+      "id": "Masak oat dengan susu dan parut setengah apel ke dalamnya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "oatmeal",
+       "g": 40
+      },
+      {
+       "slot": "protein",
+       "food": "susu-skim",
+       "g": 250
+      },
+      {
+       "slot": "fruit",
+       "food": "apel",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice, stir-fried shrimp and broccoli",
+      "id": "Nasi, tumis udang brokoli"
+     },
+     "prep": {
+      "en": "Stir-fry the shrimp and broccoli with garlic in 1 teaspoon of oil until the shrimp turn pink.",
+      "id": "Tumis udang dan brokoli dengan bawang putih dan 1 sdt minyak sampai udang berwarna merah muda."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "udang-rebus",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "brokoli-rebus",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Boiled eggs with tomato and papaya",
+      "id": "Telur rebus dengan tomat dan pepaya"
+     },
+     "prep": {
+      "en": "Boil the eggs ahead and keep them in the fridge for up to 3 days.",
+      "id": "Rebus telur sebelumnya dan simpan di kulkas sampai 3 hari."
+     },
+     "items": [
+      {
+       "slot": "protein",
+       "food": "telur-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "tomat",
+       "g": 100
+      },
+      {
+       "slot": "fruit",
+       "food": "pepaya",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Rice, grilled mackerel, steamed eggplant",
+      "id": "Nasi, kembung bakar, terung kukus"
+     },
+     "prep": {
+      "en": "Grill the mackerel whole; steam the eggplant and top it with sambal tomat.",
+      "id": "Bakar kembung utuh; kukus terung dan beri sambal tomat."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "kembung-bakar",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "terung-kukus",
+       "g": 100
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "empat-makan-ayam-nila",
+   "name": {
+    "en": "Four meals: chicken soto and tilapia",
+    "id": "Empat kali makan: soto ayam dan nila"
+   },
+   "goals": [
+    "build-muscle",
+    "get-stronger",
+    "recomposition",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Rice with scrambled egg and spinach",
+      "id": "Nasi dengan orak-arik telur dan bayam"
+     },
+     "prep": {
+      "en": "Wilt the spinach in the pan, then scramble the eggs into it.",
+      "id": "Layukan bayam di wajan, lalu orak-arik telur bersamanya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "telur-orak-arik",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "bayam-rebus",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Clear chicken soto with rice",
+      "id": "Soto ayam bening dengan nasi"
+     },
+     "prep": {
+      "en": "Simmer the chicken thigh with turmeric, lemongrass and lime leaves; add the cabbage for the last 3 minutes.",
+      "id": "Rebus paha ayam dengan kunyit, serai dan daun jeruk; masukkan sawi 3 menit terakhir."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "paha-ayam-rebus",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "sawi-putih-rebus",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "afternoon",
+     "name": {
+      "en": "Steamed potato, tilapia pindang, carrot",
+      "id": "Kentang kukus, nila pindang, wortel"
+     },
+     "prep": {
+      "en": "Simmer the tilapia in water with turmeric, tamarind and bay leaf; boil the carrot alongside.",
+      "id": "Masak nila dengan kunyit, asam dan daun salam; rebus wortel bersamaan."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "kentang-kukus",
+       "g": 200
+      },
+      {
+       "slot": "protein",
+       "food": "nila-pindang",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "wortel-rebus",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Banana and cashews",
+      "id": "Pisang dan kacang mete"
+     },
+     "prep": {
+      "en": "Keep the cashews to one small handful.",
+      "id": "Batasi kacang mete satu genggam kecil."
+     },
+     "items": [
+      {
+       "slot": "fruit",
+       "food": "pisang",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "kacang-mete",
+       "g": 20
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Brown rice, steamed tofu, melon",
+      "id": "Nasi merah, tahu kukus, melon"
+     },
+     "prep": {
+      "en": "Steam the tofu with ginger and soy sauce; eat the melon after the meal.",
+      "id": "Kukus tahu dengan jahe dan kecap asin; makan melon setelahnya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-merah",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "tahu-kukus",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "melon",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "empat-makan-sapi-tongkol",
+   "name": {
+    "en": "Four meals: beef with green beans and tongkol pepes",
+    "id": "Empat kali makan: tumis buncis daging dan pepes tongkol"
+   },
+   "goals": [
+    "build-muscle",
+    "get-stronger",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Toast, boiled eggs and milk",
+      "id": "Roti, telur rebus dan susu"
+     },
+     "prep": {
+      "en": "Boil the eggs for 9 minutes and drink the milk with the meal.",
+      "id": "Rebus telur 9 menit dan minum susu bersama sarapan."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "roti-gandum",
+       "g": 60
+      },
+      {
+       "slot": "protein",
+       "food": "telur-rebus",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "susu-uht",
+       "g": 250
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice with minced beef and green beans",
+      "id": "Nasi dengan tumis buncis daging giling"
+     },
+     "prep": {
+      "en": "Brown the minced beef with garlic in 1 teaspoon of oil, then add the sliced green beans and a splash of water.",
+      "id": "Tumis daging giling dengan bawang putih dan 1 sdt minyak, lalu masukkan irisan buncis dan sedikit air."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "sapi-giling-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "buncis-rebus",
+       "g": 100
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "afternoon",
+     "name": {
+      "en": "Boiled cassava with tongkol pepes",
+      "id": "Singkong rebus dengan pepes tongkol"
+     },
+     "prep": {
+      "en": "Wrap the fish with basil, chili and tomato in banana leaf and steam for 30 minutes.",
+      "id": "Bungkus ikan dengan kemangi, cabai dan tomat dalam daun pisang, kukus 30 menit."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "singkong-rebus",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tongkol-pepes",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "ketimun",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Guava and snake fruit",
+      "id": "Jambu biji dan salak"
+     },
+     "prep": {
+      "en": "Eat the guava with its skin for the fibre.",
+      "id": "Makan jambu biji dengan kulitnya untuk seratnya."
+     },
+     "items": [
+      {
+       "slot": "fruit",
+       "food": "jambu-biji",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "salak",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Rice, steamed tempeh, cabbage soup",
+      "id": "Nasi, tempe kukus, sayur kol"
+     },
+     "prep": {
+      "en": "Steam the tempeh; simmer the cabbage with garlic and a little salt.",
+      "id": "Kukus tempe; rebus kol dengan bawang putih dan sedikit garam."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "tempe-kukus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "kubis-rebus",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rendah-kalori-volume",
+   "name": {
+    "en": "High-volume, lean day",
+    "id": "Hari porsi besar, rendah lemak"
+   },
+   "goals": [
+    "lose-fat",
+    "recomposition",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Purple sweet potato with eggs and egg whites",
+      "id": "Ubi ungu dengan telur dan putih telur"
+     },
+     "prep": {
+      "en": "Boil 1 whole egg and 3 egg whites; slice the tomato on the side.",
+      "id": "Rebus 1 telur utuh dan 3 putih telur; iris tomat di sampingnya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "ubi-ungu-kukus",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "telur-rebus",
+       "g": 50
+      },
+      {
+       "slot": "protein",
+       "food": "putih-telur-rebus",
+       "g": 90
+      },
+      {
+       "slot": "vegetable",
+       "food": "tomat",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Brown rice, boiled chicken, broccoli and carrot",
+      "id": "Nasi merah, ayam rebus, brokoli dan wortel"
+     },
+     "prep": {
+      "en": "Boil the chicken with ginger and salt, then use the broth to cook the vegetables.",
+      "id": "Rebus ayam dengan jahe dan garam, lalu pakai kaldunya untuk merebus sayur."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-merah",
+       "g": 120
+      },
+      {
+       "slot": "protein",
+       "food": "dada-ayam-rebus",
+       "g": 130
+      },
+      {
+       "slot": "vegetable",
+       "food": "brokoli-rebus",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "wortel-rebus",
+       "g": 100
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Yoghurt and watermelon",
+      "id": "Yoghurt dan semangka"
+     },
+     "prep": {
+      "en": "Eat the watermelon cold, with the yoghurt on the side.",
+      "id": "Makan semangka dingin, yoghurt di sampingnya."
+     },
+     "items": [
+      {
+       "slot": "protein",
+       "food": "yoghurt-plain",
+       "g": 150
+      },
+      {
+       "slot": "fruit",
+       "food": "semangka",
+       "g": 200
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Rice, squid and stir-fried kangkung",
+      "id": "Nasi, cumi dan tumis kangkung"
+     },
+     "prep": {
+      "en": "Stir-fry the squid rings for 2 minutes only so they stay tender; cook the kangkung in the same pan.",
+      "id": "Tumis cincin cumi 2 menit saja agar tetap empuk; masak kangkung di wajan yang sama."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 100
+      },
+      {
+       "slot": "protein",
+       "food": "cumi-rebus",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "kangkung-rebus",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "minyak-sawit",
+       "g": 5
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "An orange",
+      "id": "Jeruk"
+     },
+     "prep": {
+      "en": "Keep one in your bag for the afternoon.",
+      "id": "Bawa satu di tas untuk sore hari."
+     },
+     "items": [
+      {
+       "slot": "fruit",
+       "food": "jeruk",
+       "g": 130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "patin-salmon",
+   "name": {
+    "en": "Grilled patin and salmon",
+    "id": "Patin bakar dan salmon"
+   },
+   "goals": [
+    "build-muscle",
+    "get-stronger",
+    "recomposition",
+    "general-fitness"
+   ],
+   "meals": [
+    {
+     "type": "breakfast",
+     "name": {
+      "en": "Oats in milk with pineapple and almonds",
+      "id": "Oat dengan susu, nanas dan almond"
+     },
+     "prep": {
+      "en": "Cook the oats in the milk; add the pineapple and chopped almonds after cooking.",
+      "id": "Masak oat dengan susu; tambahkan nanas dan almond cincang setelah matang."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "oatmeal",
+       "g": 40
+      },
+      {
+       "slot": "protein",
+       "food": "susu-uht",
+       "g": 250
+      },
+      {
+       "slot": "fruit",
+       "food": "nanas",
+       "g": 150
+      },
+      {
+       "slot": "fat",
+       "food": "almond",
+       "g": 15
+      }
+     ]
+    },
+    {
+     "type": "lunch",
+     "name": {
+      "en": "Rice, grilled patin, chayote",
+      "id": "Nasi, patin bakar, labu siam"
+     },
+     "prep": {
+      "en": "Marinate the patin in turmeric and garlic for 10 minutes before grilling; boil the chayote.",
+      "id": "Rendam patin dengan kunyit dan bawang putih 10 menit sebelum dibakar; rebus labu siam."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "nasi-putih",
+       "g": 150
+      },
+      {
+       "slot": "protein",
+       "food": "patin-bakar",
+       "g": 120
+      },
+      {
+       "slot": "vegetable",
+       "food": "labu-siam-rebus",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "snack",
+     "name": {
+      "en": "Cheese toast with cucumber and papaya",
+      "id": "Roti keju dengan ketimun dan pepaya"
+     },
+     "prep": {
+      "en": "Melt the cheese slice on the toast; eat the cucumber sticks and papaya on the side.",
+      "id": "Lelehkan keju di atas roti; makan ketimun dan pepaya di sampingnya."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "roti-gandum",
+       "g": 60
+      },
+      {
+       "slot": "fat",
+       "food": "keju",
+       "g": 20
+      },
+      {
+       "slot": "vegetable",
+       "food": "ketimun",
+       "g": 100
+      },
+      {
+       "slot": "fruit",
+       "food": "pepaya",
+       "g": 150
+      }
+     ]
+    },
+    {
+     "type": "dinner",
+     "name": {
+      "en": "Steamed potato, grilled salmon, broccoli",
+      "id": "Kentang kukus, salmon bakar, brokoli"
+     },
+     "prep": {
+      "en": "Grill the salmon skin-side down for 4 minutes, then 2 minutes on the other side; steam the broccoli.",
+      "id": "Bakar salmon sisi kulit di bawah 4 menit, lalu 2 menit sisi lainnya; kukus brokoli."
+     },
+     "items": [
+      {
+       "slot": "carb",
+       "food": "kentang-kukus",
+       "g": 200
+      },
+      {
+       "slot": "protein",
+       "food": "salmon-bakar",
+       "g": 100
+      },
+      {
+       "slot": "vegetable",
+       "food": "brokoli-rebus",
+       "g": 150
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
