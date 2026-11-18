@@ -822,3 +822,8 @@ Checks:
 - tests.html: **230 passed, 0 failed**.
 - On the real screens, in English and Indonesian and in light and dark: the notice and the About section render, and the rendered-contrast audit finds 0 failures.
 - Screenshots of both screens: the first one showed the notice touching the language switch, and a 16 px gap was added.
+
+Update check on the live site (after the notice was published):
+- A browser that had the previous version installed downloaded the new one in the background on its first visit (both caches present). On the next visit the old cache was deleted. The notice appeared from the visit after that, served from the new cache. My test reloaded while the new version was still taking over, so on a phone the update shows within one or two visits.
+- **Hardening, found while checking this:** GitHub Pages lets browsers keep files for 10 minutes. A new version's install could therefore be filled with files the browser had kept from the old version, leaving a mix until the next update. `sw.js` now installs with `cache: 'reload'`, which always fetches fresh files. Added a test; tests.html: **231 passed, 0 failed**.
+- **Push setup fix:** the first `git push` failed because I had set an empty `credential.helper` in this repository's local git config while setting it up, which overrode the GitHub CLI login. I removed it; `git push` now works.

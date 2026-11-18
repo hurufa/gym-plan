@@ -77,6 +77,10 @@ suite('PWA: service worker precache', () => {
     assert(/^[0-9a-f]{12}$/.test(version), version);
     assert(src.includes('gym-app-${VERSION}'), 'cache named after VERSION');
   });
+  test('installing a new version fetches fresh files, bypassing the browser HTTP cache', async () => {
+    const { src } = await swAssets();
+    assert(/addAll\(ASSETS\.map\(u => new Request\(u, \{ cache: 'reload' \}\)\)\)/.test(src), 'install uses cache: reload');
+  });
   test('registration is skipped in the single-file build (inline data present)', async () => {
     const src = await fetch('./js/app.js').then(r => r.text());
     assert(/serviceWorker[\s\S]{0,200}getElementById\('data-enums'\)/.test(src), 'app.js guards registration');
